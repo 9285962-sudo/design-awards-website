@@ -3,35 +3,21 @@ import Link from 'next/link'
 import awards from '../data/awards.json'
 
 export default function Home() {
-  const museAward = awards[0]
+  // 精选6个重点奖项展示在首页
+  const featuredAwards = awards.slice(0, 6)
 
   return (
     <>
       <Head>
-        <title>设计能—国际设计大奖申报指南 | MUSE设计奖2026</title>
-        <meta name="description" content="MUSE设计奖2026完整申报指南：报名时间、参赛费用$199起、作品要求、评审标准。专业代理申报服务，90%获奖率保障。" />
-        <meta name="keywords" content="MUSE设计奖,国际设计大奖,设计奖申报,MUSE奖报名,MUSE奖费用" />
+        <title>设计能 | 国际设计大奖一站式申报平台</title>
+        <meta name="description" content="专业代理申报108个全球设计大奖，含MUSE设计奖、D&AD、RIBA、LIA、Andrew Martin等。15年经验，80%获奖率。咨询：136-9222-2744" />
+        <meta name="keywords" content="设计大奖,国际设计奖,MUSE设计奖,D&AD奖,RIBA奖,LIA奖,Andrew Martin奖,设计奖申报代理" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="MUSE设计奖2026完整申报指南 | 设计能" />
-        <meta property="og:description" content="MUSE设计奖报名时间、费用、要求一站式指南" />
+        <meta property="og:title" content="设计能 | 国际设计大奖一站式申报平台" />
+        <meta property="og:description" content="专业代理申报108个全球设计大奖" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.52de.cc" />
-        
-        {/* Schema.org Organization */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "设计能—国际设计大奖申报指南",
-            "url": "https://www.52de.cc",
-            "description": "专业国际设计大奖代理申报服务",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "客户服务"
-            }
-          })
-        }} />
       </Head>
 
       {/* Header */}
@@ -44,7 +30,6 @@ export default function Home() {
             </div>
             <nav style={styles.nav}>
               <Link href="/" style={styles.navLink}>首页</Link>
-              <Link href={`/awards/${museAward.award_id}`} style={styles.navLink}>奖项详情</Link>
               <Link href="/services" style={styles.navLink}>申报服务</Link>
               <Link href="/about" style={styles.navLink}>关于我们</Link>
             </nav>
@@ -56,66 +41,74 @@ export default function Home() {
       <section style={styles.hero}>
         <div style={styles.container}>
           <h1 style={styles.heroTitle}>
-            MUSE设计奖2026
-            <span style={styles.heroSubtitle}>完整申报指南</span>
+            国际设计大奖
+            <span style={styles.heroSubtitle}>一站式申报平台</span>
           </h1>
           <p style={styles.heroDesc}>
-            报名时间、参赛费用、作品要求、评审标准一站式查询
+            涵盖建筑、室内、景观、产品、视觉传达等全品类设计奖项
             <br />
-            专业代理申报服务，助力设计师斩获国际大奖
+            15年深耕 · 108个奖项 · 350+设计师选择 · 80%获奖率
           </p>
           <div style={styles.heroButtons}>
-            <Link href={`/awards/${museAward.award_id}`} style={styles.btnPrimary}>
-              查看完整指南
-            </Link>
-            <a href="tel:400-xxx-xxxx" style={styles.btnSecondary}>
-              电话咨询
+            <a href="tel:13692222744" style={styles.btnPrimary}>
+              📞 立即咨询
             </a>
+            <Link href="/services" style={styles.btnSecondary}>
+              查看申报服务
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Quick Info Cards */}
+      {/* Featured Awards */}
       <section style={styles.section}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>关键信息一览</h2>
-          <div style={styles.cardGrid}>
-            <div style={styles.card}>
-              <div style={styles.cardIcon}>💰</div>
-              <h3 style={styles.cardTitle}>参赛费用</h3>
-              <p style={styles.cardValue}>${museAward.fee_early_bird}起</p>
-              <p style={styles.cardDesc}>早鸟价优惠$50</p>
-            </div>
-            <div style={styles.card}>
-              <div style={styles.cardIcon}>📅</div>
-              <h3 style={styles.cardTitle}>早鸟截止</h3>
-              <p style={styles.cardValue}>2025年11月13日</p>
-              <p style={styles.cardDesc}>EST时区</p>
-            </div>
-            <div style={styles.card}>
-              <div style={styles.cardIcon}>🏆</div>
-              <h3 style={styles.cardTitle}>奖项等级</h3>
-              <p style={styles.cardValue}>铂金奖/金奖/银奖</p>
-              <p style={styles.cardDesc}>共3个等级</p>
-            </div>
-            <div style={styles.card}>
-              <div style={styles.cardIcon}>📸</div>
-              <h3 style={styles.cardTitle}>作品要求</h3>
-              <p style={styles.cardValue}>5-10张图片</p>
-              <p style={styles.cardDesc}>1920×1080起</p>
-            </div>
+          <h2 style={styles.sectionTitle}>重点奖项</h2>
+          <p style={styles.sectionSubtitle}>我们代理的部分全球顶级设计大奖</p>
+          <div style={styles.awardsGrid}>
+            {featuredAwards.map((award) => (
+              <Link 
+                key={award.award_id} 
+                href={`/awards/${award.award_id}`}
+                style={styles.awardCard}
+              >
+                <div style={styles.awardCountry}>{award.country} · {award.city}</div>
+                <h3 style={styles.awardName}>{award.award_name_cn}</h3>
+                <p style={styles.awardNameEn}>{award.award_name_en}</p>
+                <div style={styles.awardMeta}>
+                  <span style={styles.awardType}>{award.award_type}</span>
+                  <span style={styles.awardPrestige}>{award.prestige_level}</span>
+                </div>
+                <div style={styles.awardDeadline}>
+                  {award.deadline_early && (
+                    <span>早鸟截止：{award.deadline_early}</span>
+                  )}
+                  {award.deadline_regular && (
+                    <span> 常规截止：{award.deadline_regular}</span>
+                  )}
+                </div>
+                <div style={styles.awardFee}>
+                  {award.fee_currency === 'USD' && '$'}
+                  {award.fee_currency === 'GBP' && '£'}
+                  {award.fee_early_bird || award.fee_regular || award.fee_student}起
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div style={styles.moreAwards}>
+            <p style={styles.moreText}>更多奖项咨询请致电：<a href="tel:13692222744" style={styles.phoneLink}>136-9222-2744</a></p>
           </div>
         </div>
       </section>
 
-      {/* Core Services Preview */}
-      <section style={styles.section}>
+      {/* Services Preview */}
+      <section style={{...styles.section, backgroundColor: '#f8f9fa'}}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>核心服务项目</h2>
+          <h2 style={styles.sectionTitle}>核心服务</h2>
           <div style={styles.servicesGrid}>
             <div style={styles.serviceCard}>
-              <div style={styles.serviceIcon}>📋</div>
-              <h3 style={styles.serviceTitle}>参赛作品优劣势分析</h3>
+              <div style={styles.serviceIcon}>🔍</div>
+              <h3 style={styles.serviceTitle}>参赛作品分析</h3>
               <p style={styles.serviceDesc}>以国际评委视角，全方位剖析作品优势与短板，提供可执行的优化策略</p>
             </div>
             <div style={styles.serviceCard}>
@@ -125,13 +118,13 @@ export default function Home() {
             </div>
             <div style={styles.serviceCard}>
               <div style={styles.serviceIcon}>📝</div>
-              <h3 style={styles.serviceTitle}>精准叙事呈现</h3>
-              <p style={styles.serviceDesc}>专业文案撰写与视觉优化，让作品呈现达到国际评委标准</p>
+              <h3 style={styles.serviceTitle}>专业文案撰写</h3>
+              <p style={styles.serviceDesc}>专业团队用专业语言撰写申报材料，让作品呈现达到国际评委标准</p>
             </div>
             <div style={styles.serviceCard}>
-              <div style={styles.serviceIcon}>💎</div>
-              <h3 style={styles.serviceTitle}>荣誉价值最大化</h3>
-              <p style={styles.serviceDesc}>获奖后品牌宣传、媒体公关、市场转化全方位策略支持</p>
+              <div style={styles.serviceIcon}>🏆</div>
+              <h3 style={styles.serviceTitle}>全程代理申报</h3>
+              <p style={styles.serviceDesc}>从材料准备到提交缴费，全程代理，让您省心省力</p>
             </div>
           </div>
           <div style={styles.moreServices}>
@@ -142,38 +135,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Categories */}
-      <section style={{...styles.section, backgroundColor: '#fff'}}>
+      {/* Stats Section */}
+      <section style={styles.statsSection}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>参赛类别</h2>
-          <div style={styles.categoryGrid}>
-            {museAward.category_sub.map((cat, idx) => (
-              <div key={idx} style={styles.categoryTag}>{cat}</div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section style={styles.section}>
-        <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>常见问题</h2>
-          <div style={styles.faqList}>
-            <div style={styles.faqItem}>
-              <h3 style={styles.faqQ}>MUSE设计奖报名费是多少？</h3>
-              <p style={styles.faqA}>MUSE设计奖2026年早鸟价为$199（约合人民币1450元），常规价格为$249，最终延期价格为$259，延长截止日期价格为$269。学生参赛费用为$125。</p>
+          <div style={styles.statsGrid}>
+            <div style={styles.statItem}>
+              <div style={styles.statNumber}>15+</div>
+              <div style={styles.statLabel}>年行业经验</div>
             </div>
-            <div style={styles.faqItem}>
-              <h3 style={styles.faqQ}>MUSE设计奖2026年报名截止日期是什么时候？</h3>
-              <p style={styles.faqA}>早鸟截止日期为2025年11月13日，常规截止日期为2025年12月11日，最终截止日期为2026年1月15日，延长截止日期为2026年2月12日（均为EST时区）。</p>
+            <div style={styles.statItem}>
+              <div style={styles.statNumber}>108</div>
+              <div style={styles.statLabel}>全球合作奖项</div>
             </div>
-            <div style={styles.faqItem}>
-              <h3 style={styles.faqQ}>MUSE设计奖作品要求是什么？</h3>
-              <p style={styles.faqA}>需要提交5-10张图片，格式为JPG/PNG，分辨率不低于1920×1080，推荐3840×2160，单张不超过5MB，总共不超过50MB。可选提交1个视频（MP4/MOV，最长3分钟，不超过100MB）。</p>
+            <div style={styles.statItem}>
+              <div style={styles.statNumber}>350+</div>
+              <div style={styles.statLabel}>服务设计师</div>
             </div>
-            <div style={styles.faqItem}>
-              <h3 style={styles.faqQ}>参加MUSE设计奖有必要找代理吗？</h3>
-              <p style={styles.faqA}>如果您熟悉英文申报流程、有充足时间准备材料，可以自行申报。但代理服务可以帮助您优化申报材料、提升获奖概率、节省时间和精力。我们提供从选奖策略到材料优化的全程服务。</p>
+            <div style={styles.statItem}>
+              <div style={styles.statNumber}>80%</div>
+              <div style={styles.statLabel}>平均获奖率</div>
             </div>
           </div>
         </div>
@@ -182,11 +162,11 @@ export default function Home() {
       {/* CTA Section */}
       <section style={styles.ctaSection}>
         <div style={styles.container}>
-          <h2 style={styles.ctaTitle}>需要专业代理申报服务？</h2>
-          <p style={styles.ctaDesc}>15年经验 · 800+设计师 · 75%获奖率</p>
+          <h2 style={styles.ctaTitle}>准备好冲击国际大奖了吗？</h2>
+          <p style={styles.ctaDesc}>专业团队为您保驾护航，让您的设计作品在国际舞台绽放光芒</p>
           <div style={styles.ctaButtons}>
-            <Link href="/contact" style={styles.btnPrimary}>免费咨询</Link>
-            <a href="tel:400-xxx-xxxx" style={styles.btnOutline}>电话咨询</a>
+            <a href="tel:13692222744" style={styles.btnPrimary}>📞 立即咨询</a>
+            <Link href="/about" style={styles.btnOutline}>了解更多</Link>
           </div>
         </div>
       </section>
@@ -194,8 +174,19 @@ export default function Home() {
       {/* Footer */}
       <footer style={styles.footer}>
         <div style={styles.container}>
+          <div style={styles.footerContent}>
+            <div style={styles.footerBrand}>
+              <img src="/设计能LOGO透明文件.png" alt="设计能" style={styles.footerLogo} />
+              <p style={styles.footerSlogan}>专业国际设计大奖代理申报服务</p>
+            </div>
+            <div style={styles.footerContact}>
+              <p style={styles.footerContactTitle}>联系我们</p>
+              <p style={styles.footerContactItem}>📞 电话：136-9222-2744</p>
+              <p style={styles.footerContactItem}>📧 邮箱：9285962@qq.com</p>
+              <p style={styles.footerContactItem}>🌐 官网：www.52de.cc</p>
+            </div>
+          </div>
           <p style={styles.footerText}>© 2026 设计能—国际设计大奖申报指南 | www.52de.cc</p>
-          <p style={styles.footerSub}>专业代理申报服务，助力设计师斩获国际大奖</p>
         </div>
       </footer>
     </>
@@ -224,7 +215,7 @@ const styles = {
     width: 'auto',
   },
   logoSubText: {
-    fontSize: '24px',
+    fontSize: '18px',
     fontWeight: 'bold',
     color: '#D4AF37',
     marginLeft: '12px',
@@ -260,7 +251,7 @@ const styles = {
     gap: '8px',
   },
   heroSubtitle: {
-    fontSize: '24px',
+    fontSize: '28px',
     fontWeight: 'normal',
     color: '#D4AF37',
   },
@@ -295,6 +286,16 @@ const styles = {
     border: '1px solid rgba(255,255,255,0.3)',
     display: 'inline-block',
   },
+  btnOutline: {
+    backgroundColor: 'transparent',
+    color: '#D4AF37',
+    padding: '14px 32px',
+    borderRadius: '6px',
+    textDecoration: 'none',
+    fontSize: '16px',
+    border: '1px solid #D4AF37',
+    display: 'inline-block',
+  },
   section: {
     padding: '64px 0',
   },
@@ -302,43 +303,114 @@ const styles = {
     fontSize: '32px',
     fontWeight: 'bold',
     textAlign: 'center',
-    marginBottom: '48px',
+    marginBottom: '8px',
     color: '#1E3A5F',
   },
-  cardGrid: {
+  sectionSubtitle: {
+    fontSize: '16px',
+    textAlign: 'center',
+    color: '#666',
+    marginBottom: '48px',
+  },
+  awardsGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
     gap: '24px',
+  },
+  awardCard: {
+    backgroundColor: '#fff',
+    padding: '28px',
+    borderRadius: '12px',
+    boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
+    textDecoration: 'none',
+    display: 'block',
+    transition: 'transform 0.2s, box-shadow 0.2s',
+    border: '1px solid #E5E5E5',
+  },
+  awardCountry: {
+    fontSize: '12px',
+    color: '#999',
+    marginBottom: '8px',
+  },
+  awardName: {
+    fontSize: '20px',
+    fontWeight: 'bold',
+    color: '#1E3A5F',
+    marginBottom: '4px',
+  },
+  awardNameEn: {
+    fontSize: '13px',
+    color: '#666',
+    marginBottom: '12px',
+  },
+  awardMeta: {
+    display: 'flex',
+    gap: '8px',
+    marginBottom: '12px',
+  },
+  awardType: {
+    backgroundColor: '#E8F4E8',
+    color: '#2E7D32',
+    padding: '4px 10px',
+    borderRadius: '12px',
+    fontSize: '12px',
+  },
+  awardPrestige: {
+    backgroundColor: '#FFF3E0',
+    color: '#E65100',
+    padding: '4px 10px',
+    borderRadius: '12px',
+    fontSize: '12px',
+  },
+  awardDeadline: {
+    fontSize: '13px',
+    color: '#666',
+    marginBottom: '8px',
+  },
+  awardFee: {
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#D4AF37',
+  },
+  moreAwards: {
+    textAlign: 'center',
+    marginTop: '32px',
+  },
+  moreText: {
+    fontSize: '16px',
+    color: '#666',
+  },
+  phoneLink: {
+    color: '#D4AF37',
+    textDecoration: 'none',
+    fontWeight: 'bold',
   },
   servicesGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
-    gap: '32px',
-    marginTop: '40px',
-    maxWidth: '800px',
-    margin: '40px auto 0',
+    gridTemplateColumns: 'repeat(4, 1fr)',
+    gap: '24px',
   },
   serviceCard: {
     backgroundColor: '#fff',
-    padding: '32px',
+    padding: '28px',
     borderRadius: '12px',
-    boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
     textAlign: 'center',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
   },
   serviceIcon: {
-    fontSize: '40px',
+    fontSize: '36px',
     marginBottom: '16px',
   },
   serviceTitle: {
-    fontSize: '18px',
+    fontSize: '16px',
     fontWeight: 'bold',
     color: '#1E3A5F',
-    marginBottom: '12px',
+    marginBottom: '8px',
   },
   serviceDesc: {
-    fontSize: '14px',
+    fontSize: '13px',
     color: '#666',
-    lineHeight: 1.7,
+    lineHeight: 1.6,
   },
   moreServices: {
     textAlign: 'center',
@@ -350,82 +422,43 @@ const styles = {
     fontSize: '16px',
     fontWeight: 'bold',
   },
-  card: {
-    backgroundColor: '#fff',
-    padding: '32px',
-    borderRadius: '12px',
+  statsSection: {
+    backgroundColor: '#1E3A5F',
+    padding: '60px 0',
+  },
+  statsGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(4, 1fr)',
+    gap: '32px',
     textAlign: 'center',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
-    border: '1px solid #E5E5E5',
   },
-  cardIcon: {
-    fontSize: '40px',
-    marginBottom: '16px',
+  statItem: {
+    color: '#fff',
   },
-  cardTitle: {
-    fontSize: '16px',
-    color: '#666',
+  statNumber: {
+    fontSize: '48px',
+    fontWeight: 'bold',
+    color: '#D4AF37',
     marginBottom: '8px',
   },
-  cardValue: {
-    fontSize: '24px',
-    fontWeight: 'bold',
-    color: '#1E3A5F',
-    marginBottom: '4px',
-  },
-  cardDesc: {
-    fontSize: '14px',
-    color: '#999',
-  },
-  categoryGrid: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '12px',
-    justifyContent: 'center',
-  },
-  categoryTag: {
-    backgroundColor: '#1E3A5F',
-    color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '20px',
-    fontSize: '14px',
-  },
-  faqList: {
-    maxWidth: '800px',
-    margin: '0 auto',
-  },
-  faqItem: {
-    backgroundColor: '#fff',
-    padding: '24px',
-    borderRadius: '8px',
-    marginBottom: '16px',
-    border: '1px solid #E5E5E5',
-  },
-  faqQ: {
-    fontSize: '18px',
-    fontWeight: 'bold',
-    color: '#1E3A5F',
-    marginBottom: '12px',
-  },
-  faqA: {
-    fontSize: '15px',
-    color: '#666',
-    lineHeight: 1.8,
+  statLabel: {
+    fontSize: '16px',
+    opacity: 0.9,
   },
   ctaSection: {
-    backgroundColor: '#1E3A5F',
+    backgroundColor: '#f8f9fa',
     padding: '80px 0',
     textAlign: 'center',
-    color: '#fff',
   },
   ctaTitle: {
     fontSize: '32px',
     fontWeight: 'bold',
+    color: '#1E3A5F',
     marginBottom: '16px',
   },
   ctaDesc: {
     fontSize: '18px',
-    opacity: 0.9,
+    color: '#666',
     marginBottom: '32px',
   },
   ctaButtons: {
@@ -433,28 +466,47 @@ const styles = {
     gap: '16px',
     justifyContent: 'center',
   },
-  btnOutline: {
-    backgroundColor: 'transparent',
-    color: '#D4AF37',
-    padding: '14px 32px',
-    borderRadius: '6px',
-    textDecoration: 'none',
-    fontSize: '16px',
-    border: '1px solid #D4AF37',
-    display: 'inline-block',
-  },
   footer: {
     backgroundColor: '#1A1A1A',
-    padding: '32px 0',
-    textAlign: 'center',
+    padding: '48px 0 24px',
     color: '#fff',
   },
-  footerText: {
+  footerContent: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    marginBottom: '32px',
+    paddingBottom: '32px',
+    borderBottom: '1px solid rgba(255,255,255,0.1)',
+  },
+  footerBrand: {
+    flex: 1,
+  },
+  footerLogo: {
+    height: '40px',
+    width: 'auto',
+    marginBottom: '12px',
+  },
+  footerSlogan: {
+    fontSize: '14px',
+    opacity: 0.7,
+  },
+  footerContact: {
+    textAlign: 'right',
+  },
+  footerContactTitle: {
+    fontSize: '16px',
+    fontWeight: 'bold',
+    marginBottom: '12px',
+    color: '#D4AF37',
+  },
+  footerContactItem: {
     fontSize: '14px',
     marginBottom: '8px',
+    opacity: 0.8,
   },
-  footerSub: {
+  footerText: {
     fontSize: '12px',
-    opacity: 0.6,
+    textAlign: 'center',
+    opacity: 0.5,
   },
 }
