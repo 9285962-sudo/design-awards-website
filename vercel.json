@@ -1,4 +1,6 @@
 {
-  "buildCommand": "cd website && npm install && npm run build",
-  "outputDirectory": "website/dist"
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
