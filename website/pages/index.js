@@ -30,8 +30,14 @@ export default function Home() {
             </div>
             <nav style={styles.nav}>
               <Link href="/" style={styles.navLink}>首页</Link>
+              <Link href="/awards" style={styles.navLink}>奖项库</Link>
+              <Link href="/compare" style={styles.navLink}>奖项对比</Link>
+              <Link href="/cases" style={styles.navLink}>成功案例</Link>
+              <Link href="/strategy" style={styles.navLink}>参赛策略</Link>
+              <Link href="/news" style={styles.navLink}>赛事新闻</Link>
               <Link href="/services" style={styles.navLink}>申报服务</Link>
               <Link href="/about" style={styles.navLink}>关于我们</Link>
+              <Link href="/contact" style={styles.navLink}>联系我们</Link>
             </nav>
           </div>
         </div>
@@ -227,7 +233,7 @@ const styles = {
   },
   nav: {
     display: 'flex',
-    gap: '32px',
+    gap: '20px',
   },
   navLink: {
     color: '#fff',
