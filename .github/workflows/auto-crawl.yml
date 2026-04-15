@@ -1,0 +1,59 @@
+name: Auto Content Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *'    # 每天凌晨2点运行
+  workflow_dispatch:        # 支持手动触发
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install Dependencies
+        run: |
+          cd scripts/image-crawler
+          npm install
+      
+      - name: Install Playwright
+        run: |
+          cd scripts/image-crawler
+          npx playwright install chromium
+      
+      - name: Run Image Crawler
+        run: |
+          cd scripts/image-crawler
+          node index.js --file urls/pending-articles.json
+        continue-on-error: true
+      
+      - name: Process Captured Images
+        run: |
+          # 复制采集的图片到网站目录
+          if [ -d "scripts/image-crawler/output/raw" ]; then
+            cp -r scripts/image-crawler/output/raw/* website/images/cases/ 2>/dev/null || true
+          fi
+      
+      - name: Generate Article Pages
+        run: |
+          # 生成文章页面（如果有新内容）
+          node scripts/generate-articles.js 2>/dev/null || true
+      
+      - name: Commit Changes
+        run: |
+          git config user.name "Auto Bot"
+          git config user.email "bot@designawards.com"
+          git add website/images/cases/ website/articles/ 2>/dev/null || true
+          git add scripts/image-crawler/output/ 2>/dev/null || true
+          git commit -m "🤖 Auto update: $(date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
+      
+      - name: Push Changes
+        run: git push origin main || echo "Nothing to push"

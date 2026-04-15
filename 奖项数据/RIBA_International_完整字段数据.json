@@ -1,0 +1,252 @@
+{
+  "award_id": "riba_international_awards",
+  "award_name_cn": "RIBA国际奖",
+  "award_name_en": "RIBA International Awards",
+  "award_name_alias": ["英国皇家建筑师协会国际奖", "RIBA国际建筑奖"],
+  "award_type": "国际建筑奖",
+  "award_level": "顶级",
+  "organizer": "RIBA",
+  "organizer_full_name": "Royal Institute of British Architects",
+  "organizer_cn": "英国皇家建筑师学会",
+  "organizer_type": "专业机构",
+  "country": "英国",
+  "city": "伦敦",
+  "official_website": "https://www.riba.org/explore/awards/international-awards/",
+  "founded_year": 2016,
+  "slogan": "Celebrating the world's best architecture",
+  "description": "RIBA国际奖由英国皇家建筑师学会于2016年推出，每两年举办一届，旨在发掘彰显卓越设计、建筑愿景和社会积极影响力的建筑。",
+  "current_season": "2027",
+  "entry_status": "2027年开放申报",
+  "award_cycle": "每两年一届",
+  
+  "deadlines": {
+    "next_entry_year": "2027",
+    "current_status": "当前参赛入口已关闭",
+    "note": "每两年举办一次，下一次申报机会为2027年"
+  },
+  
+  "entry_fees": {
+    "currency": "GBP",
+    "currency_note": "所有费用不含增值税，英国增值税将适用于所有参赛项目",
+    "fee_structure": [
+      {
+        "project_cost": "低于200万英镑",
+        "standard_fee": 250,
+        "member_fee": 200
+      },
+      {
+        "project_cost": "200万至1000万英镑",
+        "standard_fee": 550,
+        "member_fee": 440
+      },
+      {
+        "project_cost": "超过1000万英镑",
+        "standard_fee": 800,
+        "member_fee": 640
+      }
+    ],
+    "additional_category_fee": "亚太奖和中东奖每增加一个类别需额外支付300英镑",
+    "financial_support": "经济困难的建筑师或事务所可申请参赛费减免",
+    "financial_support_contact": "awards@riba.org"
+  },
+  
+  "categories": [
+    {
+      "name": "International Awards for Excellence",
+      "name_cn": "国际卓越奖",
+      "description": "庆祝全球建筑卓越成就，表彰展现远见思维、设计卓越和真正社会影响力的项目"
+    },
+    {
+      "name": "International Emerging Architect Award",
+      "name_cn": "国际新锐建筑师奖",
+      "description": "认可行业新锐，从业经验不超过10年的建筑师可参赛"
+    },
+    {
+      "name": "International Prize",
+      "name_cn": "国际奖",
+      "description": "从国际卓越奖获奖作品中选出当年全球最具意义和启发性的项目"
+    },
+    {
+      "name": "Middle East Awards",
+      "name_cn": "中东奖项",
+      "description": "2025年启动，重点关注海湾合作委员会地区最具变革性和社会影响力的新建筑"
+    },
+    {
+      "name": "Asia Pacific Awards",
+      "name_cn": "亚太奖项",
+      "description": "2025年启动，重点关注亚太地区最具变革性和社会影响力的新建筑"
+    }
+  ],
+  
+  "eligibility": {
+    "professional": {
+      "allowed": true,
+      "requirements": "主要建筑师必须是合格建筑师，并在当地机构注册"
+    },
+    "student": {
+      "allowed": false,
+      "requirements": "仅限执业建筑师"
+    },
+    "company": {
+      "allowed": true,
+      "requirements": "注册建筑事务所"
+    },
+    "individual": {
+      "allowed": true,
+      "requirements": "个人建筑师"
+    },
+    "project_location": "必须位于英国境外",
+    "project_completion": "须在2020年7月至2024年7月期间完成（亚太奖和中东奖的AI Powered Design、未来项目和临时建筑类别需在此时间段内设计）",
+    "project_in_use": "项目在提交前必须已投入使用至少一年（亚太奖和中东奖的AI Powered Design、未来项目和临时建筑类别除外）",
+    "client_authorization": "必须获得客户授权提交项目",
+    "emerging_architect": "从业经验不超过10年的建筑师可参加新锐建筑师奖"
+  },
+  
+  "submission_requirements": {
+    "project_info": {
+      "required": true,
+      "fields": ["项目名称", "地址", "面积", "合同价值", "规划批准日期", "占用日期", "项目参与方信息"]
+    },
+    "contact_info": {
+      "required": true,
+      "fields": ["设计公司", "项目负责人", "客户", "承包商", "媒体联系人", "摄影师信息"]
+    },
+    "description": {
+      "summary": "100字摘要",
+      "detailed": "350字详细说明（涵盖项目背景、设计理念、材料、时间表、可持续性等）",
+      "criteria_response": "每项评审标准需附150字说明"
+    },
+    "consultants": {
+      "required": true,
+      "fields": ["结构工程师", "设备工程师", "景观建筑师等"]
+    },
+    "images": {
+      "required": true,
+      "count": "5-10张",
+      "format": "JPEG",
+      "min_resolution": "1000×700像素",
+      "print_resolution": "建议2000像素、300dpi",
+      "max_size_mb": 10,
+      "site_photos": "可选5张现场照片"
+    },
+    "drawings": {
+      "required": true,
+      "count": "1-6张",
+      "format": "JPEG",
+      "types": ["区位图", "场地平面图", "楼层平面图", "剖面图等"],
+      "max_size_mb": 2
+    },
+    "sustainability": {
+      "required": true,
+      "form": "需填写可持续性表格",
+      "target": "符合RIBA 2030气候挑战目标"
+    }
+  },
+  
+  "judging_criteria": [
+    {
+      "criterion": "设计组合",
+      "description": "设计是否在平面、立面、剖面中巧妙组合？形式、尺度、空间、光线和材料是否卓越？"
+    },
+    {
+      "criterion": "抱负与环境",
+      "description": "是否体现抱负（文化延续或创新）？是否响应并支持其环境？"
+    },
+    {
+      "criterion": "客户要求与社会贡献",
+      "description": "项目如何满足或超越客户要求？是否对社会有更广泛贡献？"
+    },
+    {
+      "criterion": "设计寿命",
+      "description": "形式与施工是否反映设计寿命？是否坚固、灵活、适应性强？细节是否精致？"
+    },
+    {
+      "criterion": "材料与技术",
+      "description": "是否使用合适的建材与环境技术？"
+    },
+    {
+      "criterion": "资源利用",
+      "description": "是否有效利用场地现有结构（保留、再利用或回收材料）？"
+    },
+    {
+      "criterion": "资源消耗与生物多样性",
+      "description": "是否有效减少资源消耗？是否对场地内外的生物多样性有积极贡献？"
+    },
+    {
+      "criterion": "历史建筑处理",
+      "description": "对历史建筑和历史环境的处理是否恰当且有想象力？"
+    },
+    {
+      "criterion": "无障碍设计",
+      "description": "是否达到最高的无障碍设计标准？"
+    },
+    {
+      "criterion": "公共空间",
+      "description": "是否对外部环境响应慷慨？是否增强或创造新的公共空间和绿色基础设施？"
+    }
+  ],
+  
+  "judging_criteria_summary": [
+    "建筑完整性",
+    "对使用者及访客的吸引力与愉悦感",
+    "设计愿景的贯彻程度",
+    "创新性、原创性",
+    "材料选择与细节把控",
+    "空间体验的独特性",
+    "建筑与概念的雄心",
+    "与环境的协调性",
+    "社会包容性及无障碍设计",
+    "结构与维护系统的合理性",
+    "对公共领域或环境的贡献",
+    "项目执行与交付成果",
+    "预算与时间控制",
+    "可持续发展表现（环境与经济层面）"
+  ],
+  
+  "award_levels": [
+    {
+      "level": "International Prize",
+      "name_cn": "国际奖",
+      "description": "从国际卓越奖获奖作品中选出当年全球最具意义和启发性的项目，最高荣誉",
+      "trophy": "RIBA奖杯",
+      "certificate": true
+    },
+    {
+      "level": "International Awards for Excellence",
+      "name_cn": "国际卓越奖",
+      "description": "庆祝全球建筑卓越成就，表彰展现远见思维、设计卓越和真正社会影响力的项目",
+      "trophy": "RIBA奖杯",
+      "certificate": true
+    },
+    {
+      "level": "International Emerging Architect Award",
+      "name_cn": "国际新锐建筑师奖",
+      "description": "认可行业新锐，从业经验不超过10年的建筑师",
+      "trophy": "RIBA奖杯",
+      "certificate": true
+    }
+  ],
+  
+  "winner_benefits": {
+    "pr_support": "获得RIBA公关支持，有机会在合作媒体展示",
+    "website_feature": "获奖作品将展示在architecture.com（年访问量超250万）",
+    "social_media": "通过RIBA社交媒体渠道（超30万粉丝）推广",
+    "marketing_materials": "获得纸质及电子版获奖营销材料",
+    "networking": "参与RIBA活动和颁奖典礼"
+  },
+  
+  "policies": {
+    "data_usage": "提交的材料将用于评审和宣传，可标记部分信息为保密",
+    "terms_url": "https://www.riba.org/explore/awards/awards-processes/"
+  },
+  
+  "contact": {
+    "email": "awards@riba.org",
+    "website": "https://www.riba.org/explore/awards/international-awards/"
+  },
+  
+  "data_source": "RIBA官网 https://www.riba.org/",
+  "data_collection_date": "2026-04-05",
+  "data_completeness": "完整",
+  "notes": "RIBA国际奖每两年举办一次，下一次申报机会为2027年"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "award-data-crawler",
+  "version": "1.0.0",
+  "description": "国际设计大奖数据采集脚本",
+  "main": "crawl-muse-winners.js",
+  "scripts": {
+    "crawl:muse": "node crawl-muse-winners.js",
+    "crawl:muse:2024": "node crawl-muse-winners.js 2024",
+    "crawl:muse:2025": "node crawl-muse-winners.js 2025"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {}
+}

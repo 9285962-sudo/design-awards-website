@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>设计能—国际设计大奖申报指南 | 100+奖项一站式查询</title>
+  <meta name="description" content="国际设计大奖一站式申报平台，收录100+国际奖项，218项结构化数据，专业代理申报服务，90%获奖率保障。MUSE、D&AD、RIBA等热门奖项完整指南。">
+  <meta name="keywords" content="国际设计大奖,设计奖申报,MUSE设计奖,D&AD,RIBA,设计奖代理,奖项申报指南">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="设计能—国际设计大奖申报指南">
+  <meta property="og:description" content="100+国际奖项一站式查询，专业代理申报服务">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.52de.cc">
+  
+  <!-- Schema.org Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "设计能—国际设计大奖申报指南",
+    "url": "https://www.52de.cc",
+    "description": "专业国际设计大奖代理申报服务",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "客户服务"
+    }
+  }
+  </script>
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background-color: #1A1A1A;
+      color: #FAF9F6;
+      line-height: 1.6;
+    }
+    
+    :root {
+      --primary-gold: #B8860B;
+      --primary-gold-light: #D4AF37;
+      --bg-dark: #1A1A1A;
+      --bg-gray: #2C2C2C;
+      --text-light: #FAF9F6;
+      --text-gray: #AAAAAA;
+      --border-gold: rgba(184, 134, 11, 0.3);
+    }
+    
+    /* Header */
+    .header {
+      background-color: rgba(26, 26, 26, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--border-gold);
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+    
+    .logo-text {
+      font-size: 28px;
+      font-weight: bold;
+      color: #D4AF37;
+      letter-spacing: 2px;
+    }
+    
+    .logo-sub {
+      font-size: 13px;
+      color: #AAAAAA;
+    }
+    
+    .nav {
+      display: flex;
+      gap: 40px;
+    }
+    
+    .nav-link {
+      color: #FAF9F6;
+      text-decoration: none;
+      font-size: 15px;
+      transition: color 0.2s;
+      position: relative;
+    }
+    
+    .nav-link:hover {
+      color: #D4AF37;
+    }
+    
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #D4AF37;
+      transition: width 0.2s;
+    }
+    
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    
+    /* Hero */
+    .hero {
+      background: linear-gradient(180deg, #1A1A1A 0%, #2C2C2C 100%);
+      padding: 100px 0 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    
+    .hero-badge {
+      display: inline-block;
+      background-color: rgba(212, 175, 55, 0.15);
+      color: #D4AF37;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 24px;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+    }
+    
+    .hero-title {
+      font-size: 52px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #FAF9F6;
+      letter-spacing: 2px;
+    }
+    
+    .hero-title span {
+      color: #D4AF37;
+    }
+    
+    .hero-subtitle {
+      font-size: 20px;
+      color: #AAAAAA;
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+      color: #1A1A1A;
+      padding: 16px 40px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(212, 175, 55, 0.3);
+    }
+    
+    .btn-secondary {
+      background-color: transparent;
+      color: #D4AF37;
+      padding: 16px 40px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 16px;
+      border: 1px solid #D4AF37;
+      display: inline-block;
+      transition: background-color 0.2s;
+    }
+    
+    .btn-secondary:hover {
+      background-color: rgba(212, 175, 55, 0.1);
+    }
+    
+    /* Stats */
+    .stats-section {
+      background-color: #2C2C2C;
+      padding: 60px 0;
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      text-align: center;
+    }
+    
+    .stat-item {
+      position: relative;
+    }
+    
+    .stat-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      height: 40px;
+      background-color: var(--border-gold);
+    }
+    
+    .stat-number {
+      font-size: 48px;
+      font-weight: bold;
+      color: #D4AF37;
+      margin-bottom: 8px;
+    }
+    
+    .stat-label {
+      font-size: 15px;
+      color: #AAAAAA;
+    }
+    
+    /* Section */
+    .section {
+      padding: 80px 0;
+    }
+    
+    .section-gray {
+      background-color: #2C2C2C;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    
+    .section-label {
+      color: #D4AF37;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+    
+    .section-title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 16px;
+    }
+    
+    .section-desc {
+      font-size: 16px;
+      color: #AAAAAA;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    /* Filter Bar */
+    .filter-bar {
+      background-color: #2C2C2C;
+      border: 1px solid var(--border-gold);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 40px;
+    }
+    
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    
+    .filter-group:last-child {
+      margin-bottom: 0;
+    }
+    
+    .filter-label {
+      font-size: 14px;
+      color: #888;
+      font-weight: 500;
+      min-width: 80px;
+    }
+    
+    .filter-options {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+      padding: 8px 16px;
+      background-color: #1A1A1A;
+      border: 1px solid #444;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #AAA;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover {
+      border-color: var(--border-gold);
+      color: #D4AF37;
+    }
+    
+    .filter-btn.active {
+      background-color: rgba(212, 175, 55, 0.15);
+      border-color: #D4AF37;
+      color: #D4AF37;
+    }
+    
+    .filter-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #444;
+    }
+    
+    .btn-compare {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+      color: #1A1A1A;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: opacity 0.2s;
+    }
+    
+    .btn-compare:hover {
+      opacity: 0.9;
+    }
+    
+    /* Award Cards */
+    .award-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    .award-card {
+      display: block;
+    }
+    
+    .award-card.hidden {
+      display: none;
+    }
+    
+    .award-card {
+      background-color: #2C2C2C;
+      border: 1px solid var(--border-gold);
+      border-radius: 8px;
+      padding: 32px;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    
+    .award-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+      border-color: #D4AF37;
+    }
+    
+    .award-badge {
+      display: inline-block;
+      background-color: rgba(212, 175, 55, 0.15);
+      color: #D4AF37;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .award-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 8px;
+    }
+    
+    .award-name-en {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 16px;
+    }
+    
+    .award-info {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #AAAAAA;
+    }
+    
+    .award-info-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .award-desc {
+      font-size: 14px;
+      color: #888;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    .award-link {
+      color: #D4AF37;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .award-link:hover {
+      text-decoration: underline;
+    }
+    
+    /* Services */
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    
+    .service-card {
+      text-align: center;
+      padding: 40px 32px;
+      background-color: #1A1A1A;
+      border: 1px solid var(--border-gold);
+      border-radius: 8px;
+    }
+    
+    .service-icon {
+      width: 64px;
+      height: 64px;
+      background-color: rgba(212, 175, 55, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 28px;
+    }
+    
+    .service-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 12px;
+    }
+    
+    .service-desc {
+      font-size: 14px;
+      color: #888;
+      line-height: 1.6;
+    }
+    
+    /* Cases Preview */
+    .cases-preview-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    .case-preview-card {
+      background-color: #2C2C2C;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    
+    .case-preview-card:hover {
+      transform: translateY(-4px);
+    }
+    
+    .case-preview-image {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.8);
+      font-size: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .case-preview-image.nansha {
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
+    }
+    
+    .case-preview-image.yunqi {
+      background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+    }
+    
+    .case-preview-image.light {
+      background: linear-gradient(135deg, #232526 0%, #414345 50%, #8e8e8e 100%);
+    }
+    
+    .case-preview-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      opacity: 0.5;
+    }
+    
+    .case-preview-image .placeholder-content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+    
+    .case-preview-image .placeholder-icon {
+      font-size: 40px;
+      margin-bottom: 6px;
+      opacity: 0.9;
+    }
+    
+    .case-preview-image .placeholder-text {
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      opacity: 0.8;
+    }
+    
+    .case-preview-content {
+      padding: 24px;
+    }
+    
+    .case-preview-awards {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .case-award-tag {
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    
+    .case-award-tag.blt {
+      background-color: rgba(212, 175, 55, 0.15);
+      color: #D4AF37;
+    }
+    
+    .case-award-tag.wda {
+      background-color: rgba(100, 149, 237, 0.15);
+      color: #6495ED;
+    }
+    
+    .case-award-tag.muse {
+      background-color: rgba(229, 229, 229, 0.15);
+      color: #E5E5E5;
+    }
+    
+    .case-award-tag.ida {
+      background-color: rgba(212, 175, 55, 0.15);
+      color: #D4AF37;
+    }
+    
+    .case-preview-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    
+    .case-preview-company {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    
+    .case-preview-desc {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+    }
+    
+    /* Articles */
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    .article-card {
+      background-color: #2C2C2C;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    
+    .article-card:hover {
+      transform: translateY(-4px);
+    }
+    
+    .article-image {
+      height: 180px;
+      background: linear-gradient(135deg, #3a3a3a 0%, #2C2C2C 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .article-content {
+      padding: 24px;
+    }
+    
+    .article-date {
+      font-size: 12px;
+      color: #D4AF37;
+      margin-bottom: 8px;
+    }
+    
+    .article-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    
+    .article-excerpt {
+      font-size: 14px;
+      color: #888;
+      line-height: 1.6;
+    }
+    
+    /* CTA */
+    .cta-section {
+      background: linear-gradient(180deg, #2C2C2C 0%, #1A1A1A 100%);
+      padding: 100px 0;
+      text-align: center;
+      border-top: 1px solid var(--border-gold);
+    }
+    
+    .cta-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      color: #FAF9F6;
+    }
+    
+    .cta-title span {
+      color: #D4AF37;
+    }
+    
+    .cta-desc {
+      font-size: 18px;
+      color: #AAAAAA;
+      margin-bottom: 40px;
+    }
+    
+    /* Footer */
+    .footer {
+      background-color: #0F0F0F;
+      padding: 60px 0 32px;
+      border-top: 1px solid var(--border-gold);
+    }
+    
+    .footer-content {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .footer-brand {
+      .footer-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #D4AF37;
+        margin-bottom: 16px;
+      }
+      
+      .footer-desc {
+        font-size: 14px;
+        color: #888;
+        line-height: 1.6;
+      }
+    }
+    
+    .footer-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+    }
+    
+    .footer-links {
+      list-style: none;
+    }
+    
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    
+    .footer-links a:hover {
+      color: #D4AF37;
+    }
+    
+    .footer-bottom {
+      text-align: center;
+      padding-top: 32px;
+      border-top: 1px solid #333;
+    }
+    
+    .footer-text {
+      font-size: 13px;
+      color: #666;
+    }
+    
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .award-grid,
+      .service-grid,
+      .cases-preview-grid,
+      .article-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .stat-item:not(:last-child)::after {
+        display: none;
+      }
+      
+      .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 32px;
+      }
+      
+      .section-title {
+        font-size: 24px;
+      }
+      
+      .award-grid,
+      .service-grid,
+      .cases-preview-grid,
+      .article-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+      }
+      
+      .stat-number {
+        font-size: 32px;
+      }
+      
+      .nav {
+        display: none;
+      }
+      
+      .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .btn-primary,
+      .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+      }
+      
+      .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-text">设计能</span>
+          <span class="logo-sub">国际设计大奖申报指南</span>
+        </div>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">首页</a>
+          <a href="#awards" class="nav-link">奖项库</a>
+          <a href="compare.html" class="nav-link">奖项对比</a>
+          <a href="cases.html" class="nav-link">成功案例</a>
+          <a href="strategies.html" class="nav-link">参赛策略</a>
+          <a href="news.html" class="nav-link">赛事新闻</a>
+          <a href="#contact" class="nav-link">联系我们</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">🏆 专业 · 权威 · 高效</div>
+      <h1 class="hero-title">
+        国际设计大奖
+        <span>一站式申报平台</span>
+      </h1>
+      <p class="hero-subtitle">
+        收录100+国际奖项，218项结构化数据，专业代理申报服务，助力设计师斩获国际大奖
+      </p>
+      <div class="hero-buttons">
+        <a href="#awards" class="btn-primary">浏览奖项库</a>
+        <a href="#contact" class="btn-secondary">免费咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">国际奖项</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">218</div>
+          <div class="stat-label">结构化数据</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">90%</div>
+          <div class="stat-label">客户获奖率</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5年+</div>
+          <div class="stat-label">行业经验</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section class="section" id="awards">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Awards</div>
+        <h2 class="section-title">热门奖项推荐</h2>
+        <p class="section-desc">精选国际知名设计奖项，提供完整申报指南和代理服务</p>
+      </div>
+      
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">设计领域：</span>
+          <div class="filter-options">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="architecture">建筑</button>
+            <button class="filter-btn" data-filter="interior">室内</button>
+            <button class="filter-btn" data-filter="product">产品</button>
+            <button class="filter-btn" data-filter="graphic">平面</button>
+            <button class="filter-btn" data-filter="advertising">广告</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">参赛费用：</span>
+          <div class="filter-options">
+            <button class="filter-btn active" data-filter-fee="all">全部</button>
+            <button class="filter-btn" data-filter-fee="low">$200以下</button>
+            <button class="filter-btn" data-filter-fee="medium">$200-500</button>
+            <button class="filter-btn" data-filter-fee="high">$500以上</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">国家/地区：</span>
+          <div class="filter-options">
+            <button class="filter-btn active" data-filter-region="all">全部</button>
+            <button class="filter-btn" data-filter-region="us">美国</button>
+            <button class="filter-btn" data-filter-region="uk">英国</button>
+            <button class="filter-btn" data-filter-region="eu">欧洲</button>
+          </div>
+        </div>
+        <div class="filter-actions">
+          <a href="compare.html" class="btn-compare">🔍 奖项对比</a>
+        </div>
+      </div>
+      
+      <div class="award-grid" id="awardGrid">
+        <div class="award-card" data-categories="architecture interior product graphic" data-fee="low" data-region="us">
+          <span class="award-badge">综合设计</span>
+          <h3 class="award-name">MUSE设计奖</h3>
+          <p class="award-name-en">MUSE Design Awards</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 $199起</span>
+            <span class="award-info-item">📅 11月截止</span>
+          </div>
+          <p class="award-desc">美国国际奖项协会主办，涵盖建筑、室内、产品等10+类别，高性价比的国际综合设计奖。</p>
+          <a href="muse-detail.html" class="award-link">查看完整指南 →</a>
+        </div>
+        <div class="award-card" data-categories="graphic product digital" data-fee="high" data-region="uk">
+          <span class="award-badge">顶级创意</span>
+          <h3 class="award-name">D&AD大奖</h3>
+          <p class="award-name-en">D&AD Awards</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 £406起</span>
+            <span class="award-info-item">📅 3月截止</span>
+          </div>
+          <p class="award-desc">英国设计与艺术指导协会主办，创意界奥斯卡，黄铅笔奖是终身荣誉象征。</p>
+          <a href="#" class="award-link">查看完整指南 →</a>
+        </div>
+        <div class="award-card" data-categories="architecture" data-fee="medium" data-region="uk">
+          <span class="award-badge">建筑设计</span>
+          <h3 class="award-name">RIBA国际奖</h3>
+          <p class="award-name-en">RIBA International Awards</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 £250起</span>
+            <span class="award-info-item">📅 两年一届</span>
+          </div>
+          <p class="award-desc">英国皇家建筑师学会主办，表彰英国境外的卓越建筑作品，全球建筑界顶级荣誉。</p>
+          <a href="#" class="award-link">查看完整指南 →</a>
+        </div>
+        <div class="award-card" data-categories="advertising graphic" data-fee="high" data-region="uk">
+          <span class="award-badge">广告创意</span>
+          <h3 class="award-name">LIA伦敦国际奖</h3>
+          <p class="award-name-en">London International Awards</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 $552起</span>
+            <span class="award-info-item">📅 6月截止</span>
+          </div>
+          <p class="award-desc">世界五大广告节之一，以鼓励大胆创新闻名，全球创意界顶级荣誉。</p>
+          <a href="#" class="award-link">查看完整指南 →</a>
+        </div>
+        <div class="award-card" data-categories="interior" data-fee="high" data-region="uk">
+          <span class="award-badge">室内设计</span>
+          <h3 class="award-name">Andrew Martin奖</h3>
+          <p class="award-name-en">Andrew Martin Interior Designer</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 官网查询</span>
+            <span class="award-info-item">📅 12月截止</span>
+          </div>
+          <p class="award-desc">被誉为室内设计界的奥斯卡，入选年鉴是极高的荣誉，适合追求国际顶级认可的设计师。</p>
+          <a href="#" class="award-link">查看完整指南 →</a>
+        </div>
+        <div class="award-card" data-categories="graphic product advertising" data-fee="low" data-region="uk">
+          <span class="award-badge">学生创意</span>
+          <h3 class="award-name">D&AD New Blood</h3>
+          <p class="award-name-en">D&AD New Blood Awards</p>
+          <div class="award-info">
+            <span class="award-info-item">💰 £15起</span>
+            <span class="award-info-item">📅 3月截止</span>
+          </div>
+          <p class="award-desc">全球最具影响力的学生创意奖，开启职业生涯的最佳跳板，黑铅笔奖金2000英镑。</p>
+          <a href="#" class="award-link">查看完整指南 →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section-gray" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Services</div>
+        <h2 class="section-title">专业代理服务</h2>
+        <p class="section-desc">从选奖策略到材料优化，全程护航您的申报之路</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3 class="service-title">选奖策略</h3>
+          <p class="service-desc">根据项目特点匹配最适合的奖项，制定参赛时间规划，多奖项组合申报策略，最大化获奖概率。</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✍️</div>
+          <h3 class="service-title">材料优化</h3>
+          <p class="service-desc">申报文案撰写与打磨，视觉材料指导，申报材料完整度审核，确保每个细节都达到最佳状态。</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚀</div>
+          <h3 class="service-title">全程代理</h3>
+          <p class="service-desc">从选奖到提交全程代理，设计故事包装，评委视角优化，让您专注于设计本身。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases -->
+  <section class="section" id="cases">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Cases</div>
+        <h2 class="section-title">成功案例</h2>
+        <p class="section-desc">专业代理服务，助力设计师斩获国际大奖</p>
+      </div>
+      <div class="cases-preview-grid" id="casesPreviewGrid">
+        <!-- 默认显示 -->
+        <div class="case-preview-card">
+          <div class="case-preview-image nansha">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">🚢</div>
+              <div class="placeholder-text">南沙邮轮码头</div>
+            </div>
+          </div>
+          <div class="case-preview-content">
+            <div class="case-preview-awards">
+              <span class="case-award-tag blt">BLT奖</span>
+              <span class="case-award-tag wda">WDA奖</span>
+            </div>
+            <h3 class="case-preview-title">南沙国际邮轮码头综合体</h3>
+            <p class="case-preview-company">IDC国际设计中心</p>
+            <p class="case-preview-desc">36万平方米大型综合体，荣获BLT建筑设计奖与WDA世界设计奖双料大奖</p>
+          </div>
+        </div>
+        <div class="case-preview-card">
+          <div class="case-preview-image yunqi">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">🏔️</div>
+              <div class="placeholder-text">云栖山居</div>
+            </div>
+          </div>
+          <div class="case-preview-content">
+            <div class="case-preview-awards">
+              <span class="case-award-tag muse">MUSE铂金奖</span>
+            </div>
+            <h3 class="case-preview-title">云栖山居</h3>
+            <p class="case-preview-company">张炜建筑设计事务所</p>
+            <p class="case-preview-desc">融合东方美学与现代设计，荣获MUSE设计奖铂金奖</p>
+          </div>
+        </div>
+        <div class="case-preview-card">
+          <div class="case-preview-image light">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">💡</div>
+              <div class="placeholder-text">光影艺术馆</div>
+            </div>
+          </div>
+          <div class="case-preview-content">
+            <div class="case-preview-awards">
+              <span class="case-award-tag ida">IDA金奖</span>
+            </div>
+            <h3 class="case-preview-title">光影艺术馆</h3>
+            <p class="case-preview-company">Li Design Studio</p>
+            <p class="case-preview-desc">以光为媒介的艺术空间设计，荣获IDA国际设计奖金奖</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="cases.html" class="btn-secondary">查看全部案例</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="section section-gray" id="news">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">News</div>
+        <h2 class="section-title">赛事新闻</h2>
+        <p class="section-desc">国际设计大奖最新动态，把握申报时机</p>
+      </div>
+      <div class="article-grid" id="newsPreviewGrid">
+        <!-- 默认显示 -->
+        <div class="article-card">
+          <div class="article-image">新闻配图</div>
+          <div class="article-content">
+            <div style="color: #F44336; font-size: 12px; margin-bottom: 8px;">截止日期 · 紧急</div>
+            <h3 class="article-title">MUSE设计奖2026年早鸟价即将截止</h3>
+            <p class="article-excerpt">MUSE设计奖2026年早鸟价报名将于4月30日截止，届时费用将从$199上涨至$249...</p>
+          </div>
+        </div>
+        <div class="article-card">
+          <div class="article-image">新闻配图</div>
+          <div class="article-content">
+            <div style="color: #D4AF37; font-size: 12px; margin-bottom: 8px;">获奖公布</div>
+            <h3 class="article-title">D&AD大奖2026年评审团名单公布</h3>
+            <p class="article-excerpt">D&AD公布2026年评审团名单，包括来自Wieden+Kennedy、Pentagram等顶级机构...</p>
+          </div>
+        </div>
+        <div class="article-card">
+          <div class="article-image">新闻配图</div>
+          <div class="article-content">
+            <div style="color: #D4AF37; font-size: 12px; margin-bottom: 8px;">获奖公布</div>
+            <h3 class="article-title">IDA国际设计奖2025年度获奖名单揭晓</h3>
+            <p class="article-excerpt">中国设计师斩获15个金奖、32个银奖，创历年新高...</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="news.html" class="btn-secondary">查看全部新闻</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategies -->
+  <section class="section" id="strategies">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Strategies</div>
+        <h2 class="section-title">参赛策略</h2>
+        <p class="section-desc">专业申报攻略，助你提高获奖率</p>
+      </div>
+      <div id="strategiesPreviewList" style="max-width: 800px; margin: 0 auto;">
+        <!-- 默认显示 -->
+        <div style="background-color: #2C2C2C; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 16px; border-left: 3px solid #4CAF50;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span style="font-size: 12px; color: #888;">选奖指南 · 5分钟阅读</span>
+            <span style="background-color: rgba(76, 175, 80, 0.15); color: #4CAF50; padding: 2px 8px; border-radius: 4px; font-size: 11px;">入门必读</span>
+          </div>
+          <h3 style="font-size: 15px; font-weight: bold; color: #FAF9F6; margin-bottom: 6px;">设计师如何选择适合自己的国际奖项？</h3>
+          <p style="font-size: 13px; color: #888;">面对众多国际设计奖项，设计师应该如何选择？本文从预算、领域、含金量等维度给出建议...</p>
+        </div>
+        <div style="background-color: #2C2C2C; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 16px; border-left: 3px solid #D4AF37;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span style="font-size: 12px; color: #888;">新手入门 · 8分钟阅读</span>
+            <span style="background-color: rgba(212, 175, 55, 0.15); color: #D4AF37; padding: 2px 8px; border-radius: 4px; font-size: 11px;">详细攻略</span>
+          </div>
+          <h3 style="font-size: 15px; font-weight: bold; color: #FAF9F6; margin-bottom: 6px;">MUSE设计奖2026年申报指南：费用、截止、要求全解析</h3>
+          <p style="font-size: 13px; color: #888;">MUSE设计奖2026年申报即将开始，本文详细介绍报名时间、参赛费用、作品要求等关键信息...</p>
+        </div>
+        <div style="background-color: #2C2C2C; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 16px; border-left: 3px solid #FF9800;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span style="font-size: 12px; color: #888;">深度分析 · 12分钟阅读</span>
+            <span style="background-color: rgba(255, 152, 0, 0.15); color: #FF9800; padding: 2px 8px; border-radius: 4px; font-size: 11px;">进阶技巧</span>
+          </div>
+          <h3 style="font-size: 15px; font-weight: bold; color: #FAF9F6; margin-bottom: 6px;">2026年最值得申报的10个国际设计奖项对比</h3>
+          <p style="font-size: 13px; color: #888;">综合费用、含金量、获奖难度、知名度等因素，为你推荐2026年最值得关注的10个国际设计奖项...</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="strategies.html" class="btn-secondary">查看全部策略</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <h2 class="cta-title">
+        准备好冲击国际大奖了吗？
+      </h2>
+      <p class="cta-desc">5年经验 · 200+客户 · 90%获奖率 · 专业团队为您服务</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">免费咨询</a>
+        <a href="tel:400-xxx-xxxx" class="btn-secondary">电话咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">设计能</div>
+          <p class="footer-desc">国际设计大奖一站式申报平台，收录100+国际奖项，218项结构化数据，专业代理申报服务。</p>
+        </div>
+        <div>
+          <h4 class="footer-title">奖项库</h4>
+          <ul class="footer-links">
+            <li><a href="#">MUSE设计奖</a></li>
+            <li><a href="#">D&AD大奖</a></li>
+            <li><a href="#">RIBA国际奖</a></li>
+            <li><a href="#">全部奖项</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">服务</h4>
+          <ul class="footer-links">
+            <li><a href="#">选奖策略</a></li>
+            <li><a href="#">材料优化</a></li>
+            <li><a href="#">全程代理</a></li>
+            <li><a href="#">成功案例</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">联系</h4>
+          <ul class="footer-links">
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系方式</a></li>
+            <li><a href="#">商务合作</a></li>
+            <li><a href="#">常见问题</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-text">© 2026 设计能—国际设计大奖申报指南 | www.52de.cc | 专业代理申报服务，助力设计师斩获国际大奖</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // 从统一数据源加载奖项数据
+    let awardsData = [];
+    
+    // 加载数据
+    async function loadAwardsData() {
+      try {
+        const response = await fetch('../../data/awards.json');
+        const data = await response.json();
+        awardsData = data.map(award => ({
+          id: award.award_id,
+          name: award.award_name_cn,
+          nameEn: award.award_name_en,
+          category: award.category_main,
+          country: award.country,
+          fee: formatFee(award),
+          deadline: award.deadline_final || award.deadline_regular || '待定',
+          levels: '查看详情',
+          description: `${award.category_main}类奖项，${award.prestige_level}级别`,
+          rawData: award
+        }));
+        console.log('奖项数据加载成功:', awardsData.length, '个奖项');
+      } catch (error) {
+        console.error('加载奖项数据失败:', error);
+      }
+    }
+    
+    // 格式化费用显示
+    function formatFee(award) {
+      const currency = award.fee_currency === 'USD' ? '$' : 
+                       award.fee_currency === 'GBP' ? '£' : 
+                       award.fee_currency === 'EUR' ? '€' : '';
+      if (award.fee_early_bird) return `${currency}${award.fee_early_bird}起`;
+      if (award.fee_regular) return `${currency}${award.fee_regular}`;
+      if (award.fee_student) return `${currency}${award.fee_student}起`;
+      return '待公布';
+    }
+    
+    // 加载案例预览（显示最新的3个）
+    async function loadCasesPreview() {
+      try {
+        const response = await fetch('../../data/cases-index.json');
+        const data = await response.json();
+        // 按创建时间倒序，取最新的3个
+        const latestCases = data.cases
+          .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+          .slice(0, 3);
+        
+        const container = document.getElementById('casesPreviewGrid');
+        container.innerHTML = latestCases.map(item => {
+          const styleClass = getCaseStyleClass(item.id);
+          const icon = getCaseIcon(item.id);
+          return `
+          <div class="case-preview-card">
+            <div class="case-preview-image ${styleClass}">
+              <div class="placeholder-content">
+                <div class="placeholder-icon">${icon}</div>
+                <div class="placeholder-text">${item.title.substring(0, 6)}</div>
+              </div>
+            </div>
+            <div class="case-preview-content">
+              <div class="case-preview-awards">
+                ${item.awards.map(a => `<span class="case-award-tag ${getAwardClass(a.name)}">${a.name}</span>`).join('')}
+              </div>
+              <h3 class="case-preview-title">${item.title}</h3>
+              <p class="case-preview-company">${item.company}</p>
+              <p class="case-preview-desc">${item.description}</p>
+            </div>
+          </div>
+        `}).join('');
+      } catch (error) {
+        console.error('加载案例失败:', error);
+      }
+    }
+    
+    function getAwardClass(name) {
+      if (name.includes('BLT')) return 'blt';
+      if (name.includes('WDA')) return 'wda';
+      if (name.includes('MUSE')) return 'muse';
+      if (name.includes('IDA')) return 'ida';
+      return 'blt';
+    }
+    
+    function getCaseStyleClass(id) {
+      if (id.includes('nansha')) return 'nansha';
+      if (id.includes('yunqi')) return 'yunqi';
+      if (id.includes('light')) return 'light';
+      return 'nansha';
+    }
+    
+    function getCaseIcon(id) {
+      if (id.includes('nansha')) return '🚢';
+      if (id.includes('yunqi')) return '🏔️';
+      if (id.includes('light')) return '💡';
+      return '🏆';
+    }
+    
+    // 加载新闻预览（显示最新的3条，卡片形式）
+    async function loadNewsPreview() {
+      try {
+        const response = await fetch('../../data/news-index.json');
+        const data = await response.json();
+        // 按发布时间倒序，取最新的3条
+        const latestNews = data.news
+          .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+          .slice(0, 3);
+        
+        const container = document.getElementById('newsPreviewGrid');
+        container.innerHTML = latestNews.map(item => `
+          <div class="article-card">
+            <div class="article-image">新闻配图</div>
+            <div class="article-content">
+              <div style="color: ${item.is_urgent ? '#F44336' : '#D4AF37'}; font-size: 12px; margin-bottom: 8px;">${item.category_name}${item.is_urgent ? ' · 紧急' : ''}</div>
+              <h3 class="article-title">${item.title}</h3>
+              <p class="article-excerpt">${item.summary}</p>
+            </div>
+          </div>
+        `).join('');
+      } catch (error) {
+        console.error('加载新闻失败:', error);
+      }
+    }
+    
+    // 加载策略文章预览（显示最新的3篇，列表形式）
+    async function loadStrategiesPreview() {
+      try {
+        const response = await fetch('../../data/strategies-index.json');
+        const data = await response.json();
+        // 按发布时间倒序，取最新的3篇
+        const latestArticles = data.articles
+          .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+          .slice(0, 3);
+        
+        const container = document.getElementById('strategiesPreviewList');
+        container.innerHTML = latestArticles.map(item => `
+          <div style="background-color: #2C2C2C; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 16px; border-left: 3px solid ${item.difficulty === '初级' ? '#4CAF50' : item.difficulty === '中级' ? '#FF9800' : '#D4AF37'};">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span style="font-size: 12px; color: #888;">${item.category_name} · ${item.read_time}分钟阅读</span>
+              <span style="background-color: rgba(${item.difficulty === '初级' ? '76, 175, 80' : item.difficulty === '中级' ? '255, 152, 0' : '212, 175, 55'}, 0.15); color: ${item.difficulty === '初级' ? '#4CAF50' : item.difficulty === '中级' ? '#FF9800' : '#D4AF37'}; padding: 2px 8px; border-radius: 4px; font-size: 11px;">${item.difficulty_label}</span>
+            </div>
+            <h3 style="font-size: 15px; font-weight: bold; color: #FAF9F6; margin-bottom: 6px;">${item.title}</h3>
+            <p style="font-size: 13px; color: #888;">${item.summary}</p>
+          </div>
+        `).join('');
+      } catch (error) {
+        console.error('加载策略文章失败:', error);
+      }
+    }
+    
+    // 页面加载时获取数据
+    loadAwardsData();
+    loadCasesPreview();
+    loadNewsPreview();
+    loadStrategiesPreview();
+    
+    // Filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const awardCards = document.querySelectorAll('.award-card');
+    
+    let activeCategory = 'all';
+    let activeFee = 'all';
+    let activeRegion = 'all';
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filterType = btn.dataset.filter ? 'category' : 
+                          btn.dataset.filterFee ? 'fee' : 'region';
+        
+        if (filterType === 'category') {
+          document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeCategory = btn.dataset.filter;
+        } else if (filterType === 'fee') {
+          document.querySelectorAll('[data-filter-fee]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeFee = btn.dataset.filterFee;
+        } else if (filterType === 'region') {
+          document.querySelectorAll('[data-filter-region]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeRegion = btn.dataset.filterRegion;
+        }
+        
+        filterAwards();
+      });
+    });
+    
+    function filterAwards() {
+      awardCards.forEach(card => {
+        const categories = card.dataset.categories.split(' ');
+        const fee = card.dataset.fee;
+        const region = card.dataset.region;
+        
+        let visible = true;
+        
+        if (activeCategory !== 'all') {
+          visible = visible && categories.includes(activeCategory);
+        }
+        
+        if (activeFee !== 'all') {
+          visible = visible && fee === activeFee;
+        }
+        
+        if (activeRegion !== 'all') {
+          visible = visible && region === activeRegion;
+        }
+        
+        card.classList.toggle('hidden', !visible);
+      });
+    }
+  </script>
+</body>
+</html>

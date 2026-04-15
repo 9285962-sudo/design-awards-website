@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-13T16:30:00Z",
+  "total_count": 8,
+  "categories": [
+    {
+      "id": "deadline",
+      "name": "截止日期",
+      "count": 3
+    },
+    {
+      "id": "announcement",
+      "name": "获奖公布",
+      "count": 2
+    },
+    {
+      "id": "industry",
+      "name": "行业动态",
+      "count": 2
+    },
+    {
+      "id": "policy",
+      "name": "政策变化",
+      "count": 1
+    }
+  ],
+  "news": [
+    {
+      "id": "muse-2026-earlybird-ending",
+      "title": "MUSE设计奖2026年早鸟价即将截止",
+      "summary": "MUSE设计奖2026年早鸟价报名将于4月30日截止，届时费用将从$199上涨至$249。计划申报的设计师请抓紧时间。",
+      "category": "deadline",
+      "category_name": "截止日期",
+      "tags": ["MUSE奖", "早鸟价", "截止日期"],
+      "source": "MUSE官网",
+      "source_url": "https://museawards.com",
+      "published_at": "2026-04-13",
+      "is_urgent": true,
+      "is_featured": true,
+      "views": 567,
+      "detail_url": "news-muse-2026-earlybird-ending.html"
+    },
+    {
+      "id": "d-ad-2026-judges",
+      "title": "D&AD大奖2026年评审团名单公布",
+      "summary": "D&AD公布2026年评审团名单，包括来自Wieden+Kennedy、Pentagram、IDEO等顶级机构的创意总监。",
+      "category": "announcement",
+      "category_name": "获奖公布",
+      "tags": ["D&AD", "评审团", "2026"],
+      "source": "D&AD官网",
+      "source_url": "https://dandad.org",
+      "published_at": "2026-04-12",
+      "is_urgent": false,
+      "is_featured": true,
+      "views": 423,
+      "detail_url": "news-d-ad-2026-judges.html"
+    },
+    {
+      "id": "ida-2025-winners",
+      "title": "IDA国际设计奖2025年度获奖名单揭晓",
+      "summary": "IDA国际设计奖公布2025年度获奖名单，中国设计师斩获15个金奖、32个银奖，创历年新高。",
+      "category": "announcement",
+      "category_name": "获奖公布",
+      "tags": ["IDA奖", "获奖名单", "中国设计师"],
+      "source": "IDA官网",
+      "source_url": "https://idesignawards.com",
+      "published_at": "2026-04-10",
+      "is_urgent": false,
+      "is_featured": true,
+      "views": 892,
+      "detail_url": "article-nansha-awards.html"
+    },
+    {
+      "id": "riba-2026-changes",
+      "title": "RIBA国际奖2026年申报规则重大调整",
+      "summary": "RIBA宣布2026年申报规则调整，新增可持续发展专项类别，评审标准更加注重碳中和设计。",
+      "category": "policy",
+      "category_name": "政策变化",
+      "tags": ["RIBA", "规则调整", "可持续设计"],
+      "source": "RIBA官网",
+      "source_url": "https://riba.com",
+      "published_at": "2026-04-08",
+      "is_urgent": true,
+      "is_featured": false,
+      "views": 634,
+      "detail_url": "news-riba-2026-changes.html"
+    },
+    {
+      "id": "asia-design-awards-growth",
+      "title": "亚洲设计师在国际奖项中的影响力持续增长",
+      "summary": "据统计，2025年主要国际设计奖项中，亚洲设计师获奖比例达到35%，较5年前增长12个百分点。",
+      "category": "industry",
+      "category_name": "行业动态",
+      "tags": ["行业趋势", "亚洲设计", "数据分析"],
+      "source": "Design Week",
+      "source_url": "https://designweek.co.uk",
+      "published_at": "2026-04-05",
+      "is_urgent": false,
+      "is_featured": false,
+      "views": 445,
+      "detail_url": "news-asia-design-awards-growth.html"
+    },
+    {
+      "id": "blt-2026-deadline",
+      "title": "BLT建筑设计奖2026年申报时间表发布",
+      "summary": "BLT建筑设计奖公布2026年申报时间表，早鸟价截止日期为6月15日，常规截止日期为9月30日。",
+      "category": "deadline",
+      "category_name": "截止日期",
+      "tags": ["BLT奖", "申报时间", "2026"],
+      "source": "BLT官网",
+      "source_url": "https://bltawards.com",
+      "published_at": "2026-04-03",
+      "is_urgent": false,
+      "is_featured": false,
+      "views": 321,
+      "detail_url": "news-blt-2026-deadline.html"
+    },
+    {
+      "id": "wda-2026-categories",
+      "title": "WDA世界设计奖2026年新增3个参赛类别",
+      "summary": "WDA世界设计奖宣布2026年将新增AI辅助设计、元宇宙空间、可持续材料三个参赛类别。",
+      "category": "policy",
+      "category_name": "政策变化",
+      "tags": ["WDA奖", "新类别", "AI设计"],
+      "source": "WDA官网",
+      "source_url": "https://worlddesignawards.com",
+      "published_at": "2026-04-01",
+      "is_urgent": false,
+      "is_featured": false,
+      "views": 278,
+      "detail_url": "news-wda-2026-categories.html"
+    },
+    {
+      "id": "lia-2026-earlybird",
+      "title": "LIA伦敦国际奖2026年早鸟价开放报名",
+      "summary": "LIA伦敦国际奖2026年早鸟价报名已开放，费用为$450，较常规价节省$102。",
+      "category": "deadline",
+      "category_name": "截止日期",
+      "tags": ["LIA奖", "早鸟价", "开放报名"],
+      "source": "LIA官网",
+      "source_url": "https://londoninternationalawards.com",
+      "published_at": "2026-03-28",
+      "is_urgent": false,
+      "is_featured": false,
+      "views": 198,
+      "detail_url": "news-lia-2026-earlybird.html"
+    }
+  ]
+}

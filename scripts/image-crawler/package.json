@@ -1,0 +1,13 @@
+{
+  "name": "image-crawler",
+  "version": "1.0.0",
+  "description": "设计作品图片自动采集工具",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-deps": "npm install playwright && npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

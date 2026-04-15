@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内容采集管理后台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+        .header {
+            background: #fff;
+            padding: 20px 40px;
+            border-bottom: 1px solid #e8e8e8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .btn-primary {
+            background: #1890ff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn-primary:hover {
+            background: #40a9ff;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px 40px;
+        }
+        .filters {
+            background: #fff;
+            padding: 16px 24px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        .filters select, .filters input {
+            padding: 8px 12px;
+            border: 1px solid #d9d9d9;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .filters input {
+            width: 240px;
+        }
+        .table-container {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 16px 24px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        th {
+            background: #fafafa;
+            font-weight: 600;
+            color: #666;
+            font-size: 14px;
+        }
+        td {
+            font-size: 14px;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .status-pending { background: #fff7e6; color: #fa8c16; }
+        .status-processing { background: #e6f7ff; color: #1890ff; }
+        .status-review { background: #f6ffed; color: #52c41a; }
+        .status-done { background: #f6ffed; color: #52c41a; }
+        .status-failed { background: #fff1f0; color: #f5222d; }
+        .btn-action {
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+            margin-right: 8px;
+        }
+        .btn-action:hover {
+            border-color: #1890ff;
+            color: #1890ff;
+        }
+        .btn-action.primary {
+            background: #1890ff;
+            color: #fff;
+            border-color: #1890ff;
+        }
+        .type-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            background: #f0f0f0;
+            color: #666;
+        }
+        .type-award { background: #fff2f0; color: #cf1322; }
+        .type-case { background: #e6f7ff; color: #1890ff; }
+        .type-strategy { background: #f6ffed; color: #52c41a; }
+        .type-news { background: #fff7e6; color: #fa8c16; }
+        .type-china { background: #f9f0ff; color: #722ed1; }
+        .url-cell {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal.active {
+            display: flex;
+        }
+        .modal-content {
+            background: #fff;
+            border-radius: 8px;
+            width: 560px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        .modal-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .modal-close {
+            font-size: 20px;
+            cursor: pointer;
+            color: #999;
+        }
+        .modal-body {
+            padding: 24px;
+        }
+        .form-item {
+            margin-bottom: 20px;
+        }
+        .form-item label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+        .form-item select,
+        .form-item input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #d9d9d9;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .modal-footer {
+            padding: 16px 24px;
+            border-top: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+        .btn-cancel {
+            padding: 8px 16px;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 内容采集管理后台</h1>
+        <button class="btn-primary" onclick="openModal()">+ 新建采集任务</button>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <select id="filterType">
+                <option value="">全部类型</option>
+                <option value="award">奖项信息</option>
+                <option value="case">成功案例</option>
+                <option value="strategy">参赛策略</option>
+                <option value="news">赛事新闻</option>
+                <option value="china">中国获奖项目</option>
+            </select>
+            <select id="filterStatus">
+                <option value="">全部状态</option>
+                <option value="pending">待采集</option>
+                <option value="processing">采集中</option>
+                <option value="review">待审核</option>
+                <option value="done">已入库</option>
+                <option value="failed">失败</option>
+            </select>
+            <input type="text" placeholder="搜索奖项名称或网址..." id="searchInput">
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>内容类型</th>
+                        <th>奖项名称</th>
+                        <th>来源网址</th>
+                        <th>采集状态</th>
+                        <th>采集时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTable">
+                    <!-- 动态生成 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="taskModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>新建采集任务</h2>
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-item">
+                    <label>内容类型 *</label>
+                    <select id="taskType" onchange="onTypeChange()">
+                        <option value="">请选择</option>
+                        <option value="award">奖项信息</option>
+                        <option value="case">成功案例</option>
+                        <option value="strategy">参赛策略</option>
+                        <option value="news">赛事新闻</option>
+                        <option value="china">中国获奖项目</option>
+                    </select>
+                </div>
+                <div class="form-item" id="subTypeItem" style="display:none;">
+                    <label>子类型 *</label>
+                    <select id="subType" onchange="onSubTypeChange()">
+                        <option value="">请选择</option>
+                        <option value="new_award">新奖项录入</option>
+                        <option value="existing_update">已有奖项更新</option>
+                    </select>
+                </div>
+
+                <div class="form-item" id="updateYearItem" style="display:none;">
+                    <label>更新年份 *</label>
+                    <select id="updateYear">
+                        <option value="">请选择</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                    </select>
+                </div>
+                <div class="form-item" id="updateTypeItem" style="display:none;">
+                    <label>更新类型 *</label>
+                    <select id="updateType" onchange="onUpdateTypeChange()">
+                        <option value="">请选择</option>
+                        <option value="first">首次录入</option>
+                        <option value="annual">年度更新</option>
+                    </select>
+                </div>
+                <div class="form-item" id="awardSelectItem">
+                    <label>奖项名称 *</label>
+                    <select id="awardName">
+                        <option value="">请选择</option>
+                        <option value="MUSE">MUSE设计奖</option>
+                        <option value="RedDot">红点设计奖</option>
+                        <option value="iF">iF设计奖</option>
+                        <option value="IDEA">IDEA奖</option>
+                        <option value="other">其他</option>
+                    </select>
+                </div>
+                <div class="form-item" id="newAwardNameItem" style="display:none;">
+                    <label>新奖项名称 *</label>
+                    <input type="text" id="newAwardName" placeholder="请输入奖项官方名称">
+                </div>
+                <div class="form-item" id="displayNameItem" style="display:none;">
+                    <label>显示名称 *</label>
+                    <input type="text" id="displayName" placeholder="网站展示用中文名称，如：MUSE设计奖">
+                </div>
+                <div class="form-item" id="aliasesItem" style="display:none;">
+                    <label>别名</label>
+                    <input type="text" id="aliases" placeholder="多个别名用逗号分隔，如：MUSE奖,缪斯设计奖,缪斯奖">
+                </div>
+                <div class="form-item" id="chinaYearItem" style="display:none;">
+                    <label>年份 *</label>
+                    <select id="chinaYear">
+                        <option value="">请选择</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label>来源网址 *</label>
+                    <input type="text" id="sourceUrl" placeholder="https://...">
+                </div>
+                <div class="form-item">
+                    <label>备注</label>
+                    <input type="text" id="remark" placeholder="可选：如 2025年度获奖">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-cancel" onclick="closeModal()">取消</button>
+                <button class="btn-primary" onclick="addTask()">确认创建</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 模拟数据
+        let tasks = [
+            {
+                id: 1,
+                type: 'china',
+                typeName: '中国获奖项目',
+                award: 'MUSE设计奖',
+                url: 'https://design.museaward.com/winners',
+                status: 'pending',
+                statusName: '待采集',
+                time: '-'
+            },
+            {
+                id: 2,
+                type: 'case',
+                typeName: '成功案例',
+                award: '红点设计奖',
+                url: 'https://red-dot.org/winners',
+                status: 'review',
+                statusName: '待审核',
+                time: '2026-04-14 15:30'
+            },
+            {
+                id: 3,
+                type: 'news',
+                typeName: '赛事新闻',
+                award: '-',
+                url: 'https://ifdesign.com/news',
+                status: 'done',
+                statusName: '已入库',
+                time: '2026-04-13 10:15'
+            },
+            {
+                id: 4,
+                type: 'strategy',
+                typeName: '参赛策略',
+                award: '-',
+                url: 'https://medium.com/design-awards-guide',
+                status: 'failed',
+                statusName: '失败',
+                time: '2026-04-12 09:20'
+            }
+        ];
+
+        function renderTable() {
+            const tbody = document.getElementById('taskTable');
+            tbody.innerHTML = tasks.map(task => `
+                <tr>
+                    <td>${task.id}</td>
+                    <td><span class="type-tag type-${task.type}">${task.typeName}</span></td>
+                    <td>${task.award}</td>
+                    <td class="url-cell" title="${task.url}">${task.url}</td>
+                    <td><span class="status status-${task.status}">${task.statusName}</span></td>
+                    <td>${task.time}</td>
+                    <td>
+                        ${getActionButtons(task)}
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function getActionButtons(task) {
+            switch(task.status) {
+                case 'pending':
+                    return `<button class="btn-action primary" onclick="startCollect(${task.id})">开始采集</button>`;
+                case 'review':
+                    return `<button class="btn-action primary" onclick="goReview(${task.id})">去审核</button><button class="btn-action">查看</button>`;
+                case 'done':
+                    return `<button class="btn-action">查看</button>`;
+                case 'failed':
+                    return `<button class="btn-action primary" onclick="retryCollect(${task.id})">重试</button>`;
+                default:
+                    return `<button class="btn-action">查看</button>`;
+            }
+        }
+
+        function openModal() {
+            document.getElementById('taskModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('taskModal').classList.remove('active');
+            // 清空表单
+            document.getElementById('taskType').value = '';
+            document.getElementById('subType').value = '';
+            document.getElementById('awardName').value = '';
+            document.getElementById('newAwardName').value = '';
+            document.getElementById('displayName').value = '';
+            document.getElementById('aliases').value = '';
+            document.getElementById('updateYear').value = '';
+            document.getElementById('updateType').value = '';
+            document.getElementById('sourceUrl').value = '';
+            document.getElementById('remark').value = '';
+            // 重置显示
+            onTypeChange();
+        }
+
+        function addTask() {
+            const type = document.getElementById('taskType').value;
+            const url = document.getElementById('sourceUrl').value;
+            
+            if (!type || !url) {
+                alert('请填写必填项');
+                return;
+            }
+
+            const typeMap = {
+                'award': '奖项信息',
+                'case': '成功案例',
+                'strategy': '参赛策略',
+                'news': '赛事新闻',
+                'china': '中国获奖项目'
+            };
+
+            let awardName = '';
+            let extraInfo = '';
+
+            if (type === 'award') {
+                const subType = document.getElementById('subType').value;
+                if (!subType) {
+                    alert('请选择子类型');
+                    return;
+                }
+
+                const subTypeMap = {
+                    'new_award': '新奖项录入',
+                    'existing_update': '已有奖项更新'
+                };
+
+                if (subType === 'new_award') {
+                    // 新奖项录入
+                    const newAward = document.getElementById('newAwardName').value;
+                    const displayName = document.getElementById('displayName').value;
+                    if (!newAward || !displayName) {
+                        alert('请填写新奖项名称和显示名称');
+                        return;
+                    }
+                    awardName = displayName;
+                    extraInfo = ` [${subTypeMap[subType]}]`;
+                } else if (subType === 'existing_update') {
+                    // 已有奖项更新
+                    const award = document.getElementById('awardName').value;
+                    const updateYear = document.getElementById('updateYear').value;
+                    const updateType = document.getElementById('updateType').value;
+                    if (!award || !updateYear || !updateType) {
+                        alert('请选择奖项名称、更新年份和更新类型');
+                        return;
+                    }
+                    const awardMap = {
+                        'MUSE': 'MUSE设计奖',
+                        'RedDot': '红点设计奖',
+                        'iF': 'iF设计奖',
+                        'IDEA': 'IDEA奖',
+                        'other': '其他'
+                    };
+                    const updateTypeMap = {'first': '首次录入', 'annual': '年度更新'};
+                    awardName = awardMap[award];
+                    extraInfo = ` [${updateYear}年${updateTypeMap[updateType]}]`;
+                }
+            } else if (type === 'china') {
+                // 中国获奖项目
+                const award = document.getElementById('awardName').value;
+                const chinaYear = document.getElementById('chinaYear').value;
+                if (!award || !chinaYear) {
+                    alert('请选择奖项名称和年份');
+                    return;
+                }
+                const awardMap = {
+                    'MUSE': 'MUSE设计奖',
+                    'RedDot': '红点设计奖',
+                    'iF': 'iF设计奖',
+                    'IDEA': 'IDEA奖',
+                    'other': '其他'
+                };
+                awardName = awardMap[award];
+                extraInfo = ` [${chinaYear}年]`;
+            } else {
+                // 其他类型（成功案例、参赛策略、赛事新闻）
+                const award = document.getElementById('awardName').value;
+                if (!award) {
+                    alert('请选择奖项名称');
+                    return;
+                }
+                const awardMap = {
+                    'MUSE': 'MUSE设计奖',
+                    'RedDot': '红点设计奖',
+                    'iF': 'iF设计奖',
+                    'IDEA': 'IDEA奖',
+                    'other': '其他'
+                };
+                awardName = awardMap[award];
+            }
+
+            const newTask = {
+                id: tasks.length + 1,
+                type: type,
+                typeName: typeMap[type],
+                award: awardName + extraInfo,
+                url: url,
+                status: 'pending',
+                statusName: '待采集',
+                time: '-'
+            };
+
+            tasks.unshift(newTask);
+            renderTable();
+            closeModal();
+            
+            // 清空表单
+            document.getElementById('taskType').value = '';
+            document.getElementById('subType').value = '';
+            document.getElementById('awardName').value = '';
+            document.getElementById('newAwardName').value = '';
+            document.getElementById('displayName').value = '';
+            document.getElementById('aliases').value = '';
+            document.getElementById('updateYear').value = '';
+            document.getElementById('updateType').value = '';
+            document.getElementById('chinaYear').value = '';
+            document.getElementById('sourceUrl').value = '';
+            document.getElementById('remark').value = '';
+            
+            // 重置显示
+            onTypeChange();
+        }
+
+        function startCollect(id) {
+            const task = tasks.find(t => t.id === id);
+            if (task) {
+                task.status = 'processing';
+                task.statusName = '采集中';
+                renderTable();
+                
+                // 模拟采集完成
+                setTimeout(() => {
+                    task.status = 'review';
+                    task.statusName = '待审核';
+                    task.time = new Date().toLocaleString('zh-CN');
+                    renderTable();
+                    alert(`采集完成！共采集到 15 条中国获奖项目，请前往审核`);
+                }, 2000);
+            }
+        }
+
+        function goReview(id) {
+            alert(`打开审核页面 - 任务ID: ${id}\n\n预览内容：\n- 最高等级（完整采集）：3条\n- 次高等级（完整采集）：5条\n- 第三等级（列表采集）：7条`);
+        }
+
+        function retryCollect(id) {
+            startCollect(id);
+        }
+
+        function onTypeChange() {
+            const type = document.getElementById('taskType').value;
+            const subTypeItem = document.getElementById('subTypeItem');
+            const updateYearItem = document.getElementById('updateYearItem');
+            const updateTypeItem = document.getElementById('updateTypeItem');
+            const awardSelectItem = document.getElementById('awardSelectItem');
+            const chinaYearItem = document.getElementById('chinaYearItem');
+            
+            // 重置所有字段
+            subTypeItem.style.display = 'none';
+            updateYearItem.style.display = 'none';
+            updateTypeItem.style.display = 'none';
+            chinaYearItem.style.display = 'none';
+            document.getElementById('subType').value = '';
+            document.getElementById('updateYear').value = '';
+            document.getElementById('updateType').value = '';
+            document.getElementById('chinaYear').value = '';
+            
+            // 重置奖项名称显示
+            resetAwardNameField();
+            
+            if (type === 'award') {
+                subTypeItem.style.display = 'block';
+            } else if (type === 'china') {
+                // 中国获奖项目：显示奖项选择 + 年份
+                awardSelectItem.style.display = 'block';
+                chinaYearItem.style.display = 'block';
+            } else if (type === 'case' || type === 'strategy' || type === 'news') {
+                // 成功案例、参赛策略、赛事新闻：只显示奖项选择
+                awardSelectItem.style.display = 'block';
+            }
+        }
+
+        function onSubTypeChange() {
+            const subType = document.getElementById('subType').value;
+            const fieldLevelItem = document.getElementById('fieldLevelItem');
+            const updateYearItem = document.getElementById('updateYearItem');
+            const updateTypeItem = document.getElementById('updateTypeItem');
+            const awardSelectItem = document.getElementById('awardSelectItem');
+            const newAwardNameItem = document.getElementById('newAwardNameItem');
+            const displayNameItem = document.getElementById('displayNameItem');
+            const aliasesItem = document.getElementById('aliasesItem');
+            
+            // 重置所有字段显示
+            updateYearItem.style.display = 'none';
+            updateTypeItem.style.display = 'none';
+            awardSelectItem.style.display = 'none';
+            newAwardNameItem.style.display = 'none';
+            displayNameItem.style.display = 'none';
+            aliasesItem.style.display = 'none';
+            
+            if (subType === 'existing_update') {
+                // 已有奖项更新：显示年份 + 更新类型（奖项名称由更新类型控制）
+                updateYearItem.style.display = 'block';
+                updateTypeItem.style.display = 'block';
+            } else if (subType === 'new_award') {
+                // 新奖项录入：显示输入框 + 显示名称 + 别名
+                newAwardNameItem.style.display = 'block';
+                displayNameItem.style.display = 'block';
+                aliasesItem.style.display = 'block';
+            }
+        }
+
+        function onUpdateTypeChange() {
+            const updateType = document.getElementById('updateType').value;
+            const awardSelectItem = document.getElementById('awardSelectItem');
+            const newAwardNameItem = document.getElementById('newAwardNameItem');
+            const displayNameItem = document.getElementById('displayNameItem');
+            const aliasesItem = document.getElementById('aliasesItem');
+            
+            // 重置奖项名称显示
+            awardSelectItem.style.display = 'none';
+            newAwardNameItem.style.display = 'none';
+            displayNameItem.style.display = 'none';
+            aliasesItem.style.display = 'none';
+            
+            if (updateType === 'first') {
+                // 首次录入：显示新奖项输入框
+                newAwardNameItem.style.display = 'block';
+                displayNameItem.style.display = 'block';
+                aliasesItem.style.display = 'block';
+            } else if (updateType === 'annual') {
+                // 年度更新：显示已有奖项下拉框
+                awardSelectItem.style.display = 'block';
+            }
+        }
+
+        function resetAwardNameField() {
+            document.getElementById('awardSelectItem').style.display = 'none';
+            document.getElementById('newAwardNameItem').style.display = 'none';
+            document.getElementById('displayNameItem').style.display = 'none';
+            document.getElementById('aliasesItem').style.display = 'none';
+            document.getElementById('awardName').value = '';
+            document.getElementById('newAwardName').value = '';
+            document.getElementById('displayName').value = '';
+            document.getElementById('aliases').value = '';
+        }
+
+        // 初始化
+        renderTable();
+    </script>
+</body>
+</html>

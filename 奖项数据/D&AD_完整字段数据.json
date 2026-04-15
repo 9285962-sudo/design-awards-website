@@ -1,0 +1,341 @@
+{
+  "award_id": "dandad_awards",
+  "award_name_cn": "D&AD大奖",
+  "award_name_en": "D&AD Awards",
+  "award_name_alias": ["英国D&AD", "黄铅笔奖", "黑铅笔奖"],
+  "award_type": "国际设计奖",
+  "award_level": "顶级",
+  "organizer": "D&AD",
+  "organizer_full_name": "Design and Art Direction",
+  "organizer_type": "非营利组织",
+  "country": "英国",
+  "city": "伦敦",
+  "official_website": "https://www.dandad.org/",
+  "founded_year": 1962,
+  "slogan": "Where Design Excellence Meets Global Recognition",
+  "description": "D&AD是全球创意设计领域最具影响力的奖项之一，以严格的评审标准著称，只有最具创意和影响力的作品才能获得认可。",
+  "current_season": "2026",
+  "entry_status": "官方未公布",
+  
+  "deadlines": {
+    "early_bird": {
+      "date": "2026-02-11",
+      "fee_professional": null,
+      "fee_student": null,
+      "discount": "20%折扣"
+    },
+    "super_early_bird": {
+      "date": "2026-01-14",
+      "fee_professional": null,
+      "fee_student": null,
+      "discount": "30%折扣"
+    },
+    "regular": {
+      "date": "2026-03-19",
+      "fee_professional": null,
+      "fee_student": null
+    },
+    "final": {
+      "date": "2026-03-26",
+      "fee_professional": null,
+      "fee_student": null
+    },
+    "extended": {
+      "date": "2026-03-31",
+      "fee_professional": null,
+      "fee_student": null
+    },
+    "results_announcement": "2026-05-20"
+  },
+  
+  "entry_fees": {
+    "currency": "GBP",
+    "currency_note": "价格不含增值税(VAT)，仅英国参赛者需支付VAT",
+    "professional": {
+      "impact_sustained_impact": 406,
+      "future_impact": 25,
+      "standard_categories": "按类别定价，详见官网",
+      "early_bird_discount": "30%",
+      "regular_discount": "20%",
+      "small_business_discount": "30%（符合条件的小型企业/自由职业者）"
+    },
+    "student": {
+      "note": "学生通过New Blood Awards参赛",
+      "new_blood_fee": 15,
+      "new_blood_free_option": "完成5-10分钟调查问卷可免费参赛"
+    },
+    "additional_costs": "不同类别费用不同，Impact类别£406起，Future Impact类别£25起",
+    "payment_methods": ["信用卡", "银行转账(BACS)"],
+    "payment_note": "不接受支票，银行转账需在报名后7天内完成"
+  },
+  
+  "categories": [
+    {
+      "name": "Impact",
+      "name_cn": "影响力",
+      "description": "关注作品的社会影响力和可持续性"
+    },
+    {
+      "name": "Design",
+      "name_cn": "设计",
+      "description": "涵盖各类设计领域"
+    },
+    {
+      "name": "Branding",
+      "name_cn": "品牌",
+      "description": "品牌策略和视觉识别"
+    },
+    {
+      "name": "Advertising",
+      "name_cn": "广告",
+      "description": "广告创意和执行"
+    },
+    {
+      "name": "Craft",
+      "name_cn": "工艺",
+      "description": "创意工艺和技术"
+    },
+    {
+      "name": "Health & Wellbeing",
+      "name_cn": "健康与福祉",
+      "description": "健康相关创意作品"
+    },
+    {
+      "name": "Engagement & Experience",
+      "name_cn": "互动与体验",
+      "description": "用户体验和互动设计"
+    }
+  ],
+  
+  "eligibility": {
+    "professional": {
+      "allowed": true,
+      "requirements": "专业设计师、创意机构、品牌方"
+    },
+    "student": {
+      "allowed": true,
+      "requirements": "在读学生，需通过New Blood Awards参赛",
+      "note": "学生通过D&AD New Blood Awards参赛"
+    },
+    "company": {
+      "allowed": true,
+      "requirements": "注册公司或机构"
+    },
+    "individual": {
+      "allowed": true,
+      "requirements": "个人设计师"
+    },
+    "age_limit": "官方未公布",
+    "nationality_restrictions": "无限制，全球开放",
+    "work_published_requirement": "作品需在过去两年内创作或发布"
+  },
+  
+  "submission_requirements": {
+    "images": {
+      "required": true,
+      "min_count": 1,
+      "max_count": null,
+      "format": ["JPEG", "PNG"],
+      "resolution": "官方未公布",
+      "max_size_mb": null,
+      "dpi": null,
+      "background": "官方未公布"
+    },
+    "video": {
+      "required": false,
+      "allowed": true,
+      "format": ["MP4"],
+      "max_size_mb": null,
+      "max_duration": null,
+      "resolution": "官方未公布"
+    },
+    "documents": {
+      "required": false,
+      "allowed": true,
+      "format": ["PDF"],
+      "max_size_mb": null
+    },
+    "physical_samples": {
+      "required": false,
+      "allowed": "官方未公布"
+    },
+    "description": {
+      "required": true,
+      "language": "英文",
+      "max_length": null
+    }
+  },
+  
+  "judging_criteria": [
+    {
+      "criterion": "创意卓越性",
+      "weight": "核心标准",
+      "description": "原创性、创新程度"
+    },
+    {
+      "criterion": "执行力",
+      "weight": "重要",
+      "description": "作品完成质量和工艺水平"
+    },
+    {
+      "criterion": "影响力",
+      "weight": "重要",
+      "description": "作品产生的实际影响"
+    },
+    {
+      "criterion": "商业效果",
+      "weight": "重要",
+      "description": "商业价值和ROI"
+    }
+  ],
+  
+  "judging_process": "官方未公布详细流程",
+  "judging_panel_size": null,
+  "judging_panel_composition": "全球顶尖创意从业者",
+  
+  "award_levels": [
+    {
+      "level": "Black Pencil",
+      "name_cn": "黑铅笔奖",
+      "description": "授予开创性的作品。每年仅颁发极少数（甚至可能没有），代表创意界的最高荣誉。",
+      "trophy": "黑色铅笔奖杯",
+      "certificate": true,
+      "rarity": "极为罕见"
+    },
+    {
+      "level": "White Pencil",
+      "name_cn": "白铅笔奖",
+      "description": "授予利用创意力量推动行为、环境、社会或政策变革的特殊项目。在Impact和Sustained Impact类别中替代黄铅笔。",
+      "trophy": "白色铅笔奖杯",
+      "certificate": true,
+      "rarity": "罕见"
+    },
+    {
+      "level": "Yellow Pencil",
+      "name_cn": "黄铅笔奖",
+      "description": "授予实现真正创意卓越的杰出作品。这是定义职业生涯的奖项，在业内享有崇高声誉。",
+      "trophy": "黄色铅笔奖杯",
+      "certificate": true,
+      "rarity": "稀有"
+    },
+    {
+      "level": "Graphite Pencil",
+      "name_cn": "石墨铅笔奖",
+      "description": "授予脱颖而出的杰出作品，有资格竞逐黄铅笔。此奖项是真正创意才华的标志。",
+      "trophy": "石墨色铅笔奖杯",
+      "certificate": true,
+      "rarity": "较稀有"
+    },
+    {
+      "level": "Wood Pencil",
+      "name_cn": "木铅笔奖",
+      "description": "表彰当年在广告、设计、工艺、文化和影响力方面的最佳作品。这一荣誉极具分量，通常代表了在其他奖项中能获得最高奖的作品。",
+      "trophy": "木质铅笔奖杯",
+      "certificate": true,
+      "rarity": "相对常见"
+    },
+    {
+      "level": "Shortlist",
+      "name_cn": "入围作品",
+      "description": "表现出价值，值得认可，属于参赛作品中的顶尖梯队。",
+      "trophy": "无",
+      "certificate": false,
+      "rarity": "较常见"
+    },
+    {
+      "level": "Future Impact",
+      "name_cn": "未来影响力奖",
+      "description": "授予处于早期阶段、有潜力通过创意驱动变革的项目。在Future Impact类别中颁发。",
+      "trophy": "铅笔奖杯",
+      "certificate": true,
+      "rarity": "官方未公布"
+    },
+    {
+      "level": "President's Award",
+      "name_cn": "主席奖",
+      "description": "由D&AD主席每年选出的行业典范，表彰其鼓舞人心的贡献。",
+      "trophy": "特殊奖杯",
+      "certificate": true,
+      "rarity": "每年仅1个"
+    }
+  ],
+  
+  "winner_benefits": {
+    "certificate": {
+      "digital": true,
+      "physical": true
+    },
+    "trophy": {
+      "included": true,
+      "description": "D&AD Pencil奖杯"
+    },
+    "badge": {
+      "included": true,
+      "usage_rights": "可用于网站、名片、宣传材料"
+    },
+    "gallery": {
+      "online": true,
+      "url": "https://www.dandad.org/awards/"
+    },
+    "yearbook": {
+      "included": true,
+      "description": "获奖作品收录于D&AD年鉴"
+    },
+    "media_exposure": true,
+    "networking": {
+      "events": ["D&AD Festival", "颁奖典礼"],
+      "community": true
+    },
+    "prize_money": null
+  },
+  
+  "policies": {
+    "modification": {
+      "allowed": "官方未公布",
+      "deadline": "官方未公布"
+    },
+    "withdrawal": {
+      "allowed": "官方未公布",
+      "deadline": "官方未公布",
+      "refund": "官方未公布"
+    },
+    "refund": {
+      "policy": "官方未公布"
+    },
+    "copyright": {
+      "ownership": "参赛者保留作品版权",
+      "usage_rights": "D&AD获得宣传使用权"
+    },
+    "confidentiality": "官方未公布"
+  },
+  
+  "statistics": {
+    "total_entries_2025": null,
+    "win_rate": null,
+    "previous_winners_count": null,
+    "global_ranking": null
+  },
+  
+  "previous_winners": {
+    "gallery_url": "https://www.dandad.org/awards/",
+    "searchable": true
+  },
+  
+  "contact": {
+    "address": "D&AD, 64 Cheshire Street, London, E2 6EH, UK",
+    "website": "https://www.dandad.org/about/contact/",
+    "email": null,
+    "phone": null,
+    "social_media": {
+      "instagram": "@dandad",
+      "twitter": "@dandad",
+      "linkedin": "D&AD",
+      "facebook": "D&AD"
+    }
+  },
+  
+  "data_source": "D&AD官网 https://www.dandad.org/",
+  "data_collection_date": "2026-04-05",
+  "data_completeness": "部分",
+  "notes": "参赛费用、截止日期等关键信息需访问具体奖项页面获取，官网首页未完整展示"
+}

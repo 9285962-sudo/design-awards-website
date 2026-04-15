@@ -1,0 +1,132 @@
+<view class="container">
+  <!-- 头部区域 -->
+  <view class="header">
+    <view class="header-bg"></view>
+    <view class="header-content">
+      <view class="welcome-text">
+        <text class="greeting">你好，设计师</text>
+        <text class="subtitle">让好设计被世界看见</text>
+      </view>
+      <view class="stats-bar">
+        <view class="stat-item">
+          <text class="stat-num">100+</text>
+          <text class="stat-label">国际奖项</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-num">17</text>
+          <text class="stat-label">个领域</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-num">AI</text>
+          <text class="stat-label">智能推荐</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 快速入口 -->
+  <view class="quick-actions">
+    <view class="action-card" bindtap="goToChat">
+      <view class="action-icon">
+        <text class="icon">💬</text>
+      </view>
+      <text class="action-title">智能咨询</text>
+      <text class="action-desc">AI助手为你推荐</text>
+    </view>
+    <view class="action-card" bindtap="browseAwards">
+      <view class="action-icon">
+        <text class="icon">🏆</text>
+      </view>
+      <text class="action-title">浏览奖项</text>
+      <text class="action-desc">查看全部奖项</text>
+    </view>
+  </view>
+
+  <!-- 热门奖项推荐 -->
+  <view class="section">
+    <view class="section-header">
+      <text class="section-title">热门奖项</text>
+      <text class="section-more" bindtap="browseAwards">查看全部 ></text>
+    </view>
+    
+    <block wx:for="{{hotAwards}}" wx:key="award_id">
+      <view class="award-card" bindtap="goToAwardDetail" data-id="{{item.award_id}}">
+        <view class="award-header">
+          <view class="award-logo">
+            <text class="logo-text">{{item.award_name_short[0]}}</text>
+          </view>
+          <view class="award-info">
+            <text class="award-name">{{item.award_name_cn}}</text>
+            <text class="award-name-en">{{item.award_name_short}}</text>
+          </view>
+          <view class="award-badge">
+            <text class="badge-text">热门</text>
+          </view>
+        </view>
+        
+        <view class="award-tags">
+          <text class="tag tag-primary">{{item.category_main}}</text>
+          <text class="tag tag-success">{{item.category_sub.length}}+参赛类别</text>
+          <text class="tag tag-warning">第{{item.edition_current}}届</text>
+        </view>
+        
+        <view class="award-footer">
+          <view class="fee-info">
+            <text class="fee-label">参赛费用</text>
+            <text class="fee-value">{{item.fee_currency === 'USD' ? '$' : '£'}}{{item.fee_final || '?'}}起</text>
+          </view>
+          <view class="deadline-info">
+            <text class="deadline-label">剩余{{item.daysLeft}}天</text>
+            <text class="deadline-value">{{item.deadline_final}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <!-- 服务介绍 -->
+  <view class="section">
+    <view class="section-header">
+      <text class="section-title">专业服务</text>
+    </view>
+    
+    <view class="service-list">
+      <view class="service-item">
+        <view class="service-icon">🎯</view>
+        <view class="service-content">
+          <text class="service-title">精准选奖</text>
+          <text class="service-desc">根据你的预算、时间、领域，推荐最适合的奖项</text>
+        </view>
+      </view>
+      
+      <view class="service-item">
+        <view class="service-icon">📝</view>
+        <view class="service-content">
+          <text class="service-title">材料优化</text>
+          <text class="service-desc">专业文案撰写、图片优化，提升获奖概率</text>
+        </view>
+      </view>
+      
+      <view class="service-item">
+        <view class="service-icon">📊</view>
+        <view class="service-content">
+          <text class="service-title">策略规划</text>
+          <text class="service-desc">多奖项组合策略，最大化作品曝光</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部CTA -->
+  <view class="cta-section">
+    <text class="cta-title">不确定该投哪个奖？</text>
+    <text class="cta-desc">和AI助手聊聊，获取专业建议</text>
+    <button class="btn-gradient" bindtap="goToChat">
+      <text>开始咨询</text>
+      <text class="btn-arrow">→</text>
+    </button>
+  </view>
+
+  <!-- 底部安全区域 -->
+  <view class="safe-area-bottom"></view>
+</view>

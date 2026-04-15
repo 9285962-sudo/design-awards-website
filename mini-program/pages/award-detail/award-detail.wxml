@@ -1,0 +1,185 @@
+<view class="container">
+  <!-- 头部信息 -->
+  <view class="header">
+    <view class="award-logo-large">
+      <text class="logo-text-large">{{award.award_name_short ? award.award_name_short[0] : 'A'}}</text>
+    </view>
+    <text class="award-name-large">{{award.award_name_cn}}</text>
+    <text class="award-name-en-large">{{award.award_name_en}}</text>
+    <view class="award-tags">
+      <text class="tag tag-primary">{{award.prestige_level || '知名'}}</text>
+      <text class="tag tag-success">{{award.category_main}}</text>
+      <text class="tag tag-warning">{{award.country}}</text>
+    </view>
+  </view>
+
+  <!-- 关键信息卡片 -->
+  <view class="card">
+    <view class="card-title">关键信息</view>
+    <view class="info-item">
+      <text class="info-label">主办机构</text>
+      <text class="info-value">{{award.organizer}}</text>
+    </view>
+    <view class="info-item">
+      <text class="info-label">国家/地区</text>
+      <text class="info-value">{{award.country}} {{award.city}}</text>
+    </view>
+    <view class="info-item">
+      <text class="info-label">官网</text>
+      <text class="info-value link" bindtap="copyWebsite">{{award.website || '暂无'}}</text>
+    </view>
+    <view class="info-item">
+      <text class="info-label">参赛周期</text>
+      <text class="info-value">{{award.award_cycle}}</text>
+    </view>
+  </view>
+
+  <!-- 参赛费用 -->
+  <view class="card" wx:if="{{feeList.length > 0}}">
+    <view class="card-title">参赛费用</view>
+    <view class="fee-timeline">
+      <view 
+        wx:for="{{feeList}}" 
+        wx:key="name"
+        class="fee-item {{item.status === '即将截止' ? 'active' : item.status === '已截止' ? 'expired' : ''}}"
+      >
+        <view class="fee-dot"></view>
+        <view class="fee-content">
+          <view class="fee-header">
+            <text class="fee-name">{{item.name}}</text>
+            <text class="fee-status">{{item.status}}</text>
+          </view>
+          <view class="fee-details">
+            <text class="fee-amount">{{item.amount}}</text>
+            <text class="fee-deadline">截止：{{item.deadline}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fee-note" wx:if="{{award.fee_notes}}">
+      <text class="note-icon">💡</text>
+      <text class="note-text">{{award.fee_notes}}</text>
+    </view>
+  </view>
+
+  <!-- 时间节点 -->
+  <view class="card" wx:if="{{timelineList.length > 0}}">
+    <view class="card-title">时间节点</view>
+    <view class="timeline">
+      <view 
+        wx:for="{{timelineList}}" 
+        wx:key="label"
+        class="timeline-item {{item.highlight ? 'highlight' : ''}}"
+      >
+        <text class="timeline-label">{{item.label}} {{item.highlight ? '⚠️' : ''}}</text>
+        <text class="timeline-value">{{item.value}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 参赛类别 -->
+  <view class="card" wx:if="{{categoryList.length > 0}}">
+    <view class="card-title">参赛类别（{{categoryList.length}}个）</view>
+    <view class="category-list">
+      <view 
+        wx:for="{{categoryList}}" 
+        wx:key="*this"
+        class="category-item"
+      >
+        <text class="category-name">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 参赛要求 -->
+  <view class="card" wx:if="{{requirementsList.length > 0}}">
+    <view class="card-title">参赛要求</view>
+    <view class="requirement-list">
+      <view class="requirement-item" wx:for="{{requirementsList}}" wx:key="label">
+        <text class="req-label">{{item.label}}</text>
+        <text class="req-value">{{item.value}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 作品规格 -->
+  <view class="card" wx:if="{{specList.length > 0}}">
+    <view class="card-title">作品规格</view>
+    <view class="spec-section" wx:for="{{specList}}" wx:key="title">
+      <view class="spec-title">{{item.title}}</view>
+      <view class="spec-list">
+        <text class="spec-item" wx:for="{{item.items}}" wx:for-item="spec" wx:key="*this">{{spec}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 评审标准 -->
+  <view class="card" wx:if="{{criteriaList.length > 0}}">
+    <view class="card-title">评审标准</view>
+    <view class="criteria-list">
+      <view 
+        wx:for="{{criteriaList}}" 
+        wx:key="name"
+        class="criteria-item"
+      >
+        <view class="criteria-info">
+          <text class="criteria-name">{{item.name}}</text>
+          <text class="criteria-weight">{{item.weight}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 奖项等级 -->
+  <view class="card" wx:if="{{awardLevels.length > 0}}">
+    <view class="card-title">奖项等级（{{awardLevels.length}}个）</view>
+    <view class="level-list">
+      <view 
+        wx:for="{{awardLevels}}" 
+        wx:key="name"
+        class="level-item"
+      >
+        <view class="level-badge">{{item.name}}</view>
+        <text class="level-desc">{{item.description}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 获奖权益 -->
+  <view class="card" wx:if="{{benefitsList.length > 0}}">
+    <view class="card-title">获奖权益</view>
+    <view class="benefit-list">
+      <view 
+        wx:for="{{benefitsList}}" 
+        wx:key="*this"
+        class="benefit-item"
+      >
+        <text class="benefit-text">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 专家建议 -->
+  <view class="card expert-card" wx:if="{{award.internal_notes}}">
+    <view class="card-title">💡 专家建议</view>
+    <view class="expert-content">
+      <view class="expert-section">
+        <text class="expert-label">难度评价</text>
+        <text class="expert-text">{{award.difficulty_level}} - {{award.internal_notes}}</text>
+      </view>
+      <view class="expert-section" wx:if="{{award.recommendation_reason}}">
+        <text class="expert-label">推荐理由</text>
+        <text class="expert-text">{{award.recommendation_reason}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部按钮 -->
+  <view class="footer-actions">
+    <button class="btn-outline" bindtap="consultExpert">咨询专家</button>
+    <button class="btn-gradient" bindtap="startApplication">开始申报</button>
+  </view>
+
+  <!-- 底部安全区域 -->
+  <view class="safe-area-bottom"></view>
+</view>

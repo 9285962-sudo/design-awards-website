@@ -1,0 +1,48 @@
+{
+  "total_cases": 1,
+  "updated_at": "2026-04-13",
+  "cases": [
+    {
+      "id": "case-001",
+      "project_name": "南沙国际邮轮码头综合体",
+      "project_name_en": "Nansha International Cruise Terminal Complex",
+      "designer_name": "许成汉、胡曼莹、邹天航、王一丁、马千程、黄辉辉、谢佩雯",
+      "designer_company": "IDC国际设计中心（广东省建筑设计研究院有限公司）",
+      "designer_location": "广州",
+      "project_location": "广东南沙自贸区",
+      "project_area": "36万平方米",
+      "project_year": 2016,
+      "awards": [
+        {
+          "award_name": "BLT建筑设计奖",
+          "award_name_en": "BLT BUILT DESIGN AWARDS",
+          "award_level": "大奖",
+          "award_year": 2025,
+          "category": "建筑设计"
+        },
+        {
+          "award_name": "WDA世界设计奖",
+          "award_name_en": "World Design Awards",
+          "award_level": "大奖",
+          "award_year": 2025,
+          "category": "建筑设计"
+        }
+      ],
+      "project_description": "项目位于广东南沙自贸区核心地段，总建筑面积36万平方米，设有22.5万吨级与10万吨级双泊位。设计理念为'丝绸之路，鲸舟扬帆'，建筑主体宛如蓄势待发的巨轮，流线型曲面勾勒出乘风破浪姿态。",
+      "design_concept": "丝绸之路，鲸舟扬帆",
+      "key_features": [
+        "参数化设计的多维曲线飘带，以丝绸为灵感",
+        "分离式进出港流线设计，全程无交叉拥堵",
+        "60余台自助通关设备，单旅客通关时间压缩至30秒内",
+        "空气动力学模拟优化，有效分散强海风荷载",
+        "顶层生态开放花园，种植本土植物"
+      ],
+      "service_highlight": "精准把握国际奖项评审标准，突出项目在大湾区基建中的战略地位与创新设计价值",
+      "testimonial": "",
+      "project_image": "",
+      "article_url": "https://mp.weixin.qq.com/s/m9HtdScwXSqXEVJnNnANHw",
+      "is_featured": true,
+      "created_at": "2026-04-13"
+    }
+  ]
+}

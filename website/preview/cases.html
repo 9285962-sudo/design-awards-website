@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>成功案例 | 设计能—国际设计大奖申报</title>
+  <meta name="description" content="设计能代理申报成功案例，200+项目斩获MUSE、IDA、D&AD等国际设计大奖。专业代理服务，助力设计师赢得国际认可。">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    :root {
+      --primary-gold: #B8860B;
+      --primary-gold-light: #D4AF37;
+      --bg-dark: #1A1A1A;
+      --bg-darker: #0F0F0F;
+      --bg-gray: #2C2C2C;
+      --bg-content: #252525;
+      --text-light: #FAF9F6;
+      --text-gray: #AAAAAA;
+      --border-gold: rgba(184, 134, 11, 0.3);
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background-color: var(--bg-darker);
+      color: #FAF9F6;
+      line-height: 1.6;
+    }
+    
+    /* Header */
+    .header {
+      background-color: var(--bg-dark);
+      border-bottom: 1px solid #333;
+      padding: 16px 0;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #D4AF37;
+      text-decoration: none;
+    }
+    
+    .nav {
+      display: flex;
+      gap: 32px;
+    }
+    
+    .nav a {
+      color: #AAAAAA;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    
+    .nav a:hover {
+      color: #D4AF37;
+    }
+    
+    /* Page Title */
+    .page-header {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(184, 134, 11, 0.05) 100%);
+      border-bottom: 1px solid rgba(184, 134, 11, 0.2);
+      padding: 48px 0;
+      text-align: center;
+    }
+    
+    .page-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 12px;
+    }
+    
+    .page-subtitle {
+      font-size: 16px;
+      color: #888;
+    }
+    
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 32px;
+    }
+    
+    .stat-item {
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 36px;
+      font-weight: bold;
+      color: #D4AF37;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      color: #888;
+      margin-top: 4px;
+    }
+    
+    /* Filter */
+    .filter-section {
+      background-color: var(--bg-dark);
+      padding: 24px 0;
+      border-bottom: 1px solid #333;
+    }
+    
+    .filter-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .filter-btn {
+      padding: 8px 16px;
+      background-color: transparent;
+      border: 1px solid #444;
+      border-radius: 20px;
+      color: #888;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover,
+    .filter-btn.active {
+      background-color: rgba(212, 175, 55, 0.1);
+      border-color: #D4AF37;
+      color: #D4AF37;
+    }
+    
+    /* Cases Grid */
+    .cases-section {
+      padding: 48px 0;
+    }
+    
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    .case-card {
+      background-color: var(--bg-content);
+      border: 1px solid #333;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    
+    .case-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(184, 134, 11, 0.3);
+    }
+    
+    .case-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background-color: #1A1A1A;
+    }
+    
+    .case-image-placeholder {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.6);
+      font-size: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    /* 项目特色渐变背景 */
+    .case-image-placeholder.nansha {
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
+    }
+    
+    .case-image-placeholder.yunqi {
+      background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+    }
+    
+    .case-image-placeholder.light {
+      background: linear-gradient(135deg, #232526 0%, #414345 50%, #8e8e8e 100%);
+    }
+    
+    .case-image-placeholder::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      opacity: 0.5;
+    }
+    
+    .case-image-placeholder .placeholder-content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+    
+    .case-image-placeholder .placeholder-icon {
+      font-size: 48px;
+      margin-bottom: 8px;
+      opacity: 0.8;
+    }
+    
+    .case-image-placeholder .placeholder-text {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+    
+    .case-content {
+      padding: 20px;
+    }
+    
+    .case-awards {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .award-badge {
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    
+    .award-badge.blt {
+      background-color: rgba(212, 175, 55, 0.15);
+      color: #D4AF37;
+    }
+    
+    .award-badge.wda {
+      background-color: rgba(100, 149, 237, 0.15);
+      color: #6495ED;
+    }
+    
+    .case-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    
+    .case-company {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 12px;
+    }
+    
+    .case-description {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    
+    .case-highlight {
+      background-color: rgba(212, 175, 55, 0.05);
+      border-left: 3px solid #D4AF37;
+      padding: 12px;
+      font-size: 12px;
+      color: #888;
+      line-height: 1.5;
+    }
+    
+    .case-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #333;
+    }
+    
+    .case-location {
+      font-size: 12px;
+      color: #666;
+    }
+    
+    .case-link {
+      font-size: 12px;
+      color: #D4AF37;
+      text-decoration: none;
+    }
+    
+    .case-link:hover {
+      text-decoration: underline;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(184, 134, 11, 0.05) 100%);
+      border-top: 1px solid rgba(184, 134, 11, 0.2);
+      padding: 64px 0;
+      text-align: center;
+    }
+    
+    .cta-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #FAF9F6;
+      margin-bottom: 12px;
+    }
+    
+    .cta-desc {
+      font-size: 15px;
+      color: #888;
+      margin-bottom: 32px;
+    }
+    
+    .btn-primary {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #D4AF37;
+      color: #0F0F0F;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 15px;
+      transition: background-color 0.2s;
+    }
+    
+    .btn-primary:hover {
+      background-color: #B8860B;
+    }
+    
+    /* Footer */
+    .footer {
+      background-color: var(--bg-dark);
+      border-top: 1px solid #333;
+      padding: 24px 0;
+      text-align: center;
+    }
+    
+    .footer-text {
+      font-size: 13px;
+      color: #666;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .cases-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .stats-bar {
+        flex-direction: column;
+        gap: 24px;
+      }
+      
+      .nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">设计能</a>
+        <nav class="nav">
+          <a href="index.html">首页</a>
+          <a href="index.html#awards">奖项库</a>
+          <a href="compare.html">奖项对比</a>
+          <a href="cases.html">成功案例</a>
+          <a href="strategies.html">参赛策略</a>
+          <a href="news.html">赛事新闻</a>
+          <a href="#contact">联系我们</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">成功案例</h1>
+      <p class="page-subtitle">专业代理服务，助力设计师斩获国际大奖</p>
+      
+      <div class="stats-bar">
+        <div class="stat-item">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">成功获奖项目</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">90%</div>
+          <div class="stat-label">客户获奖率</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">覆盖奖项</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active">全部</button>
+        <button class="filter-btn">BLT建筑设计奖</button>
+        <button class="filter-btn">WDA世界设计奖</button>
+        <button class="filter-btn">MUSE设计奖</button>
+        <button class="filter-btn">IDA设计奖</button>
+        <button class="filter-btn">D&AD</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases Grid -->
+  <section class="cases-section">
+    <div class="container">
+      <div class="cases-grid">
+        <!-- Case 1: 南沙国际邮轮码头 -->
+        <div class="case-card">
+          <div class="case-image-placeholder nansha">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">🚢</div>
+              <div class="placeholder-text">南沙邮轮码头 · 建筑设计</div>
+            </div>
+          </div>
+          <div class="case-content">
+            <div class="case-awards">
+              <span class="award-badge blt">BLT建筑设计奖 · 大奖</span>
+              <span class="award-badge wda">WDA世界设计奖 · 大奖</span>
+            </div>
+            <h3 class="case-title">南沙国际邮轮码头综合体</h3>
+            <div class="case-company">IDC国际设计中心（广东省建筑设计研究院）</div>
+            <p class="case-description">36万平方米大型综合体，设计理念"丝绸之路，鲸舟扬帆"，设有22.5万吨级与10万吨级双泊位。</p>
+            <div class="case-highlight">
+              <strong>服务亮点：</strong>精准把握国际奖项评审标准，突出项目在大湾区基建中的战略地位与创新设计价值
+            </div>
+            <div class="case-meta">
+              <span class="case-location">📍 广州南沙 · 2016</span>
+              <a href="article-nansha-awards.html" class="case-link">查看详情 →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 2: 云栖山居 -->
+        <div class="case-card">
+          <div class="case-image-placeholder yunqi">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">🏔️</div>
+              <div class="placeholder-text">云栖山居 · 建筑设计</div>
+            </div>
+          </div>
+          <div class="case-content">
+            <div class="case-awards">
+              <span class="award-badge" style="background-color: rgba(229, 229, 229, 0.15); color: #E5E5E5;">MUSE设计奖 · 铂金奖</span>
+            </div>
+            <h3 class="case-title">云栖山居</h3>
+            <div class="case-company">张炜建筑设计事务所</div>
+            <p class="case-description">融合东方美学与现代设计，以山水为灵感，打造隐于自然的高端住宅项目。</p>
+            <div class="case-highlight">
+              <strong>服务亮点：</strong>深度挖掘东方美学内涵，以国际化语言表达传统建筑精神
+            </div>
+            <div class="case-meta">
+              <span class="case-location">📍 杭州 · 2024</span>
+              <a href="#" class="case-link">查看详情 →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 3: 光影艺术馆 -->
+        <div class="case-card">
+          <div class="case-image-placeholder light">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">💡</div>
+              <div class="placeholder-text">光影艺术馆 · 室内设计</div>
+            </div>
+          </div>
+          <div class="case-content">
+            <div class="case-awards">
+              <span class="award-badge blt">IDA国际设计奖 · 金奖</span>
+            </div>
+            <h3 class="case-title">光影艺术馆</h3>
+            <div class="case-company">Li Design Studio</div>
+            <p class="case-description">以光为媒介的艺术空间设计，通过自然光与人工光的交织，创造独特的观展体验。</p>
+            <div class="case-highlight">
+              <strong>服务亮点：</strong>创新性地将光影作为空间设计核心元素，获得国际评委高度认可
+            </div>
+            <div class="case-meta">
+              <span class="case-location">📍 上海 · 2023</span>
+              <a href="#" class="case-link">查看详情 →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <h2 class="cta-title">想让您的设计作品也登上国际舞台？</h2>
+      <p class="cta-desc">专业团队为您提供从选奖策略到材料优化的全程服务</p>
+      <a href="muse-detail.html#contact" class="btn-primary">免费咨询申报方案</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 设计能—国际设计大奖申报指南 | 专业代理申报服务，助力设计师斩获国际大奖</p>
+    </div>
+  </footer>
+</body>
+</html>

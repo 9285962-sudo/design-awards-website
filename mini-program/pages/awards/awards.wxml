@@ -1,0 +1,100 @@
+<view class="container">
+  <!-- 搜索栏 -->
+  <view class="search-bar">
+    <view class="search-input-wrapper">
+      <text class="search-icon">🔍</text>
+      <input 
+        class="search-input" 
+        placeholder="搜索奖项名称或类别" 
+        bindinput="onSearchInput"
+        value="{{searchKeyword}}"
+      />
+    </view>
+  </view>
+
+  <!-- 筛选标签 -->
+  <view class="filter-bar">
+    <view 
+      class="filter-item {{filterType === 'all' ? 'active' : ''}}" 
+      bindtap="filterAwards" 
+      data-type="all"
+    >
+      <text>全部</text>
+    </view>
+    <view 
+      class="filter-item {{filterType === 'design' ? 'active' : ''}}" 
+      bindtap="filterAwards" 
+      data-type="design"
+    >
+      <text>设计类</text>
+    </view>
+    <view 
+      class="filter-item {{filterType === 'advertising' ? 'active' : ''}}" 
+      bindtap="filterAwards" 
+      data-type="advertising"
+    >
+      <text>创意类</text>
+    </view>
+    <view 
+      class="filter-item {{filterType === 'student' ? 'active' : ''}}" 
+      bindtap="filterAwards" 
+      data-type="student"
+    >
+      <text>学生奖</text>
+    </view>
+  </view>
+
+  <!-- 奖项列表 -->
+  <view class="award-list">
+    <view 
+      wx:for="{{awardList}}" 
+      wx:key="award_id"
+      class="award-card"
+      bindtap="goToAwardDetail"
+      data-id="{{item.award_id}}"
+    >
+      <view class="award-header">
+        <view class="award-logo">
+          <text class="logo-text">{{item.award_name_short ? item.award_name_short[0] : '?'}}</text>
+        </view>
+        <view class="award-info">
+          <text class="award-name">{{item.award_name_cn || '未命名奖项'}}</text>
+          <text class="award-name-en">{{item.award_name_short || ''}}</text>
+        </view>
+        <view class="award-badge" wx:if="{{item.prestige_level === '顶级'}}">
+          <text class="badge-text">顶级</text>
+        </view>
+      </view>
+      
+      <view class="award-tags">
+        <text class="tag tag-primary">{{item.category_main || '其他'}}</text>
+        <text class="tag tag-success">{{item.category_sub && item.category_sub.length ? item.category_sub.length : 0}}+类别</text>
+        <text class="tag tag-warning">{{item.country || '国际'}}</text>
+      </view>
+      
+      <view class="award-desc" wx:if="{{item.recommendation_reason}}">
+        <text class="desc-text">{{item.recommendation_reason}}</text>
+      </view>
+      
+      <view class="award-footer">
+        <view class="fee-info">
+          <text class="fee-label">参赛费用</text>
+          <text class="fee-value">{{item.fee_currency === 'USD' ? '$' : (item.fee_currency === 'EUR' ? '€' : '£')}}{{item.fee_final || '?'}}起</text>
+        </view>
+        <view class="deadline-info">
+          <text class="deadline-label">剩余{{item.daysLeft || 0}}天</text>
+          <text class="deadline-value">{{item.deadline_final || '待定'}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{awardList.length === 0}}">
+    <text class="empty-icon">🔍</text>
+    <text class="empty-text">暂无符合条件的奖项</text>
+  </view>
+
+  <!-- 底部安全区域 -->
+  <view class="safe-area-bottom"></view>
+</view>

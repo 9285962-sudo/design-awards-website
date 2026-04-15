@@ -1,0 +1,258 @@
+{
+  "award_id": "lia_london_international_awards",
+  "award_name_cn": "LIA伦敦国际奖",
+  "award_name_en": "London International Awards",
+  "award_name_alias": ["伦敦国际奖", "LIA", "London International Awards"],
+  "award_type": "国际广告创意奖",
+  "award_level": "顶级",
+  "organizer": "LIA",
+  "organizer_full_name": "London International Awards",
+  "organizer_type": "商业机构",
+  "country": "英国",
+  "city": "伦敦",
+  "official_website": "https://www.liaawards.com/",
+  "founded_year": 1985,
+  "slogan": "The first truly international advertising award",
+  "description": "LIA伦敦国际奖被公认为世界五大广告节之一，以鼓励大胆创新、不循规蹈矩的创意闻名，在全球广告、创意界享有极高声望。",
+  "current_season": "2026",
+  "entry_status": "报名系统已开放",
+  "award_cycle": "年度",
+  
+  "deadlines": {
+    "system_opens": "2026-03-02",
+    "super_early_bird": {
+      "date": "2026-04-30",
+      "discount": "35%",
+      "note": "截止当日晚11:59"
+    },
+    "early_bird": {
+      "date": "2026-06-30",
+      "discount": "20%",
+      "note": "2026年5月1日至6月30日"
+    },
+    "standard": {
+      "date": "系统关闭前",
+      "discount": "0%",
+      "note": "2026年7月1日至系统关闭"
+    },
+    "eligibility_period": "2025-07-01 至 2026-08-31",
+    "online_judging": "2026-09-25 至 2026-10-03",
+    "onsite_judging": "2026-10-01 至 2026-10-03",
+    "judging_location": "拉斯维加斯永利安可酒店 (Encore @ Wynn Las Vegas)",
+    "creative_liaisons": "2026-09-27 至 2026-10-01",
+    "winners_announcement": "2026-10-05"
+  },
+  
+  "entry_fees": {
+    "currency": "USD",
+    "currency_note": "无上传费，无滞纳金",
+    "fee_note": "任何在折扣期内需要修改作品媒体或创作者信息的条目，将按修改时的费率重新开具发票",
+    "super_early_bird": {
+      "valid": "系统开放至2026-04-30",
+      "discount": "35%",
+      "categories": {
+        "ambient_activation": { "name": "环境与激活", "fee": 601.25 },
+        "creative_strategy": { "name": "创意策略", "fee": 552.50 },
+        "creativity_in_pr": { "name": "公关创意", "fee": 585 },
+        "creators_social": { "name": "创作者与社交平台", "fee": 585 },
+        "design": { "name": "设计", "single": 406.25, "campaign": 471.25 },
+        "digital": { "name": "数字", "fee": 585 },
+        "entertainment_content": { "name": "娱乐与内容", "single": 877.50, "campaign": 975 },
+        "gaming": { "name": "游戏", "fee": 812.50 },
+        "health_wellness": { "name": "健康与保健", "single": 552.50, "campaign": 682.50 },
+        "online_film": { "name": "在线影片", "single": 568.75, "campaign": 715 },
+        "production": { "name": "制作与后期制作", "single": 406.25, "campaign": 503.75 },
+        "tv_cinema": { "name": "电视与影院", "single": 568.75, "campaign": 715 }
+      }
+    },
+    "early_bird": {
+      "valid": "2026-05-01至2026-06-30",
+      "discount": "20%",
+      "categories": {
+        "ambient_activation": { "name": "环境与激活", "fee": 740 },
+        "creative_strategy": { "name": "创意策略", "fee": 680 },
+        "creativity_in_pr": { "name": "公关创意", "fee": 720 },
+        "creators_social": { "name": "创作者与社交平台", "fee": 720 },
+        "design": { "name": "设计", "single": 500, "campaign": 580 },
+        "digital": { "name": "数字", "fee": 720 },
+        "entertainment_content": { "name": "娱乐与内容", "single": 1080, "campaign": 1200 },
+        "gaming": { "name": "游戏", "fee": 1000 },
+        "health_wellness": { "name": "健康与保健", "single": 680, "campaign": 840 },
+        "online_film": { "name": "在线影片", "single": 700, "campaign": 880 },
+        "production": { "name": "制作与后期制作", "single": 500, "campaign": 620 },
+        "tv_cinema": { "name": "电视与影院", "single": 700, "campaign": 880 }
+      }
+    },
+    "standard": {
+      "valid": "2026-07-01至系统关闭",
+      "discount": "0%",
+      "categories": {
+        "ambient_activation": { "name": "环境与激活", "fee": 925 },
+        "creative_strategy": { "name": "创意策略", "fee": 850 },
+        "creativity_in_pr": { "name": "公关创意", "fee": 900 },
+        "creators_social": { "name": "创作者与社交平台", "fee": 900 },
+        "design": { "name": "设计", "single": 625, "campaign": 725 },
+        "digital": { "name": "数字", "fee": 900 },
+        "entertainment_content": { "name": "娱乐与内容", "single": 1350, "campaign": 1500 },
+        "gaming": { "name": "游戏", "fee": 1250 },
+        "health_wellness": { "name": "健康与保健", "single": 850, "campaign": 1050 },
+        "online_film": { "name": "在线影片", "single": 875, "campaign": 1100 },
+        "production": { "name": "制作与后期制作", "single": 625, "campaign": 775 },
+        "tv_cinema": { "name": "电视与影院", "single": 875, "campaign": 1100 }
+      }
+    }
+  },
+  
+  "categories": [
+    {
+      "name": "Sports",
+      "name_cn": "体育",
+      "description": "表彰受体育启发的原创、有影响力、具有文化意识的作品",
+      "is_new": true
+    },
+    {
+      "name": "Gaming",
+      "name_cn": "游戏",
+      "description": "创意使用视频游戏和游戏化互动媒体创建品牌体验",
+      "is_new": true
+    },
+    {
+      "name": "Cultural Catalyst",
+      "name_cn": "文化催化剂",
+      "description": "表彰引发重大文化影响力的创意作品",
+      "is_new": true
+    },
+    {
+      "name": "Entertainment & Content",
+      "name_cn": "娱乐与内容",
+      "description": "表彰利用娱乐内容进行品牌营销的叙事作品",
+      "is_new": true
+    },
+    {
+      "name": "Business Transformation",
+      "name_cn": "业务转型",
+      "description": "表彰在企业运营、服务、产品、内部和客户体验中运用创意的工作",
+      "is_new": true
+    },
+    {
+      "name": "Democracy and Human Rights",
+      "name_cn": "民主与人权",
+      "description": "表彰促进民主和人权价值观的传播作品（不接受政党或候选人相关作品）",
+      "is_new": true
+    },
+    {
+      "name": "Ambient & Activation",
+      "name_cn": "环境与激活",
+      "description": "环境媒体和激活类创意"
+    },
+    {
+      "name": "Creative Strategy",
+      "name_cn": "创意策略",
+      "description": "创意策略类"
+    },
+    {
+      "name": "Creativity In PR",
+      "name_cn": "公关创意",
+      "description": "公关领域的创意作品"
+    },
+    {
+      "name": "Creators and Social Platforms",
+      "name_cn": "创作者与社交平台",
+      "description": "创作者和社交平台类作品"
+    },
+    {
+      "name": "Design",
+      "name_cn": "设计",
+      "description": "设计类作品，包括单件和系列"
+    },
+    {
+      "name": "Digital",
+      "name_cn": "数字",
+      "description": "数字媒体和互动作品"
+    },
+    {
+      "name": "Health & Wellness",
+      "name_cn": "健康与保健",
+      "description": "健康与保健类创意"
+    },
+    {
+      "name": "Online Film",
+      "name_cn": "在线影片",
+      "description": "在线影片类作品"
+    },
+    {
+      "name": "Production and Post-production",
+      "name_cn": "制作与后期制作",
+      "description": "制作和后期制作类"
+    },
+    {
+      "name": "TV & Cinema",
+      "name_cn": "电视与影院",
+      "description": "电视和影院广告"
+    }
+  ],
+  
+  "eligibility": {
+    "professional": {
+      "allowed": true,
+      "requirements": "专业创意机构、品牌方"
+    },
+    "student": {
+      "allowed": false,
+      "note": "有专门的Creative LIAisons计划面向年轻创意人"
+    },
+    "work_release_period": "2025年7月1日至2026年8月31日",
+    "client_approval": "需要客户授权",
+    "language_requirement": "华语作品（中文官网）或国际作品（英文官网）",
+    "chinese_version_note": "中文官网要求作品必须最初以中文创作并投放市场，不接受英文翻译的广告"
+  },
+  
+  "judging_criteria": [
+    {
+      "criterion": "大胆创新",
+      "description": "鼓励不循规蹈矩的创意"
+    },
+    {
+      "criterion": "创意表达",
+      "description": "创意的原创性和表达效果"
+    },
+    {
+      "criterion": "执行效果",
+      "description": "作品完成质量和执行水平"
+    }
+  ],
+  
+  "judging_process": {
+    "online_judging": "线上评审",
+    "onsite_judging": "拉斯维加斯现场终评",
+    "location": "拉斯维加斯永利安可酒店 (Encore @ Wynn Las Vegas)",
+    "panel": "全球顶尖创意人组成的评审团",
+    "standard": "与LIA全球奖项相同的国际标准"
+  },
+  
+  "creative_liaisons": {
+    "description": "面向年轻创意人的免费培训项目",
+    "funding": "LIA全额资助",
+    "format": "虚拟指导和现场活动",
+    "dates": "2026年9月27日至10月1日"
+  },
+  
+  "winner_benefits": {
+    "recognition": "被纳入《Campaign Brief Asia》创意排行榜",
+    "global_exposure": "全球创意精英行列",
+    "brand_value": "提升品牌知名度与美誉度，增强市场竞争力",
+    "business_growth": "获奖企业在销售、经营收入、资产增长方面有显著提升（平均增长18%-77%）",
+    "industry_recognition": "获得国际行业认可，有利于项目投标和客户合作"
+  },
+  
+  "contact": {
+    "website": "https://www.liaawards.com/",
+    "chinese_website": "https://liachinese.com/en/",
+    "entry_system": "https://www.liaentries.com/"
+  },
+  
+  "data_source": "LIA官网 https://www.liaawards.com/ 和中文官网 https://liachinese.com/en/",
+  "data_collection_date": "2026-04-05",
+  "data_completeness": "完整",
+  "notes": "LIA是世界五大广告节之一，2026年新增6个类别（体育、游戏、文化催化剂、娱乐与内容、业务转型、民主与人权）"
+}

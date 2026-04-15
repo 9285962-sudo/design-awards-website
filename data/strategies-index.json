@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-13T16:30:00Z",
+  "total_count": 6,
+  "categories": [
+    {
+      "id": "beginner",
+      "name": "新手入门",
+      "count": 2
+    },
+    {
+      "id": "selection",
+      "name": "选奖指南",
+      "count": 2
+    },
+    {
+      "id": "material",
+      "name": "材料准备",
+      "count": 1
+    },
+    {
+      "id": "tips",
+      "name": "获奖技巧",
+      "count": 1
+    }
+  ],
+  "articles": [
+    {
+      "id": "how-to-choose-award",
+      "title": "设计师如何选择适合自己的国际奖项？",
+      "summary": "面对众多国际设计奖项，设计师应该如何选择？本文从预算、领域、含金量、时间成本等维度给出实用建议，帮你找到最适合的奖项。",
+      "category": "selection",
+      "category_name": "选奖指南",
+      "tags": ["选奖", "预算", "策略"],
+      "read_time": 5,
+      "difficulty": "初级",
+      "difficulty_label": "入门必读",
+      "author": "设计能团队",
+      "published_at": "2026-04-05",
+      "is_featured": true,
+      "views": 1205,
+      "image": "strategies/choose-award.jpg",
+      "detail_url": "strategy-how-to-choose-award.html"
+    },
+    {
+      "id": "muse-2026-guide",
+      "title": "MUSE设计奖2026年申报指南：费用、截止、要求全解析",
+      "summary": "MUSE设计奖2026年申报即将开始，本文详细介绍报名时间、参赛费用、作品要求、评审标准等关键信息，助你顺利申报。",
+      "category": "beginner",
+      "category_name": "新手入门",
+      "tags": ["MUSE奖", "申报指南", "2026"],
+      "read_time": 8,
+      "difficulty": "初级",
+      "difficulty_label": "详细攻略",
+      "author": "设计能团队",
+      "published_at": "2026-04-10",
+      "is_featured": true,
+      "views": 2341,
+      "image": "strategies/muse-guide.jpg",
+      "detail_url": "strategy-muse-2026-guide.html"
+    },
+    {
+      "id": "portfolio-preparation",
+      "title": "国际奖项申报材料清单：从图片到文案的全流程",
+      "summary": "申报材料是决定成败的关键。本文提供完整的材料准备清单，包括图片规格、文案撰写、项目描述等各个环节的详细要求。",
+      "category": "material",
+      "category_name": "材料准备",
+      "tags": ["材料准备", "图片规范", "文案撰写"],
+      "read_time": 10,
+      "difficulty": "中级",
+      "difficulty_label": "实操指南",
+      "author": "设计能团队",
+      "published_at": "2026-04-08",
+      "is_featured": false,
+      "views": 892,
+      "image": "strategies/portfolio.jpg",
+      "detail_url": "strategy-portfolio-preparation.html"
+    },
+    {
+      "id": "award-comparison-2026",
+      "title": "2026年最值得申报的10个国际设计奖项对比",
+      "summary": "综合费用、含金量、获奖难度、知名度等因素，为你推荐2026年最值得关注的10个国际设计奖项，附带详细对比表格。",
+      "category": "selection",
+      "category_name": "选奖指南",
+      "tags": ["奖项对比", "2026", "推荐"],
+      "read_time": 12,
+      "difficulty": "中级",
+      "difficulty_label": "深度分析",
+      "author": "设计能团队",
+      "published_at": "2026-04-03",
+      "is_featured": true,
+      "views": 3156,
+      "image": "strategies/comparison.jpg",
+      "detail_url": "strategy-award-comparison-2026.html"
+    },
+    {
+      "id": "first-time-winner",
+      "title": "第一次申报国际奖项？这5个坑千万别踩",
+      "summary": "基于200+客户经验，总结新手最容易犯的5个错误：选错奖项、材料不完整、错过截止日期...帮你避开这些雷区。",
+      "category": "beginner",
+      "category_name": "新手入门",
+      "tags": ["新手", "避坑", "经验"],
+      "read_time": 6,
+      "difficulty": "初级",
+      "difficulty_label": "必读避坑",
+      "author": "设计能团队",
+      "published_at": "2026-03-28",
+      "is_featured": false,
+      "views": 1567,
+      "image": "strategies/beginner.jpg",
+      "detail_url": "strategy-first-time-winner.html"
+    },
+    {
+      "id": "judge-perspective",
+      "title": "从评委视角看：什么样的作品更容易获奖？",
+      "summary": "采访多位国际奖项评委，揭秘评审过程中的关键考量因素，告诉你什么样的设计故事最能打动评委。",
+      "category": "tips",
+      "category_name": "获奖技巧",
+      "tags": ["评委视角", "获奖秘诀", "设计故事"],
+      "read_time": 7,
+      "difficulty": "高级",
+      "difficulty_label": "进阶技巧",
+      "author": "设计能团队",
+      "published_at": "2026-03-20",
+      "is_featured": false,
+      "views": 2103,
+      "image": "strategies/judge.jpg",
+      "detail_url": "strategy-judge-perspective.html"
+    }
+  ]
+}

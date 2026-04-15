@@ -1,0 +1,78 @@
+name: 自动采集文章并部署
+
+on:
+  # 每天凌晨2点自动运行
+  schedule:
+    - cron: '0 18 * * *'  # UTC时间18:00 = 北京时间凌晨2:00
+  
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出代码
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      # 2. 设置Node.js
+      - name: 设置Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      # 3. 安装依赖
+      - name: 安装Playwright
+        run: |
+          cd scripts/image-crawler
+          npm install playwright
+          npx playwright install chromium
+      
+      # 4. 运行采集脚本
+      - name: 采集文章图片
+        run: |
+          cd scripts/image-crawler
+          node index.js --file urls/pending-articles.json
+        continue-on-error: true
+      
+      # 5. 生成文章页面
+      - name: 生成文章HTML
+        run: |
+          cd scripts
+          node generate-articles.js
+        continue-on-error: true
+      
+      # 6. 复制图片到网站目录
+      - name: 复制图片资源
+        run: |
+          mkdir -p website/preview/images/cases
+          cp -r scripts/image-crawler/output/raw/* website/preview/images/cases/ 2>/dev/null || true
+      
+      # 7. 更新文章索引
+      - name: 更新文章索引
+        run: |
+          cd scripts
+          node update-index.js
+        continue-on-error: true
+      
+      # 8. 提交更改
+      - name: 提交更改
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "🤖 自动采集文章: $(date +'%Y-%m-%d %H:%M')"
+          git push
+      
+      # 9. 部署到Vercel
+      - name: 部署到Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./website/preview

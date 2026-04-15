@@ -1,0 +1,133 @@
+<view class="container">
+  <!-- 用户信息卡片 -->
+  <view class="user-card">
+    <view class="user-avatar-large">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="user-info">
+      <open-data type="userNickName" class="user-name"></open-data>
+      <text class="user-role" wx:if="{{isLoggedIn}}">已认证用户</text>
+      <text class="user-role" wx:else>点击登录解锁更多功能</text>
+    </view>
+    <button 
+      class="login-btn" 
+      wx:if="{{!isLoggedIn}}"
+      bindtap="handleLogin"
+    >登录</button>
+  </view>
+
+  <!-- 数据统计 -->
+  <view class="stats-card" wx:if="{{isLoggedIn}}">
+    <view class="stat-box">
+      <text class="stat-number">0</text>
+      <text class="stat-label">收藏奖项</text>
+    </view>
+    <view class="stat-box">
+      <text class="stat-number">0</text>
+      <text class="stat-label">咨询记录</text>
+    </view>
+    <view class="stat-box">
+      <text class="stat-number">0</text>
+      <text class="stat-label">预约服务</text>
+    </view>
+  </view>
+
+  <!-- 功能菜单 -->
+  <view class="menu-card">
+    <view class="menu-title">我的服务</view>
+    
+    <view class="menu-list">
+      <view class="menu-item" bindtap="goToFavorites">
+        <view class="menu-icon">⭐</view>
+        <text class="menu-text">我的收藏</text>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToHistory">
+        <view class="menu-icon">💬</view>
+        <text class="menu-text">咨询历史</text>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToReminders">
+        <view class="menu-icon">⏰</view>
+        <text class="menu-text">截止提醒</text>
+        <text class="menu-badge" wx:if="{{reminderCount > 0}}">{{reminderCount}}</text>
+        <text class="menu-arrow" wx:else>></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToApplications">
+        <view class="menu-icon">📝</view>
+        <text class="menu-text">申报进度</text>
+        <text class="menu-arrow">></text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 专家服务 -->
+  <view class="menu-card">
+    <view class="menu-title">专家服务</view>
+    
+    <view class="menu-list">
+      <view class="menu-item highlight" bindtap="consultExpert">
+        <view class="menu-icon">👨‍💼</view>
+        <view class="menu-content">
+          <text class="menu-text">1对1咨询</text>
+          <text class="menu-desc">专业顾问为你定制报奖策略</text>
+        </view>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToServices">
+        <view class="menu-icon">🎯</view>
+        <view class="menu-content">
+          <text class="menu-text">服务套餐</text>
+          <text class="menu-desc">选奖+材料+申报全流程服务</text>
+        </view>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToCases">
+        <view class="menu-icon">🏆</view>
+        <view class="menu-content">
+          <text class="menu-text">成功案例</text>
+          <text class="menu-desc">90%获奖率，看看他们怎么做的</text>
+        </view>
+        <text class="menu-arrow">></text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关于我们 -->
+  <view class="menu-card">
+    <view class="menu-title">关于</view>
+    
+    <view class="menu-list">
+      <view class="menu-item" bindtap="goToAbout">
+        <view class="menu-icon">ℹ️</view>
+        <text class="menu-text">关于我们</text>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="contactUs">
+        <view class="menu-icon">📞</view>
+        <text class="menu-text">联系我们</text>
+        <text class="menu-arrow">></text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToFeedback">
+        <view class="menu-icon">💡</view>
+        <text class="menu-text">意见反馈</text>
+        <text class="menu-arrow">></text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 版本信息 -->
+  <view class="version-info">
+    <text>奖项智能助手 v1.0.0</text>
+  </view>
+
+  <!-- 底部安全区域 -->
+  <view class="safe-area-bottom"></view>
+</view>

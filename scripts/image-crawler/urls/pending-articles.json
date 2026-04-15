@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://mp.weixin.qq.com/s/t1QjOqTwUpE2kA2q_2wS5A",
+    "project": "南沙国际邮轮码头综合体",
+    "award": "BLT建筑设计奖",
+    "priority": "high",
+    "addedAt": "2026-04-13"
+  },
+  {
+    "url": "https://mp.weixin.qq.com/s/示例链接2",
+    "project": "云栖山居度假酒店",
+    "award": "WDA世界设计奖",
+    "priority": "medium",
+    "addedAt": "2026-04-13"
+  },
+  {
+    "url": "https://mp.weixin.qq.com/s/示例链接3",
+    "project": "光影艺术馆",
+    "award": "MUSE设计奖",
+    "priority": "medium",
+    "addedAt": "2026-04-13"
+  }
+]

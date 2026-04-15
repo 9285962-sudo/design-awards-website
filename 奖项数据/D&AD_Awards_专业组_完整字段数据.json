@@ -1,0 +1,324 @@
+{
+  "award_id": "dandad_awards_professional",
+  "award_name_cn": "D&AD大奖-专业组",
+  "award_name_en": "D&AD Awards",
+  "award_name_alias": ["英国D&AD", "黄铅笔奖", "黑铅笔奖", "D&AD专业组"],
+  "award_type": "国际创意奖",
+  "award_level": "顶级",
+  "organizer": "D&AD",
+  "organizer_full_name": "Design and Art Direction",
+  "organizer_type": "非营利组织",
+  "country": "英国",
+  "city": "伦敦",
+  "official_website": "https://www.dandad.org/awards/d-ad-awards",
+  "founded_year": 1962,
+  "slogan": "Where Design Excellence Meets Global Recognition",
+  "description": "D&AD是全球创意设计领域最具影响力的奖项之一，以严格的评审标准著称，只有最具创意和影响力的作品才能获得认可。2026年新增至46个参赛类别。",
+  "current_season": "2026",
+  "entry_status": "已开放报名",
+  
+  "deadlines": {
+    "super_early_bird": {
+      "date": "2026-01-14",
+      "fee_payment_deadline": "2026-01-14",
+      "work_submission_deadline": "2026-01-21",
+      "physical_work_deadline": "2026-02-04",
+      "discount": "30% OFF"
+    },
+    "early_bird": {
+      "date": "2026-02-11",
+      "fee_payment_deadline": "2026-02-11",
+      "work_submission_deadline": "2026-02-18",
+      "physical_work_deadline": "2026-03-04",
+      "discount": "20% OFF"
+    },
+    "final": {
+      "date": "2026-03-19",
+      "fee_payment_deadline": "2026-03-19",
+      "work_submission_deadline": "2026-03-26",
+      "physical_work_deadline": "2026-04-08",
+      "discount": "无优惠"
+    },
+    "extended": {
+      "date": "2026-03-31",
+      "fee_payment_deadline": "2026-03-31",
+      "work_submission_deadline": "2026-03-31",
+      "physical_work_deadline": "2026-04-14",
+      "discount": "无优惠"
+    },
+    "shortlist_announcement": "2026-05-19至2026-05-20",
+    "winners_announcement": "2026-05-20",
+    "festival": "2026-05（具体日期待定）",
+    "awards_ceremony": "2026-09（具体日期待定）"
+  },
+  
+  "entry_fees": {
+    "currency": "GBP",
+    "professional": {
+      "super_early_bird": null,
+      "early_bird": null,
+      "final": null,
+      "extended": null,
+      "note": "具体费用需登录报名系统查看"
+    },
+    "student": {
+      "allowed": false,
+      "note": "学生需通过D&AD New Blood Awards参赛"
+    },
+    "additional_costs": "官方未公布"
+  },
+  
+  "categories": [
+    {
+      "name": "Advertising",
+      "name_cn": "广告",
+      "description": "广告创意和执行"
+    },
+    {
+      "name": "Brand",
+      "name_cn": "品牌",
+      "description": "品牌策略和视觉识别"
+    },
+    {
+      "name": "Craft",
+      "name_cn": "工艺",
+      "description": "创意工艺和技术，包括动画、电影摄影、插画、摄影、声音设计与音乐运用等"
+    },
+    {
+      "name": "Culture",
+      "name_cn": "文化",
+      "description": "文化创意作品"
+    },
+    {
+      "name": "Design",
+      "name_cn": "设计",
+      "description": "各类设计领域"
+    },
+    {
+      "name": "Engagement & Experience",
+      "name_cn": "互动与体验",
+      "description": "用户体验和互动设计"
+    },
+    {
+      "name": "Health",
+      "name_cn": "健康与福祉",
+      "description": "2026年新增类别，健康相关创意作品"
+    },
+    {
+      "name": "Impact",
+      "name_cn": "影响力",
+      "description": "关注作品的社会影响力和可持续性"
+    }
+  ],
+  "total_categories": 46,
+  
+  "eligibility": {
+    "professional": {
+      "allowed": true,
+      "requirements": "专业创意人士，包括内部团队、代理商或独立创作者"
+    },
+    "student": {
+      "allowed": false,
+      "redirect_to": "D&AD New Blood Awards"
+    },
+    "company": {
+      "allowed": true,
+      "requirements": "注册公司或机构"
+    },
+    "individual": {
+      "allowed": true,
+      "requirements": "个人设计师"
+    },
+    "age_limit": "官方未公布",
+    "nationality_restrictions": "无限制，全球开放，近90个国家参与",
+    "work_published_requirement": "作品需在过去两年内创作或发布"
+  },
+  
+  "submission_requirements": {
+    "images": {
+      "required": true,
+      "min_count": 1,
+      "max_count": null,
+      "format": ["JPEG", "PNG"],
+      "resolution": "官方未公布",
+      "max_size_mb": null,
+      "dpi": null,
+      "background": "官方未公布"
+    },
+    "video": {
+      "required": false,
+      "allowed": true,
+      "format": ["MP4"],
+      "max_size_mb": null,
+      "max_duration": null,
+      "resolution": "官方未公布"
+    },
+    "documents": {
+      "required": false,
+      "allowed": true,
+      "format": ["PDF"],
+      "max_size_mb": null
+    },
+    "physical_samples": {
+      "required": "部分类别需要",
+      "allowed": true,
+      "note": "设计类、包装类等类别可能需要寄送实物作品"
+    },
+    "description": {
+      "required": true,
+      "language": "英文",
+      "max_length": null,
+      "note": "需提供清晰的作品说明、创作背景、成果和影响"
+    },
+    "languages": {
+      "entry_kit": ["英文", "中文", "法文", "日文", "葡萄牙文", "西班牙文"]
+    }
+  },
+  
+  "judging_criteria": [
+    {
+      "criterion": "创意卓越性",
+      "weight": "核心标准",
+      "description": "原创性、创新程度、创意勇气"
+    },
+    {
+      "criterion": "执行力",
+      "weight": "重要",
+      "description": "作品完成质量和工艺水平"
+    },
+    {
+      "criterion": "影响力",
+      "weight": "重要",
+      "description": "作品产生的实际影响，推动文化发展"
+    },
+    {
+      "criterion": "商业效果",
+      "weight": "重要",
+      "description": "商业价值和ROI"
+    }
+  ],
+  
+  "judging_process": "评审过程严格，追求'只有最佳作品才能获奖'的高标准",
+  "judging_panel_size": null,
+  "judging_panel_composition": "全球顶尖创意从业者",
+  
+  "award_levels": [
+    {
+      "level": "Black Pencil",
+      "name_cn": "黑铅笔奖",
+      "description": "最高荣誉，授予具有突破性、开创性的顶级作品，每年极少颁发",
+      "trophy": "黑色铅笔奖杯",
+      "certificate": true,
+      "rarity": "极为罕见"
+    },
+    {
+      "level": "White Pencil",
+      "name_cn": "白铅笔奖",
+      "description": "在Impact和Sustained Impact类别中替代黄铅笔，表彰驱动积极社会或环境变革的作品",
+      "trophy": "白色铅笔奖杯",
+      "certificate": true
+    },
+    {
+      "level": "Yellow Pencil",
+      "name_cn": "黄铅笔奖",
+      "description": "代表真正的创意卓越，是职业生涯的里程碑",
+      "trophy": "黄色铅笔奖杯",
+      "certificate": true
+    },
+    {
+      "level": "Graphite Pencil",
+      "name_cn": "石墨铅笔奖",
+      "description": "表彰出众的杰出作品，是获得黄铅笔的有力竞争者",
+      "trophy": "石墨色铅笔奖杯",
+      "certificate": true
+    },
+    {
+      "level": "Wood Pencil",
+      "name_cn": "木铅笔奖",
+      "description": "表彰当年在各自领域中的最佳作品之一，是重要的行业认可",
+      "trophy": "木质铅笔奖杯",
+      "certificate": true
+    }
+  ],
+  
+  "winner_benefits": {
+    "certificate": {
+      "digital": true,
+      "physical": true
+    },
+    "trophy": {
+      "included": true,
+      "description": "D&AD Pencil奖杯"
+    },
+    "badge": {
+      "included": true,
+      "usage_rights": "可用于网站、名片、宣传材料"
+    },
+    "gallery": {
+      "online": true,
+      "url": "https://www.dandad.org/awards/"
+    },
+    "yearbook": {
+      "included": true,
+      "description": "获奖作品收录于D&AD年鉴"
+    },
+    "media_exposure": true,
+    "networking": {
+      "events": ["D&AD Festival", "颁奖典礼"],
+      "community": true
+    },
+    "prize_money": null,
+    "career_benefits": "获得雇主和同行的持久尊重，有助于面试、比稿等"
+  },
+  
+  "policies": {
+    "modification": {
+      "allowed": "官方未公布",
+      "deadline": "官方未公布"
+    },
+    "withdrawal": {
+      "allowed": "官方未公布",
+      "deadline": "官方未公布",
+      "refund": "官方未公布"
+    },
+    "refund": {
+      "policy": "官方未公布"
+    },
+    "copyright": {
+      "ownership": "参赛者保留作品版权",
+      "usage_rights": "D&AD获得宣传使用权"
+    },
+    "confidentiality": "官方未公布"
+  },
+  
+  "statistics": {
+    "total_entries_2025": null,
+    "win_rate": null,
+    "previous_winners_count": null,
+    "global_ranking": null,
+    "countries_participating": "近90个国家"
+  },
+  
+  "previous_winners": {
+    "gallery_url": "https://www.dandad.org/awards/",
+    "searchable": true
+  },
+  
+  "contact": {
+    "address": "D&AD, 64 Cheshire Street, London, E2 6EH, UK",
+    "website": "https://www.dandad.org/about/contact/",
+    "email": null,
+    "phone": null,
+    "social_media": {
+      "instagram": "@dandad",
+      "twitter": "@dandad",
+      "linkedin": "D&AD",
+      "facebook": "D&AD"
+    }
+  },
+  
+  "data_source": "D&AD官网 https://www.dandad.org/awards/d-ad-awards",
+  "data_collection_date": "2026-04-05",
+  "data_completeness": "高",
+  "notes": "已获取2026年完整截止日期和参赛类别信息，具体参赛费用需登录报名系统查看"
+}

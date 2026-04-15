@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-13T16:30:00Z",
+  "total_count": 3,
+  "featured_count": 3,
+  "categories": ["建筑设计", "室内设计", "产品设计", "平面设计"],
+  "awards": ["BLT奖", "WDA奖", "MUSE奖", "IDA奖"],
+  "years": [2026, 2025, 2024],
+  "cases": [
+    {
+      "id": "nansha-cruise-terminal",
+      "title": "南沙国际邮轮码头综合体",
+      "title_en": "Nansha International Cruise Terminal Complex",
+      "company": "IDC国际设计中心",
+      "company_full": "IDC国际设计中心（广东省建筑设计研究院有限公司）",
+      "designer": "许成汉、胡曼莹、邹天航、王一丁、马千程、黄辉辉、谢佩雯",
+      "location": "广州",
+      "area": "36万平方米",
+      "year": 2016,
+      "awards": [
+        {
+          "name": "BLT建筑设计奖",
+          "name_en": "BLT BUILT DESIGN AWARDS",
+          "level": "大奖",
+          "year": 2025,
+          "category": "建筑设计"
+        },
+        {
+          "name": "WDA世界设计奖",
+          "name_en": "World Design Awards",
+          "level": "大奖",
+          "year": 2025,
+          "category": "建筑设计"
+        }
+      ],
+      "category": "建筑设计",
+      "description": "项目位于广东南沙自贸区核心地段，总建筑面积36万平方米，设有22.5万吨级与10万吨级双泊位。设计理念为'丝绸之路，鲸舟扬帆'。",
+      "highlight": "精准把握国际奖项评审标准，突出项目在大湾区基建中的战略地位与创新设计价值",
+      "image": "cases/nansha.jpg",
+      "is_featured": true,
+      "article_url": "article-nansha-awards.html",
+      "detail_url": "case-nansha.html",
+      "created_at": "2026-04-13"
+    },
+    {
+      "id": "yunqi-mountain-residence",
+      "title": "云栖山居",
+      "title_en": "Yunqi Mountain Residence",
+      "company": "张炜建筑设计事务所",
+      "designer": "张炜",
+      "location": "杭州",
+      "area": "1200平方米",
+      "year": 2024,
+      "awards": [
+        {
+          "name": "MUSE设计奖",
+          "name_en": "MUSE Design Awards",
+          "level": "铂金奖",
+          "year": 2025,
+          "category": "建筑设计"
+        }
+      ],
+      "category": "建筑设计",
+      "description": "融合东方美学与现代设计，以山水为灵感，打造隐于自然的高端住宅项目。",
+      "highlight": "深度挖掘东方美学内涵，以国际化语言表达传统建筑精神",
+      "image": "cases/yunqi.jpg",
+      "is_featured": true,
+      "detail_url": "case-yunqi.html",
+      "created_at": "2026-04-10"
+    },
+    {
+      "id": "light-shadow-art-museum",
+      "title": "光影艺术馆",
+      "title_en": "Light & Shadow Art Museum",
+      "company": "Li Design Studio",
+      "designer": "李晓明",
+      "location": "上海",
+      "area": "3000平方米",
+      "year": 2023,
+      "awards": [
+        {
+          "name": "IDA国际设计奖",
+          "name_en": "International Design Awards",
+          "level": "金奖",
+          "year": 2024,
+          "category": "室内设计"
+        }
+      ],
+      "category": "室内设计",
+      "description": "以光为媒介的艺术空间设计，通过自然光与人工光的交织，创造独特的观展体验。",
+      "highlight": "创新性地将光影作为空间设计核心元素，获得国际评委高度认可",
+      "image": "cases/light-shadow.jpg",
+      "is_featured": true,
+      "detail_url": "case-light-shadow.html",
+      "created_at": "2026-04-05"
+    }
+  ]
+}
