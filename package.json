@@ -1,4 +1,15 @@
 {
-  "name": "design-awards-website-root",
-  "private": true
+  "name": "design-awards-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd website && next dev",
+    "build": "cd website && next build",
+    "start": "cd website && next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
