@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import awards from '../data/awards.json'
 
+// 首页 - 2026-04-16 更新：9项导航
 export default function Home() {
   // 精选6个重点奖项展示在首页
   const featuredAwards = awards.slice(0, 6)
