@@ -1,5 +1,37 @@
 [
   {
+    "award_id": "good_design_award_2026",
+    "award_name": "优良设计奖 (GOOD DESIGN AWARD / G Mark)",
+    "short_name": "G Mark",
+    "logo_url": "/images/logos/g-mark-logo.png",
+    "organizer": "日本设计振兴会 (JDP)",
+    "update_time": "2026-04-29",
+    "award_name_cn": "优良设计奖",
+    "award_name_en": "GOOD DESIGN AWARD (G Mark)",
+    "award_name_short": "G Mark",
+    "category_main": "综合设计",
+    "category_sub": [
+      "产品设计",
+      "建筑设计",
+      "室内设计",
+      "视觉传达",
+      "服务设计"
+    ],
+    "country": "日本",
+    "city": "东京",
+    "website": "https://www.g-mark.org/zh-CN",
+    "prestige_level": "顶级",
+    "difficulty_level": "中",
+    "fee_currency": "JPY",
+    "fee_regular": 181500,
+    "fee_final": 181500,
+    "submission_open": "2026-04-01",
+    "deadline_early": "2026-05-21",
+    "deadline_regular": "2026-09-29",
+    "deadline_final": "2026-09-29",
+    "annnouncement_date": "2026-10-15"
+  },
+  {
     "award_id": "novum_design_award_2026",
     "award_name": "Novum设计奖 (Novum Design Award / NDA)",
     "short_name": "NDA设计奖",
