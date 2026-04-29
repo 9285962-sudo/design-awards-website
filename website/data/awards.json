@@ -1,5 +1,36 @@
 [
   {
+    "award_id": "dna_paris_design_awards_2026",
+    "award_name_cn": "巴黎DNA设计大奖",
+    "award_name_en": "DNA Paris Design Awards",
+    "award_name": "巴黎DNA设计大奖 (DNA Paris Design Awards)",
+    "short_name": "DNA Paris",
+    "logo_url": "/images/logos/dna-paris-logo.png",
+    "organizer": "Farmani Group",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "景观设计",
+      "产品设计",
+      "平面设计"
+    ],
+    "country": "法国",
+    "city": "巴黎",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_regular": 350,
+    "fee_final": 385,
+    "fee_currency": "EUR",
+    "submission_open": "2025-11-01",
+    "deadline_early": "2026-02-20",
+    "deadline_regular": "2026-05-08",
+    "deadline_final": "2026-05-22",
+    "annnouncement_date": "2026-07-01",
+    "website": "https://dna.paris",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "ifi_design_distinction_awards_2026",
     "award_name_cn": "IFI卓越设计大奖",
     "award_name_en": "IFI Design Distinction Awards (IFI DDA)",
