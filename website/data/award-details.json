@@ -1,5 +1,221 @@
 [
   {
+    "award_id": "hd_awards_2026",
+    "name": "HD Awards（美国《酒店设计》杂志大奖）",
+    "name_en": "HD Awards (Hospitality Design Awards)",
+    "award_intro": "美国《酒店设计》杂志大奖（HD Awards）由权威行业媒体《Hospitality Design》杂志主办，是全球酒店业最负盛名的设计奖项之一。\n\n奖项旨在表彰全球范围内在项目设计与产品设计领域最杰出、最具创新性的成就，涵盖酒店、餐厅、水疗中心、俱乐部等广泛类别，被誉为酒店设计界的\"奥斯卡\"。\n\n第22届HD Awards共收到超过1,000件参赛作品，涵盖34个项目类别和15个产品类别。HD Awards颁奖典礼与HD Expo + Conference同期举行，是酒店设计行业首屈一指的国际盛会。",
+    "organizer": "Hospitality Design (HD) 杂志（Emerald Expositions）",
+    "organizer_intro": "《Hospitality Design》（HD）杂志隶属于 Emerald Expositions，是酒店设计与装饰领域最具影响力的B2B媒体品牌。HD Awards于2004年首次举办，已累计表彰数千个全球顶尖酒店设计项目。",
+    "organizer_location": "美国拉斯维加斯",
+    "description": "第22届HD Awards报名已于2026年2月17日截止，颁奖典礼将于2026年5月5日在拉斯维加斯Wynn Las Vegas举行。本届共设32个项目类别和15个产品类别，评审团由8-12位来自酒店品牌、设计事务所、开发商的行业领袖组成。",
+    "established": "2004年",
+    "history": "HD Awards由《Hospitality Design》杂志于2004年首次举办，至今已成功举办22届。作为酒店设计界最具影响力的奖项之一，HD Awards每年吸引全球顶尖酒店设计项目参与，涵盖酒店、餐厅、水疗、俱乐部、景观等多个类别。奖项与HD Expo + Conference同期举行，颁奖典礼是行业年度盛会。2026年第22届收到超过1,000件参赛作品，竞争异常激烈。",
+    "category": [
+      "豪华酒店 (Hotel - Luxury)",
+      "豪华酒店公共空间 (Hotel Public Spaces - Luxury)",
+      "高端酒店 (Hotel - Upscale)",
+      "高端酒店公共空间 (Hotel Public Spaces - Upscale)",
+      "中端酒店 (Hotel - Midscale)",
+      "中端酒店公共空间 (Hotel Public Spaces - Midscale)",
+      "经济型/精选服务酒店 (Hotel - Budget/Select Service)",
+      "经济型/精选服务酒店公共空间 (Hotel Public Spaces - Budget/Select Service)",
+      "生活方式酒店 (Hotel - Lifestyle)",
+      "生活方式酒店公共空间 (Hotel Public Spaces - Lifestyle)",
+      "酒店客房 (Hotel Guestrooms)",
+      "酒店套房 (Hotel Suites)",
+      "小型酒店 ≤50间 (Small Hotel)",
+      "高端餐厅 (Restaurant - Upscale)",
+      "休闲餐厅/咖啡厅 (Restaurant - Casual and Cafés/Coffee Shops)",
+      "酒吧/俱乐部/酒廊 (Bar, Club + Lounge)",
+      "度假酒店 (Resort)",
+      "修复/改造/转换 (Restorations, Transformations + Conversions)",
+      "健康+康体 (Wellness + Wellbeing)",
+      "可持续项目 (Sustainable Project)",
+      "学生项目 (Student Project)",
+      "视觉识别 (Visual Identity)",
+      "混合空间 (Hybrid Spaces)",
+      "旅馆+营地 (Lodges + Camps)",
+      "活动空间 (Event Spaces)",
+      "开放类别 (Open: Beyond Hospitality + Other)",
+      "新品牌发布 (New Brand Launch)",
+      "品牌住宅 (Branded Residences)",
+      "景观+户外空间 (Landscape + Outdoor Spaces)",
+      "交通 (Transportation)",
+      "会员俱乐部 (Members Clubs)",
+      "配套设施空间 (Amenity Spaces)",
+      "地板 (Flooring)",
+      "箱柜+家具 (Casegoods + Furniture)",
+      "照明 (Lighting)",
+      "墙面装饰 (Wallcoverings)",
+      "表面材料 (Surfaces)",
+      "纺织品与面料 (Textiles + Fabrics)",
+      "卫浴 (Bath)",
+      "座椅 (Seating)",
+      "户外家具 (Outdoor Furnishings)",
+      "科技产品 (Technology)",
+      "艺术：项目/装置 (Art: Program + Installations)",
+      "艺术：独立作品 (Art: Individual Piece)",
+      "配件与特色产品 (Accessories + Specialty Products)",
+      "可持续解决方案 (Sustainable Solutions)",
+      "建筑解决方案 (Architectural Solutions)"
+    ],
+    "timeline": [
+      {
+        "阶段": "开始报名",
+        "时间": "2025年11月19日"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2026年2月9日"
+      },
+      {
+        "阶段": "最终延期截止",
+        "时间": "2026年2月17日 11:59 PM PT"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "2026年3月19日"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026年5月5日 · 拉斯维加斯 Wynn Las Vegas"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "项目大奖-首件",
+        "price": 320,
+        "currency": "USD",
+        "date": "2026-02-17截止"
+      },
+      {
+        "period": "项目大奖-追加件",
+        "price": 220,
+        "currency": "USD",
+        "date": "每件"
+      },
+      {
+        "period": "产品大奖-首件",
+        "price": 320,
+        "currency": "USD",
+        "date": "2026-02-17截止"
+      },
+      {
+        "period": "产品大奖-追加件",
+        "price": 220,
+        "currency": "USD",
+        "date": "每件"
+      },
+      {
+        "period": "学生类别",
+        "price": 40,
+        "currency": "USD",
+        "date": "2026-02-17截止"
+      }
+    ],
+    "fee_note": "同一作品可提交至多个类别，须分别为每个类别填写提交表格并支付相应费用。HD产品大奖的提交无需为HD Expo + Conference参展商。",
+    "judging_criteria": [
+      {
+        "维度": "设计创新性 (Design Innovation)",
+        "说明": "作品在理念、形态、材料或体验上的独特性和原创性"
+      },
+      {
+        "维度": "功能性 (Function)",
+        "说明": "空间规划、用户体验、动线逻辑的合理性与高效性"
+      },
+      {
+        "维度": "可持续性 (Sustainability)",
+        "说明": "对材料、能源利用和环保设计的考量"
+      },
+      {
+        "维度": "价值与目的性 (Purpose)",
+        "说明": "项目是否成功达成客户目标、品牌定位及商业效益"
+      },
+      {
+        "维度": "整体冲击力 (Overall Impressiveness)",
+        "说明": "作品在美学、技术、工艺等方面的综合震撼力"
+      }
+    ],
+    "judges": [
+      {
+        "name": "Linda Boronkay",
+        "title": "创始人兼创意总监",
+        "company": "Boronkay Studio（前Soho House设计总监）"
+      },
+      {
+        "name": "Sarah Doyle",
+        "title": "全球品牌负责人兼副总经理",
+        "company": "Design Hotels"
+      },
+      {
+        "name": "Ethan Gabany",
+        "title": "开发部负责人",
+        "company": "Weller Development Partners"
+      }
+    ],
+    "judges_note": "第22届HD Awards由项目类别和产品类别两个独立评审团组成，每个评审团由8-12位来自酒店品牌、设计事务所、开发商的行业领袖组成。更多评审团成员于颁奖前夕陆续公布。",
+    "award_levels": [
+      {
+        "level": "项目大奖 (HD Project Awards)",
+        "description": "涵盖32个项目类别，表彰各类别中最杰出、最具创新性的酒店空间设计作品。"
+      },
+      {
+        "level": "产品大奖 (HD Product Awards)",
+        "description": "涵盖15个产品类别，表彰适用于酒店室内外环境的创新产品。"
+      },
+      {
+        "level": "年度设计师 (Designer of the Year)",
+        "description": "年度特别荣誉，表彰在酒店设计领域取得卓越成就的设计师。"
+      },
+      {
+        "level": "年度酒店业者 (Hotelier of the Year)",
+        "description": "年度特别荣誉，表彰在推动酒店行业发展方面做出突出贡献的业界领袖。"
+      },
+      {
+        "level": "年度设计公司 (Design Firm of the Year)",
+        "description": "年度特别荣誉，表彰年度表现最杰出的酒店设计公司。"
+      },
+      {
+        "level": "HDAC卓越奖 (HDAC Awards of Excellence)",
+        "description": "表彰在多元化、公平与包容方面推动行业进步的机构或个人。"
+      },
+      {
+        "level": "HD/West Elm学生产品设计竞赛",
+        "description": "面向在读或毕业一年内学生，优胜者获$5,000奖金，作品由West Elm量产。"
+      },
+      {
+        "level": "HD女性设计奖 (HD Women in Design Award)",
+        "description": "表彰在酒店设计领域取得卓越成就的女性。"
+      }
+    ],
+    "award_stats_2025": "第21届（2025年）共收到超过1,000件参赛作品，涵盖34个项目类别和15个产品类别。获奖及入围作品刊登于《Hospitality Design》杂志五月/六月合刊，并在官网永久展示。",
+    "nomination_types": [
+      "项目大奖提名（32个类别）",
+      "产品大奖提名（15个类别）",
+      "年度设计师提名",
+      "年度酒店业者提名",
+      "年度设计公司提名",
+      "HDAC卓越奖提名",
+      "HD女性设计奖提名"
+    ],
+    "preliminary_check": "参赛材料通过官方在线平台提交。项目大奖须通过 hdprojectawards.secure-platform.com 提交；产品大奖须通过 hdproductawards.secure-platform.com 提交。\"修复/改造/转换\"类别必须提供改造前照片；\"可持续项目\"类别必须包含可持续性说明。",
+    "requirements": {
+      "参赛资格": "面向全球范围内的酒店业主、设计师、建筑师、制造商等。项目大奖参赛项目须在2024年12月1日至2026年2月期间开业或完工；产品大奖参赛产品须在同期推出市场。学生组面向在读设计专业学生及毕业不超过一年的毕业生。",
+      "作品提交要求": "所有图片须标注通用文件名，不得包含任何身份标识。产品大奖图片须匿名提交（不得包含产品名称、制造商或设计师信息），否则将被取消资格。",
+      "文件格式": "项目描述不得超过300字；\"修复/改造/转换\"类别必须提供改造前照片；\"可持续项目\"类别说明中必须包含可持续性说明。所有提交材料一经提交即成为主办方财产，不予退还。",
+      "多类别提交": "单个项目或产品可提交至多个类别，但需分别提交表格并支付相应费用。"
+    },
+    "benefits": [
+      "获奖及入围作品将刊登在《Hospitality Design》杂志五月/六月合刊，触达全球酒店设计行业核心读者",
+      "获奖和入围作品将在 hospitalitydesign.com 官网永久展示，面向全球开放检索",
+      "获得HD Awards官方获奖标志使用权，可用于官网、社交媒体及市场推广材料",
+      "受邀参加在拉斯维加斯Wynn Las Vegas举办的颁奖盛典，与全球酒店业领袖、顶尖设计师和媒体面对面交流",
+      "获奖者将获得由Yellow Goat Design设计的HD Awards专属定制奖杯",
+      "HD Awards被公认为酒店设计界的最高荣誉之一，获奖能极大提升设计团队的国际声誉和品牌价值"
+    ],
+    "website": "https://awards.hospitalitydesign.com"
+  },
+  {
     "award_id": "ahead_awards_2026",
     "name": "AHEAD 奖项（酒店体验与设计大奖）",
     "name_en": "AHEAD Awards for Hospitality Experience and Design",

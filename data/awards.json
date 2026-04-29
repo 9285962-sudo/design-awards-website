@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "hd_awards_2026",
+    "award_name_cn": "HD Awards",
+    "award_name_en": "HD Awards (Hospitality Design Awards)",
+    "award_name_short": "HD Awards",
+    "category_main": "室内设计",
+    "category_sub": [
+      "酒店空间",
+      "餐厅",
+      "水疗中心",
+      "俱乐部",
+      "景观设计"
+    ],
+    "country": "美国",
+    "city": "拉斯维加斯",
+    "website": "https://awards.hospitalitydesign.com",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 320,
+    "fee_final": 320,
+    "submission_open": "2025-11-19",
+    "deadline_early": "2026-02-09",
+    "deadline_regular": "2026-02-17",
+    "deadline_final": null,
+    "annnouncement_date": "2026-05-05",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "ahead_awards_2026",
     "award_name_cn": "AHEAD 奖项",
     "award_name_en": "AHEAD Awards for Hospitality Experience and Design",
