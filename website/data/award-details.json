@@ -1,5 +1,182 @@
 [
   {
+    "award_id": "international_property_awards_2026",
+    "name": "International Property Awards (国际房地产大奖)",
+    "name_en": "The International Property Awards",
+    "award_intro": "国际房地产大奖（The International Property Awards）是全球规模最大、声望最高且最广受认可的房地产行业奖项之一。奖项始于1993年，旨在表彰全球房地产行业各个领域的公司所取得的最高成就，涵盖地产开发、建筑设计、室内设计、营销推广等多个方面。因其极高的权威性和全球影响力，该奖项被誉为\"房地产界的奥斯卡\"。所有获奖作品将被收录于权威刊物，并进行全球巡展。",
+    "organizer": "International Property Media Ltd（国际房地产传媒有限公司）",
+    "organizer_intro": "International Property Media Ltd 是一家成立于1989年的英国公司，是一家在国际上运营出版、奖项和活动的专业机构。目前公司共有33名员工，总资产超过561万英镑，核心业务包括国际房地产大奖及其他地区性房地产奖项。",
+    "organizer_location": "英国伦敦（The Mill House, Bishop Hall Ln, Chelmsford, CM1 1LG, UK）",
+    "description": "2026–2027年度国际房地产大奖按地区分组评审，覆盖非洲、亚太、阿拉伯、加拿大、加勒比、中南美洲、欧洲、英国和美国等多个地区。采用三级荣誉体系：获奖者 → 五星级获奖者 → 全球优胜者。",
+    "established": "1993年",
+    "history": "国际房地产大奖于1993年首次颁发，最初仅覆盖10个住宅类别。经过多年发展，现已覆盖全球多个地区，成为全球房地产行业最高荣誉标志之一。",
+    "category": [
+      "建筑类（Architecture）：建筑设计、外立面、住宅及商业建筑",
+      "开发类（Development）：房地产开发、总体规划、新建、翻新",
+      "室内设计类（Interior Design）：住宅室内、商业空间、酒店室内设计",
+      "房地产类（Real Estate）：房地产中介、代理、物业服务及营销",
+      "营销类（Marketing）：印刷广告、电视广告、网站、社交媒体、品牌推广",
+      "网站类别（Website Categories）：基于网站质量评审"
+    ],
+    "timeline": [
+      {
+        "阶段": "开始报名",
+        "时间": "2026年4月/5月"
+      },
+      {
+        "阶段": "亚太区报名截止",
+        "时间": "2026年12月31日"
+      },
+      {
+        "阶段": "入围通知",
+        "时间": "2027年初（各地区不同）"
+      },
+      {
+        "阶段": "区域颁奖典礼",
+        "时间": "2027年上半年（亚太区往年在曼谷等地举办）"
+      },
+      {
+        "阶段": "全球总决赛",
+        "时间": "2027年下半年（伦敦）"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "标准型（Standard）",
+        "price": 699,
+        "currency": "GBP",
+        "date": "报名期间",
+        "note": "一个项目的一个类别注册"
+      },
+      {
+        "period": "增强型阿联酋航空标准版（Enhanced Emirates Standard）",
+        "price": 1600,
+        "currency": "GBP",
+        "date": "报名期间",
+        "note": "一个类别注册 + 杂志四分之一页广告"
+      },
+      {
+        "period": "增强型阿联酋航空高级版（Enhanced Emirates Premium）",
+        "price": 4800,
+        "currency": "GBP",
+        "date": "报名期间",
+        "note": "两个类别注册 + 杂志单页广告"
+      }
+    ],
+    "fee_note": "费用为向官方直接提交的报名费（含增值税）。不含汇率换算、后续晚宴门票等费用。部分第三方平台提供中文申报服务时可能额外收取服务费。参赛者若成功入围，还需要为颁奖典礼门票支付额外费用。",
+    "judging_criteria": [
+      {
+        "维度": "设计质量与美学",
+        "说明": "项目的视觉表现、空间规划和美学价值"
+      },
+      {
+        "维度": "功能性",
+        "说明": "设计是否满足用户实际需求，动线是否合理"
+      },
+      {
+        "维度": "创新性",
+        "说明": "项目在设计理念、材料应用或建造技术上的原创性和前瞻性"
+      },
+      {
+        "维度": "可持续性",
+        "说明": "对环保、低碳和资源节约的考虑"
+      },
+      {
+        "维度": "整体影响力",
+        "说明": "项目在行业内的综合价值和示范意义"
+      }
+    ],
+    "judge_info": "国际房地产大奖的评审团由来自全球的100余位业界专家组成，涵盖房地产开发商、建筑师、室内设计师、房地产经纪人、营销专家、行业媒体主编等领域。",
+    "judges": [
+      {
+        "name": "Priya Rawal",
+        "title": "创始人兼CEO",
+        "company": "The Luxury Property Forum"
+      },
+      {
+        "name": "John Walker",
+        "title": "英国及欧洲房地产与基础设施负责人",
+        "company": "CT集团"
+      },
+      {
+        "name": "Lord Matthew Taylor",
+        "title": "主席",
+        "company": "英国全国地方议会协会"
+      },
+      {
+        "name": "Helen Shield",
+        "title": "主编",
+        "company": "《International Property Magazine》"
+      },
+      {
+        "name": "Jill Keene",
+        "title": "前主编",
+        "company": "《International Property & Travel》"
+      },
+      {
+        "name": "Andrew D Thompson",
+        "title": "特许测量师/学者",
+        "company": ""
+      },
+      {
+        "name": "罗云（Luo Yun）",
+        "title": "副总经理",
+        "company": "绿城中国设计共享中心"
+      },
+      {
+        "name": "徐平博士（Dr. Ping Xu）",
+        "title": "创始人兼设计总监",
+        "company": "PH Alpha Design"
+      },
+      {
+        "name": "沈峻伟（Junwei Shen）",
+        "title": "创始人/设计总监",
+        "company": "ARIZON DESIGN / 上海市购物中心协会"
+      },
+      {
+        "name": "周文君（ZHOU Wen Jun）",
+        "title": "创始人",
+        "company": "周文君®设计"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "获奖者（Award Winner）",
+        "description": "每个国家/地区每个类别最多评选3名获奖者。受邀参加区域颁奖典礼并获得奖牌。"
+      },
+      {
+        "level": "五星级获奖者（Five Star Winner）",
+        "description": "每个国家/地区每个类别最多评选1名五星级获奖者。高于常规获奖者，自动获得年终全球总决赛提名资格。"
+      },
+      {
+        "level": "全球优胜者（International Winner）",
+        "description": "各区域五星级获奖者在伦敦总决赛中竞选产生，代表全类最高荣誉，是世界顶级房地产公司的终极认可。"
+      }
+    ],
+    "award_stats_2025": "覆盖全球10+个地区赛区，100+位评委，数千件参赛作品。",
+    "nomination_types": [
+      "Award Winner",
+      "Five Star Winner",
+      "International Winner"
+    ],
+    "preliminary_check": "评审团根据参赛者对参赛作品包中问题和标准的回答质量进行评分，同时运用专业经验评估设计和美学品质。",
+    "requirements": {
+      "参赛资格": "面向全球房地产开发商、建筑商、经纪人、代理人、室内设计师、建筑师、公关公司和广告公司开放。按所在国家/地区的赛区报名。",
+      "作品提交要求": "需制作印刷版参赛作品手册（Entry Portfolio），回答问题并提供大量图片。A3尺寸，U盘或邮寄方式提交，最大尺寸不超过45cm×35cm×5.5cm，重量不超过5公斤。",
+      "完工时限": "\"建筑\"和\"开发\"组别：只要获得规划批准即可；\"室内设计\"组别：须为已完工项目。",
+      "数量限制": "无提交数量上限，可提交多个项目或多个类别。"
+    },
+    "benefits": [
+      "奖牌与证书：在区域颁奖典礼上台领取奖牌",
+      "全球媒体曝光：通过官方渠道及合作媒体广泛报道",
+      "颁奖典礼及社交活动：受邀参加区域颁奖典礼和香槟酒会晚宴",
+      "获奖标志使用权：可在营销材料中使用官方认证获奖标志",
+      "全球总决赛提名：五星级获奖者自动获得年终全球总决赛提名资格",
+      "《国际房地产》杂志刊登：增强套餐有机会在杂志上刊登广告并获得宣传报道"
+    ],
+    "website": "https://www.propertyawards.net/"
+  },
+  {
     "award_id": "gold_key_awards_2026",
     "name": "Gold Key Awards 金钥匙奖",
     "name_en": "Gold Key Awards for Excellence in Hospitality Design",

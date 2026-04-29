@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "international_property_awards_2026",
+    "award_name_cn": "International Property Awards (国际房地产大奖)",
+    "award_name_en": "The International Property Awards",
+    "award_name_short": "IPA",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "房地产开发",
+      "室内设计",
+      "综合设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.propertyawards.net/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "GBP",
+    "fee_regular": 699,
+    "fee_final": 0,
+    "submission_open": "2026-04-01",
+    "deadline_early": "",
+    "deadline_regular": "2026-12-31",
+    "deadline_final": "",
+    "annnouncement_date": "2027-06-30",
+    "update_time": "2026-04-29",
+    "logo_url": "",
+    "organizer": "International Property Media Ltd"
+  },
+  {
     "award_id": "gold_key_awards_2026",
     "short_name": "Gold Key Awards",
     "logo_url": "/images/awards/gold-key-logo.png",
