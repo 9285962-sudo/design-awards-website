@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "gold_key_awards_2026",
+    "award_name_cn": "Gold Key Awards",
+    "award_name_en": "Gold Key Awards for Excellence in Hospitality Design",
+    "award_name_short": "Gold Key Awards",
+    "category_main": "室内设计",
+    "category_sub": [
+      "酒店空间",
+      "餐饮空间",
+      "休闲娱乐",
+      "水疗健康"
+    ],
+    "country": "美国",
+    "city": "纽约",
+    "website": "https://www.goldkeyawards.com",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 400,
+    "fee_final": 450,
+    "submission_open": "2025-06-01",
+    "deadline_early": "2026-07-15",
+    "deadline_regular": "2026-08-20",
+    "deadline_final": "2026-08-31",
+    "annnouncement_date": "2026-09-15",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "hd_awards_2026",
     "award_name_cn": "HD Awards",
     "award_name_en": "HD Awards (Hospitality Design Awards)",

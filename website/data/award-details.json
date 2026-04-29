@@ -1,5 +1,194 @@
 [
   {
+    "award_id": "gold_key_awards_2026",
+    "name": "Gold Key Awards 金钥匙奖",
+    "name_en": "Gold Key Awards for Excellence in Hospitality Design",
+    "award_intro": "金钥匙奖（Gold Key Awards for Excellence in Hospitality Design）由美国 Boutique Design 杂志于1980年在纽约创办，是全球酒店设计领域最古老、最负盛名的专业奖项。奖项旨在表彰国际酒店业中最具影响力和创新性的室内设计作品，同时让全球设计师有机会在酒店及服务性接待空间中展示其创意成果。因其极高的门槛与严谨的评审，该奖项被誉为\"酒店设计界的奥斯卡\"。截至2025年已成功举办45届。",
+    "organizer": "Boutique Design (BD)",
+    "organizer_intro": "Boutique Design (BD) 是美国专业酒店与精品生活方式设计媒体，隶属于 Emerald Expositions。BD不仅是权威出版机构，更通过 BDNY（Boutique Design New York）等行业盛会——北美规模最大的精品酒店与生活方式设计贸易展——深度构建全球酒店设计生态。金钥匙奖颁奖盛典与 BDNY 同期在纽约举行。",
+    "organizer_location": "美国纽约",
+    "description": "第46届 Gold Key Awards 2026年度赛事。本年度赛事涵盖酒店、精品酒店、公共空间、其他空间及学生设计等25个参赛类别，由来自万豪国际、凯悦等顶级酒店集团的设计高管和知名设计事务所负责人组成的评审团进行评选。入围名单预计于2026年9月公布，颁奖典礼定于2026年11月在纽约 BDNY 展期间举行。",
+    "established": "1980年",
+    "history": "金钥匙奖创立于1980年美国纽约，迄今已成功举办45届（截至2025年）。它是现存全球最悠久的酒店室内设计专业评审奖项。每年11月与 BDNY（Boutique Design New York）贸易展同期在纽约举办颁奖典礼，是全球酒店设计行业最重要的年度盛事之一。往届获奖项目包括 Populus Denver（Eco-Conscious类别）、Now Now Hotel New York 等标志性作品。",
+    "category": [
+      "Eco-Conscious / Socially Conscious Hotel — 生态与社会责任酒店",
+      "Budget / Select-Service Hotel — 经济型及精选服务酒店",
+      "Midscale Hotel — 中端酒店",
+      "Upper Midscale / Upscale Hotel — 中高端及高端酒店",
+      "Upper Upscale / Luxury Hotel — 超高端及奢华酒店",
+      "Boutique Hotel — 小型精品酒店（10间及以下客房）",
+      "Boutique Hotel — 大型精品酒店（11间及以上客房）",
+      "Lobby — Budget / Select-Service 大堂（经济型/精选服务）",
+      "Lobby — Midscale 大堂（中端）",
+      "Lobby — Upscale 大堂（高端）",
+      "Lobby — Luxury 大堂（奢华）",
+      "Restaurant — Casual Dining / Bar — Lounge 休闲餐厅及酒吧",
+      "Restaurant — Upscale / Fine Dining 高端餐厅及Fine Dining",
+      "Guestroom — Budget / Select-Service 客房（经济型/精选服务）",
+      "Guestroom — Midscale 客房（中端）",
+      "Guestroom — Upscale 客房（高端）",
+      "Guestroom — Luxury 客房（奢华）",
+      "Suite — 套房",
+      "Wellness / Spa — 康体与水疗空间",
+      "Open Category — 开放类别（俱乐部/赌场/展示厅/会议中心等）",
+      "Student Design — 学生设计",
+      "年度最佳设计师 Designer of the Year"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名开始",
+        "时间": "预计 2026 年 6 月"
+      },
+      {
+        "阶段": "早鸟截止",
+        "时间": "预计 2026 年 7 月中旬"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "预计 2026 年 8 月下旬"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "预计 2026 年 8 月底"
+      },
+      {
+        "阶段": "入围公布",
+        "时间": "预计 2026 年 9 月中旬"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "预计 2026 年 11 月（纽约 BDNY 展期间）"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟价 Early Bird",
+        "price": 350,
+        "currency": "USD",
+        "date": "预计 2026-07-15 截止",
+        "note": "参考往年费率推算"
+      },
+      {
+        "period": "常规价 Standard",
+        "price": 400,
+        "currency": "USD",
+        "date": "预计 2026-08-20 截止",
+        "note": "参考往年费率推算"
+      },
+      {
+        "period": "晚鸟价 Late",
+        "price": 450,
+        "currency": "USD",
+        "date": "预计 2026-08-31 截止",
+        "note": "参考往年费率推算"
+      }
+    ],
+    "fee_note": "注：以上费用为基于2025年第45届费率的推算值，2026年第46届官方费用尚未正式公告。学生组通常享受显著优惠或免参赛费。同一作品可提交至多个类别，但需为每个类别分别提交表格并支付相应费用。若获奖可能涉及后续画册授权制作费，以获奖通知为准。",
+    "judging_criteria": [
+      {
+        "维度": "概念与创意 Concept",
+        "说明": "设计方案是否具有独创性，能否提出新的酒店空间表达方式"
+      },
+      {
+        "维度": "执行力与落地效果 Execution",
+        "说明": "从设计图到实景落地的还原度、工艺细节与施工品质"
+      },
+      {
+        "维度": "创新性 Innovation",
+        "说明": "在材料、技术、空间模式等方面的前瞻性突破"
+      },
+      {
+        "维度": "总体 WOW 系数 Overall WOW Coefficient",
+        "说明": "整体体验是否足够惊艳、令人印象深刻"
+      },
+      {
+        "维度": "酒店适用性与商业价值 Hospitality Relevance",
+        "说明": "设计是否有效提升宾客体验并满足业主的商业目标"
+      }
+    ],
+    "judge_info": "金钥匙奖评审团由酒店运营、开发、设计与投资领域的全球行业领袖组成。以第45届（2025年）评委为例：Misty L. Kelley（Marriott International 万豪国际全球设计总监）、Anna-Marie Puglisi（Proper Hospitality 酒店品牌总监）、Doug Hoylman（Crescent Real Estate 开发高级副总裁）、Tony Machado（酒店业资深运营高管）、Linda Pasquanto（酒店业资深开发顾问）、Anne R. Zell（酒店设计教育者及行业顾问）、Gary L. Iannelli（Gary Lee Partners 创始人）、Jane Jones / Matthew Sheppard / John Weeman / Sue Weiland（均为酒店设计领域资深专家）。往年评委中还常见 Hyatt 凯悦酒店集团、万豪国际酒店集团全球主管等级别的行业高管参与评审。第46届完整名单将在官网恢复后正式公布。",
+    "judges": [
+      {
+        "name": "Misty L. Kelley",
+        "title": "Global SVP of Design",
+        "company": "Marriott International 万豪国际"
+      },
+      {
+        "name": "Anna-Marie Puglisi",
+        "title": "Brand Director",
+        "company": "Proper Hospitality"
+      },
+      {
+        "name": "Doug Hoylman",
+        "title": "SVP Development",
+        "company": "Crescent Real Estate"
+      },
+      {
+        "name": "Tony Machado",
+        "title": "Hospitality Operations Executive",
+        "company": "Industry Veteran"
+      },
+      {
+        "name": "Linda Pasquanto",
+        "title": "Development Consultant",
+        "company": "Hospitality Development"
+      },
+      {
+        "name": "Anne R. Zell",
+        "title": "Educator & Industry Consultant",
+        "company": "Hospitality Design Education"
+      },
+      {
+        "name": "Gary L. Iannelli",
+        "title": "Founder & Principal",
+        "company": "Gary Lee Partners"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "类别优胜奖 Category Winners",
+        "description": "在25个参赛类别中分别评出的最优作品，代表该类别的最高水准"
+      },
+      {
+        "level": "入围奖 Finalists",
+        "description": "各类别入围作品（每类别3-5项），获得入围资格并在官网荣誉画廊展示"
+      },
+      {
+        "level": "年度最佳设计师 Designer of the Year",
+        "description": "备受推崇的最高个人荣誉，由评审团独立评选颁发给当年度最具影响力的设计师"
+      },
+      {
+        "level": "学生设计优胜 Student Design Winner",
+        "description": "学生类别中的优秀作品，面向在校生及近期毕业生"
+      }
+    ],
+    "award_stats_2025": "第45届（2025年）共征得430+份参赛作品，设25个参赛类别，颁奖典礼于2025年11月10日在纽约 Cipriani 42nd Street 举办。代表性获奖项目包括：Populus Denver（Eco-Conscious类别，Wildman Chalmers Design + Studio Gang）、Now Now Hotel New York（Lobby-Budget/Select Service类别，Islyn Studio）、The Bellevue Philadelphia（Lobby-Midscale类别，Ward+Gray+LUCID）、Fidelity Hotel Cleveland（Lobby-Upscale类别，Curioso + Looney & Associates）、Kimpton Los Monteros Hotel Marbella（Lobby-Luxury类别，El Equipo Creativo）等。",
+    "nomination_types": [
+      "Category Winners 类别优胜奖",
+      "Finalists 入围",
+      "Designer of the Year 年度最佳设计师",
+      "Student Design 学生设计"
+    ],
+    "preliminary_check": "所有提交材料将由主办方进行形式审查，确保符合参赛要求。不符合要求的材料将被取消资格，包括：图片未匿名处理（如需）、缺少必要信息、超过文件大小限制、未在完工时限内完成的项目等。",
+    "requirements": {
+      "参赛资格": "面向全球室内设计师、设计公司及专业设计团队开放。仅授予从事参赛项目的室内设计公司（不接受业主、开发商直接参赛）。同一作品可提报多类别，但须为每类别提交独立表格并缴费。",
+      "作品提交要求": "英文项目名称、项目信息及英文设计说明。8-10张以上项目实景彩色图片，300 DPI，JPEG 或 TIFF 格式，尺寸建议 20cm x 25cm，单张不超过 10MB。必要时附平面图（≤ 10MB，JPEG/PDF/TIFF）。所有图片不得包含身份标识。",
+      "完工时限": "参赛项目须在2025年1月1日至2026年6月1日之间完成开业或翻新（按往年惯例推算，确切日期以2026年官网公布为准）。",
+      "知识产权": "参赛者须确保对作品拥有完全知识产权及影像版权，因版权问题引发争议由参赛者自行负责并承担一切法律后果。",
+      "学生组": "面向全球在校生及近期毕业生单独评审"
+    },
+    "benefits": [
+      "金钥匙奖专属定制奖杯及荣誉证书",
+      "Boutique Design (BD) 杂志冬季特刊专题报道（含入围作品展示）",
+      "goldkeyawards.com 官网荣誉画廊永久展示收录",
+      "金钥匙奖官方年度画册收录，全球发行",
+      "受邀参加纽约 BDNY 展颁奖典礼派对，与全球酒店业领袖及设计精英面对面交流",
+      "Gold Key Awards 获奖标识永久使用权，用于官网、宣传册与市场推广材料作为专业设计能力的最高背书",
+      "通过奖项官网、媒体合作网络及 Hospitality Design (HD) 等全球设计平台广泛宣发"
+    ],
+    "website": "https://www.goldkeyawards.com"
+  },
+  {
     "award_id": "hd_awards_2026",
     "name": "HD Awards（美国《酒店设计》杂志大奖）",
     "name_en": "HD Awards (Hospitality Design Awards)",
