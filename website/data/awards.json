@@ -1,5 +1,36 @@
 [
   {
+    "award_id": "ida_international_design_awards_2026",
+    "award_name_cn": "IDA国际设计奖",
+    "award_name_en": "International Design Awards",
+    "award_name": "IDA国际设计奖 (International Design Awards)",
+    "short_name": "IDA",
+    "logo_url": "/images/logos/ida-logo.png",
+    "organizer": "Farmani Group",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "平面设计",
+      "时尚设计"
+    ],
+    "country": "美国",
+    "city": "洛杉矶",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_regular": 250,
+    "fee_final": 250,
+    "fee_currency": "USD",
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-04-15",
+    "deadline_regular": "2026-08-15",
+    "deadline_final": "2026-10-13",
+    "annnouncement_date": "2027-01-15",
+    "website": "https://www.idesignawards.com",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "international_architecture_awards_2026",
     "award_name_cn": "国际建筑奖",
     "award_name_en": "The International Architecture Awards",
