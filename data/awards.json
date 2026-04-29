@@ -1,5 +1,35 @@
 [
   {
+    "award_id": "spark_design_awards_2026",
+    "award_name_cn": "Spark Design Awards (星火国际设计奖)",
+    "award_name_en": "Spark Design Awards",
+    "award_name_short": "Spark Awards / 星火奖",
+    "category_main": "综合设计",
+    "category_sub": [
+      "产品设计",
+      "建筑设计",
+      "室内设计",
+      "平面设计",
+      "数字设计",
+      "交通设计",
+      "包装设计"
+    ],
+    "country": "美国",
+    "city": "旧金山",
+    "website": "https://www.sparkawards.com/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 550,
+    "fee_final": 675,
+    "submission_open": "2026-02-26",
+    "deadline_early": "2026-06-07",
+    "deadline_regular": "2026-10-15",
+    "deadline_final": "2026-11-16",
+    "annnouncement_date": "2026-11-23",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "international_property_awards_2026",
     "award_name_cn": "International Property Awards (国际房地产大奖)",
     "award_name_en": "The International Property Awards",
