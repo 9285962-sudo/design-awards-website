@@ -1,5 +1,168 @@
 [
   {
+    "award_id": "international_architecture_awards_2026",
+    "name": "国际建筑奖 (The International Architecture Awards)",
+    "name_en": "The International Architecture Awards",
+    "award_intro": "国际建筑奖（The International Architecture Awards）创立于2005年，是现存历史最悠久、最全面的年度全球公共竞赛项目之一，致力于在全球范围内推广最卓越的新建筑设计、景观设计及城市规划项目。该奖项由全球知名的芝加哥雅典娜建筑与设计博物馆与欧洲建筑艺术设计与城市研究中心等非营利机构联合主办，是其最重要的公共教育推广计划之一。凭借其20年的历史、遍布五大洲的获奖项目网络以及全球公认的顶尖评审团，该奖项被誉为全球范围内最受尊敬和最重要的卓越标志之一。值得一提的是，该奖项的赛程为跨年制：2026年提交的参赛作品属于2027年国际建筑奖的征集批次。",
+    "organizer": "芝加哥雅典娜建筑与设计博物馆 (The Chicago Athenaeum) / 欧洲建筑艺术设计与城市研究中心 (The European Centre for Architecture Art Design and Urban Studies)",
+    "organizer_intro": "芝加哥雅典娜建筑与设计博物馆（The Chicago Athenaeum）位于美国芝加哥，是一家专注于建筑与设计领域的非营利性博物馆。欧洲建筑艺术设计与城市研究中心（The European Centre for Architecture Art Design and Urban Studies）是欧洲的非营利性机构。两家机构联合主办国际建筑奖，并由大都会艺术出版社（Metropolitan Arts Press）作为出版合作方。该奖项是全球唯一的由美国与欧洲两所非营利性博物馆联合颁发的非商业性、全球性公共奖项，致力于建筑与设计的公共教育。",
+    "organizer_location": "美国芝加哥（芝加哥雅典娜建筑与设计博物馆）；欧洲（欧洲建筑艺术设计与城市研究中心）",
+    "description": "2026年度（面向2027年奖项）的国际建筑奖征集现已启动，提交截止日期为2026年12月1日。奖项对全球范围内已建成和未建成的项目均开放，参赛作品必须为2024年1月1日之后设计或建造的项目。所有提交的项目都必须明确其客户，未建成的概念项目也需要指名委托客户，以确保真实性和可行性。该奖项采用独特的[获奖后付费]模式，提交阶段不收取报名费。",
+    "established": "2005年",
+    "history": "国际建筑奖创立于2005年，至今已有超过20年的历史。由芝加哥雅典娜建筑与设计博物馆与欧洲建筑艺术设计与城市研究中心联合主办，是全球最全面的年度全球公共竞赛项目之一。奖项每年选拔出全球最卓越的新建筑设计、景观设计和城市规划项目，获奖项目在希腊雅典卫城脚下举办的[城市与世界（The City and The World）]展览和年度庆典中进行国际推广和表彰。美国境内的项目需投稿至该机构的另一个针对性奖项[美国建筑奖]。",
+    "category": [
+      "基础设施与交通：机场与交通中心、桥梁与基础设施",
+      "文化与公共建筑：博物馆与文化建筑、图书馆、墓地",
+      "商业与企业：商业建筑、企业总部、摩天大楼/高层建筑",
+      "住宅与社区：私人住宅、多户住宅、社会住宅",
+      "接待与休闲：酒店、餐厅/度假村",
+      "机构：政府大楼、医院/医疗中心、学校和大学",
+      "城市与景观：公园与花园、城市设计与景观建筑",
+      "特别类别：室内设计、建筑技术、装置/展览、修复/翻新"
+    ],
+    "timeline": [
+      {
+        "阶段": "奖项征集启动",
+        "时间": "2026年初"
+      },
+      {
+        "阶段": "提交截止日期（2027年度奖项）",
+        "时间": "2026年12月1日"
+      },
+      {
+        "阶段": "评审与筛选",
+        "时间": "2026年12月 - 2027年初"
+      },
+      {
+        "阶段": "获奖名单公布与全球庆祝活动",
+        "时间": "2027年秋季（通常与当年的[城市与世界]活动同期在希腊雅典举办）"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "提交阶段",
+        "price": 0,
+        "currency": "EUR",
+        "date": "2026年12月1日截止前",
+        "note": "不收取常规报名费，无成本提交"
+      },
+      {
+        "period": "获奖后费用",
+        "price": 395,
+        "currency": "EUR",
+        "date": "获奖后支付",
+        "note": "项目被评审团选为获奖者后需支付，总额395欧元起；此[获奖后付费]模式在众多国际奖项中非常独特"
+      }
+    ],
+    "fee_note": "该奖项采用独特的[获奖后付费]参赛模式，提交阶段不收取任何报名费，设计师可以无成本地将项目提交给国际评审团，大大降低了参赛门槛。一旦项目被评审团选为获奖者，需支付395欧元起的费用。此模式在国际设计奖项中极为罕见。",
+    "judging_criteria": [
+      {
+        "维度": "设计愿景 (Design Vision)",
+        "说明": "项目在设计理念和思想上的深度与前瞻性，评审团依据一套复杂且全面的标准进行评判"
+      },
+      {
+        "维度": "创新性与原创性 (Innovation and Originality)",
+        "说明": "设计概念的独创性和突破性"
+      },
+      {
+        "维度": "用户体验 (Stimulate, Engage and Delight Occupants and Visitors)",
+        "说明": "建筑如何激发、吸引并让用户感到愉悦"
+      },
+      {
+        "维度": "可达性与可持续性 (Accessibility and Sustainability)",
+        "说明": "设计的可达性，以及在环境和社会层面的可持续性表现"
+      },
+      {
+        "维度": "场所与功能匹配度 (How Fit the Building is for its Purpose)",
+        "说明": "建筑完美贴合其既定功能与场所环境的程度"
+      },
+      {
+        "维度": "客户满意度 (The Level of Client Satisfaction)",
+        "说明": "项目的最终完成是否达到了业主的期望"
+      }
+    ],
+    "judge_info": "每年都会组建一个全新的、由全球顶尖设计师组成的国际评审团来独立进行评选。评审团成员通常来自世界各地，背景多元，包括全球知名建筑师、设计师等。2023年度的部分评委名单（可作为评委水准参考）：John Marx（Form4 Architecture首席艺术总监）、Ole Scheeren（国际知名建筑师）、Karoline Brandfellner、Roger Christ、Mayer H. Jurgen、Andrea Tabocchini等多位资深建筑师。评审标准由芝加哥雅典娜博物馆主席Christian Narkiewicz-Laine介绍。",
+    "judges": [
+      {
+        "name": "Christian Narkiewicz-Laine",
+        "title": "主席",
+        "company": "芝加哥雅典娜建筑与设计博物馆"
+      },
+      {
+        "name": "John Marx",
+        "title": "首席艺术总监",
+        "company": "Form4 Architecture"
+      },
+      {
+        "name": "Ole Scheeren",
+        "title": "创始合伙人",
+        "company": "Buero Ole Scheeren"
+      },
+      {
+        "name": "Karoline Brandfellner",
+        "title": "资深建筑师",
+        "company": ""
+      },
+      {
+        "name": "Roger Christ",
+        "title": "建筑师",
+        "company": ""
+      },
+      {
+        "name": "Mayer H. Jurgen",
+        "title": "创始合伙人",
+        "company": "J. Mayer H. und Partner"
+      },
+      {
+        "name": "Andrea Tabocchini",
+        "title": "建筑师",
+        "company": ""
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "国际建筑奖 (The International Architecture Award)",
+        "description": "最高荣誉，颁发给评审团认为最能体现卓越设计、创新思维和社会价值的顶尖项目"
+      },
+      {
+        "level": "荣誉提名 (Honorable Mention)",
+        "description": "授予其他在评审中表现出极高设计水平，被认为值得特别表彰的项目"
+      },
+      {
+        "level": "年度全球建筑 (Global Building of the Year)",
+        "description": "该奖项有时也被称为[年度全球建筑]，是建筑界年度最高荣誉之一"
+      }
+    ],
+    "award_stats_2025": "该奖项创立于2005年，至2025年批次已是第20届。获奖项目遍布全球五大洲，成为全球建筑界最重要的年度卓越标杆之一。每年收到来自世界各地的数百份参赛作品，获奖项目在希腊雅典卫城脚下举办的[城市与世界]展览中展出。",
+    "nomination_types": [
+      "已建成项目（2024年1月1日之后设计或建造）",
+      "未建成/概念项目（必须指名委托客户）",
+      "美国项目注意：需投稿至该机构的[美国建筑奖]，不可投国际建筑奖"
+    ],
+    "preliminary_check": "所有提交的项目都必须明确其客户信息，未建成的概念项目也需要指名委托客户，这一要求的设计哲学是确保设计有切实的现实应用背景，而非纯粹的理想化构想。此前已在该奖项中获奖的项目不可重复参选。提交材料需通过官方网站在线提交。",
+    "requirements": {
+      "参赛资格": "面向全球范围内所有执业建筑师和建筑事务所开放，无论是在本国还是国外执业。美国境内的项目需投稿至该机构的另一个针对性[美国建筑奖]，不可参加国际建筑奖。",
+      "作品时限": "提交的作品必须是2024年1月1日之后设计或建造的项目。",
+      "作品状态": "奖项对全球范围内已建成和未建成（built or unbuilt）的项目均开放。未建成项目必须指名委托客户，以确保真实性和可行性。",
+      "参选限制": "此前已在该奖项中获奖的项目不可重复参选。",
+      "文件格式": "通过官方网站在线提交，需提供项目信息、客户信息、设计说明及图片资料。未建成项目须提供委托客户证明。"
+    },
+    "benefits": [
+      "全球设计与媒体曝光：作为全球最负盛名的奖项之一，获奖将极大提升项目及设计师的国际知名度和行业地位",
+      "雅典领奖典礼：获奖者受邀参加在希腊雅典举办的年度全球庆祝活动[The City and The World]，在全球建筑与设计界领袖面前领取荣誉",
+      "官方纪念年鉴收录：获奖作品将被收录在由芝加哥雅典娜博物馆总裁Christian Narkiewicz-Laine编辑的[国际建筑奖年鉴 (International Architecture Awards Yearbook)]中，并由大都会艺术出版社（Metropolitan Arts Press）全球出版发行",
+      "博物馆永久收藏与巡展：获奖项目将成为芝加哥雅典娜建筑与设计博物馆永久收藏的一部分，并可能在博物馆组织的国际巡展中展出",
+      "权威认证标识：获得在全球范围内使用[International Architecture Awards Winner]官方标识进行市场推广的许可"
+    ],
+    "website": "https://www.internationalarchitecturedesignawards.com",
+    "entry_url": "https://www.internationalarchitecturedesignawards.com",
+    "contact_email": "可通过官网联系表单或芝加哥雅典娜博物馆官网获取联系方式",
+    "contact_address": "The Chicago Athenaeum, 314 West Institute Place, Suite 200, Chicago, IL 60610, USA",
+    "official_media": "International Architecture Awards Yearbook（大都会艺术出版社出版）、芝加哥雅典娜博物馆官网、欧洲建筑艺术设计与城市研究中心官网",
+    "disclaimer": "以上信息基于2026年4月公开资料整理，国际建筑奖的赛程为跨年制（2026年提交属于2027年奖项征集）。具体报名截止日期、费用和类别可能随赛季更新而调整，建议在正式参赛报名前访问官网核实最新细节。另请注意，网络上还存在另一个名为[国际建筑与设计奖 (International Architecture & Design Awards, IADA)]的竞赛，两者为完全不同且独立的体系，请勿混淆。",
+    "note_cross_year": "跨年赛程说明：2026年12月1日截止提交的作品，属于2027年国际建筑奖的征集批次。此为诺贝尔奖、普利兹克奖等国际顶级奖项常用的跨年评审制。"
+  },
+  {
     "award_id": "aia_international_region_awards_2026",
     "name": "AIA国际区域设计奖 (AIA International Region Design Awards)",
     "name_en": "AIA International Region Design Awards",

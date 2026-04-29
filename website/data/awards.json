@@ -1,5 +1,37 @@
 [
   {
+    "award_id": "international_architecture_awards_2026",
+    "award_name_cn": "国际建筑奖",
+    "award_name_en": "The International Architecture Awards",
+    "award_name": "国际建筑奖 (The International Architecture Awards)",
+    "short_name": "国际建筑奖",
+    "logo_url": "/images/awards/international_architecture_awards_2026/logo.png",
+    "organizer": "芝加哥雅典娜建筑与设计博物馆 / 欧洲建筑艺术设计与城市研究中心",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "建筑设计",
+      "城市规划",
+      "景观设计",
+      "室内设计",
+      "建筑技术",
+      "修复翻新"
+    ],
+    "country": "美国",
+    "city": "芝加哥",
+    "website": "https://www.internationalarchitecturedesignawards.com",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 0,
+    "fee_final": 395,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-12-01",
+    "deadline_regular": "2026-12-01",
+    "deadline_final": "2026-12-01",
+    "annnouncement_date": "2027-09-01",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "aia_international_region_awards_2026",
     "award_name_cn": "AIA国际区域设计奖",
     "award_name_en": "AIA International Region Design Awards",
