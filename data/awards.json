@@ -1,5 +1,31 @@
 [
   {
+    "award_id": "jcd_design_award_2026",
+    "award_name_cn": "JCD设计大奖",
+    "award_name_en": "JCD Design Award (KUKAN DESIGN AWARD)",
+    "award_name_short": "JCD Award / KDA",
+    "category_main": "室内设计",
+    "category_sub": [
+      "室内设计",
+      "建筑设计",
+      "综合设计"
+    ],
+    "country": "日本",
+    "city": "东京",
+    "website": "https://www.jcd.or.jp",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "JPY",
+    "fee_regular": 37000,
+    "fee_final": 37000,
+    "submission_open": "2026-03-28",
+    "deadline_early": "2026-05-15",
+    "deadline_regular": "2026-05-15",
+    "deadline_final": "2026-05-15",
+    "annnouncement_date": "2026-11-01",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "asla_professional_awards_2026",
     "award_name_cn": "ASLA专业奖",
     "award_name_en": "ASLA Professional Awards",
