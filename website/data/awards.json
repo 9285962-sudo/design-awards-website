@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "ies_illumination_awards_2026",
+    "award_name_cn": "IES Illumination Awards (IES照明奖)",
+    "award_name_en": "IES Illumination Awards",
+    "award_name_short": "IES照明奖",
+    "category_main": "综合设计",
+    "category_sub": [
+      "室内设计",
+      "建筑设计",
+      "产品设计"
+    ],
+    "country": "美国",
+    "city": "纽约",
+    "website": "https://ies.org/illumination-awards",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 320,
+    "fee_final": 420,
+    "submission_open": "2025-12-01",
+    "deadline_early": "2026-01-07",
+    "deadline_regular": "2026-02-12",
+    "deadline_final": "",
+    "annnouncement_date": "2026-05-14",
+    "update_time": "2026-04-29",
+    "logo_url": "",
+    "organizer": "Illuminating Engineering Society of North America (IES)"
+  },
+  {
     "award_id": "spark_design_awards_2026",
     "award_name_cn": "Spark Design Awards (星火国际设计奖)",
     "award_name_en": "Spark Design Awards",

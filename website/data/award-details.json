@@ -1,5 +1,186 @@
 [
   {
+    "award_id": "ies_illumination_awards_2026",
+    "name": "IES Illumination Awards (IES照明奖)",
+    "name_en": "IES Illumination Awards",
+    "award_intro": "IES照明奖由超过百年历史的北美照明工程协会（Illuminating Engineering Society of North America, IES）颁发，是全球最权威的三大照明设计奖项之一。它与国际照明设计师协会（IALD）颁发的IALD照明奖、以及《照明》杂志颁发的照明设计奖齐名，共同代表了年度全球最高照明设计水平。该奖项旨在表彰在照明设计中展现出的专业精神、独创性和原创性的个人或团体。它依据每个参赛作品的自身优点进行评选，而非项目间的横向比较，以赞扬其在照明设计方面的专业、匠心与创意。",
+    "organizer": "Illuminating Engineering Society of North America（北美照明工程协会，简称 IES）",
+    "organizer_intro": "IES 成立于1906年，是全球公认的照明技术和教育权威。奖项本身在2009年之前的名称是 IIDA（International Illumination Design Awards），至今已有超过半个世纪的悠久历史。IES 是一个致力于通过沟通、教育和技术知识来改善照明环境的专业工程组织，在全球照明领域具有崇高声望。IES 工作人员、董事会成员和制造商不得参赛，以确保评审的公正性。上一周期共收到510份参赛作品。",
+    "organizer_location": "美国纽约（120 Wall Street, 17th Floor, New York, NY 10005, USA）",
+    "description": "2026年度为第53届 IES 照明奖。IES 的评审体系并非直接比较孰优孰劣，而是围绕特定的评判标准设立分层级的荣誉分类体系：按荣誉高低设立杰出奖、卓越奖、特别表彰奖、优异奖四个等级；同时按类别设立室内照明设计卓越奖、户外照明设计奖、控制创新奖、节能与环保设计奖、体验式照明设计奖等平行品类。所有提交的项目都会根据其优点（而非与其他作品比较）获得表彰。2026年度的报名已截止，2027年度赛程预计将于2026年12月前后公布。",
+    "established": "1906年（IES成立）；奖项前身 IIDA 超过半个世纪历史",
+    "history": "IES（北美照明工程协会）成立于1906年，是全球公认的照明技术和教育权威。IES 照明奖的前身名为 IIDA（International Illumination Design Awards），2009年更名为 IES Illumination Awards。经过50余年的发展，该奖项已成为全球三大最权威的照明设计奖项之一，与 IALD 照明奖、《照明》杂志照明设计奖齐名，共同代表年度全球最高照明设计水平。",
+    "category": [
+      "室内照明设计（Interior Lighting Design）：由 Edwin F. Guth 赞助，表彰平衡功能与艺术的室内照明设计",
+      "户外照明设计（Outdoor Lighting Design）：表彰在美学、技术、解决方案等方面取得卓越成就的室外照明设计",
+      "控制创新（Control Innovation）：由 Lighting Controls Academy 赞助，表彰在非住宅应用中有效使用照明控制的项目",
+      "节能与环保设计（Energy & Environmental Design）：表彰在节能与环保设计方面表现卓越的室内外照明项目",
+      "体验式照明设计（Experiential Lighting Design）：由 ETC, Inc. 赞助，表彰将照明作为艺术或特效的主题或沉浸式环境"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名 Early Bird",
+        "时间": "2025年12月1日 - 2026年1月7日（美国东部时间）"
+      },
+      {
+        "阶段": "常规报名 Regular",
+        "时间": "2026年1月8日 - 2026年2月12日（美国东部时间）"
+      },
+      {
+        "阶段": "分会评审 Section Processing",
+        "时间": "2026年2月4日 - 2月18日（或至2月24日）"
+      },
+      {
+        "阶段": "荣誉评审 Merit Judging",
+        "时间": "2026年3月4日 - 4月5日"
+      },
+      {
+        "阶段": "最终评审 Final Judging",
+        "时间": "2026年4月中旬"
+      },
+      {
+        "阶段": "IES照明奖颁奖晚宴",
+        "时间": "2026年5月14日（IES26照明会议期间）"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟价 - IES会员",
+        "price": 265,
+        "currency": "USD",
+        "date": "2025-12-01 至 2026-01-07",
+        "note": "每件参赛作品单独缴费，不可退还"
+      },
+      {
+        "period": "早鸟价 - 非会员",
+        "price": 365,
+        "currency": "USD",
+        "date": "2025-12-01 至 2026-01-07",
+        "note": "每件参赛作品单独缴费，不可退还"
+      },
+      {
+        "period": "常规价 - IES会员",
+        "price": 320,
+        "currency": "USD",
+        "date": "2026-01-08 至 2026-02-12",
+        "note": "每件参赛作品单独缴费，不可退还"
+      },
+      {
+        "period": "常规价 - 非会员",
+        "price": 420,
+        "currency": "USD",
+        "date": "2026-01-08 至 2026-02-12",
+        "note": "每件参赛作品单独缴费，不包含颁奖晚宴门票等后续费用"
+      }
+    ],
+    "fee_note": "所有费用均不可退还。每件参赛作品均需单独缴费。费用不包含获奖后可能产生的额外费用（如颁奖晚宴门票等）。IES会员与非会员价格差异显著，建议参赛者提前考虑加入IES会员以享受优惠价格。以上费用为2026年度参考价格，2027年度费用可能调整，请以官网最新公告为准。",
+    "judging_criteria": [
+      {
+        "维度": "设计的复杂性 Complexity of the Problem",
+        "说明": "评估项目面对的照明挑战、场地限制等初始问题的复杂程度。"
+      },
+      {
+        "维度": "设计概念/方案 Lighting Design Concept",
+        "说明": "评估照明设计理念的独创性、创新性及与建筑环境融合的程度。"
+      },
+      {
+        "维度": "方案执行/设计成果 Execution/Solution",
+        "说明": "评估最终落地的效果，包括技术实现、施工品质和对原始概念的还原度。"
+      },
+      {
+        "维度": "可持续性及环境责任 Sustainability & Environmental Responsibility",
+        "说明": "在概念和执行两方面对能源效率采取措施进行评估；评审室外项目时也会考虑对夜空光污染的影响。"
+      },
+      {
+        "维度": "社区影响声明 Impact Statement",
+        "说明": "2026年起，提交的作品必须包含\"影响力声明\"，由设计师阐述其设计如何对所在社区产生积极影响。"
+      }
+    ],
+    "judge_info": "评审由来自建筑和照明设计相关职业领域的广泛专业人士组成的全球评审团进行。评审团的裁判过程是匿名且基于标准的，旨在确保评选公平、客观。评审通常分为三个阶段：第一阶段为分会评审（Section Processing），第二阶段为荣誉评审（Merit Judging），第三阶段为最终评审（Final Judging）。IES工作人员、IES董事会成员和制造商不得参赛以确保公正性。",
+    "judges": [
+      {
+        "name": "全球专业评审团 Global Professional Jury",
+        "title": "多阶段评审专家",
+        "company": "建筑和照明设计相关职业领域"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "杰出奖 Award of Distinction",
+        "description": "最高荣誉等级，根据评审团评分一致性评出，表彰卓越设计的最高成就。"
+      },
+      {
+        "level": "卓越奖 Award of Excellence",
+        "description": "根据评审团评分一致性评出，表彰在设计各方面表现杰出的项目。"
+      },
+      {
+        "level": "特别表彰奖 Special Citation",
+        "description": "颁发给具有特定优异特征的项目，例如色彩运用创新等方面的突出表现。"
+      },
+      {
+        "level": "优异奖 Award of Merit",
+        "description": "根据评审团评分一致性评出，表彰高水平设计的项目。"
+      },
+      {
+        "level": "室内照明设计卓越奖 Interior Lighting Design",
+        "description": "由 Edwin F. Guth 赞助，表彰在功能与艺术平衡方面达到卓越水平的室内照明设计。"
+      },
+      {
+        "level": "户外照明设计奖 Outdoor Lighting Design",
+        "description": "表彰在美学、技术、解决方案等方面取得卓越成就的室外照明设计。"
+      },
+      {
+        "level": "控制创新奖 Control Innovation Award",
+        "description": "由 Lighting Controls Academy 赞助，表彰在非住宅应用中有效使用照明控制的创新项目。"
+      },
+      {
+        "level": "节能与环保设计奖 Energy & Environmental Design Award",
+        "description": "表彰在节能与环保设计方面表现卓越的室内外照明项目。"
+      },
+      {
+        "level": "体验式照明设计奖 Experiential Lighting Design Award",
+        "description": "由 ETC, Inc. 赞助，表彰将照明作为艺术或特效的主题或沉浸式环境。"
+      }
+    ],
+    "award_stats_2025": "2026年为第53届。上一周期共收到510份参赛作品。IES成立于1906年，奖项前身 IIDA 超过半个世纪历史。与 IALD 照明奖、《照明》杂志照明设计奖并称全球三大最权威照明设计奖项。",
+    "nomination_types": [
+      "Award of Distinction（杰出奖）",
+      "Award of Excellence（卓越奖）",
+      "Special Citation（特别表彰奖）",
+      "Award of Merit（优异奖）",
+      "Interior Lighting Design（室内照明设计卓越奖）",
+      "Outdoor Lighting Design（户外照明设计奖）",
+      "Control Innovation Award（控制创新奖）",
+      "Energy & Environmental Design Award（节能与环保设计奖）",
+      "Experiential Lighting Design Award（体验式照明设计奖）"
+    ],
+    "preliminary_check": "评审会单独评估每个作品与评判标准的契合度，而非让作品之间相互竞争。评审流程分为三阶段：（1）分会评审（Section Processing），由各分会组织初筛；（2）荣誉评审（Merit Judging），对入围作品进行详细评分；（3）最终评审（Final Judging），由全球评审团确定最终获奖名单。评审过程匿名且基于标准，确保公平客观。",
+    "requirements": {
+      "参赛资格": "面向全球开放，但IES工作人员、IES董事会成员和制造商不得参赛，以确保评审公正性。同一项目的不同区域可以进行独立的多项参赛，每次需独立提交标题和费用，并单独评审。",
+      "作品时效性": "作品必须在过去24个月内（以每年1月为基准日）完成。已上市、落地或生产完成的设计均可参赛。",
+      "提交方式与渠道": "必须通过主设计师所在的 IES 分会提交文本。如果无分会，则提交到主设计师所在地理位置最近的分会。每个项目只能提交一次，提交前须与各方协调以避免重复提交。所有作品都必须通过在线平台提交。",
+      "提交材料要求": "(1) 项目描述（摘要最多300字）；(2) 最多10张高分辨率实景图片或图表（不允许使用填充灯光或闪光灯拍摄）；(3) 允许有最多1分钟的无声视频（可选）。提交前须仔细阅读评分准则，确保叙述切题。",
+      "匿名要求": "提交的材料中不能出现任何可识别个人、公司或厂商的信息，否则将会被自动标记为最低分或直接判为无效。这是确保评审公平的关键规则。"
+    },
+    "benefits": [
+      "全球声望与认可：加入近70年来全球顶尖照明设计精英的行列，获得国际权威认证，与 IALD 照明奖、《照明》杂志照明设计奖并称行业最高荣誉",
+      "IES 颁奖晚宴和年度照明会议公开展示：将在 IES 年度照明会议和年度颁奖晚宴获得全球瞩目（如2025年颁奖典礼在 IES25 会议上隆重举办）",
+      "《LD+A》杂志专题展出：获奖作品有机会在 IES 官方杂志《LD+A》（Lighting Design + Application，照明设计与应用）以及官方网站上突出展示，向全球 IES 会员及行业专业人士传播",
+      "免费获得官方认证数字徽章：可用于个人网站、社交媒体和宣传材料中，作为专业能力的权威背书",
+      "全球媒体广泛报道：获奖作品被全球知名设计媒体重点报道，如 EdisonReport 和 Inside Lighting 等都会对年度获奖项目进行专题展示"
+    ],
+    "website": "https://ies.org/illumination-awards",
+    "entry_url": "https://iesilluminationawards.secure-platform.com",
+    "contact_email": "",
+    "contact_address": "120 Wall Street, 17th Floor, New York, NY 10005, USA",
+    "official_media": [
+      "《LD+A》（Lighting Design + Application / 照明设计与应用）— IES官方杂志",
+      "EdisonReport — 全球照明行业权威媒体",
+      "Inside Lighting — 国际照明设计媒体"
+    ],
+    "disclaimer": "2026年度（第53届）报名时间已截止，具体2027年度赛程预计将于2026年12月前后公布。以上信息基于2026年度公开资料整理，仅供参考。建议在正式参赛前访问 IES 官网 https://ies.org/illumination-awards 或投递门户 https://iesilluminationawards.secure-platform.com 核实最新细节。对于有志于角逐行业顶尖荣誉的专业人士来说，一般建议提前一年开始准备。"
+  },
+  {
     "award_id": "spark_design_awards_2026",
     "name": "Spark Design Awards (星火国际设计奖)",
     "name_en": "Spark Design Awards",
