@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "ifi_design_distinction_awards_2026",
+    "award_name_cn": "IFI卓越设计大奖",
+    "award_name_en": "IFI Design Distinction Awards (IFI DDA)",
+    "award_name": "IFI卓越设计大奖 (IFI Design Distinction Awards)",
+    "short_name": "IFI DDA",
+    "logo_url": "/images/logos/ifi-dda-logo.png",
+    "organizer": "IFI (国际室内建筑师/设计师联盟)",
+    "category_main": "室内设计",
+    "category_sub": [
+      "室内设计",
+      "综合设计"
+    ],
+    "country": "国际组织",
+    "city": "",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_regular": 250,
+    "fee_final": 250,
+    "fee_currency": "USD",
+    "submission_open": "2026-03-01",
+    "deadline_early": "2026-05-15",
+    "deadline_regular": "2026-05-31",
+    "deadline_final": "2026-06-30",
+    "annnouncement_date": "2026-11-01",
+    "website": "https://ifiworld.org/ifi-dda/",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "ida_international_design_awards_2026",
     "award_name_cn": "IDA国际设计奖",
     "award_name_en": "International Design Awards",
