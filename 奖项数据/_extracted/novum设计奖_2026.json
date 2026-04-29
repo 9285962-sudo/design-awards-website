@@ -1,0 +1,84 @@
+{
+  "award_id": "novum设计奖_2026",
+  "name": "Novum设计奖",
+  "name_en": "HOME",
+  "website": "https://www.novumdesignaward.com/",
+  "organizer": "",
+  "organizer_location": "越南",
+  "extracted": {
+    "contact_email": "info@novumdesignaward.com",
+    "raw_fees": [
+      "EUR\n15"
+    ],
+    "raw_deadlines": [
+      "Deadline: 01",
+      "deadline",
+      "deadline: 15",
+      "deadline: 15",
+      "deadline: 15",
+      "deadline: 15",
+      "DEADLINE",
+      "deadlines for registration",
+      "deadline is 15",
+      "deadline is 15"
+    ],
+    "raw_categories": [
+      "Interior",
+      "Urban",
+      "Landscape",
+      "Furniture",
+      "Digital",
+      "Graphic",
+      "Product",
+      "Fashion",
+      "Photography",
+      "ui",
+      "Lighting",
+      "web",
+      "social"
+    ],
+    "raw_judges": [
+      "Jury of Novum Design Award (NDA) in 10 categories: Architectural Design Category, Interior Design Category, Urban Planning and Landscape Design Category, Furniture Design Category, Lightning Design Ca",
+      "Jury shall evaluate and check all the submitted Designs for the following aspects: quality, technical adequacy, authentication of the Designs, etc",
+      "Jury have no informations about the Designers name, email address, location, age or profession",
+      "Jury’s decisions will be binding",
+      "jury will start the check your design"
+    ],
+    "raw_criteria": [
+      "selection process for the Winners"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "Gold",
+      "Silver",
+      "Bronze"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.novumdesignaward.com/",
+      "chars": 1879,
+      "preview": "top of page\nNOVUM DESIGN AWARD\n\nHOME\n\nNDA\n\nPRIZES\n\nWINNERS 2023\n\nSUBMIT\n\nREGISTRATION\n\nCONTACT\n\nWINNERS' ANNOUNCEMENT 2023\nNOVUM DESIGN AWARD 2023\nfor the World's leading design ideas\nNDA 2023 WINNERS\nGolden Novum\nDesign Award\n\nin 10 categories\n\nSilver Novum\nDesign Award\n\nin 10 categories\n\nBronze Novum\nDesign Award\n\nin 10 categories\n\nDesigner\nof the Year\n\nin 10 categories\n\nArchitectural Design Category\nInterior Design Category\nUrban Planning and Landscape Design Category\nFurniture Design Categor"
+    },
+    "获奖者": {
+      "url": "https://www.novumdesignaward.com/winners-2023",
+      "chars": 515,
+      "preview": "top of page\nSkip to Main Content\nNOVUM DESIGN AWARD\nNDA 2023 WINNERS\nCongratulations for all the NDA 2023 Winners!\nThank you for being a part of Novum Design Award 2023!\nArchitectural Design Category\nInterior Design Category\nUrban Planning and Landscape Design Category\nFurniture Design Category\nLighting Design Category\nDigital Art and Graphic Design Category\nPacking Design Category\nProduct Design Category\nFashion and Textile Design Category\n\nWe are hiring talented Designers!\n\nREGISTRATION\nSUBMIT"
+    },
+    "参赛": {
+      "url": "http://www.novumdesignaward.com/submit",
+      "chars": 1527,
+      "preview": "top of page\nNOVUM DESIGN AWARD\nSUBMIT YOUR DESIGN\n\nSubmission Deadline: 01. 10. 2023. 24:00 UTC+1\n\nREGISTRATION FOR AWARD ID NUMBER\nAward Category *\nMain Image *\n\nYou can submit up to 6 images   for  each  Design. \nPhoto needs to be in high resolution JPEG or PNG format and minimally have a long dimension of at least 2000 pixels. We recommend the file size not be larger than 3 MB to ensure a faster upload experience.\n\nOptional Image 1\nOptional Image 2\nOptional Image 3\nOptional Image 4\nOptional I"
+    },
+    "联系": {
+      "url": "https://www.novumdesignaward.com/contact",
+      "chars": 155,
+      "preview": "top of page\nNOVUM DESIGN AWARD\nCONTACT\nWe are always happy to help you!\n\n\nemail: info@novumdesignaward.com\n\n​\n\nSEND\n\nThanks for submitting!\n\nbottom of page"
+    },
+    "类别": {
+      "url": "https://www.novumdesignaward.com/award-informations",
+      "chars": 15000,
+      "preview": "top of page\nNOVUM DESIGN AWARD\nNOVUM DESIGN AWARD\nNOVUM DESIGN AWARD IS A PROOF OF HIGH QUALITY DESIGN\nINTERNATIONAL FAME AND RECOGNITION\n10 CATEGORIES IN THE WORLD OF DESIGN\n40 DIFFERENT PRIZES\nNO EXTRA FEES FOR WINNERS\nNO EXTRA FEES TO GET YOUR AWARD TROPHY\nLIFELONG LICENSE TO USE NDA WINNER LOGOS\nMULTIPLE CATEGORIES ARE ALLOWED\nNO LIMITS TO THE NUMBER OF SUBMISSIONS\nDESIGNERS ARE WELCOME FROM ALL OVER THE WORLD\nRegistrations\n\nRegistration steps\n\n\nStep 1.\n\nGet your \"Registration Ticket\"\nREGIST"
+    }
+  }
+}

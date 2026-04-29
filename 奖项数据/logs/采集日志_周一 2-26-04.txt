@@ -1,0 +1,302 @@
+========================================
+奖项官网信息采集系统
+启动时间: 2026/4/20 15:12:30
+特性: 自动恢复、永不停止、实时保存进度
+========================================
+
+[2026-04-20T07:12:30.462Z] ℹ️ ========== 开始批量采集奖项信息 ==========
+[2026-04-20T07:12:30.462Z] ℹ️ 总计: 83 个奖项
+[2026-04-20T07:12:30.462Z] ℹ️ 
+进度: 1/83
+[2026-04-20T07:12:30.462Z] ⚠️ D&AD 已采集，跳过
+[2026-04-20T07:12:30.462Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:12:33.466Z] ℹ️ 
+进度: 2/83
+[2026-04-20T07:12:33.466Z] ⚠️ RIBA International 已采集，跳过
+[2026-04-20T07:12:33.467Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:12:36.472Z] ℹ️ 
+进度: 3/83
+[2026-04-20T07:12:36.473Z] ⚠️ LIA 已采集，跳过
+[2026-04-20T07:12:36.473Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:12:39.487Z] ℹ️ 
+进度: 4/83
+[2026-04-20T07:12:39.488Z] ⚠️ Andrew Martin 已采集，跳过
+[2026-04-20T07:12:39.488Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:12:42.497Z] ℹ️ 
+进度: 5/83
+[2026-04-20T07:12:42.497Z] ℹ️ 
+========== 开始采集: Property Awards ==========
+[2026-04-20T07:12:42.498Z] ℹ️ 使用HTTP采集: https://propertyawards.net/
+[2026-04-20T07:12:44.947Z] ✅ Property Awards HTTP采集完成
+[2026-04-20T07:12:44.951Z] ✅ 数据已保存: Property_Awards
+[2026-04-20T07:12:44.951Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:12:47.961Z] ℹ️ 
+进度: 6/83
+[2026-04-20T07:12:47.961Z] ℹ️ 
+========== 开始采集: FX Design Awards ==========
+[2026-04-20T07:12:47.961Z] ℹ️ 使用HTTP采集: https://fxdesignawards.co.uk/2025/en/page/home
+[2026-04-20T07:12:48.807Z] ❌ FX Design Awards HTTP采集失败: HTTP 403
+[2026-04-20T07:12:48.808Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 403
+[2026-04-20T07:12:50.784Z] ℹ️ 正在访问: https://fxdesignawards.co.uk/2025/en/page/home
+[2026-04-20T07:13:00.726Z] ✅ FX Design Awards 采集完成
+[2026-04-20T07:13:02.573Z] ✅ 数据已保存: FX_Design_Awards
+[2026-04-20T07:13:02.574Z] ℹ️ 进度已保存: 5/83 (6%)
+[2026-04-20T07:13:02.574Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:05.582Z] ℹ️ 
+进度: 7/83
+[2026-04-20T07:13:05.582Z] ℹ️ 
+========== 开始采集: LICC ==========
+[2026-04-20T07:13:05.582Z] ℹ️ 使用HTTP采集: https://licc.uk/
+[2026-04-20T07:13:09.945Z] ✅ LICC HTTP采集完成
+[2026-04-20T07:13:09.948Z] ✅ 数据已保存: LICC
+[2026-04-20T07:13:09.948Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:12.964Z] ℹ️ 
+进度: 8/83
+[2026-04-20T07:13:12.964Z] ℹ️ 
+========== 开始采集: World Interiors News Awards ==========
+[2026-04-20T07:13:12.964Z] ℹ️ 使用HTTP采集: https://www.worldinteriorsnewsawards.com/
+[2026-04-20T07:13:14.419Z] ✅ World Interiors News Awards HTTP采集完成
+[2026-04-20T07:13:14.422Z] ✅ 数据已保存: World_Interiors_News_Awards
+[2026-04-20T07:13:14.423Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:17.435Z] ℹ️ 
+进度: 9/83
+[2026-04-20T07:13:17.436Z] ℹ️ 
+========== 开始采集: LEAF Awards ==========
+[2026-04-20T07:13:17.436Z] ℹ️ 使用HTTP采集: https://www.leafawards.arena-international.com/
+[2026-04-20T07:13:17.969Z] ❌ LEAF Awards HTTP采集失败: Hostname/IP does not match certificate's altnames: Host: www.leafawards.arena-international.com. is not in the cert's altnames: DNS:*.getpantheon.com, DNS:*.gotpantheon.com, DNS:*.pantheon.io, DNS:*.pantheonsite.io, DNS:getpantheon.com, DNS:gotpantheon.com, DNS:pantheonsite.io
+[2026-04-20T07:13:17.969Z] ⚠️ HTTP采集失败，切换到Playwright: Hostname/IP does not match certificate's altnames: Host: www.leafawards.arena-international.com. is not in the cert's altnames: DNS:*.getpantheon.com, DNS:*.gotpantheon.com, DNS:*.pantheon.io, DNS:*.pantheonsite.io, DNS:getpantheon.com, DNS:gotpantheon.com, DNS:pantheonsite.io
+[2026-04-20T07:13:18.814Z] ℹ️ 正在访问: https://www.leafawards.arena-international.com/
+[2026-04-20T07:13:18.953Z] ❌ LEAF Awards 采集失败: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.leafawards.arena-international.com/
+Call log:
+[2m  - navigating to "https://www.leafawards.arena-international.com/", waiting until "networkidle"[22m
+
+[2026-04-20T07:13:20.749Z] ✅ 数据已保存: LEAF_Awards
+[2026-04-20T07:13:20.749Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:23.750Z] ℹ️ 
+进度: 10/83
+[2026-04-20T07:13:23.751Z] ℹ️ 
+========== 开始采集: Landscape Institute Awards ==========
+[2026-04-20T07:13:23.751Z] ℹ️ 使用HTTP采集: https://landscapeinstitute.org/awards/
+[2026-04-20T07:13:26.262Z] ✅ Landscape Institute Awards HTTP采集完成
+[2026-04-20T07:13:26.265Z] ✅ 数据已保存: Landscape_Institute_Awards
+[2026-04-20T07:13:26.265Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:29.276Z] ℹ️ 
+进度: 11/83
+[2026-04-20T07:13:29.276Z] ℹ️ 
+========== 开始采集: Premio Architettura ==========
+[2026-04-20T07:13:29.276Z] ℹ️ 使用HTTP采集: https://www.premioarchitettura.it/it/
+[2026-04-20T07:13:33.829Z] ✅ Premio Architettura HTTP采集完成
+[2026-04-20T07:13:33.832Z] ✅ 数据已保存: Premio_Architettura
+[2026-04-20T07:13:33.833Z] ℹ️ 进度已保存: 10/83 (12%)
+[2026-04-20T07:13:33.833Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:36.840Z] ℹ️ 
+进度: 12/83
+[2026-04-20T07:13:36.840Z] ℹ️ 
+========== 开始采集: International Hotel Property Awards ==========
+[2026-04-20T07:13:36.840Z] ℹ️ 使用HTTP采集: https://thedesignawards.co.uk/international-hotel-property-awards/home-2/
+[2026-04-20T07:13:38.072Z] ✅ International Hotel Property Awards HTTP采集完成
+[2026-04-20T07:13:38.075Z] ✅ 数据已保存: International_Hotel_Property_Awards
+[2026-04-20T07:13:38.075Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:41.078Z] ℹ️ 
+进度: 13/83
+[2026-04-20T07:13:41.079Z] ℹ️ 
+========== 开始采集: AHEAD Awards ==========
+[2026-04-20T07:13:41.079Z] ℹ️ 使用HTTP采集: https://www.aheadawards.com/
+[2026-04-20T07:13:43.077Z] ✅ AHEAD Awards HTTP采集完成
+[2026-04-20T07:13:43.082Z] ✅ 数据已保存: AHEAD_Awards
+[2026-04-20T07:13:43.082Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:46.090Z] ℹ️ 
+进度: 14/83
+[2026-04-20T07:13:46.090Z] ℹ️ 
+========== 开始采集: Restaurant & Bar Design Awards ==========
+[2026-04-20T07:13:46.090Z] ℹ️ 使用HTTP采集: https://restaurantandbardesignawards.com/
+[2026-04-20T07:13:46.422Z] ✅ Restaurant & Bar Design Awards HTTP采集完成
+[2026-04-20T07:13:46.425Z] ✅ 数据已保存: Restaurant___Bar_Design_Awards
+[2026-04-20T07:13:46.425Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:49.427Z] ℹ️ 
+进度: 15/83
+[2026-04-20T07:13:49.428Z] ℹ️ 
+========== 开始采集: Dezeen Awards ==========
+[2026-04-20T07:13:49.428Z] ℹ️ 使用HTTP采集: https://www.dezeen.com/
+[2026-04-20T07:13:50.103Z] ✅ Dezeen Awards HTTP采集完成
+[2026-04-20T07:13:50.107Z] ✅ 数据已保存: Dezeen_Awards
+[2026-04-20T07:13:50.108Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:13:53.109Z] ℹ️ 
+进度: 16/83
+[2026-04-20T07:13:53.110Z] ℹ️ 
+========== 开始采集: BALI Awards ==========
+[2026-04-20T07:13:53.110Z] ℹ️ 使用HTTP采集: https://www.baliawards.co.uk/
+[2026-04-20T07:13:53.362Z] ❌ BALI Awards HTTP采集失败: HTTP 403
+[2026-04-20T07:13:53.362Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 403
+[2026-04-20T07:13:54.174Z] ℹ️ 正在访问: https://www.baliawards.co.uk/
+[2026-04-20T07:14:24.188Z] ❌ BALI Awards 采集失败: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.baliawards.co.uk/", waiting until "networkidle"[22m
+
+[2026-04-20T07:14:26.502Z] ✅ 数据已保存: BALI_Awards
+[2026-04-20T07:14:26.502Z] ℹ️ 进度已保存: 15/83 (18%)
+[2026-04-20T07:14:26.502Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:14:29.509Z] ℹ️ 
+进度: 17/83
+[2026-04-20T07:14:29.510Z] ℹ️ 
+========== 开始采集: World Architecture Festival ==========
+[2026-04-20T07:14:29.510Z] ℹ️ 使用HTTP采集: https://worldarchitecturefestival.com/worldarchitecturefestival2024/en/page/awards-page
+[2026-04-20T07:14:30.358Z] ❌ World Architecture Festival HTTP采集失败: HTTP 403
+[2026-04-20T07:14:30.358Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 403
+[2026-04-20T07:14:31.196Z] ℹ️ 正在访问: https://worldarchitecturefestival.com/worldarchitecturefestival2024/en/page/awards-page
+[2026-04-20T07:15:01.206Z] ❌ World Architecture Festival 采集失败: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://worldarchitecturefestival.com/worldarchitecturefestival2024/en/page/awards-page", waiting until "networkidle"[22m
+
+[2026-04-20T07:15:03.894Z] ✅ 数据已保存: World_Architecture_Festival
+[2026-04-20T07:15:03.894Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:15:06.908Z] ℹ️ 
+进度: 18/83
+[2026-04-20T07:15:06.909Z] ℹ️ 
+========== 开始采集: Frame Awards ==========
+[2026-04-20T07:15:06.909Z] ℹ️ 使用HTTP采集: https://frameweb.com/about-frame-awards
+[2026-04-20T07:15:09.230Z] ✅ Frame Awards HTTP采集完成
+[2026-04-20T07:15:10.179Z] ℹ️ 正在访问: https://frameweb.com/about-frame-awards
+[2026-04-20T07:15:32.375Z] ℹ️ 访问关于页面: https://frameweb.com/about
+[2026-04-20T07:15:40.960Z] ✅ Frame Awards 采集完成
+[2026-04-20T07:15:42.778Z] ✅ 数据已保存: Frame_Awards
+[2026-04-20T07:15:42.778Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:15:45.780Z] ℹ️ 
+进度: 19/83
+[2026-04-20T07:15:45.781Z] ℹ️ 
+========== 开始采集: SBID Awards ==========
+[2026-04-20T07:15:45.781Z] ℹ️ 使用HTTP采集: https://www.sbidawards.com/
+[2026-04-20T07:15:47.332Z] ✅ SBID Awards HTTP采集完成
+[2026-04-20T07:15:47.337Z] ✅ 数据已保存: SBID_Awards
+[2026-04-20T07:15:47.337Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:15:50.338Z] ℹ️ 
+进度: 20/83
+[2026-04-20T07:15:50.338Z] ℹ️ 
+========== 开始采集: WA 100 ==========
+[2026-04-20T07:15:50.339Z] ℹ️ 使用HTTP采集: https://www.bdonline.co.uk/wa-100
+[2026-04-20T07:15:51.612Z] ❌ WA 100 HTTP采集失败: HTTP 202
+[2026-04-20T07:15:51.612Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 202
+[2026-04-20T07:15:53.676Z] ℹ️ 正在访问: https://www.bdonline.co.uk/wa-100
+[2026-04-20T07:16:09.608Z] ✅ WA 100 采集完成
+[2026-04-20T07:16:11.470Z] ✅ 数据已保存: WA_100
+[2026-04-20T07:16:11.470Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:16:14.482Z] ℹ️ 
+进度: 21/83
+[2026-04-20T07:16:14.482Z] ℹ️ 
+========== 开始采集: Azure Awards ==========
+[2026-04-20T07:16:14.483Z] ℹ️ 使用HTTP采集: https://awards.azuremagazine.com/
+[2026-04-20T07:16:15.005Z] ✅ Azure Awards HTTP采集完成
+[2026-04-20T07:16:15.011Z] ✅ 数据已保存: Azure_Awards
+[2026-04-20T07:16:15.013Z] ℹ️ 进度已保存: 20/83 (24%)
+[2026-04-20T07:16:15.013Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:16:18.018Z] ℹ️ 
+进度: 22/83
+[2026-04-20T07:16:18.018Z] ℹ️ 
+========== 开始采集: Good Design ==========
+[2026-04-20T07:16:18.018Z] ℹ️ 使用HTTP采集: https://good-design.org/
+[2026-04-20T07:16:25.142Z] ✅ Good Design HTTP采集完成
+[2026-04-20T07:16:25.146Z] ✅ 数据已保存: Good_Design
+[2026-04-20T07:16:25.146Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:16:28.154Z] ℹ️ 
+进度: 23/83
+[2026-04-20T07:16:28.154Z] ℹ️ 
+========== 开始采集: Better Future Awards ==========
+[2026-04-20T07:16:28.154Z] ℹ️ 使用HTTP采集: https://betterfutureawards.com/d100/Default.asp
+[2026-04-20T07:16:28.384Z] ❌ Better Future Awards HTTP采集失败: HTTP 403
+[2026-04-20T07:16:28.384Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 403
+[2026-04-20T07:16:31.554Z] ℹ️ 正在访问: https://betterfutureawards.com/d100/Default.asp
+[2026-04-20T07:16:42.184Z] ℹ️ 访问关于页面: https://betterfutureawards.com/about
+[2026-04-20T07:16:46.352Z] ℹ️ 访问参赛页面: https://betterfutureawards.com/BER26/entryform.asp?ID=38915&category_id=&mode=edit
+[2026-04-20T07:16:50.765Z] ✅ Better Future Awards 采集完成
+[2026-04-20T07:16:53.146Z] ✅ 数据已保存: Better_Future_Awards
+[2026-04-20T07:16:53.146Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:16:56.156Z] ℹ️ 
+进度: 24/83
+[2026-04-20T07:16:56.156Z] ℹ️ 
+========== 开始采集: Grands Prix du Design ==========
+[2026-04-20T07:16:56.157Z] ℹ️ 使用HTTP采集: https://int.design/en/grands-prix-du-design/the-award/
+[2026-04-20T07:16:58.044Z] ✅ Grands Prix du Design HTTP采集完成
+[2026-04-20T07:16:58.049Z] ✅ 数据已保存: Grands_Prix_du_Design
+[2026-04-20T07:16:58.049Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:01.054Z] ℹ️ 
+进度: 25/83
+[2026-04-20T07:17:01.055Z] ℹ️ 
+========== 开始采集: Core77 Design Awards ==========
+[2026-04-20T07:17:01.055Z] ℹ️ 使用HTTP采集: https://designawards.core77.com/about
+[2026-04-20T07:17:02.166Z] ✅ Core77 Design Awards HTTP采集完成
+[2026-04-20T07:17:02.170Z] ✅ 数据已保存: Core77_Design_Awards
+[2026-04-20T07:17:02.170Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:05.180Z] ℹ️ 
+进度: 26/83
+[2026-04-20T07:17:05.180Z] ℹ️ 
+========== 开始采集: UIA Gold Medal ==========
+[2026-04-20T07:17:05.180Z] ℹ️ 使用HTTP采集: https://www.uia-architectes.org/en/awards/uia-gold-medal-triennial-prizes/
+[2026-04-20T07:17:08.207Z] ✅ UIA Gold Medal HTTP采集完成
+[2026-04-20T07:17:08.210Z] ✅ 数据已保存: UIA_Gold_Medal
+[2026-04-20T07:17:08.212Z] ℹ️ 进度已保存: 25/83 (30%)
+[2026-04-20T07:17:08.212Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:11.224Z] ℹ️ 
+进度: 27/83
+[2026-04-20T07:17:11.225Z] ⚠️ Red Dot 标记为跳过
+[2026-04-20T07:17:11.225Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:14.236Z] ℹ️ 
+进度: 28/83
+[2026-04-20T07:17:14.236Z] ℹ️ 
+========== 开始采集: UX Design Awards ==========
+[2026-04-20T07:17:14.237Z] ℹ️ 使用HTTP采集: https://ux-design-awards.com/
+[2026-04-20T07:17:19.238Z] ✅ UX Design Awards HTTP采集完成
+[2026-04-20T07:17:19.245Z] ✅ 数据已保存: UX_Design_Awards
+[2026-04-20T07:17:19.245Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:22.250Z] ℹ️ 
+进度: 29/83
+[2026-04-20T07:17:22.251Z] ℹ️ 
+========== 开始采集: Prix Versailles ==========
+[2026-04-20T07:17:22.251Z] ℹ️ 使用HTTP采集: https://www.prix-versailles.com/
+[2026-04-20T07:17:24.653Z] ✅ Prix Versailles HTTP采集完成
+[2026-04-20T07:17:24.656Z] ✅ 数据已保存: Prix_Versailles
+[2026-04-20T07:17:24.656Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:27.662Z] ℹ️ 
+进度: 30/83
+[2026-04-20T07:17:27.662Z] ℹ️ 
+========== 开始采集: Design Educates ==========
+[2026-04-20T07:17:27.662Z] ℹ️ 使用HTTP采集: https://www.designeducates.com/
+[2026-04-20T07:17:28.639Z] ✅ Design Educates HTTP采集完成
+[2026-04-20T07:17:28.642Z] ✅ 数据已保存: Design_Educates
+[2026-04-20T07:17:28.642Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:31.644Z] ℹ️ 
+进度: 31/83
+[2026-04-20T07:17:31.645Z] ℹ️ 
+========== 开始采集: EDIDA Awards ==========
+[2026-04-20T07:17:31.645Z] ℹ️ 使用HTTP采集: https://www.edida-awards.com/
+[2026-04-20T07:17:33.593Z] ✅ EDIDA Awards HTTP采集完成
+[2026-04-20T07:17:33.595Z] ✅ 数据已保存: EDIDA_Awards
+[2026-04-20T07:17:33.597Z] ℹ️ 进度已保存: 30/83 (36%)
+[2026-04-20T07:17:33.598Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:17:36.604Z] ℹ️ 
+进度: 32/83
+[2026-04-20T07:17:36.604Z] ℹ️ 
+========== 开始采集: InnoDesign ==========
+[2026-04-20T07:17:36.604Z] ℹ️ 使用HTTP采集: https://innodesign.fr/
+[2026-04-20T07:17:38.569Z] ❌ InnoDesign HTTP采集失败: HTTP 404
+[2026-04-20T07:17:38.569Z] ⚠️ HTTP采集失败，切换到Playwright: HTTP 404
+[2026-04-20T07:17:39.500Z] ℹ️ 正在访问: https://innodesign.fr/
+[2026-04-20T07:18:09.506Z] ❌ InnoDesign 采集失败: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://innodesign.fr/", waiting until "networkidle"[22m
+
+[2026-04-20T07:18:11.881Z] ✅ 数据已保存: InnoDesign
+[2026-04-20T07:18:11.881Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:18:14.895Z] ℹ️ 
+进度: 33/83
+[2026-04-20T07:18:14.895Z] ℹ️ 
+========== 开始采集: Novum Design Award ==========
+[2026-04-20T07:18:14.895Z] ℹ️ 使用HTTP采集: https://www.novumdesignaward.com/
+[2026-04-20T07:18:16.195Z] ✅ Novum Design Award HTTP采集完成
+[2026-04-20T07:18:16.200Z] ✅ 数据已保存: Novum_Design_Award
+[2026-04-20T07:18:16.200Z] ℹ️ 等待 3000ms...
+[2026-04-20T07:18:19.202Z] ℹ️ 
+进度: 34/83
+[2026-04-20T07:18:19.202Z] ℹ️ 
+========== 开始采集: French Design Award ==========
+[2026-04-20T07:18:19.202Z] ℹ️ 使用HTTP采集: https://www.frenchdesignaward.com/
+^C

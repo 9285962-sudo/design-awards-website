@@ -1,0 +1,22 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'design.museaward.com',
+        pathname: '/uploads/**'
+      },
+      {
+        protocol: 'https',
+        hostname: '**.museaward.com',
+        pathname: '/**'
+      }
+    ]
+  },
+  output: 'export',
+  trailingSlash: true
+}
+
+module.exports = nextConfig

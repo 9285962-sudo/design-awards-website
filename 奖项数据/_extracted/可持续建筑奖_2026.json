@@ -1,0 +1,81 @@
+{
+  "award_id": "可持续建筑奖_2026",
+  "name": "可持续建筑奖",
+  "name_en": "Sustainability Awards",
+  "website": "https://www.sustainablebuildingawards.com.au/",
+  "organizer": "",
+  "organizer_location": "澳大利亚",
+  "extracted": {
+    "contact_email": "adrian.wilson@architectureanddesign.com.au",
+    "raw_categories": [
+      "ui",
+      "sustainable",
+      "Architecture",
+      "Green",
+      "Interior",
+      "Landscape",
+      "ux",
+      "lighting",
+      "product",
+      "Urban",
+      "social",
+      "service",
+      "concept",
+      "web",
+      "digital"
+    ],
+    "raw_judges": [
+      "Jury Of The Future: Voices From Sustainability Awards Judges Of Years Past",
+      "Jury 2026Jury 2026",
+      "judges, and will ensure that only the country’s most pioneering green projects have made the final cut",
+      "judges and winners in 18 categories are announced at the five-star Sustainability Awards gala evening hosted at the Museum of Contemporary Art, Sydney, on 12 November 2026"
+    ],
+    "raw_criteria": [
+      "selection of finalists a challenging task for our expert jury"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "Platinum",
+      "Gold",
+      "finalist",
+      "shortlist"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.sustainablebuildingawards.com.au/",
+      "chars": 6198,
+      "preview": "2025 WINNERS\nNEWS\nPARTNERS\nCATEGORIES\nJURY 2026\nGALLERY \nCONTACT \nARCHIVE \n\nFor 20 years, the Sustainability Awards have set the benchmark for excellence in Australia’s built environment — recognising projects, organisations and individuals delivering measurable, lasting sustainability impact. Long before sustainability became standard practice, the Awards championed leadership, innovation and credibility.\n\nNow celebrating its 20th anniversary, we remain Australia’s longest-running and most resp"
+    },
+    "获奖者": {
+      "url": "https://www.sustainablebuildingawards.com.au/2025-winners/",
+      "chars": 3461,
+      "preview": "Home > 2025 Winners2025 Winners\n2025 Sustainability Awards Winners\n\nOn November 19, Sydney’s iconic Town Hall hosted the Sustainability Awards Gala, uniting over 300 attendees, including jurors, partners, and industry leaders. The night celebrated innovation and connection, highlighting the industry’s unwavering commitment to sustainability.\n\nOver 250 outstanding projects, people, and products were submitted, making the selection of finalists a challenging task for our expert jury.\n\nExplore the "
+    },
+    "类别": {
+      "url": "https://www.sustainablebuildingawards.com.au/2026-categories/",
+      "chars": 4988,
+      "preview": "Home > 2026 Categories2026 Categories\nCategories\n\nThe Sustainability Awards is Australia’s longest-running and most prestigious awards program dedicated to acknowledging and celebrating excellence in sustainable design and architecture.\n\nPeople\nEmerging Sustainable Architect/Designer\nOpen to Australian-based architects/designers in their first five years of their career and recognises an outstanding achievement or development in the field of sustainable and / or environmental architecture planni"
+    },
+    "评审": {
+      "url": "https://www.sustainablebuildingawards.com.au/jury-2026/",
+      "chars": 5510,
+      "preview": "Home > Jury 2026Jury 2026\n2026 Jury\n\nThey’re leaders in their respective fields. They’re from universities, industry associations and architecture firms, and they know what sustainable buildings look like. They are world-class industry experts and world-class judges, and will ensure that only the country’s most pioneering green projects have made the final cut.\n\nBen Peake\n\nPrincipal, Carter Williamson Architects\n\n\nIn 2023, Ben was awarded the National Emerging Architect Prize for his outstanding"
+    },
+    "关于": {
+      "url": "https://www.sustainablebuildingawards.com.au/about/",
+      "chars": 920,
+      "preview": "Home > About UsAbout Us\nAbout Sustainability Awards\n\nThe Sustainability Awards is Australia’s longest-running and most prestigious awards program dedicated to acknowledging and celebrating excellence in sustainable design and architecture. Entries received are reviewed by a panel of judges and winners in 18 categories are announced at the five-star Sustainability Awards gala evening hosted at the Museum of Contemporary Art, Sydney, on 12 November 2026.\n\nAbout Sustainability Summit\n\nThe Sustainab"
+    },
+    "FAQ": {
+      "url": "https://www.sustainablebuildingawards.com.au/faq-summit/",
+      "chars": 3307,
+      "preview": "Home > FAQ - SummitFAQ – Summit\nSustainability Summit 2026\nFrequently Asked Questions\nWhen Is The 2026 Sustainability Summit?\n\nThe 2026 Sustainability Summit is on Thursday, 12th November 2026.\n\nIs The Sustainability Summit Online Or In-Person?\n\nThe 2026 Sustainability Summit is an in person event only.\n\nThe event is being held at The Fullerton Hotel, 1 Martin Place, Sydney, NSW, 2000.\n\n \n\nHow Do I Earn CPD Points At The Sustainability Summit?\n\nIf you are an Australian Architect, you are eligibl"
+    },
+    "时间": {
+      "url": "https://www.sustainablebuildingawards.com.au/contacts/",
+      "chars": 3887,
+      "preview": "Home > Contact - FrontContact – Front\nContact\nSelect your Job Function...\nArch ./ID Graduate\nArchitect\nBuilder\nBuilding Designer\nBuilding Supplier/Manufacturer\nConsultant\nDeveloper\nDraftsperson\nEngineer\nEstimator\nHome Owner/Renovator\nInterior Designer\nLandscape Architect\nLandscape Contractor\nProject Manager\nTradesperson\nTeacher/Educator\nOther\nSelect your Country...\nAfghanistan\nAkrotiri\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua and Barbuda\nArgentina\nArmenia\nAruba\nA"
+    }
+  }
+}

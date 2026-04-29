@@ -1,0 +1,131 @@
+{
+  "award_id": "award_77_2026",
+  "name": "Architizer A+Awards",
+  "name_en": "Architizer A+Awards",
+  "website": "https://awards.architizer.com/a",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "contact_email": "awards@architizer.com",
+    "raw_fees": [
+      "$195",
+      "$275",
+      "$325",
+      "$375",
+      "$425"
+    ],
+    "raw_dates": [
+      "October 13, 2025",
+      "October 31, 2025",
+      "December 12, 2025",
+      "January 30, 2026",
+      "February 27, 2026"
+    ],
+    "raw_deadlines": [
+      "deadline reminders and helpful submission resources",
+      "Deadline\tOctober 31, 2025",
+      "Deadline\tDecember 12, 2025",
+      "Deadline\tJanuary 30, 2026",
+      "Deadline\tFebruary 27, 2026",
+      "Deadlines",
+      "Deadline\tFee",
+      "Deadline\tOctober 31, 2025\t$275 USD",
+      "Deadline\tDecember 12, 2025\t$325 USD",
+      "Deadline\tJanuary 30, 2026\t$375 USD"
+    ],
+    "raw_categories": [
+      "ui",
+      "service",
+      "product",
+      "web",
+      "architecture",
+      "concept",
+      "social",
+      "sustainable",
+      "branding",
+      "interior",
+      "Landscape",
+      "Green",
+      "Urban",
+      "Transport",
+      "Photography",
+      "Video",
+      "fashion",
+      "Digital",
+      "lighting",
+      "graphic",
+      "furniture",
+      "ux",
+      "Communication",
+      "GAME"
+    ],
+    "raw_judges": [
+      "judged by distinguished luminaries from fields as diverse as design, technology, real estate, fashion, and more",
+      "judges nominate five finalists within each award category",
+      "Jury Winners",
+      "jury from thousands of entries around the globe, The World's Best Architecture is the definitive guide to the year’s best buildings and spaces",
+      "Jury Voting\tApril 2026"
+    ],
+    "raw_criteria": [
+      "criteria below",
+      "criteria by satisfying a minimum of 50% (9) of the 18 criteria listed above",
+      "criteria, they will pass through to the main judging round, where they will be judged using the same criteria as the Typology and Plus categories — Form, Function and Impact (for which sustainability ",
+      "criteria below"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "Finalist",
+      "special mention",
+      "best in",
+      "Diamond",
+      "gold"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://awards.architizer.com/a",
+      "chars": 4036,
+      "preview": "CategoriesAboutJudgingPressWinners\nThe 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nThe 14th A+Awards is now closed for entries!\nPublic Voting will open in May 2026.\nPre-register to receive program updates, deadline reminders and helpful submission resources.\nRegister for Next Season →\nHave questions or need assistance?\n\nWe're here to help!\nCheck out our FAQs or email your questions to customer servic"
+    },
+    "类别": {
+      "url": "https://awards.architizer.com/a/page/categories",
+      "chars": 15000,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nThe A+Awards Categories\n\nGreat architecture is driven as much by concepts and materials as by formal and programmatic decisions, so the A+Awards categories were created to encompass the many facets of design. The Typology Categories celebrate traditional building types. The Plus Categories recognize the link between social and material considerations an"
+    },
+    "关于": {
+      "url": "https://awards.architizer.com/a/page/about/about-aplus-awards",
+      "chars": 9843,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nAbout A+Awards\nThis Awards Program Is Different\nYour Work on the Global Stage\nTwo Ways To Win\nThe Sustainability Awards\nProject of the Year Awards\nPrizes\nThe A+Awards Book\nTimeline\nAbout Architizer\nBecome a Partner\nThis Awards Program Is Different\nThe Architizer A+Awards is the largest awards program focused on promoting and celebrating the year’s best "
+    },
+    "费用": {
+      "url": "https://awards.architizer.com/a/page/about/fees-deadlines",
+      "chars": 3707,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nFees & Deadlines\n\tDeadline\tFee\nOpen for Entries\tOctober 13, 2025\t\nEarly Entry Deadline\tOctober 31, 2025\t$275 USD\nMain Entry Deadline\tDecember 12, 2025\t$325 USD\nFinal Entry Deadline\tJanuary 30, 2026\t$375 USD\nExtended Entry Deadline\tFebruary 27, 2026\t$425 USD\nProject of the Year Consideration\t\t$195 USD\n*Note: A 3% payment processing fee will be applied to"
+    },
+    "FAQ": {
+      "url": "https://awards.architizer.com/a/page/about/faq",
+      "chars": 15000,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nFrequently Asked Questions\nThe Entry Process\nCategories\nSubmissions\nJudging\nWinning an Award\nNewsletters / Staying informed\nMiscellaneous\nThe Entry Process\nCan I log in with my existing Architizer username & password?\nPlease use your Architizer.com login credentials to access your A+Awards account. Click here to login or create an Architizer account.\nWh"
+    },
+    "规则": {
+      "url": "https://awards.architizer.com/a/page/about/eligibility-guidelines",
+      "chars": 10032,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nEligibility & Guidelines\nEligibility and Rules\nEntry Fees and Deadline\nAccepted Formats/Entry Type Info\nDetailed Entry Instructions\nHelp/Contact\nEligibility and Rules\nThe Architizer A+Awards are open to all firms and individuals involved in architecture, design, planning and construction. The A+Awards is an international awards program and participants "
+    },
+    "评审": {
+      "url": "https://awards.architizer.com/a/page/judging/jury",
+      "chars": 15000,
+      "preview": "The 14th Annual\nHonoring The World's Best Buildings & Spaces\nHengqin Culture and Art Complex by Yunchao Xu Atelier Apeiron, 2025 A+Awards Winner\nThe A+Awards Jury\n\nThe A+Awards are bigger than just the architectural community. Our 250+ member jury academy is comprised of leaders who are actively shaping the world we live in, representing a sought-after segment of design-savvy professionals including distinguished luminaries from fields as diverse as fashion, publishing, product design, real esta"
+    },
+    "获奖者": {
+      "url": "https://winners.architizer.com/",
+      "chars": 15000,
+      "preview": "2025 \nTypology\nPlus\nSustainability\nProducts\nFirm\nVision\nBest of Year\nAll Categories\nCommercial Adaptive Reuse Projects (8)\nCommercial Interiors (<25,000 sq ft.) (8)\nCommercial Interiors (>25,000 sq ft.) (8)\nCommercial Renovations and Additions (8)\nFactories and Warehouses (7)\nMixed Use (L >25,000 sq ft.) (7)\nMixed Use (S <25,000 sq ft.) (7)\nOffice - High Rise (16+ Floors) (6)\nOffice - Low Rise (1 - 4 Floors) (7)\nOffice - Mid Rise (5 - 15 Floors) (7)\nPop-Ups and Temporary (8)\nRetail (7)\nShowrooms"
+    },
+    "参赛": {
+      "url": "https://awards.architizer.com/a/solicitations/28/home",
+      "chars": 3473,
+      "preview": "Showcase your visionary ideas and enter the 2026 Vision Awards! Enter by May 22 for Main Entry → Learn more and enter\n\nclose\nProjects\nImages\nFirms\nProducts ▼\nJournal\nAwards ▼\nJobs\nTech\nsearch\nSign In\nJoin Now\nSign In\nSign in with a social network\n Google\n Facebook\n LinkedIn\nSign in with email\nEmail\nPassword\nSign In\nForgot password?\n ‐ \nNeed an account?\nBy creating an account, you agree to our Terms of Use and Privacy Policy.\nBy clicking “Accept All Cookies”, you agree to the storing of cookies o"
+    }
+  }
+}

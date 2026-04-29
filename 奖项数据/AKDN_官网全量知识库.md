@@ -1,0 +1,16 @@
+# AKDN - 官网信息
+
+> 采集时间: 2026-04-20T07:27:32.710Z
+
+## 基础信息
+
+- **website**: https://the.akdn/en/home
+- **name**: Improving the quality of life - AKDN
+- **description**: The Aga Khan Development Network (AKDN) is dedicated to improving the quality of life of those in need.
+
+## 官网内容
+
+### homepage
+
+Improving the quality of life - AKDN When the aid stops Learn more When the aid stops Learn more What the drive for universal health coverage misses Learn more What the drive for universal health coverage misses Learn more His Highness the Aga Khan concludes inaugural visit to Canada, marking new milestones Learn more His Highness the Aga Khan concludes inaugural visit to Canada, marking new milestones Learn more His Highness the Aga Khan marks inaugural visit to Canada, renewing 50 years of partnership Learn more His Highness the Aga Khan marks inaugural visit to Canada, renewing 50 years of partnership Learn more The race to protect Mozambique from the next deadly cyclone Learn more The race to protect Mozambique from the next deadly cyclone Learn more The geometry of lasting cooperation Learn more The geometry of lasting cooperation Learn more Improving the Quality of Life The Aga Khan Development Network (AKDN) is dedicated to improving the quality of life of those in need, mainly in Asia and Africa, irrespective of their origin, faith, or gender. Our multifaceted development approach aims to help communities and individuals become self-reliant. 14 million We provide care to more than 14 million people each year. 2 million We reach over two million learners each year. 50 million We provide financial services to over 50 million people. 14 million We provide care to more than 14 million people each year. 2 million We reach over two million learners each year. 50 million We provide financial services to over 50 million people. In Brief Latest on what&#x27;s been happening View All Stories Developing Human Capacity We offer healthcare, education, and parental support to help people flourish. Early Childhood Development Education Health Building Resilient Communities We help communities mitigate and overcome natural disasters, and improve their habitats. Environment &amp; Climate Change Agriculture &amp; Food Security Civil Society Disaster Preparedness &amp; Response Habitat Planning &amp; Improvement Generating Economic Growth We build infrastructure, offer financial services, and provide expertise to drive inclusive economic growth. Enterprise Development Financial Inclusion Hospitality &amp; Tourism Industrial Development Infrastructure Development Media Honouring Cultural Heritage We invest in heritage, architecture and the arts to enable communities to build on their past and look to the future with confidence. Architecture Historic Cities Music Museum Parks &amp; Gardens Our Agencies See More Aga Khan Health Services Aga Khan Agency for Habitat Aga Khan Foundation Aga Khan Schools Aga Khan University University of Central Asia Aga Khan Trust for Culture Aga Khan Agency for Microfinance Aga Khan Fund for Economic Development Our Partners Meet our partners Read about AKDN&#x27;s new logo Latest See More All News Releases Spotlights Our Stories Events Photographs Videos Publications Speeches No Result Found No Result Found No Result Found
+

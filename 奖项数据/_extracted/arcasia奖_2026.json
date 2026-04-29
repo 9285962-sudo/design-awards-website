@@ -1,0 +1,46 @@
+{
+  "award_id": "arcasia奖_2026",
+  "name": "ARCASIA奖",
+  "name_en": "Architects Regional Council Asia (ARCASIA)",
+  "website": "http://www.arcasia.org/",
+  "organizer": "",
+  "organizer_location": "亚洲（国际）",
+  "extracted": {
+    "contact_email": "enquiry@arcasia.org",
+    "raw_dates": [
+      "March 26, 2026"
+    ],
+    "raw_categories": [
+      "architecture",
+      "Green",
+      "Sustainable",
+      "Social",
+      "UI",
+      "digital",
+      "urban",
+      "landscape"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "http://www.arcasia.org/",
+      "chars": 5122,
+      "preview": "Skip to content\nHOME\nABOUT US\nCOMMITTEES\nEVENTS\nAWARDS\nPUBLICATIONS\nLIBRARY\nCONTACT\nABOUT US\nThe Architects Regional Council Asia (ARCASIA) representing architectural institutes across 22 countries in Asia.\nThe organization itself serves as an extension of each member institute’s regional program and relations.\nAnnual meetings are held to deliberate on, give collective direction and representation to matters that affect the architectural profession in the Asian region.\nREAD MORE\nARCASIA COUNCIL\n"
+    },
+    "关于": {
+      "url": "https://arcasia.org/about-us/",
+      "chars": 4273,
+      "preview": "Skip to content\nINTRODUCTION & BRIEF HISTORY\nINTRODUCTION\n\nThe ARCASIA Council consists of the Presidents of National Institutes of Architects in Asia.\n\nThe organization itself serves as an extension of each member institutes’ regional program and relations.\n\nAnnual meetings are held to deliberate on, give collective direction and representation to matters that affect the architectural profession in the Asian region.\n\nObjectives\nTo unite on a democratic basis and to foster friendly, intellectual"
+    },
+    "联系": {
+      "url": "https://arcasia.org/contact-us/",
+      "chars": 197,
+      "preview": "Skip to content\nCONTACT US\nenquiry@arcasia.org\nARCHITECTS REGIONAL COUNCIL ASIA (ARCASIA) LTD.\n\n26 Eng Hoon Street Singapore 169776\nRegn no. 202018266H\n\nName\nEmail\nPhone No.\nHow can we help?\nSubmit"
+    },
+    "规则": {
+      "url": "https://arcasia.org/events/arcasia-completes-leadership-transition-and-inaugurates-new-term-with-first-obcc-meeting-in-shanghai/",
+      "chars": 4212,
+      "preview": "Skip to content\nARCASIA Completes Leadership Transition and Inaugurates New Term with First OBCC Meeting in Shanghai\nMarch 26, 2026\nRecent Events\n\nShanghai, China — On 16–17 January 2026, the Architects Regional Council Asia (ARCASIA) marked a historic milestone with its leadership handover and first Office Bearers and Committee Chair meeting for the 2026-2027 term. Held in Shanghai, the two-day event formally inaugurated Professor Wu Jiang from Tongji University as the new President, succeeding"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "award_id": "ux设计奖_2026",
+  "name": "UX设计奖",
+  "name_en": "The UX Design Awards honor excellent user experiences",
+  "website": "https://ux-design-awards.com/",
+  "organizer": "",
+  "organizer_location": "德国",
+  "extracted": {
+    "contact_email": "contact@ux-design-awards.com",
+    "contact_phone": "+49 30 61 62 321 18",
+    "raw_deadlines": [
+      "Deadlines",
+      "deadline",
+      "deadline"
+    ],
+    "raw_categories": [
+      "UX",
+      "product",
+      "service",
+      "concept",
+      "web",
+      "digital",
+      "industrial",
+      "social",
+      "ui",
+      "Architecture",
+      "game"
+    ],
+    "raw_judges": [
+      "jury of the UX Design Awards",
+      "Jury, admission of a limited number of entries to compete for the Award titles",
+      "Jury Session: Granting of the Gold Awards, UX Design Awards, and Special Mentions by the Jury in the categories Product, Concept and New Talent",
+      "Jury Knows Great UX Design",
+      "Jury Members"
+    ],
+    "raw_criteria": [
+      "Judging Criteria",
+      "evaluation of all submissions throughout our rigorous judging process",
+      "Judging Criteria"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "Gold",
+      "Special Mention"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://ux-design-awards.com/",
+      "chars": 1692,
+      "preview": "Log in | Register\nHow to Enter\nJury\nWinners\nEvents\nAbout\nsearch\nThe UX Design Awards are the Global Mark for Outstanding Experiences\nCall for Entries\n\nSubmit your best products, services and concepts! The Autumn 2026 call for entries will be open until 15 May.\n\nHow to Enter\n\nTop Benefits for Winners and Nominees\n\nGet recognized by top industry experts, boost your international presence, celebrate your team, and attract top talent!\n\nRegister Now\n\nAward Winners\nHave a look at the previous winners "
+    },
+    "参赛": {
+      "url": "https://form.ux-design-awards.com/en/guest/register.html",
+      "chars": 1615,
+      "preview": "To Awards Website\n\nLoginRegister\n\nSet up new profile\n\nBoxes marked (*) are obligatory.\nAccount\nPlease set your individual account name (login) and password. Important: Please save your login and password.\n\n\nLogin *\n(Cannot be an email address, may only contain letters and numbers)\nPassword\n(at least 8 characters)\nRepeat password\nRegister as\nRegister as *\nCompany / Creative Agency / Research\nBusinesses, digital/design agencies, start-ups, institutions and research facilities worldwide can submit "
+    },
+    "时间": {
+      "url": "https://ux-design-awards.com/enter/dates",
+      "chars": 2007,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nAward Dates and Deadlines\nUX Design Awards – Autumn 2026\nSubmission Period\n\n1 March – 15 May 2026\n\nYou can already set up a profile in the Participant Portal. Submissions"
+    },
+    "FAQ": {
+      "url": "https://ux-design-awards.com/enter/faq",
+      "chars": 1523,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nFrequently Asked Questions\n1. General Questions\nHow do the awards work?\nWhat are the participation costs?\nWhen is the deadline?\nWho is eligible to participate?\nWhich work"
+    },
+    "评审": {
+      "url": "https://ux-design-awards.com/jury",
+      "chars": 2984,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nOur Awards Jury Knows Great UX Design\nJury Members\n\nThe jury is the core of the UX Design Awards. The independent experts’ many years of experience guarantee the highest "
+    },
+    "获奖者": {
+      "url": "https://ux-design-awards.com/winners",
+      "chars": 709,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nProudly presenting all UX Design Awards winners and nominees!\nAWARDS \nCATEGORY \nYEAR \nAPPLICATION \nINDUSTRY \nPrivacy policy\nWe use cookies\n\nWe may place these for analysi"
+    },
+    "关于": {
+      "url": "https://ux-design-awards.com/about",
+      "chars": 3181,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nThe Global Mark for Outstanding Experiences\nOur Mission\n\nThe UX Design Awards foster the impact user experience has on shaping our lives, products and services. Originati"
+    },
+    "规则": {
+      "url": "https://ux-design-awards.com/terms",
+      "chars": 1294,
+      "preview": "search\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\n \n\n++ Call for Entries: Open until 15 May! ++ Register Here ++ Discover the Jury\n\nTerms and Conditions\nEnglish\n\nPlease scroll down for German text.\n\nPreamble\n§ 1. General, area of application, conclusion of contract\n§ 2. Eligibility requirements\n§ 3. C"
+    },
+    "联系": {
+      "url": "https://ux-design-awards.com/mailto:contact@ux-design-awards.com",
+      "chars": 1284,
+      "preview": "search\nThe UX Design Awards are the Global Mark for Outstanding Experiences\nCall for Entries\n\nSubmit your best products, services and concepts! The Autumn 2026 call for entries will be open until 15 May.\n\nHow to Enter\n\nTop Benefits for Winners and Nominees\n\nGet recognized by top industry experts, boost your international presence, celebrate your team, and attract top talent!\n\nRegister Now\n\nAward Winners\nHave a look at the previous winners and nominees.\nMeet the Jury\nGet to know the jury of the U"
+    }
+  }
+}

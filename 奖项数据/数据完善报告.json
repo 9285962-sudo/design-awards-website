@@ -1,0 +1,760 @@
+{
+  "timestamp": "2026-04-20T10:32:30.937Z",
+  "summary": {
+    "total": 68,
+    "withFees": 3,
+    "withDates": 7,
+    "withContact": 39,
+    "withOrganizer": 10
+  },
+  "details": [
+    {
+      "filename": "AHEAD_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\AHEAD_Awards_完善数据.json"
+    },
+    {
+      "filename": "AIA_International_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\AIA_International_完善数据.json"
+    },
+    {
+      "filename": "AKDN_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\AKDN_完善数据.json"
+    },
+    {
+      "filename": "ARCASIA_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\ARCASIA_完善数据.json"
+    },
+    {
+      "filename": "Architecture_Prize_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 5
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Architecture_Prize_完善数据.json"
+    },
+    {
+      "filename": "Architizer_A_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Architizer_A_Awards_完善数据.json"
+    },
+    {
+      "filename": "Arch_Design_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 8
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Arch_Design_Award_完善数据.json"
+    },
+    {
+      "filename": "ASLA_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\ASLA_Awards_完善数据.json"
+    },
+    {
+      "filename": "Azure_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 6
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Azure_Awards_完善数据.json"
+    },
+    {
+      "filename": "A_Design_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 1,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\A_Design_Award_完善数据.json"
+    },
+    {
+      "filename": "Better_Future_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 9
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Better_Future_Awards_完善数据.json"
+    },
+    {
+      "filename": "BLT_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 6
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\BLT_Awards_完善数据.json"
+    },
+    {
+      "filename": "Brick_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Brick_Award_完善数据.json"
+    },
+    {
+      "filename": "Core77_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Core77_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "Daylight_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Daylight_Award_完善数据.json"
+    },
+    {
+      "filename": "Design_Educates_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Design_Educates_完善数据.json"
+    },
+    {
+      "filename": "Dezeen_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 1,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Dezeen_Awards_完善数据.json"
+    },
+    {
+      "filename": "DNA_Paris_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 5
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\DNA_Paris_完善数据.json"
+    },
+    {
+      "filename": "EDIDA_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\EDIDA_Awards_完善数据.json"
+    },
+    {
+      "filename": "Frame_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Frame_Awards_完善数据.json"
+    },
+    {
+      "filename": "French_Design_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\French_Design_Award_完善数据.json"
+    },
+    {
+      "filename": "FX_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\FX_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "Global_Excellence_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Global_Excellence_Awards_完善数据.json"
+    },
+    {
+      "filename": "Golden_Pin_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Golden_Pin_完善数据.json"
+    },
+    {
+      "filename": "Gold_Key_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 1,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Gold_Key_Awards_完善数据.json"
+    },
+    {
+      "filename": "Good_Design_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Good_Design_完善数据.json"
+    },
+    {
+      "filename": "Grands_Prix_du_Design_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 7
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Grands_Prix_du_Design_完善数据.json"
+    },
+    {
+      "filename": "Hospitality_Design_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Hospitality_Design_完善数据.json"
+    },
+    {
+      "filename": "Iconic_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Iconic_Awards_完善数据.json"
+    },
+    {
+      "filename": "IDPA_Japan_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\IDPA_Japan_完善数据.json"
+    },
+    {
+      "filename": "IDSA_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\IDSA_Awards_完善数据.json"
+    },
+    {
+      "filename": "IES_Illumination_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\IES_Illumination_Awards_完善数据.json"
+    },
+    {
+      "filename": "IFI_DDA_完整字段数据.json",
+      "stats": {
+        "fees": 1,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 1,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\IFI_DDA_完善数据.json"
+    },
+    {
+      "filename": "InnoDesign_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\InnoDesign_完善数据.json"
+    },
+    {
+      "filename": "Interior_Design_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Interior_Design_完善数据.json"
+    },
+    {
+      "filename": "International_Hotel_Property_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\International_Hotel_Property_Awards_完善数据.json"
+    },
+    {
+      "filename": "I_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\I_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "JCD_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\JCD_完善数据.json"
+    },
+    {
+      "filename": "K_Design_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\K_Design_Award_完善数据.json"
+    },
+    {
+      "filename": "Landscape_Institute_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Landscape_Institute_Awards_完善数据.json"
+    },
+    {
+      "filename": "LICC_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\LICC_完善数据.json"
+    },
+    {
+      "filename": "LIT_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\LIT_Awards_完善数据.json"
+    },
+    {
+      "filename": "LIV_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\LIV_Awards_完善数据.json"
+    },
+    {
+      "filename": "Loop_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Loop_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "MIPIM_Asia_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\MIPIM_Asia_完善数据.json"
+    },
+    {
+      "filename": "MIPIM_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\MIPIM_Awards_完善数据.json"
+    },
+    {
+      "filename": "Novum_Design_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Novum_Design_Award_完善数据.json"
+    },
+    {
+      "filename": "NY_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\NY_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "One_Club_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\One_Club_完善数据.json"
+    },
+    {
+      "filename": "One_Show_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\One_Show_完善数据.json"
+    },
+    {
+      "filename": "Premio_Architettura_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Premio_Architettura_完善数据.json"
+    },
+    {
+      "filename": "Prix_Versailles_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Prix_Versailles_完善数据.json"
+    },
+    {
+      "filename": "Property_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Property_Awards_完善数据.json"
+    },
+    {
+      "filename": "Restaurant___Bar_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 0
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Restaurant___Bar_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "SBID_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\SBID_Awards_完善数据.json"
+    },
+    {
+      "filename": "SG_Mark_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\SG_Mark_完善数据.json"
+    },
+    {
+      "filename": "SID_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\SID_Awards_完善数据.json"
+    },
+    {
+      "filename": "SIT_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\SIT_Award_完善数据.json"
+    },
+    {
+      "filename": "Spark_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 6
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Spark_Awards_完善数据.json"
+    },
+    {
+      "filename": "Sustainable_Building_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 2,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Sustainable_Building_Awards_完善数据.json"
+    },
+    {
+      "filename": "The_Plan_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\The_Plan_Award_完善数据.json"
+    },
+    {
+      "filename": "The_Plan_Real_Estate_Award_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\The_Plan_Real_Estate_Award_完善数据.json"
+    },
+    {
+      "filename": "The_Property_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 1,
+        "contact": 1,
+        "organizer": 1,
+        "categories": 6
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\The_Property_Awards_完善数据.json"
+    },
+    {
+      "filename": "Tokyo_TDC_完整字段数据.json",
+      "stats": {
+        "fees": 1,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 3
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\Tokyo_TDC_完善数据.json"
+    },
+    {
+      "filename": "UIA_Gold_Medal_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 2
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\UIA_Gold_Medal_完善数据.json"
+    },
+    {
+      "filename": "UX_Design_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 1,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\UX_Design_Awards_完善数据.json"
+    },
+    {
+      "filename": "WA_100_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 0,
+        "organizer": 0,
+        "categories": 1
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\WA_100_完善数据.json"
+    },
+    {
+      "filename": "World_Interiors_News_Awards_完整字段数据.json",
+      "stats": {
+        "fees": 0,
+        "dates": 0,
+        "contact": 1,
+        "organizer": 0,
+        "categories": 4
+      },
+      "outputPath": "C:\\Users\\Administrator\\WorkBuddy\\国际设计大奖参赛咨询\\奖项数据\\World_Interiors_News_Awards_完善数据.json"
+    }
+  ]
+}

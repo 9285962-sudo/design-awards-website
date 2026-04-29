@@ -1,0 +1,126 @@
+{
+  "award_id": "award_26_2026",
+  "name": "Core77 / Design Awards",
+  "name_en": "Core77 / Design Awards",
+  "website": "https://designawards.core77.com/about",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "contact_email": "awards@core77.com",
+    "raw_fees": [
+      "$70",
+      "$235",
+      "$85",
+      "$335",
+      "$110",
+      "$435"
+    ],
+    "raw_dates": [
+      "January 30, 2026",
+      "February 27, 2026",
+      "March 27, 2026",
+      "January 1, 2025",
+      "December 10, 2025",
+      "January 31, 2026",
+      "April 1, 2026"
+    ],
+    "raw_deadlines": [
+      "Deadlines",
+      "Deadlines",
+      "Deadlines",
+      "Deadlines",
+      "Deadline",
+      "Deadlines",
+      "Deadlines",
+      "Deadlines",
+      "deadline)",
+      "deadline rush"
+    ],
+    "raw_categories": [
+      "Branding",
+      "ui",
+      "Industrial",
+      "Social",
+      "Furniture",
+      "Lighting",
+      "Packaging",
+      "Transport",
+      "Communication",
+      "Video",
+      "digital",
+      "web",
+      "concept",
+      "service",
+      "mobile",
+      "product",
+      "interior",
+      "smart",
+      "Interactive",
+      "graphic",
+      "game",
+      "Architecture",
+      "UX"
+    ],
+    "raw_judges": [
+      "Jury Captains assigned to the 18 awards categories will pick local team members who are also experts in their category to join them in the jury process",
+      "jury through self-directed, honest video testimonials",
+      "jury of experts for being exemplary in its field",
+      "jury or juries to critique it",
+      "judges called “Jury Teams” headed up by a “Jury Captain” and have been selected by the Core77 Design Awards"
+    ],
+    "raw_criteria": [
+      "criteria may not be conveyed to the jury"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "merit"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://designawards.core77.com/about",
+      "chars": 2817,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "参赛": {
+      "url": "https://designawards.core77.com/why-enter",
+      "chars": 2417,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "费用": {
+      "url": "https://designawards.core77.com/pricing",
+      "chars": 2073,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "规则": {
+      "url": "https://designawards.core77.com/rules",
+      "chars": 9547,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "类别": {
+      "url": "https://designawards.core77.com/all-categories",
+      "chars": 6479,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "FAQ": {
+      "url": "https://designawards.core77.com/faq",
+      "chars": 9252,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "评审": {
+      "url": "https://designawards.core77.com/#section=jury",
+      "chars": 5052,
+      "preview": "Core77 Design Awards\n Why Enter\n How To Enter\n Pricing & Deadlines\n Rules & Regulations\n Categories\n Apps & Platforms\n Branding & Identity\n Built Environment\n Commerical & Industrial Equipment\n Consumer Technology\n Design for Social Impact\n Emerging Technologies\n Furniture & Lighting\n Home & Living\n Interaction\n Lifestyle Accessories\n Medical & Healthcare\n Packaging\n Speculative Design\n Sports & Outdoors\n Sustainability\n Tools\n Toys & Play\n Transportation & Mobility\n Visual Communication\n Resour"
+    },
+    "获奖者": {
+      "url": "https://designawards.core77.com/2024",
+      "chars": 8288,
+      "preview": "Core77 Design Awards\nWinners\nCategories\nJury\nAbout\nOther Years\n2024 Awards\n2023 Awards\n2022 Awards\n2021 Awards\n2020 Awards\n2019 Awards\n2018 Awards\n2017 Awards\n2016 Awards\n2015 Awards\n2014 Awards\n2013 Awards\n2012 Awards\n2011 Awards\nSIGN UP / LOGIN\n\nRecognizing excellence in all areas of design enterprise, the Core77 Design Awards annually celebrates the richness of the design profession as well as the insight and perseverance of its practitioners. Now in its twelfth year, the Awards program remai"
+    },
+    "联系": {
+      "url": "https://www.core77.com/contact",
+      "chars": 1774,
+      "preview": "Company Directory\nID Jobs\nAwards\nBlog\nGuides\nDiscussion\nAbout\nContact Us\nTerms of Use\nPrivacy Policy\nAdvertise\nSign In / Join Now\nCore77\nCompany Directory ID Jobs Awards Blog Guides Discussion\ne\nSIGN IN / JOIN NOW\nContact Core77\nWebsite Submissions\n\nYou can either send a URL and short description to: blogs-at-core77-dot-com and our team of crack editors will review the link for inclusion in one or more blogs at our site, or, you are welcome to create an account and submit your project there for "
+    }
+  }
+}

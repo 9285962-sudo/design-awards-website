@@ -1,0 +1,88 @@
+{
+  "award_id": "金钥匙奖_2026",
+  "name": "金钥匙奖",
+  "name_en": "Home",
+  "website": "https://goldkeyawards.com/",
+  "organizer": "",
+  "organizer_location": "美国",
+  "extracted": {
+    "contact_email": "Keisha.Byrd@EmeraldX.com",
+    "raw_fees": [
+      "$235"
+    ],
+    "raw_dates": [
+      "November 10, 2025",
+      "JULY 1, 2024",
+      "JULY 25, 2025",
+      "August 8, 2025",
+      "JULY 26, 2025"
+    ],
+    "raw_deadlines": [
+      "Deadline extended: You know have until August 8 to submit",
+      "deadline has been extended to August 8, 2025"
+    ],
+    "raw_categories": [
+      "SERVICE",
+      "web",
+      "social",
+      "ui",
+      "interior",
+      "photography",
+      "ux",
+      "concept",
+      "landscape",
+      "architecture",
+      "digital",
+      "graphic"
+    ],
+    "raw_judges": [
+      "judges reserve the right to change categories for a submission; the submitter will be notified in those cases",
+      "judged according to the following criteria",
+      "judges shall first examine all the entries submitted by the participants online and assign a score for each of the criteria listed above on a scale of 1-5 (with 1 being the lowest and 5 being the high",
+      "judges based on the cumulative results of the online judging results and an in-person judging session",
+      "jury of hospitality industry leaders from the operations, design, development and investment sectors"
+    ],
+    "raw_criteria": [
+      "JUDGING CRITERIA",
+      "criteria listed above on a scale of 1-5 (with 1 being the lowest and 5 being the highest)"
+    ],
+    "raw_award_levels": [
+      "Gold",
+      "Finalist",
+      "winner",
+      "best in"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://goldkeyawards.com/",
+      "chars": 4836,
+      "preview": "Official Rules\nJudges\nHonorees\nB18/Hotelier\nGala\nSelect Page\nOfficial Rules\nJudges\nHonorees\nB18/Hotelier\nGala\nGold Key 2024 Finalists\nSubmissions for the 45th Gold Key Awards are now closed.\n2025 HONOREES\n\nView the winners and finalists of the 2025 Gold Key Awards.\n\nVIEW HONOREES\nTHE JUDGES\n\nExplore the leaders from hospitality operations, design, development, and investment sectors who will be judging a competitive set of entries for the 45th annual competition.\n\nMEET THE JUDGES\n\nAWARDS GALA\n\nP"
+    },
+    "规则": {
+      "url": "https://goldkeyawards.com/official-rules/",
+      "chars": 12461,
+      "preview": "Select Page\nOfficial Rules\nJudges\nHonorees\nB18/Hotelier\nGala\nOFFICIAL RULES\n\nThis award is exclusively for interior designers. Although we recognize the contributions of all members of the design team in creating award-winning hospitality spaces, the Gold Key Awards for Excellence in Hospitality Design is given only to the interior design firm(s) that worked on the project. If the project is selected as a finalist, we will recognize the names of the other firms, such as additional interior desig"
+    },
+    "评审": {
+      "url": "https://goldkeyawards.com/judges/",
+      "chars": 4355,
+      "preview": "Select Page\nOfficial Rules\nJudges\nHonorees\nB18/Hotelier\nGala\nJudges\n\nGold Key Awards finalists and winners are determined by a high-profile jury of hospitality industry leaders from the operations, design, development and investment sectors. This year’s panel will review standout projects from hundreds of design firms around the world.\n\nMeet the 2025 Panel!\nThis website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also share information about "
+    },
+    "关于": {
+      "url": "https://goldkeyawards.secure-platform.com/a",
+      "chars": 1740,
+      "preview": "Back to BDNY\n\nLogin to Complete an Application or to Access Judging Panel\nEmail Address\nPassword\nlost password?\n remember me\nLOGIN\nLOGIN WITH MAGIC LINK\n\nBoutique Design magazine presents the\nGold Key Awards for Excellence in Hospitality Design\n\n \n\nDeadline extended: You know have until August 8 to submit!\n\nRead Guidelines\n\nEnter Now\n\nEntries are currently being accepted for the Gold Key Awards for Excellence in Hospitality Design, the premier interior design competition for the hospitality indu"
+    },
+    "联系": {
+      "url": "https://www.emeraldx.com/data-privacy-contact/",
+      "chars": 4171,
+      "preview": "Data Subject Rights Form\nThis website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. By continuing, you agree to our use of cookies. You can manage your cookie settings by clicking on \"Cookie Preference Center\" or find out more in our Privacy Policy\nAccept All Cookies\nCookie Preference Center\nYour Privacy\nStrictly Necessary Cookies\nOpt-ou"
+    },
+    "FAQ": {
+      "url": "https://goldkeyawards.com/faq",
+      "chars": 10326,
+      "preview": "Select Page\nOfficial Rules\nJudges\nHonorees\nB18/Hotelier\nGala\nFAQ\nWhat are this year’s Gold Key Awards categories?\nEco-Conscious or Socially Conscious Hotel\nLobby Budget/Select Service\nLobby Midscale\nLobby Upscale\nLobby Luxury\nGuestroom Budget/Select Service\nGuestroom Midscale\nGuestroom Upscale\nGuestroom Luxury\nSuite\nBar/Lounge/Club\nEmerging Hotel Concept (Must have at least one hotel open)\nRestaurant Fast Casual\nRestaurant Casual\nRestaurant Upscale Dining\nWellness: Spas, Fitness/Wellness Facilit"
+    }
+  }
+}

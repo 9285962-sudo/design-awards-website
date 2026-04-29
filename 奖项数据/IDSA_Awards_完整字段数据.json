@@ -1,0 +1,278 @@
+{
+  "award_id": "idsa奖_美国工业设计师协会奖_2026",
+  "award_name_cn": "IDEA奖（国际设计卓越大奖）",
+  "award_name_en": "IDEA (International Design Excellence Awards)",
+  "award_name_short": "IDEA",
+  "award_slogan": "One of the longest running and most prestigious design awards",
+  "organizer_cn": "美国工业设计师协会（IDSA）",
+  "organizer_en": "Industrial Designers Society of America",
+  "organizer_type": "行业协会",
+  "country": "美国",
+  "city": "弗吉尼亚州赫恩登",
+  "website": "https://www.idsa.org",
+  "submission_platform": "https://idea.secure-platform.com/a",
+  "contact_email": "idsa@idsa.org",
+  "established_year": 1980,
+  "current_edition": 46,
+  "award_cycle": "年度",
+  "award_intro": "美国工业设计师协会（IDSA）的核心奖项——国际设计卓越大奖（IDEA），1980年创立，与德国红点奖、iF奖并称\"世界三大设计奖\"。旨在表彰工业设计及设计战略、品牌塑造、数字交互、环境设计、社会影响等多学科的卓越成就。",
+  "award_intro_full": "美国工业设计师协会（Industrial Designers Society of America，简称IDSA）的奖项体系由多个项目构成，其中最核心的是国际设计卓越大奖（International Design Excellence Awards，简称IDEA）。IDEA由IDSA于1980年创立，是全球现存历史最悠久、最负盛名的设计奖项之一。奖项旨在表彰工业设计及设计战略、品牌塑造、数字交互、环境设计、社会影响等多学科的卓越成就，与德国红点奖（Red Dot）、德国iF奖并称为\"世界三大设计奖\"。IDSA下设多个奖项分支：IDEA（面向全球专业及学生设计作品）、学生优异奖（Student Merit Awards）、IDSA奖项（IDSA Awards）、以及20/2X表彰计划。斩获IDEA奖被誉为设计师职业生涯的里程碑，获奖作品有机会被全球顶尖博物馆永久收藏。",
+  "organizer_intro": "成立于1965年，是全球历史最悠久、规模最大的工业设计协会之一。IDSA通过教育、社区建设和荣誉表彰持续推动工业设计行业的发展，总部位于弗吉尼亚州赫恩登（Herndon, VA）。IDEA奖设立于1980年，由《商业周刊》（BusinessWeek）联合主办，IDSA担任评审。2004年起，IDEA正式向全球征集作品，迈出国际化的重要一步。2024年共收到全球数千件参赛作品，最终372件产品获奖。",
+  "history": "1980年IDEA设立，由《商业周刊》联合主办。2004年起向全球征集作品。2024年共372件获奖（30金/52银/64铜/226入围）。",
+  "cooperation_collection": "IDEA获奖作品的最终评审在位于密歇根州迪尔伯恩的亨利·福特博物馆（The Henry Ford Museum）线下进行。部分金奖作品可获该博物馆永久收藏。",
+  "category_main": "产品设计",
+  "category_sub": [
+    "工业设计",
+    "产品设计",
+    "概念设计",
+    "服务设计",
+    "品牌设计",
+    "数字交互",
+    "包装设计",
+    "家具与灯具"
+  ],
+  "industry_focus": [
+    "工业设计",
+    "消费电子",
+    "家具",
+    "医疗健康",
+    "汽车交通",
+    "包装",
+    "品牌",
+    "服务设计",
+    "数字交互"
+  ],
+  "categories": [
+    {
+      "main": "汽车与交通（Automotive & Transportation）",
+      "sub": []
+    },
+    {
+      "main": "品牌设计（Branding）",
+      "sub": []
+    },
+    {
+      "main": "儿童产品（Children's Products）",
+      "sub": []
+    },
+    {
+      "main": "商用与工业产品（Commercial & Industrial Products）",
+      "sub": []
+    },
+    {
+      "main": "概念与推测性设计（Concepts & Speculative Design）",
+      "sub": [],
+      "note": "2026年新增类别"
+    },
+    {
+      "main": "消费科技（Consumer Technology）",
+      "sub": []
+    },
+    {
+      "main": "设计战略（Design Strategy）",
+      "sub": []
+    },
+    {
+      "main": "数字互动（Digital Interaction）",
+      "sub": []
+    },
+    {
+      "main": "环境/空间设计（Environments）",
+      "sub": []
+    },
+    {
+      "main": "家居与厨房用品（Home）",
+      "sub": []
+    },
+    {
+      "main": "家具与灯具（Furniture & Lighting）",
+      "sub": []
+    },
+    {
+      "main": "生活方式与配饰（Lifestyle & Accessories）",
+      "sub": []
+    },
+    {
+      "main": "医疗与健康（Medical & Health）",
+      "sub": []
+    },
+    {
+      "main": "办公及配件（Office & Accessories）",
+      "sub": []
+    },
+    {
+      "main": "户外与园艺（Outdoor & Gardens）",
+      "sub": []
+    },
+    {
+      "main": "包装设计（Packaging）",
+      "sub": []
+    },
+    {
+      "main": "服务设计（Service Design）",
+      "sub": []
+    },
+    {
+      "main": "社会影响设计（Social Impact Design）",
+      "sub": []
+    },
+    {
+      "main": "运动与休闲（Sports & Recreation）",
+      "sub": []
+    },
+    {
+      "main": "学生项目（Student Projects）",
+      "sub": []
+    }
+  ],
+  "total_categories": 20,
+  "deadline_early": "2026-02-13",
+  "deadline_regular": "2026-03-11",
+  "deadline_final": "2026-05-04",
+  "deadline_extended": "",
+  "announcement_date": "2026-06-08",
+  "deadline_note": "所有时间以美国东部时间为准；第一轮入围通知预计2026年4月13日当周；第二轮入围作品须在2026年4月17日—5月4日间提交材料",
+  "fee_currency": "USD",
+  "fee_early_bird": 415,
+  "fee_regular": 655,
+  "fee_late": 895,
+  "fee_final": "",
+  "fee_extended": "",
+  "fee_student_early": 145,
+  "fee_student_regular": 290,
+  "fee_note": "以上均为单件参赛作品费用；影响力奖（Impact Award）为可选附加费$100，独立评审",
+  "fee_timeline": [
+    {
+      "period": "IDSA会员专业（标准至2/13）",
+      "price": 415
+    },
+    {
+      "period": "IDSA会员专业（延迟至3/11）",
+      "price": 630
+    },
+    {
+      "period": "IDSA会员学生（标准至2/13）",
+      "price": 145
+    },
+    {
+      "period": "IDSA会员学生（延迟至3/11）",
+      "price": 290
+    },
+    {
+      "period": "非会员专业（标准至2/13）",
+      "price": 655
+    },
+    {
+      "period": "非会员专业（延迟至3/11）",
+      "price": 895
+    },
+    {
+      "period": "非会员学生（标准至2/13）",
+      "price": 145
+    },
+    {
+      "period": "非会员学生（延迟至3/11）",
+      "price": 290
+    },
+    {
+      "period": "第二轮入围会员",
+      "price": 575
+    },
+    {
+      "period": "第二轮入围学生",
+      "price": 150
+    },
+    {
+      "period": "影响力奖附加费（可选）",
+      "price": 100
+    }
+  ],
+  "judging_criteria": [
+    {
+      "name": "设计创新",
+      "description": "设计相较于同类产品在创意、体验或制造工艺方面的独特性和新颖性"
+    },
+    {
+      "name": "用户受益",
+      "description": "如何提升最终用户的用户体验、性能、安全性和易用性"
+    },
+    {
+      "name": "客户/品牌受益",
+      "description": "如何从商业角度助力业务差异化、品牌增值或市场效益转化"
+    },
+    {
+      "name": "社会受益",
+      "description": "如何考量社会、文化和环境责任，惠及更广泛的社群和生态"
+    },
+    {
+      "name": "恰当的美学",
+      "description": "形式美学是否与使用场景和功能定位相匹配"
+    }
+  ],
+  "judging_process": "评审团约40多位设计专业人士组成，国际化构成。第一轮线上评审，第二轮线下评审于密歇根州亨利·福特博物馆进行（为期4天）。评委任期两年，最多一任。",
+  "judges_count": 40,
+  "award_levels": [
+    {
+      "level": "金奖（Gold）",
+      "description": "IDEA最高荣誉"
+    },
+    {
+      "level": "银奖（Silver）",
+      "description": "卓越设计作品"
+    },
+    {
+      "level": "铜奖（Bronze）",
+      "description": "优秀设计作品"
+    },
+    {
+      "level": "入围奖（Finalist）",
+      "description": "入围第二轮评审的作品"
+    }
+  ],
+  "special_awards": [
+    {
+      "name": "影响力奖（Impact Award）",
+      "description": "2026年新增，附加费$100，独立评审社会/环境/文化影响"
+    }
+  ],
+  "eligibility": "面向全球专业设计师和学生开放",
+  "project_year_limit": "2024年3月1日至2026年3月1日",
+  "project_year_specific": "专业组：作品须在时限内投入市场销售或完成交付；学生组：作品须在时限内提交给所在学校；概念设计类：仅限\"概念与推测性设计\"类别，须在时限内完成/封版",
+  "entrant_type": [
+    "专业设计师",
+    "学生",
+    "设计公司",
+    "品牌方"
+  ],
+  "submission_language": "英语",
+  "team_submission": "支持",
+  "multi_category": "单个作品可同时提交多个类别，须分别报名缴费；同一作品不可获颁多个产品类别奖项",
+  "resubmission": "未获2025年金/银/铜奖且符合标准的作品可于2026年再次提交",
+  "student_cross": "学生可选择在专业组参赛，须按专业组标准缴纳费用",
+  "member_discount": "IDSA会员享有专属折扣价，非会员可通过官网申请入会",
+  "benefits": [
+    "职业生涯里程碑：IDEA与红点奖、iF奖并称世界三大设计奖",
+    "全球媒体曝光与推广",
+    "亨利·福特博物馆终审与收藏机会",
+    "官方展览与年鉴收录",
+    "年度颁奖典礼",
+    "获奖标识永久使用权"
+  ],
+  "recognition_benefits": "获奖被公认为设计师职业生涯的里程碑",
+  "prestige_level": "顶级",
+  "difficulty_level": "高",
+  "award_type": "协会奖",
+  "reputation": "与德国红点奖、iF奖并称\"世界三大设计奖\"",
+  "statistics_2024": {
+    "total_winners": 372,
+    "gold": 30,
+    "silver": 52,
+    "bronze": 64,
+    "finalist": 226
+  },
+  "submission_volume_2024": "数千件",
+  "ceremony_date": "",
+  "ceremony_location": "",
+  "media_partners": [],
+  "notes": "2026年第46届；新增\"概念与推测性设计\"类别和\"影响力奖\"特别奖项；数据来源：IDSA官网、百度百科IDEA词条及各参赛报名平台综合采集"
+}

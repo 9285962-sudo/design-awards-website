@@ -1,0 +1,122 @@
+{
+  "award_id": "新加坡设计奖_2026",
+  "name": "新加坡设计奖",
+  "name_en": "Singapore Good Design Awards (SG Mark)",
+  "website": "https://sgmark.org/",
+  "organizer": "",
+  "organizer_location": "新加坡",
+  "extracted": {
+    "contact_email": "info@sgmark.org",
+    "contact_phone": "+65 8829 2990",
+    "raw_fees": [
+      "$375",
+      "$500",
+      "$3",
+      "$3,600",
+      "$5,100",
+      "$4,800",
+      "$6,300"
+    ],
+    "raw_deadlines": [
+      "Deadline",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)",
+      "Deadline, 2359 hrs (GMT +8)"
+    ],
+    "raw_categories": [
+      "product",
+      "ui",
+      "service",
+      "industrial",
+      "Digital",
+      "Video",
+      "Architecture",
+      "Fashion",
+      "Sustainable",
+      "social",
+      "urban",
+      "landscape",
+      "mobile",
+      "furniture",
+      "concept",
+      "communication",
+      "typography",
+      "web",
+      "packaging"
+    ],
+    "raw_criteria": [
+      "evaluation and feedback by internationally renowned design practitioners",
+      "JUDGING CRITERIA",
+      "JUDGING CRITERIA",
+      "evaluation criteria (max",
+      "evaluation criteria (max"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "SILVER"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://sgmark.org/",
+      "chars": 3636,
+      "preview": "HOMEABOUT THE MARKPARTICIPATIONJURORSWINNERSMEDIAFAQCONTACT USSUBMIT NOW\n English  Chinese\n\n\nSINGAPORE GOOD DESIGN AWARDS (SG MARK)\nAbout Singapore\nGood Design\n\nThe Singapore Good Design (SG Mark) is a benchmark of good design and quality. Design Business Chamber Singapore (DBCS) launched Singapore Good Design (SG Mark) in 2013 in partnership with the Japan Institute of Design Promotion (JDP) that founded the prestigious Good Design Award (G Mark).\n\nSG Mark was established to set the benchmark f"
+    },
+    "关于": {
+      "url": "https://sgmark.org/about-the-mark",
+      "chars": 2200,
+      "preview": "English  Chinese\n\n\nDesign is the only universal element which can inextricably link both industry and private life together\nBACKGROUND\n\nThe Singapore Good Design (SG Mark) is a benchmark of good design and quality.\n\nDesign Business Chamber Singapore (DBCS) launched Singapore Good Design (SG Mark) in 2013 in partnership with the Japan Institute of Design Promotion (JDP) that founded the prestigious Good Design Award (G Mark). SG Mark was established to set the benchmark for exceptional design qua"
+    },
+    "评审": {
+      "url": "https://sgmark.org/about-the-mark/?c=section-4",
+      "chars": 2200,
+      "preview": "English  Chinese\n\n\nDesign is the only universal element which can inextricably link both industry and private life together\nBACKGROUND\n\nThe Singapore Good Design (SG Mark) is a benchmark of good design and quality.\n\nDesign Business Chamber Singapore (DBCS) launched Singapore Good Design (SG Mark) in 2013 in partnership with the Japan Institute of Design Promotion (JDP) that founded the prestigious Good Design Award (G Mark). SG Mark was established to set the benchmark for exceptional design qua"
+    },
+    "参赛": {
+      "url": "https://sgmark.org/participation",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "时间": {
+      "url": "https://sgmark.org/participation/?c=section-1",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "类别": {
+      "url": "https://sgmark.org/participation/?c=section-2",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "费用": {
+      "url": "https://sgmark.org/participation/?c=section-3",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "获奖者": {
+      "url": "https://sgmark.org/participation/?c=section-4",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "规则": {
+      "url": "https://sgmark.org/participation/?c=section-6",
+      "chars": 3842,
+      "preview": "English  Chinese\n\n\n\nOpen for Submissions.\n\nTIMELINE\n5 January 2026\tOpen for Submissions\n13 February 2026\tEarly Bird Deadline, 2359 hrs (GMT +8)\n6 March 2026\tStandard Rate Deadline, 2359 hrs (GMT +8)\n31 March 2026\tFinal Call Deadline, 2359 hrs (GMT +8)\n10 April 2026\tFinal Extended Deadline, 2359 hrs (GMT +8)\nMid April 2026\tOnline Screening\nJune 2026\tWinners Notification\n7, 8 July 2026\tSecond Screening\n10 September 2026\tAward Ceremony\nCATEGORIES\n1. Architecture\n\nBuildings, residential properties, "
+    },
+    "FAQ": {
+      "url": "https://sgmark.org/faq/",
+      "chars": 435,
+      "preview": "English  Chinese\n\n\n\nFrequently Asked Questions\n\nSubmission\nScreening\nTimeline\nFees\nPost SG Mark\nWhat is the Singapore Good Design (SG Mark)?\nWhat projects are eligible for submission?\nHow do I submit my project/product?\nWhat are the categories of SG Mark?\nCan I submit design concepts?\nHow many projects can I enter?\nCan I submit 1 project in different categories?\nHow do I submit for SG Mark?\nCan I withdraw my submission?\nBACK TO TOP"
+    },
+    "联系": {
+      "url": "https://sgmark.org/contact-us/",
+      "chars": 934,
+      "preview": "English  Chinese\n\n\nContact Us\nABOUT THE ORGANISER\n\nEstablished since 1985, Design Business Chamber Singapore (DBCS) is the nation’s premier multidisciplinary design chamber.\n\nAs a dynamic community of business leaders, practitioners, and academia from diverse backgrounds, the Chamber believes that a pluralistic design approach is the key to gaining a competitive edge in today’s global market.\n\nA champion of applying design in business, DBCS seeks to raise the standard of professional practices a"
+    }
+  }
+}

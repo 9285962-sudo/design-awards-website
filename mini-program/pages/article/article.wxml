@@ -1,0 +1,43 @@
+<!-- 文章详情页 -->
+<view class="container">
+  <!-- 文章头部 -->
+  <view class="article-header">
+    <view class="article-meta">
+      <text class="category {{articleType}}">{{category}}</text>
+      <text class="date">{{date}}</text>
+    </view>
+    <view class="article-title">{{title}}</view>
+    <view class="article-author">
+      <text>{{author}}</text>
+    </view>
+  </view>
+
+  <!-- 封面图 -->
+  <view class="article-cover" wx:if="{{cover}}">
+    <image src="{{cover}}" mode="widthFix" />
+  </view>
+
+  <!-- 文章正文 -->
+  <view class="article-body">
+    <block wx:if="{{loading}}">
+      <view class="loading">加载中...</view>
+    </block>
+    <block wx:elif="{{content}}">
+      <!-- 使用rich-text渲染HTML内容 -->
+      <rich-text nodes="{{content}}" class="article-content"></rich-text>
+    </block>
+    <block wx:else>
+      <view class="error">文章内容加载失败</view>
+    </block>
+  </view>
+
+  <!-- 底部操作栏 -->
+  <view class="bottom-bar">
+    <view class="back-btn" bindtap="goBack">
+      <text>← 返回列表</text>
+    </view>
+    <view class="share-btn" bindtap="onShare">
+      <text>分享文章</text>
+    </view>
+  </view>
+</view>

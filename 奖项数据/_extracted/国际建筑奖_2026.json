@@ -1,0 +1,60 @@
+{
+  "award_id": "国际建筑奖_2026",
+  "name": "国际建筑奖",
+  "name_en": "The International Architecture Awards",
+  "website": "https://internationalarchitectureawards.com/",
+  "organizer": "",
+  "organizer_location": "美国",
+  "extracted": {
+    "contact_email": "info@europeanarch.eu",
+    "raw_deadlines": [
+      "Closing date for 2027 applications: December 1st, 2026",
+      "Closing date for 2027 applications:"
+    ],
+    "raw_categories": [
+      "Architecture",
+      "Transport",
+      "ui",
+      "Industrial",
+      "Interior",
+      "Social",
+      "Urban",
+      "Landscape"
+    ],
+    "raw_judges": [
+      "Jury for The International Architecture Awards for 2025",
+      "Jury for The International Architecture Awards for 2025"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "Honorable mention"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://internationalarchitectureawards.com/",
+      "chars": 4183,
+      "preview": "International\nArchitecture\nAwards\n\nClosing date for 2027 applications: December 1st, 2026\nmore_vert\nsearch\nAbout\nThe Jury\nWinners\nHonorable mentions\nYearbook\nLaureates\nContact\nApply Online\nGadeokdo New Airport | Busan, Republic of Korea | 2024 by Heerim Architects & Planners Co., Ltd.\nVilla Miami | Miami, Florida, USA | 2021 by ODP Architecture and Design\nCharles River Island | Boston, Massachusetts, USA | 2024 by Paul Lukez Architecture\nResort Deer-Chaser Yuchi | Nantou, Taiwan | 2023 by S.C.A."
+    },
+    "参赛": {
+      "url": "https://awardapplication.com/international-architecture-award",
+      "chars": 512,
+      "preview": "INTERNATIONAL ARCHITECTURE® AWARD\nSubmit project Login \n \nLog In\nSign Up\n\nLog in your account in order to submit your project for International Architecture Award. The information and project details provided here must be accurate. All information submitted will be included in all online presentation, exhibition and Award publication catalogue. Please ensure that possible changes or mistakes according to credits, images and project description may incur costs.\n\nKeep me signed in\nForgot your pass"
+    },
+    "评审": {
+      "url": "https://internationalarchitectureawards.com/jury-detail",
+      "chars": 1016,
+      "preview": "The Jury for The International Architecture Awards for 2025\n Sang Dae Lee\n Flavio Manzoni\n CHIU Chen-Yu\n Almantas Samalavičius\nThe International Architecture Award Yearbook\n\nThe International Architecture Awards Yearbook \" New International Architecture Global Design + Urbanism\" is an annual publication organized jointly by The Chicago Athenaeum: Museum of Architecture and Design and the European Centre for Architecture, Art, Design, and Urban Studies. This prestigious yearbook features outstand"
+    },
+    "获奖者": {
+      "url": "https://internationalarchitectureawards.com/winners-detail",
+      "chars": 61,
+      "preview": "Awarded Categories for International Architecture Awards 2025"
+    },
+    "联系": {
+      "url": "https://internationalarchitectureawards.com/contact",
+      "chars": 109,
+      "preview": "We will be glad to contact you\nPhone Number\nEmail\n\nGive us your email and\nwe will get back to you\n\nContact us"
+    }
+  }
+}

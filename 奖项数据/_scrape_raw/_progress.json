@@ -1,0 +1,492 @@
+[
+  {
+    "award_id": "d_ad奖_2026",
+    "name": "D&AD奖",
+    "status": "ok",
+    "chars": 4852
+  },
+  {
+    "award_id": "andrew_martin国际室内设计大奖_2026",
+    "name": "Andrew Martin国际室内设计大奖",
+    "status": "ok",
+    "chars": 2196
+  },
+  {
+    "award_id": "国际房地产奖_2026",
+    "name": "国际房地产奖",
+    "status": "ok",
+    "chars": 4949
+  },
+  {
+    "award_id": "fx国际设计奖_2026",
+    "name": "FX国际设计奖",
+    "status": "ok",
+    "chars": 1277
+  },
+  {
+    "award_id": "伦敦创意大赛_2026",
+    "name": "伦敦创意大赛",
+    "status": "ok",
+    "chars": 5601
+  },
+  {
+    "award_id": "win奖_2026",
+    "name": "WIN奖",
+    "status": "ok",
+    "chars": 10349
+  },
+  {
+    "award_id": "leaf奖_2026",
+    "name": "LEAF奖",
+    "status": "error",
+    "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.leafawards.arena-international.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.leafawards.arena-international.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://www.leafawards.arena-international.com/"
+  },
+  {
+    "award_id": "li奖_景观学会奖_2026",
+    "name": "LI奖（景观学会奖）",
+    "status": "http_error",
+    "url": "https://landscapeinstitute.org/awards/"
+  },
+  {
+    "award_id": "意大利建筑奖_2026",
+    "name": "意大利建筑奖",
+    "status": "ok",
+    "chars": 6128
+  },
+  {
+    "award_id": "国际酒店与地产设计奖_2026",
+    "name": "国际酒店与地产设计奖",
+    "status": "ok",
+    "chars": 2008
+  },
+  {
+    "award_id": "ahead奖_酒店设计奖_2026",
+    "name": "AHEAD奖（酒店设计奖）",
+    "status": "ok",
+    "chars": 1481
+  },
+  {
+    "award_id": "餐厅与酒吧设计奖_2026",
+    "name": "餐厅与酒吧设计奖",
+    "status": "ok",
+    "chars": 684
+  },
+  {
+    "award_id": "award_15_2026",
+    "name": "Dezeen",
+    "status": "ok",
+    "chars": 13239
+  },
+  {
+    "award_id": "bali国家景观奖_2026",
+    "name": "BALI国家景观奖",
+    "status": "ok",
+    "chars": 1961
+  },
+  {
+    "award_id": "世界建筑节奖_2026",
+    "name": "世界建筑节奖",
+    "status": "ok",
+    "chars": 8153
+  },
+  {
+    "award_id": "award_18_2026",
+    "name": "Frameweb",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://frameweb.com/about-frame-awards\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://frameweb.com/about-frame-awards"
+  },
+  {
+    "award_id": "sbid国际设计奖_2026",
+    "name": "SBID国际设计奖",
+    "status": "ok",
+    "chars": 3698
+  },
+  {
+    "award_id": "award_20_2026",
+    "name": "Unknown",
+    "status": "http_error",
+    "url": "https://www.bdonline.co.uk/wa-100"
+  },
+  {
+    "award_id": "award_21_2026",
+    "name": "AZ Awards",
+    "status": "ok",
+    "chars": 1168
+  },
+  {
+    "award_id": "good_design奖_优良设计奖_2026",
+    "name": "Good Design奖（优良设计奖）",
+    "status": "ok",
+    "chars": 6090
+  },
+  {
+    "award_id": "better_future奖_drift奖_2026",
+    "name": "Better Future奖（Drift奖）",
+    "status": "ok",
+    "chars": 2574
+  },
+  {
+    "award_id": "巴黎设计奖_2026",
+    "name": "巴黎设计奖",
+    "status": "ok",
+    "chars": 11897
+  },
+  {
+    "award_id": "award_26_2026",
+    "name": "Core77 / Design Awards",
+    "status": "ok",
+    "chars": 2754
+  },
+  {
+    "award_id": "uia金奖与三年展奖_2026",
+    "name": "UIA金奖与三年展奖",
+    "status": "ok",
+    "chars": 2881
+  },
+  {
+    "award_id": "红点设计奖_2026",
+    "name": "红点设计奖",
+    "status": "ok",
+    "chars": 5748
+  },
+  {
+    "award_id": "ux设计奖_2026",
+    "name": "UX设计奖",
+    "status": "ok",
+    "chars": 1284
+  },
+  {
+    "award_id": "凡尔赛奖_2026",
+    "name": "凡尔赛奖",
+    "status": "ok",
+    "chars": 4912
+  },
+  {
+    "award_id": "设计教育奖_2026",
+    "name": "设计教育奖",
+    "status": "ok",
+    "chars": 9817
+  },
+  {
+    "award_id": "edida奖_elle装饰国际设计奖_2026",
+    "name": "EDIDA奖（ELLE装饰国际设计奖）",
+    "status": "ok",
+    "chars": 589
+  },
+  {
+    "award_id": "inno_design奖_2026",
+    "name": "Inno Design奖",
+    "status": "http_error",
+    "url": "https://innodesign.fr/"
+  },
+  {
+    "award_id": "novum设计奖_2026",
+    "name": "Novum设计奖",
+    "status": "ok",
+    "chars": 1039
+  },
+  {
+    "award_id": "法国设计奖_2026",
+    "name": "法国设计奖",
+    "status": "ok",
+    "chars": 1807
+  },
+  {
+    "award_id": "award_37_2026",
+    "name": "Improving the quality of life",
+    "status": "ok",
+    "chars": 2234
+  },
+  {
+    "award_id": "liva奖_2026",
+    "name": "LIVA奖",
+    "status": "ok",
+    "chars": 5622
+  },
+  {
+    "award_id": "sita奖_新加坡室内设计奖_2026",
+    "name": "SITA奖（新加坡室内设计奖）",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.sitaward.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://www.sitaward.com/"
+  },
+  {
+    "award_id": "index奖_2026",
+    "name": "Index奖",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://theindexproject.org/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://theindexproject.org/"
+  },
+  {
+    "award_id": "日光奖_2026",
+    "name": "日光奖",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://thedaylightaward.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "http://thedaylightaward.com/"
+  },
+  {
+    "award_id": "award_42_2026",
+    "name": "Frameweb",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://frameweb.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://frameweb.com/"
+  },
+  {
+    "award_id": "loop设计奖_2026",
+    "name": "Loop设计奖",
+    "status": "error",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.loopdesignawards.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.loopdesignawards.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://www.loopdesignawards.com/"
+  },
+  {
+    "award_id": "blt建筑设计奖_2026",
+    "name": "BLT建筑设计奖",
+    "status": "error",
+    "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://bltawards.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://bltawards.com/"
+  },
+  {
+    "award_id": "mipim奖_2026",
+    "name": "MIPIM奖",
+    "status": "ok",
+    "chars": 3846
+  },
+  {
+    "award_id": "dna巴黎设计奖_2026",
+    "name": "DNA巴黎设计奖",
+    "status": "ok",
+    "chars": 2511
+  },
+  {
+    "award_id": "the_plan奖_2026",
+    "name": "THE PLAN奖",
+    "status": "ok",
+    "chars": 3925
+  },
+  {
+    "award_id": "award_49_2026",
+    "name": "A' Design Award and Competition",
+    "status": "ok",
+    "chars": 11453
+  },
+  {
+    "award_id": "标志性设计奖_2026",
+    "name": "标志性设计奖",
+    "status": "ok",
+    "chars": 5375
+  },
+  {
+    "award_id": "lita奖_伦敦国际创意奖_2026",
+    "name": "LITA奖（伦敦国际创意奖）",
+    "status": "ok",
+    "chars": 7368
+  },
+  {
+    "award_id": "建筑设计奖_2026",
+    "name": "建筑设计奖",
+    "status": "ok",
+    "chars": 5166
+  },
+  {
+    "award_id": "砖建筑奖_2026",
+    "name": "砖建筑奖",
+    "status": "ok",
+    "chars": 10864
+  },
+  {
+    "award_id": "jcd商业空间设计奖_2026",
+    "name": "JCD商业空间设计奖",
+    "status": "ok",
+    "chars": 958
+  },
+  {
+    "award_id": "g_mark奖_优良设计奖_日本_2026",
+    "name": "G-Mark奖（优良设计奖/日本）",
+    "status": "ok",
+    "chars": 2401
+  },
+  {
+    "award_id": "arcasia奖_2026",
+    "name": "ARCASIA奖",
+    "status": "ok",
+    "chars": 4829
+  },
+  {
+    "award_id": "adpa奖_亚太设计奖_2026",
+    "name": "ADPA奖（亚太设计奖）",
+    "status": "error",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.adpawards.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.adpawards.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "url": "https://www.adpawards.com/"
+  },
+  {
+    "award_id": "新加坡设计奖_2026",
+    "name": "新加坡设计奖",
+    "status": "ok",
+    "chars": 3479
+  },
+  {
+    "award_id": "award_60_2026",
+    "name": "MIPIM Asia Summit",
+    "status": "ok",
+    "chars": 6915
+  },
+  {
+    "award_id": "全球卓越奖_2026",
+    "name": "全球卓越奖",
+    "status": "ok",
+    "chars": 4029
+  },
+  {
+    "award_id": "sida奖_新加坡室内设计师协会奖_2026",
+    "name": "SIDA奖（新加坡室内设计师协会奖）",
+    "status": "http_error",
+    "url": "https://sidawards.sg/"
+  },
+  {
+    "award_id": "可持续建筑奖_2026",
+    "name": "可持续建筑奖",
+    "status": "ok",
+    "chars": 6122
+  },
+  {
+    "award_id": "金点设计奖_2026",
+    "name": "金点设计奖",
+    "status": "ok",
+    "chars": 979
+  },
+  {
+    "award_id": "k_design奖_2026",
+    "name": "K-Design奖",
+    "status": "ok",
+    "chars": 3996
+  },
+  {
+    "award_id": "idpa奖_国际设计奖_2026",
+    "name": "IDPA奖（国际设计奖）",
+    "status": "error",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
+    "url": "https://idpa-japan.com/"
+  },
+  {
+    "award_id": "东京tdc奖_2026",
+    "name": "东京TDC奖",
+    "status": "http_error",
+    "url": "https://tokyotypedirectorsclub.org/en/entry/"
+  },
+  {
+    "award_id": "ifi设计大奖_2026",
+    "name": "IFI设计大奖",
+    "status": "http_error",
+    "url": "https://ifiworld.org/ifi-dda/"
+  },
+  {
+    "award_id": "asla奖_美国景观师协会奖_2026",
+    "name": "ASLA奖（美国景观师协会奖）",
+    "status": "ok",
+    "chars": 1356
+  },
+  {
+    "award_id": "金钥匙奖_2026",
+    "name": "金钥匙奖",
+    "status": "ok",
+    "chars": 4583
+  },
+  {
+    "award_id": "ida奖_国际设计奖_2026",
+    "name": "IDA奖（国际设计奖）",
+    "status": "ok",
+    "chars": 2631
+  },
+  {
+    "award_id": "one_show奖_2026",
+    "name": "One Show奖",
+    "status": "ok",
+    "chars": 4115
+  },
+  {
+    "award_id": "国际建筑奖_2026",
+    "name": "国际建筑奖",
+    "status": "ok",
+    "chars": 1704
+  },
+  {
+    "award_id": "award_74_2026",
+    "name": "The One Club for Creativity",
+    "status": "ok",
+    "chars": 6780
+  },
+  {
+    "award_id": "aia国际奖_2026",
+    "name": "AIA国际奖",
+    "status": "ok",
+    "chars": 17340
+  },
+  {
+    "award_id": "award_76_2026",
+    "name": "Illuminating Engineering Society",
+    "status": "ok",
+    "chars": 3665
+  },
+  {
+    "award_id": "award_77_2026",
+    "name": "Architizer A+Awards",
+    "status": "ok",
+    "chars": 3606
+  },
+  {
+    "award_id": "award_78_2026",
+    "name": "Interior Design Magazine",
+    "status": "ok",
+    "chars": 5680
+  },
+  {
+    "award_id": "纽约设计奖_2026",
+    "name": "纽约设计奖",
+    "status": "ok",
+    "chars": 11323
+  },
+  {
+    "award_id": "spark设计奖_2026",
+    "name": "Spark设计奖",
+    "status": "http_error",
+    "url": "https://www.sparkawards.com/"
+  },
+  {
+    "award_id": "award_82_2026",
+    "name": "Hospitality Design",
+    "status": "ok",
+    "chars": 2747
+  },
+  {
+    "award_id": "建筑奖_2026",
+    "name": "建筑奖",
+    "status": "ok",
+    "chars": 6329
+  },
+  {
+    "award_id": "idsa奖_美国工业设计师协会奖_2026",
+    "name": "IDSA奖（美国工业设计师协会奖）",
+    "status": "ok",
+    "chars": 1832
+  },
+  {
+    "award_id": "地产奖_2026",
+    "name": "地产奖",
+    "status": "ok",
+    "chars": 10448
+  },
+  {
+    "award_id": "riba_international_awards_2027",
+    "name": "RIBA国际奖",
+    "status": "ok",
+    "chars": 2041
+  },
+  {
+    "award_id": "win_awards_2026",
+    "name": "WIN Awards（世界室内设计新闻奖）",
+    "status": "ok",
+    "chars": 10349
+  }
+]

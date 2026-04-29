@@ -1,0 +1,59 @@
+{
+  "award_id": "the_plan奖_2026",
+  "name": "THE PLAN奖",
+  "name_en": "The Plan Award 2026",
+  "website": "https://www.theplan.it/award",
+  "organizer": "",
+  "organizer_location": "意大利",
+  "extracted": {
+    "contact_email": "abbonamenti@theplan.it",
+    "contact_phone": "+39 051 227634",
+    "raw_categories": [
+      "WEB",
+      "INTERIOR",
+      "urban",
+      "digital",
+      "Industrial",
+      "architecture",
+      "Landscape",
+      "Product",
+      "Transport",
+      "social",
+      "ui",
+      "Sustainable",
+      "game"
+    ],
+    "raw_award_levels": [
+      "shortlist",
+      "finalist",
+      "Gold"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.theplan.it/award",
+      "chars": 3995,
+      "preview": "Abbonamenti | Accedi - Registrati | IT - EN\nDATABASE\nWEBZINE \n MAGAZINE INTERIOR \nAWARDS \n \nEVENTI \n \nSTORE \nHome\n The Plan Award 2026\n\nThe Plan Award 2026\n\nTHE PLAN Award è un premio internazionale annuale di eccellenza in architettura, interior design e pianificazione urbana. Con 20 categorie tematiche e oltre 1300 progetti candidati ogni anno, THE PLAN Award rappresenta un’occasione per architetti, designer, urbanisti e progettisti per mettersi in gioco, entrando a far parte di una community "
+    },
+    "评审": {
+      "url": "https://www.theplan.it/award-jury",
+      "chars": 15000,
+      "preview": "DATABASE\nWEBZINE \n MAGAZINE INTERIOR \nAWARDS \n \nEVENTI \n \nSTORE \nMEMBRI DELLA GIURIA\n2025\n- - -\n\nRisultati: 25\n\nDURGANAND BALSAVAR\nARCHITETTO, FONDATORE ARTES ROOTS\n\nArchitetto, fondatore di Artes Roots (Goa) e docente impegnato nella ricerca e nella sensibilizzazione ambientale.\nÈ stato Ambasciatore della giuria del premio RIBA International nel 2024 ed è consulente senior per diversi organi delle Nazioni Unite. Balsavar ha lavorato, tra gli altri, con Atelier Bernard Kohn e B.V. Doshi ed è aut"
+    },
+    "类别": {
+      "url": "https://www.theplan.it/award#category",
+      "chars": 3925,
+      "preview": "DATABASE\nWEBZINE \n MAGAZINE INTERIOR \nAWARDS \n \nEVENTI \n \nSTORE \n\nThe Plan Award 2026\n\nTHE PLAN Award è un premio internazionale annuale di eccellenza in architettura, interior design e pianificazione urbana. Con 20 categorie tematiche e oltre 1300 progetti candidati ogni anno, THE PLAN Award rappresenta un’occasione per architetti, designer, urbanisti e progettisti per mettersi in gioco, entrando a far parte di una community internazionale e contribuendo al dibattito sulle tematiche più attuali"
+    },
+    "关于": {
+      "url": "https://www.theplan.it/about-us",
+      "chars": 2946,
+      "preview": "DATABASE\nWEBZINE \n MAGAZINE INTERIOR \nAWARDS \n \nEVENTI \n \nSTORE \nABOUT US\n\n\"THE PLAN - Architecture & Technologies in Detail”, edito dal Ottobre 2018 da Gruppo Maggioli, è stato fondato da Nicola Leonardi e Carlotta Zucchini nel 2001. THE PLAN esce in abbonamento, in edicola e in libreria, con 8 numeri ogni anno (6 numeri regolari e 2 numeri speciali), ed è una delle riviste di architettura e design più acclamate sul mercato. Grazie al suo approccio fortemente internazionale, è una delle riviste"
+    },
+    "FAQ": {
+      "url": "https://www.theplan.it/faq-theplan",
+      "chars": 8714,
+      "preview": "DATABASE\nWEBZINE \n MAGAZINE INTERIOR \nAWARDS \n \nEVENTI \n \nSTORE \nDOMANDE FREQUENTI (FAQ) THEPLAN.IT\nInformazioni Generali\n\nCos'è theplan.it?\ntheplan.it è il portale web ufficiale di THE PLAN Magazine, una delle riviste di architettura e design più prestigiose a livello internazionale. Funge da motore di ricerca tematico per l'architettura e contiene un archivio storico completo di progetti, oltre a nuovi contenuti inediti.\n\nDi cosa tratta la rivista THE PLAN?\nLa rivista si occupa di architettura"
+    }
+  }
+}

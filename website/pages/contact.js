@@ -5,8 +5,11 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>联系我们 | 设计能—国际设计大奖申报指南</title>
-        <meta name="description" content="联系设计能，获取国际设计大奖申报咨询服务。电话：136-9222-2744，邮箱：9285962@qq.com" />
+        <title>联系我们 | 设计能 - 国际设计大奖申报平台</title>
+        <meta name="description" content="联系设计能获取国际设计大奖申报咨询服务、国际奖项研究、参赛策略咨询。电话：136-9222-2744，邮箱：9285962@qq.com，官网：www.52de.cc" />
+        <meta name="keywords" content="设计能联系方式,设计奖申报咨询,国际奖项研究,参赛策略咨询,国际设计奖代理电话,MUSE奖咨询,红点奖咨询,iF奖咨询" />
+        <meta name="robots" content="index,follow" />
+        <link rel="canonical" href="https://www.52de.cc/contact" />
       </Head>
 
       {/* Header */}
@@ -23,12 +26,10 @@ export default function Contact() {
               <Link href="/" style={styles.navLink}>首页</Link>
               <Link href="/awards" style={styles.navLink}>奖项库</Link>
               <Link href="/compare" style={styles.navLink}>奖项对比</Link>
-              <Link href="/cases" style={styles.navLink}>成功案例</Link>
+              <Link href="/services" style={styles.navLink}>申报服务</Link>
               <Link href="/strategy" style={styles.navLink}>参赛策略</Link>
               <Link href="/news" style={styles.navLink}>赛事新闻</Link>
-              <Link href="/services" style={styles.navLink}>申报服务</Link>
               <Link href="/about" style={styles.navLink}>关于我们</Link>
-              <Link href="/contact" style={{...styles.navLink, color: '#D4AF37'}}>联系我们</Link>
             </nav>
           </div>
         </div>
@@ -130,7 +131,7 @@ export default function Contact() {
 
 const styles = {
   header: {
-    backgroundColor: '#1E3A5F',
+    backgroundColor: '#1A1A1A',
     padding: '16px 0',
     position: 'sticky',
     top: 0,
@@ -167,8 +168,7 @@ const styles = {
   },
   nav: {
     display: 'flex',
-    gap: '16px',
-    flexWrap: 'wrap',
+    gap: '28px',
   },
   navLink: {
     color: '#fff',

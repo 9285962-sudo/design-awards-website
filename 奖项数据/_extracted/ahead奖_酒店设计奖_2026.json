@@ -1,0 +1,60 @@
+{
+  "award_id": "ahead奖_酒店设计奖_2026",
+  "name": "AHEAD奖（酒店设计奖）",
+  "name_en": "AHEAD is the new global celebration of hospitality experience and…",
+  "website": "https://www.aheadawards.com/",
+  "organizer": "",
+  "organizer_location": "英国",
+  "extracted": {
+    "contact_email": "k.dean@mondiale.co.uk",
+    "contact_phone": "+44 (0)161 464 4750",
+    "raw_deadlines": [
+      "deadline reminders, shortlist announcements, ticket offers and more",
+      "deadline reminders, shortlist announcements and more",
+      "deadline reminders, shortlist announcements, event updates and more",
+      "DEADLINE",
+      "DEADLINE"
+    ],
+    "raw_categories": [
+      "ui",
+      "digital",
+      "social",
+      "Architecture",
+      "Interior",
+      "Landscape",
+      "Urban",
+      "ux",
+      "CONCEPT",
+      "transport"
+    ],
+    "raw_judges": [
+      "judged by top names from the hospitality design world, from owners and operators to developers and designers"
+    ],
+    "raw_award_levels": [
+      "shortlist",
+      "winner"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.aheadawards.com/",
+      "chars": 2378,
+      "preview": "ENTERGET TICKETS\nSELECT REGION\nAHEAD 2026\nAWARDS FOR HOSPITALITY EXPERIENCE AND DESIGN\nPrevious\nNext\n1\n2\n3\n4\n5\n6\nVISION\n\nAHEAD 2026 is open for entries and tickets for the ceremonies are on sale:\n\nAHEAD Asia 2026 | Pan Pacific Orchard, Singapore | Friday 11 September\n\nAHEAD Americas 2026 | Gotham Hall, New York | Thursday 15 October\n\nAHEAD MEA 2026 | Bluewaters Forum, Dubai | Monday 2 November\n\nAHEAD Europe 2026 | Magazine, London | Thursday 26 November\n\nOver 200 projects across 35 countries hav"
+    },
+    "关于": {
+      "url": "https://www.aheadawards.com/about",
+      "chars": 2275,
+      "preview": "ENTERGET TICKETS\nSELECT REGION\nABOUT\nFOUR REGIONAL AWARDS PROGRAMMES / ONE GLOBAL CELEBRATION\nABOUT\n\nAHEAD is the only global awards for hospitality experience and design, organised by industry-leading publication, Sleeper.\n\n2026 entries are now open and tickets for the ceremonies are on sale.\n\n\nThe series celebrates the achievements of those shaping the hospitality design industry each year, hosting regional awards across:\n\nAsia\nAmericas\nMEA (Middle East & Africa)\nEurope\n\nThe series then conclu"
+    },
+    "获奖者": {
+      "url": "https://www.aheadawards.com/americas/2025/winners",
+      "chars": 3472,
+      "preview": "ENTERGET TICKETS\nAMERICAS\nWINNERS\nAHEAD AMERICAS 2025\nWINNERS\nENTERED AWARDS /\nBAR, CLUB OR LOUNGE\nCLUB ROOM – FIDELITY HOTEL, CLEVELAND, OHIO, USA\nNuovoRE / New Waterloo / Hartshorne Plunkard Architecture / Curioso / Looney & Associates\nEVENT SPACES\nTHE ST. REGIS CAP CANA, PUNTA CANA, DOMINICAN REPUBLIC\nPioneer Investment Fund Management Company / Marriott International / Campagna Ricart & Associates / AG Interiores / AC Arquitectos & Asociados / Chapi Design Inc. / EDSA / PWP Landscape\nGUESTRO"
+    },
+    "评审": {
+      "url": "https://www.aheadawards.com/asia/2026",
+      "chars": 2164,
+      "preview": "ENTERGET TICKETS\nASIA\nAHEAD ASIA 2026\n2026 AWARDS\n\nAHEAD Asia 2026 is open for entries. Download the entry guidelines and enter now.\n\n\nThe winners will be announced at AHEAD Asia 2026 on Friday 11 September at Pan Pacific Orchard, Singapore. Get tickets now, subject to availability.\n\n\nRecap last year's awards ⏮️\n\nPANEL\nCHRIS GODFREY (CHAIR)\nCo-CEO | HBA\nAIK WEE ONG\nSenior Director (Asia Pacific) | Design Hotels\nALDWIN ONG\nEVP | CCD / Cheng Chung Design\nBELINDA CHIA\nSenior Director, Interior Desi"
+    }
+  }
+}

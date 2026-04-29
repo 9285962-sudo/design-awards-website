@@ -1,0 +1,16 @@
+# Novum Design Award - 官网信息
+
+> 采集时间: 2026-04-20T07:27:24.132Z
+
+## 基础信息
+
+- **website**: https://www.novumdesignaward.com/
+- **name**: HOME | Novum Design Award
+- **description**: Early Registration: 100 EUR / Project before 15.01.2022. SAVE -75%! NDA is the World
+
+## 官网内容
+
+### homepage
+
+--> HOME | Novum Design Award top of page NOVUM DESIGN AWARD HOME NDA PRIZES WINNERS 2023 SUBMIT REGISTRATION CONTACT More... Use tab to navigate through the menu items. WINNERS&#x27; ANNOUNCEMENT 2023 NOVUM DESIGN AWARD&nbsp; 2023 for the World&#39;s leading design ideas NDA 2023 WINNERS Golden Novum Design Award in 10 categories Silver Novum Design Award in 10 categories Bronze Novum Design Award in 10 categories Designer of the Year in 10 categories Architectural Design Category Interior Design Category Urban Planning and Landscape Design Category Furniture Design Category Lightning Design Category Digital Art and Graphic Design Category Packing Design Category Product Design Category Fashion and Textile Design Category Photography and Photo Manipulation Design Category &quot;Design can&nbsp;be&nbsp;art.&nbsp; Design can&nbsp;be&nbsp;aesthetics.&nbsp; Design&nbsp;is so simple, that&#39;s why it is so complicated.&quot; Paul Rand SAVE THE DATES JUNE 2023 AUGUST 2023 SEPTEMBER 2023 15 OCTOBER 2023 15 EARLY REGISTRATION 100 EUR FEBRUARY 2023 STANDARD REGISTRATION 200 EUR 15 LATE REGISTRATION 300 EUR 15 LAST REGISTRATION 400 EUR 15 WINNERS Are you a talented Designer? Submit your project! READ MORE Contact Us Partners About NDA NDA offers international fame and recognitions for talented Designers in Architectural Design Category, Interior Design Category, Urban Planning and Landscape Design Category, Furniture Design Category, Lightning Design Category, Digital Art and Graphic Design Category, Packing Design Category, Product Design Category, Fashion and Textile Design Category, Photography and Photo Manipulation Design Category. Join Us SIGN UP! Quick Links Home NDA Prizes Winners Registration Fees and Dates Design Scores Submit Contact FAQs Terms of Use Privacy Policy Cookie Policy Press Email : info@novumdesignaward.com &copy; 2023 by Novum Design Award powered by&nbsp; DAA-Design Award Agency &nbsp;|&nbsp; Terms of Use &nbsp; |&nbsp; &nbsp;Privacy Policy&nbsp; |&nbsp; Cookie Policy bottom of page
+

@@ -1,0 +1,63 @@
+{
+  "award_id": "award_15_2026",
+  "name": "Dezeen",
+  "name_en": "Dezeen",
+  "website": "https://www.dezeen.com/",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "raw_fees": [
+      "€600"
+    ],
+    "raw_deadlines": [
+      "deadline\" says architect behind 1km-tall skyscraper",
+      "deadline\" says architect behind 1km-tall skyscraper",
+      "deadline\" says architect behind 1km-tall skyscraper",
+      "deadline\" says architect behind 1km-tall skyscraper",
+      "deadline,\" Gill told Dezeen",
+      "deadline\" says architect behind 1km-tall skyscraper"
+    ],
+    "raw_categories": [
+      "ui",
+      "Architecture",
+      "Interior",
+      "Video",
+      "Mobile",
+      "furniture",
+      "product",
+      "illustration",
+      "smart",
+      "digital",
+      "fashion",
+      "graphic",
+      "sustainable",
+      "social",
+      "lighting",
+      "ux",
+      "transport"
+    ],
+    "raw_criteria": [
+      "criteria, vertical transportation – all of that gets a little bump every time you do one of these projects,\" said Gill"
+    ],
+    "raw_award_levels": [
+      "winner"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.dezeen.com/",
+      "chars": 14797,
+      "preview": "Magazine\nAwards\nJobs\nEvents Guide\nShowroom\nSchool Shows\nCourses\nCompetitions\nArchitecture\nInteriors\nDesign\nTechnology\nSeries\nFeatures\nInterviews\nOpinion\nNews\nLookbooks\nTalks\nVideos\nPodcasts\nAbout\nComments\nNewsletters\nPreferences\nSubmit a story\nAdvertise\nPrivacy notice\nContact\nDezeen Magazine\nEnter your site search term\nclear\nFollow:\nAwards\nJobs\nEvents Guide\nShowroom\nSchool Shows\nCourses\nCompetitions\nSeries\nInterviews\nOpinion\nTalks\nVideos\nNewsletters\nMagazine\nArchitecture\nInteriors\nDesign\nTechnol"
+    },
+    "费用": {
+      "url": "https://www.dezeen.com/2026/04/17/capsule-non-payment-allegations/",
+      "chars": 12982,
+      "preview": "Dezeen Magazine\nDesign platform Capsule accused of not paying \"dozens\" of contributors\nJennifer Hahn | 17 April 2026  1 comment\n\nAs Capsule magazine prepares to host the fourth edition of its popular Capsule Plaza exhibition at Milan design week, a chorus of previous collaborators has accused the company of a pattern of non-payment.\n\nTwelve former contributors, including key associates, designers, photographers and production crew, have told Dezeen they've either not been paid for their work, ex"
+    },
+    "时间": {
+      "url": "https://www.dezeen.com/2026/04/23/gordon-gill-jeddah-tower-interview/",
+      "chars": 11245,
+      "preview": "Dezeen Magazine\n\"Of all the projects in Saudi Arabia, this was the one capable of meeting its deadline\" says architect behind 1km-tall skyscraper\nAmy Peacock | 23 April 2026  6 comments\n\nSaudi Arabia's Jeddah Tower is on course to be the world's first kilometre-tall building. But, architect Gordon Gill tells Dezeen in this interview, a skyscraper double that height is already realistic.\n\nTogether with Adrian Smith and Robert Forest, Gill co-founded Chicago-based studio Adrian Smith + Gordon Gill"
+    }
+  }
+}

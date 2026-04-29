@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-04-20T07:34:20.038Z",
+  "currentIndex": 80,
+  "total": 83,
+  "progress": "80/83 (96%)",
+  "success": [
+    "Property Awards",
+    "FX Design Awards",
+    "LICC",
+    "World Interiors News Awards",
+    "LEAF Awards",
+    "Landscape Institute Awards",
+    "Premio Architettura",
+    "International Hotel Property Awards",
+    "AHEAD Awards",
+    "Restaurant & Bar Design Awards",
+    "Dezeen Awards",
+    "BALI Awards",
+    "World Architecture Festival",
+    "Frame Awards",
+    "SBID Awards",
+    "WA 100",
+    "Azure Awards",
+    "Good Design",
+    "Better Future Awards",
+    "Grands Prix du Design",
+    "Core77 Design Awards",
+    "UIA Gold Medal",
+    "UX Design Awards",
+    "Prix Versailles",
+    "Design Educates",
+    "EDIDA Awards",
+    "InnoDesign",
+    "Novum Design Award",
+    "French Design Award",
+    "AKDN",
+    "LIV Awards",
+    "SIT Award",
+    "Index Project",
+    "Daylight Award",
+    "Frame",
+    "Loop Design Awards",
+    "BLT Awards",
+    "MIPIM Awards",
+    "DNA Paris",
+    "The Plan Award",
+    "The Plan Real Estate Award",
+    "A Design Award",
+    "Iconic Awards",
+    "LIT Awards",
+    "Arch Design Award",
+    "Brick Award",
+    "JCD",
+    "ARCASIA",
+    "ADP Awards",
+    "SG Mark",
+    "MIPIM Asia",
+    "Global Excellence Awards",
+    "SID Awards",
+    "Sustainable Building Awards",
+    "Golden Pin",
+    "K-Design Award",
+    "IDPA Japan",
+    "Tokyo TDC",
+    "IFI DDA",
+    "ASLA Awards",
+    "Gold Key Awards",
+    "I Design Awards",
+    "One Show",
+    "International Architecture Awards",
+    "One Club",
+    "AIA International",
+    "IES Illumination Awards",
+    "Architizer A+Awards",
+    "Interior Design",
+    "NY Design Awards",
+    "Spark Awards",
+    "Hospitality Design",
+    "Architecture Prize"
+  ],
+  "skipped": [
+    {
+      "name": "D&AD",
+      "reason": "already_done"
+    },
+    {
+      "name": "RIBA International",
+      "reason": "already_done"
+    },
+    {
+      "name": "LIA",
+      "reason": "already_done"
+    },
+    {
+      "name": "Andrew Martin",
+      "reason": "already_done"
+    },
+    {
+      "name": "Red Dot",
+      "reason": "marked_skip"
+    },
+    {
+      "name": "iF Design",
+      "reason": "marked_skip"
+    },
+    {
+      "name": "G-Mark",
+      "reason": "marked_skip"
+    },
+    {
+      "name": "MUSE Award",
+      "reason": "marked_skip"
+    }
+  ],
+  "failed": []
+}

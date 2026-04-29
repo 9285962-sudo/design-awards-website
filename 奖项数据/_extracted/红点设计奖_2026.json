@@ -1,0 +1,75 @@
+{
+  "award_id": "红点设计奖_2026",
+  "name": "红点设计奖",
+  "name_en": "Red Dot Design Award",
+  "website": "https://www.red-dot.org/zh/",
+  "organizer": "",
+  "organizer_location": "德国",
+  "extracted": {
+    "contact_phone": "+49 201 838885",
+    "raw_deadlines": [
+      "deadlines, and costs can be found here",
+      "deadlines"
+    ],
+    "raw_categories": [
+      "web",
+      "social",
+      "service",
+      "ui",
+      "product",
+      "Communication",
+      "Concept",
+      "lighting",
+      "Video",
+      "smart",
+      "packaging",
+      "Digital",
+      "Typography",
+      "Illustration"
+    ],
+    "raw_judges": [
+      "jury of experts",
+      "jury members of the Red Dot Award: Brands & Communication Design",
+      "Jury decides on the quality of the entries and thus awards the Red Dot distinctions",
+      "jury members here"
+    ],
+    "raw_criteria": [
+      "selection Customize",
+      "selection when browsing the website",
+      "selection Customize",
+      "selection Customize",
+      "selection Customize"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "Grand Prix"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.red-dot.org/zh/",
+      "chars": 6359,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website.\nConsent Selection\nNece"
+    },
+    "关于": {
+      "url": "https://www.cookiebot.com/goto/privacy-policy/",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    },
+    "获奖者": {
+      "url": "https://www.red-dot.org/zh/search",
+      "chars": 8084,
+      "preview": "digi·access - Improve accessibility\nOptimize the website for better readability and user experience.\nF2 to open\nThe page is reloaded when used\nEnglish\n Deutsch\n English\n Español\n Français\n Italiano\n Nederlands\n Polski\n Čeština\n Türkiye\n Dansk\n Svenska\n Suomi\n Português\n Norsk\n Slovenčina\n Magyar\n Tiếng Việt\nAdjustments for accessibility\nChoose your settings\nVisually impaired people Support for people with poor eyesight\nOff\nOn\nReading texts aloud Assistance for users who have problems reading onl"
+    },
+    "联系": {
+      "url": "https://www.red-dot.org/zh/contact",
+      "chars": 7560,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website.\nConsent Selection\nNece"
+    },
+    "参赛": {
+      "url": "https://www.red-dot.org/bcd",
+      "chars": 14363,
+      "preview": "digi·access - Improve accessibility\nOptimize the website for better readability and user experience.\nF2 to open\nThe page is reloaded when used\nEnglish\n Deutsch\n English\n Español\n Français\n Italiano\n Nederlands\n Polski\n Čeština\n Türkiye\n Dansk\n Svenska\n Suomi\n Português\n Norsk\n Slovenčina\n Magyar\n Tiếng Việt\nAdjustments for accessibility\nChoose your settings\nVisually impaired people Support for people with poor eyesight\nOff\nOn\nReading texts aloud Assistance for users who have problems reading onl"
+    }
+  }
+}

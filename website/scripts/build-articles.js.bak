@@ -1,0 +1,616 @@
+const fs = require('fs');
+const path = require('path');
+
+// 路径配置 - 新闻文章
+const NEWS_CONTENT_DIR = path.join(__dirname, '../content/articles');
+const NEWS_OUTPUT_DIR = path.join(__dirname, '../public/articles');
+const NEWS_JSON_PATH = path.join(__dirname, '../data/news.json');
+const IMAGES_DIR = path.join(__dirname, '../public/images/articles');
+
+// 路径配置 - 策略文章
+const STRATEGY_CONTENT_DIR = path.join(__dirname, '../content/strategy');
+const STRATEGY_OUTPUT_DIR = path.join(__dirname, '../public/strategy/articles');
+const STRATEGY_JSON_PATH = path.join(__dirname, '../data/strategy.json');
+
+// 确保目录存在
+function ensureDir(dir) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+ensureDir(NEWS_OUTPUT_DIR);
+ensureDir(STRATEGY_OUTPUT_DIR);
+ensureDir(NEWS_CONTENT_DIR);
+ensureDir(STRATEGY_CONTENT_DIR);
+ensureDir(IMAGES_DIR);
+
+// 解析Markdown文件
+function parseMarkdown(filePath) {
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const normalizedContent = content.replace(/\r\n/g, '\n');
+  const lines = normalizedContent.split('\n');
+  
+  let frontmatter = {};
+  let bodyStart = 0;
+  
+  if (lines[0] === '---') {
+    const endIndex = lines.findIndex((line, i) => i > 0 && line === '---');
+    if (endIndex > 0) {
+      const fmLines = lines.slice(1, endIndex);
+      fmLines.forEach(line => {
+        const match = line.match(/^(.+?):\s*(.+)$/);
+        if (match) {
+          frontmatter[match[1].trim()] = match[2].trim();
+        }
+      });
+      bodyStart = endIndex + 1;
+    }
+  }
+  
+  const body = lines.slice(bodyStart).join('\n');
+  return { frontmatter, body, fullContent: content };
+}
+
+// 提取文章中的第一张本地图片路径
+function extractFirstLocalImage(body) {
+  // 匹配 ![...](C:\... 或 ![...](D:\... 等本地绝对路径
+  const match = body.match(/!\[.*?\]\(([A-Za-z]:\\[^)]+)\)/);
+  if (match) {
+    return match[1]; // 返回本地路径
+  }
+  return null;
+}
+
+// 提取文章中的第一张图片路径（支持本地路径和网页路径）
+function extractFirstImage(body) {
+  // 先尝试匹配本地路径
+  const localMatch = body.match(/!\[.*?\]\(([A-Za-z]:\\[^)]+)\)/);
+  if (localMatch) {
+    return { path: localMatch[1], type: 'local' };
+  }
+  // 再尝试匹配网页路径
+  const webMatch = body.match(/!\[.*?\]\((\/images\/[^)]+)\)/);
+  if (webMatch) {
+    return { path: webMatch[1], type: 'web' };
+  }
+  return null;
+}
+
+// 提取所有本地图片路径
+function extractAllLocalImages(body) {
+  const matches = [];
+  // 匹配 ![...](C:\... 或 ![...](D:\... 等本地绝对路径
+  // 支持中文路径、空格、括号等
+  const regex = /!\[([^\]]*)\]\(([A-Za-z]:\\[^)\n]+?\.(?:jpg|jpeg|png|gif|webp))\)/gi;
+  let match;
+  while ((match = regex.exec(body)) !== null) {
+    matches.push({
+      alt: match[1],
+      path: match[2]
+    });
+  }
+  return matches;
+}
+
+// 复制图片到项目目录
+function copyImageToProject(localPath, articleSlug) {
+  try {
+    if (!fs.existsSync(localPath)) {
+      console.log(`    ⚠ 图片不存在: ${localPath}`);
+      return null;
+    }
+    
+    const fileName = path.basename(localPath);
+    const articleImageDir = path.join(IMAGES_DIR, articleSlug);
+    ensureDir(articleImageDir);
+    
+    const destPath = path.join(articleImageDir, fileName);
+    fs.copyFileSync(localPath, destPath);
+    
+    // 返回网页可访问的路径
+    return `/images/articles/${articleSlug}/${fileName}`;
+  } catch (err) {
+    console.log(`    ⚠ 复制图片失败: ${err.message}`);
+    return null;
+  }
+}
+
+// 从正文中移除与封面图重复的第一张图片（避免图片重复显示）
+function removeDuplicateCoverImage(body, coverPath) {
+  if (!coverPath) return body;
+  
+  // 移除正文第一张与封面相同的图片（只移除一张，避免影响其他图片）
+  const escapedCover = coverPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`^!?\\[([^\\]]*)\\]\\(${escapedCover}\\)\\s*\\n?`, 'i');
+  
+  return body.replace(regex, '');
+}
+
+// 替换正文中的本地图片路径为网页路径
+function replaceLocalImagePaths(body, imageMap) {
+  let newBody = body;
+  for (const [localPath, webPath] of Object.entries(imageMap)) {
+    // 转义正则特殊字符
+    const escapedPath = localPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`!\\[([^\\]]*)\\]\\(${escapedPath}\\)`, 'g');
+    newBody = newBody.replace(regex, (match, alt) => {
+      if (webPath) {
+        return `![${alt}](${webPath})`;
+      } else {
+        return ''; // 删除无法复制的图片引用
+      }
+    });
+  }
+  return newBody;
+}
+
+// Markdown转HTML - 改进版
+function markdownToHtml(markdown) {
+  let html = markdown;
+  
+  // 统一换行符为\n
+  html = html.replace(/\r\n/g, '\n');
+  
+  // 处理代码块（保留格式）
+  html = html.replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>');
+  
+  // 处理行内代码
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  
+  // 处理标题（在段落处理之前）
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>\n');
+  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>\n');
+  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>\n');
+  
+  // 处理分隔线
+  html = html.replace(/^---+$/gm, '<hr>\n');
+  html = html.replace(/^\*\*\*+$/gm, '<hr>\n');
+  
+  // 处理图片
+  html = html.replace(/!\[(.*?)\]\((.+?)\)/g, 
+    '<img src="$2" alt="$1" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;">');
+  
+  // 处理链接
+  html = html.replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" target="_blank">$1</a>');
+  
+  // 处理加粗和斜体
+  html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+  html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  
+  // 处理引用块
+  html = html.replace(/^>\s*(.+)$/gm, '<blockquote>$1</blockquote>');
+  
+  // 处理列表 - 按行处理，检测连续的列表项
+  const lines = html.split('\n');
+  const result = [];
+  let i = 0;
+  
+  while (i < lines.length) {
+    const line = lines[i];
+    
+    // 检测无序列表开始
+    if (/^\s*[-*]\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+        items.push(lines[i].replace(/^\s*[-*]\s+/, '<li>').replace(/$/, '</li>'));
+        i++;
+      }
+      result.push(`<ul>${items.join('')}</ul>`);
+      continue;
+    }
+    
+    // 检测有序列表开始
+    if (/^\s*\d+\.\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
+        items.push(lines[i].replace(/^\s*\d+\.\s+/, '<li>').replace(/$/, '</li>'));
+        i++;
+      }
+      result.push(`<ol>${items.join('')}</ol>`);
+      continue;
+    }
+    
+    // 收集段落内容（直到遇到空行或块级元素）
+    if (line.trim() === '' || line.startsWith('<h') || line.startsWith('<hr') || 
+        line.startsWith('<pre') || line.startsWith('<blockquote') || line.startsWith('<ul') || 
+        line.startsWith('<ol') || line.startsWith('<img')) {
+      // 空行或块级元素，直接添加
+      if (line.trim() !== '') {
+        result.push(line.trim());
+      }
+      i++;
+      continue;
+    }
+    
+    // 普通段落 - 收集连续的非空行
+    const paraLines = [];
+    while (i < lines.length) {
+      const l = lines[i];
+      if (l.trim() === '' || l.startsWith('<h') || l.startsWith('<hr') || 
+          l.startsWith('<pre') || l.startsWith('<blockquote') || l.startsWith('<ul') || 
+          l.startsWith('<ol') || l.startsWith('<img') || /^\s*[-*]\s+/.test(l) || 
+          /^\s*\d+\.\s+/.test(l)) {
+        break;
+      }
+      paraLines.push(l.trim());
+      i++;
+    }
+    
+    if (paraLines.length > 0) {
+      // 段落内的换行转为 <br>
+      result.push(`<p>${paraLines.join('<br>')}</p>`);
+    }
+  }
+  
+  return result.join('\n');
+}
+
+// 生成文章详情页HTML
+function generateArticleHtml(article, type = 'news') {
+  const backLink = type === 'strategy' ? '/strategy' : '/news';
+  const backText = type === 'strategy' ? '← 返回策略列表' : '← 返回新闻列表';
+  
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${article.title} | 设计能</title>
+  <meta name="description" content="${article.summary || article.title}">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; line-height: 1.8; color: #333; background-color: #f5f5f5; }
+    a { text-decoration: none; color: inherit; }
+    .header { background-color: #1A1A1A; padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { display: flex; align-items: center; }
+    .logo img { height: 40px; width: auto; }
+    .logo-text { font-size: 20px; font-weight: bold; color: #D4AF37; margin-left: 12px; }
+    .nav-menu { display: flex; list-style: none; gap: 32px; }
+    .nav-menu a { color: #fff; font-size: 14px; opacity: 0.9; }
+    .nav-menu a:hover { opacity: 1; }
+    .article-header { background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%); padding: 60px 0; text-align: center; color: #fff; }
+    .article-header h1 { font-size: 32px; margin-bottom: 16px; }
+    .article-meta { display: flex; justify-content: center; gap: 24px; font-size: 14px; opacity: 0.9; flex-wrap: wrap; }
+    .article-category { background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 4px; }
+    .article-wrapper { max-width: 900px; margin: 40px auto; padding: 0 24px; }
+    .article-box { background-color: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; padding: 48px; }
+    .article-cover { width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 32px; }
+    .article-content h2 { font-size: 24px; color: #1E3A5F; margin: 32px 0 16px; }
+    .article-content h3 { font-size: 20px; color: #1E3A5F; margin: 24px 0 12px; }
+    .article-content p { margin-bottom: 16px; color: #444; line-height: 1.8; }
+    .article-content strong { color: #1E3A5F; }
+    .article-content img { max-width: 100%; height: auto; border-radius: 8px; margin: 16px 0; }
+    .back-link { display: inline-block; margin-bottom: 24px; color: #1E3A5F; }
+    .back-link:hover { text-decoration: underline; }
+    .footer { background-color: #1A1A1A; padding: 32px 0; text-align: center; color: #fff; margin-top: 60px; }
+    .footer p { font-size: 14px; margin-bottom: 8px; }
+    @media (max-width: 768px) {
+      .nav-menu { display: none; }
+      .header-inner { justify-content: center; }
+      .article-header h1 { font-size: 24px; }
+      .article-box { padding: 32px 16px; }
+      .article-cover { max-height: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container" style="max-width: 1200px;">
+      <div class="header-inner">
+        <a href="/" class="logo">
+          <img src="/设计能LOGO透明文件.png" alt="设计能">
+          <span class="logo-text">国际设计大奖策略咨询平台</span>
+        </a>
+        <nav class="nav-menu">
+          <a href="/">首页</a>
+          <a href="/awards">奖项库</a>
+          <a href="/compare">奖项对比</a>
+          <a href="/services">申报服务</a>
+          <a href="/strategy">参赛策略</a>
+          <a href="/news">赛事新闻</a>
+          <a href="/about">关于我们</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <header class="article-header">
+    <div class="container">
+      <h1>${article.title}</h1>
+      <div class="article-meta">
+        <span class="article-category">${article.category}</span>
+        <span>📅 ${article.date}</span>
+        <span>✍️ ${article.author}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="article-wrapper">
+    <div class="article-box">
+      <a href="${backLink}" class="back-link">${backText}</a>
+      ${article.cover ? `<img src="${article.cover}" alt="封面图" class="article-cover">` : ''}
+      <article class="article-content">
+        ${article.body}
+      </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 设计能—国际设计大奖申报指南 | www.52de.cc</p>
+    </div>
+  </footer>
+</body>
+</html>`;
+}
+
+// 收集完所有文章后，只把最新一篇设为焦点
+// 逻辑：所有 featured 文章按日期排序，第一篇（最新）自动成为焦点图
+function markOnlyFirstFeaturedAsFeatured(articles) {
+  const featuredArticles = articles.filter(a => a.featured);
+  if (featuredArticles.length <= 1) return articles;
+  
+  // 按日期排序，取最新的一篇
+  featuredArticles.sort((a, b) => new Date(b.publishTime) - new Date(a.publishTime));
+  const latestId = featuredArticles[0].id;
+  
+  return articles.map(a => ({
+    ...a,
+    featured: a.id === latestId ? true : false
+  }));
+}
+
+// 构建新闻文章
+function buildNews() {
+  console.log('\n📰 开始构建新闻文章...');
+  
+  // 清空输出目录
+  if (fs.existsSync(NEWS_OUTPUT_DIR)) {
+    fs.readdirSync(NEWS_OUTPUT_DIR).forEach(f => fs.unlinkSync(path.join(NEWS_OUTPUT_DIR, f)));
+  }
+  
+  // 读取所有Markdown文件
+  const files = fs.readdirSync(NEWS_CONTENT_DIR)
+    .filter(f => f.endsWith('.md'))
+    .sort().reverse();
+  
+  const newsData = [];
+  
+  files.forEach(file => {
+    const filePath = path.join(NEWS_CONTENT_DIR, file);
+    const { frontmatter, body } = parseMarkdown(filePath);
+    
+    const slug = file.replace(/\.md$/, '');
+    const title = frontmatter.title || '无标题';
+    const category = frontmatter.category || '赛事动态';
+    const date = frontmatter.date || '2026-01-01';
+    const author = frontmatter.author || '设计能';
+    const summary = frontmatter.summary || frontmatter.description || body.slice(0, 100).replace(/[#*\n]/g, '') + '...';
+    
+    console.log(`  📄 ${title}`);
+    
+    // 提取并处理图片
+    let processedBody = body;
+    let cover = frontmatter.cover || '';
+    
+    // 提取所有本地图片
+    const localImages = extractAllLocalImages(body);
+    if (localImages.length > 0) {
+      console.log(`    🖼 发现 ${localImages.length} 张本地图片`);
+      
+      const imageMap = {};
+      localImages.forEach((img, index) => {
+        const webPath = copyImageToProject(img.path, slug);
+        imageMap[img.path] = webPath; // 即使失败也记录，替换时会删除
+        if (webPath) {
+          console.log(`    ✓ 复制: ${path.basename(img.path)}`);
+          
+          // 第一张图作为封面
+          if (index === 0 && !cover) {
+            cover = webPath;
+            console.log(`    🎯 设为封面图`);
+          }
+        } else {
+          console.log(`    ✗ 跳过: ${path.basename(img.path)} (文件不存在)`);
+        }
+      });
+      
+      // 替换正文中的路径（无法复制的会被删除）
+      processedBody = replaceLocalImagePaths(body, imageMap);
+      
+      // 移除与封面重复的第一张图片（避免图片重复显示）
+      if (cover) {
+        processedBody = removeDuplicateCoverImage(processedBody, cover);
+      }
+    }
+    
+    // 默认 featured 为 true（让脚本自动决定哪篇是焦点）
+    const featured = true;
+    
+    const article = { 
+      slug, 
+      title, 
+      category, 
+      date, 
+      author, 
+      summary, 
+      cover, 
+      featured, 
+      body: markdownToHtml(processedBody) 
+    };
+    
+    newsData.push({ 
+      id: slug, 
+      title, 
+      category, 
+      publishTime: date, 
+      author, 
+      summary, 
+      cover, 
+      featured 
+    });
+    
+    const articleHtml = generateArticleHtml(article, 'news');
+    fs.writeFileSync(path.join(NEWS_OUTPUT_DIR, `${slug}.html`), articleHtml);
+    console.log(`  ✅ 生成详情页`);
+  });
+  
+  // 只保留最新一篇为焦点新闻
+  const sortedNewsData = markOnlyFirstFeaturedAsFeatured(newsData);
+  
+  fs.writeFileSync(NEWS_JSON_PATH, JSON.stringify({ 
+    updatedAt: new Date().toISOString().split('T')[0], 
+    articles: sortedNewsData 
+  }, null, 2));
+  console.log(`✓ 新闻文章构建完成: 共 ${newsData.length} 篇`);
+}
+
+// 构建策略文章
+function buildStrategy() {
+  console.log('\n📋 开始构建策略文章...');
+  
+  // 清空输出目录
+  if (fs.existsSync(STRATEGY_OUTPUT_DIR)) {
+    fs.readdirSync(STRATEGY_OUTPUT_DIR).forEach(f => fs.unlinkSync(path.join(STRATEGY_OUTPUT_DIR, f)));
+  }
+  
+  // 检查策略目录是否存在文件
+  if (!fs.existsSync(STRATEGY_CONTENT_DIR)) {
+    console.log('  ℹ 策略文章目录为空');
+    fs.writeFileSync(STRATEGY_JSON_PATH, JSON.stringify({ 
+      updatedAt: new Date().toISOString().split('T')[0], 
+      articles: [] 
+    }, null, 2));
+    return;
+  }
+  
+  const files = fs.readdirSync(STRATEGY_CONTENT_DIR)
+    .filter(f => f.endsWith('.md'))
+    .sort().reverse();
+  
+  if (files.length === 0) {
+    console.log('  ℹ 暂无策略文章');
+    fs.writeFileSync(STRATEGY_JSON_PATH, JSON.stringify({ 
+      updatedAt: new Date().toISOString().split('T')[0], 
+      articles: [] 
+    }, null, 2));
+    return;
+  }
+  
+  const strategyData = [];
+  
+  files.forEach(file => {
+    const filePath = path.join(STRATEGY_CONTENT_DIR, file);
+    const { frontmatter, body } = parseMarkdown(filePath);
+    
+    const slug = file.replace(/\.md$/, '');
+    const title = frontmatter.title || '无标题';
+    const category = frontmatter.category || '参赛策略';
+    const date = frontmatter.date || '2026-01-01';
+    const author = frontmatter.author || '设计能';
+    const summary = frontmatter.summary || frontmatter.description || body.slice(0, 100).replace(/[#*\n]/g, '') + '...';
+    
+    console.log(`  📄 ${title}`);
+    
+    // 提取并处理图片
+    let processedBody = body;
+    let cover = frontmatter.cover || '';
+    
+    // 如果没有封面，尝试从正文中提取
+    if (!cover) {
+      const firstImage = extractFirstImage(body);
+      if (firstImage) {
+        if (firstImage.type === 'local') {
+          // 本地图片需要复制
+          const localImages = extractAllLocalImages(body);
+          if (localImages.length > 0) {
+            console.log(`    🖼 发现 ${localImages.length} 张本地图片`);
+            
+            const imageMap = {};
+            localImages.forEach((img, index) => {
+              const webPath = copyImageToProject(img.path, slug);
+              imageMap[img.path] = webPath;
+              if (webPath) {
+                console.log(`    ✓ 复制: ${path.basename(img.path)}`);
+                if (index === 0 && !cover) {
+                  cover = webPath;
+                  console.log(`    🎯 设为封面图`);
+                }
+              } else {
+                console.log(`    ✗ 跳过: ${path.basename(img.path)} (文件不存在)`);
+              }
+            });
+            
+            processedBody = replaceLocalImagePaths(body, imageMap);
+            
+            // 移除与封面重复的第一张图片（避免图片重复显示）
+            if (cover) {
+              processedBody = removeDuplicateCoverImage(processedBody, cover);
+            }
+        } else {
+          // 网页路径直接作为封面
+          cover = firstImage.path;
+          console.log(`    🎯 使用网页路径图片作为封面: ${cover}`);
+        }
+      }
+    }
+    
+    // 读取 featured 字段
+    const featured = frontmatter.featured === 'true' || frontmatter.featured === true;
+    
+    const article = { 
+      slug, 
+      title, 
+      category, 
+      date, 
+      author, 
+      summary, 
+      cover, 
+      featured,
+      body: markdownToHtml(processedBody) 
+    };
+    
+    strategyData.push({ 
+      id: slug, 
+      title, 
+      category, 
+      publishTime: date, 
+      author, 
+      summary, 
+      cover,
+      featured
+    });
+    
+    const articleHtml = generateArticleHtml(article, 'strategy');
+    fs.writeFileSync(path.join(STRATEGY_OUTPUT_DIR, `${slug}.html`), articleHtml);
+    console.log(`  ✅ 生成详情页`);
+  });
+  
+  // 只保留最新一篇为焦点策略
+  const sortedStrategyData = markOnlyFirstFeaturedAsFeatured(strategyData);
+  
+  fs.writeFileSync(STRATEGY_JSON_PATH, JSON.stringify({ 
+    updatedAt: new Date().toISOString().split('T')[0], 
+    articles: sortedStrategyData 
+  }, null, 2));
+  console.log(`✓ 策略文章构建完成: 共 ${strategyData.length} 篇`);
+}
+
+// 主函数
+function build() {
+  console.log('🚀 开始构建文章...');
+  console.log('========================');
+  
+  buildNews();
+  buildStrategy();
+  
+  console.log('\n========================');
+  console.log('✅ 全部构建完成！');
+  console.log('\n💡 提示: 运行 npm run build && npx wrangler pages deploy out --branch=main 进行部署');
+}
+
+build();

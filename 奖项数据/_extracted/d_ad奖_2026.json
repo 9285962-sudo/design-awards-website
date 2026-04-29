@@ -1,0 +1,87 @@
+{
+  "award_id": "d_ad奖_2026",
+  "name": "D&AD奖",
+  "name_en": "D&AD",
+  "website": "https://www.dandad.org/",
+  "organizer": "",
+  "organizer_location": "英国",
+  "extracted": {
+    "raw_categories": [
+      "Game",
+      "ux",
+      "Illustration",
+      "branding",
+      "digital",
+      "video",
+      "service",
+      "graphic",
+      "social",
+      "web",
+      "ui",
+      "product"
+    ],
+    "raw_judges": [
+      "Jury President and Mulberry Brand Director Priya Matadeen explains how her in-house team balances creative excellence with ROIs and efficiency",
+      "judge Jonathan Santana on his newest commercial for Volkswagen and his favourite spots of all time",
+      "Jury President Noma Bar on where he finds inspiration",
+      "Jury President for 2026, gives three propositions to explain the reasons why",
+      "Jury President Teemu Suviala"
+    ],
+    "raw_award_levels": [
+      "winner",
+      "Gold"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.dandad.org/",
+      "chars": 5557,
+      "preview": "Skip to main content\nSkip to primary navigation\nD&AD\n\nWe celebrate, stimulate and enable excellence in commercial creativity\n\nAbout D&AD\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nBuy D&AD Festival tickets\nAwards\nWork\nLearning\nInsights\nEvents\nCreative community\n£ GBP\nBasket\nSign in\nSubmit search\n\nD&AD Festival 2026\n\nTell me more\nIs c"
+    },
+    "关于": {
+      "url": "https://www.dandad.org/about",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "类别": {
+      "url": "https://www.dandad.org/learning/masterclasses",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "评审": {
+      "url": "https://www.dandad.org/insights/features/how-mulberrys-in-house-marketing-team-keeps-creativity-alive-while-boosting-sales",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "获奖者": {
+      "url": "https://www.dandad.org/insights/features/oscar-season-looking-back-at-dad-award-winning-work-made-by-academy-award-winners",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "参赛": {
+      "url": "https://www.dandad.org/insights/features/super-bowl-sunday-dad-sports-entertainment-judge-jonathan-santana-on-his-newest-commercial-for-volkswagen-and-his-favourite-spots-of-all-time",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "时间": {
+      "url": "https://www.dandad.org/learning/masterclasses/emotions-in-video-storytelling",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "费用": {
+      "url": "https://www.dandad.org/learning/masterclasses/the-art-of-receiving-creative-feedback",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "联系": {
+      "url": "https://www.dandad.org/help-and-info/contact",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    },
+    "规则": {
+      "url": "https://www.dandad.org/policies/terms-and-conditions",
+      "chars": 15000,
+      "preview": "Consent\nDetails\nAd Settings\nAbout\nResponsible use of your data\nWe and our 1022 partners process your personal data, e.g. your IP-number, using technology such as cookies to store and access information on your device in order to serve personalized ads and content, ad and content measurement, audience research and services development. You have a choice in who uses your data and for what purposes. Your privacy choices are only applicable on this digital property where you have made your choices. "
+    }
+  }
+}

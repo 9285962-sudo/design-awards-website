@@ -1,0 +1,53 @@
+{
+  "award_id": "riba_international_awards_2027",
+  "name": "RIBA国际奖",
+  "name_en": "RIBA International Awards",
+  "website": "https://www.riba.org/explore/awards/international-awards/",
+  "organizer": "英国皇家建筑师学会",
+  "organizer_location": "英国 · 伦敦",
+  "extracted": {
+    "contact_email": "privacy@canva.com",
+    "raw_dates": [
+      "April 15, 2026"
+    ],
+    "raw_categories": [
+      "web",
+      "ui",
+      "service",
+      "product",
+      "video",
+      "mobile",
+      "social",
+      "communication",
+      "smart",
+      "graphic"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.riba.org/explore/awards/international-awards/",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nWe use cookies\n\nWe've put some small files called cookies on your device which are necessary to make our site work. We'd also like to set cookies that help us improve the site by collecting data to understand how people use our site. \n\n\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNecessary 24\nNecessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the "
+    },
+    "关于": {
+      "url": "https://www.canva.com/policies/privacy-policy/",
+      "chars": 15000,
+      "preview": "Canva home\nSign up\nLog in\nHome\nTrust\nPrivacy Policy\nPrivacy Policy\n\nThis Privacy Policy was last updated on April 15, 2026. See previous versions of the Privacy Policy in our Policy Archives.⁠\n(opens in a new tab or window)\n\nThe highlighted text is aimed to give a plain English summary of our Privacy Policy. Please ensure you read the main text, as the plain English summary is just a summary and doesn’t capture all of the terms.\n\nWhat does this policy cover\n\nWelcome to Canva. Our Privacy Policy "
+    },
+    "获奖者": {
+      "url": "https://www.riba.org/explore/awards/international-awards/international-awards-for-excellence/",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nWe use cookies\n\nWe've put some small files called cookies on your device which are necessary to make our site work. We'd also like to set cookies that help us improve the site by collecting data to understand how people use our site. \n\n\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNecessary 24\nNecessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the "
+    },
+    "联系": {
+      "url": "https://www.riba.org/contact-us/",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nWe use cookies\n\nWe've put some small files called cookies on your device which are necessary to make our site work. We'd also like to set cookies that help us improve the site by collecting data to understand how people use our site. \n\n\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNecessary 24\nNecessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the "
+    },
+    "规则": {
+      "url": "https://www.riba.org/about-us/terms-of-use/",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nWe use cookies\n\nWe've put some small files called cookies on your device which are necessary to make our site work. We'd also like to set cookies that help us improve the site by collecting data to understand how people use our site. \n\n\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNecessary 24\nNecessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the "
+    }
+  }
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUSE设计奖详情 - 设计能</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div id="app">
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="text-center">
+        <div class="animate-spin text-4xl mb-4">⏳</div>
+        <p class="text-gray-600">加载中...</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 嵌入数据
+    const museData = {
+  "award_name_cn": "MUSE设计奖",
+  "award_name_en": "MUSE Design Awards",
+  "award_name_short": "MUSE",
+  "award_slogan": "Crowning Achievements",
+  "organizer": "International Awards Associate (IAA)",
+  "organizer_cn": "国际奖项协会",
+  "country": "美国",
+  "city": "纽约",
+  "website": "https://design.museaward.com",
+  "edition_current": 11,
+  "category_sub": ["建筑设计", "室内设计", "产品设计", "包装设计", "时尚设计", "照明设计", "景观设计", "家具设计", "概念设计", "运输工具设计"],
+  "industry_focus": ["住宅", "商业", "酒店", "办公", "公共空间", "文化", "医疗"],
+  "award_cycle": "年度",
+  "fee_currency": "USD",
+  "fee_early_bird": 199,
+  "fee_regular": 249,
+  "fee_final": 259,
+  "fee_extended": 269,
+  "fee_student": 125,
+  "fee_notes": "早鸟价优惠$50，同一作品投第二个类别半价",
+  "fee_payment_methods": ["信用卡", "PayPal", "银行转账"],
+  "submission_open": "2025-10-01",
+  "deadline_early": "2025-11-13",
+  "deadline_regular": "2025-12-11",
+  "deadline_final": "2026-01-15",
+  "deadline_extended": "2026-02-12",
+  "deadline_timezone": "EST",
+  "announcement_date": "2026-10-01",
+  "ceremony_date": "2026-11-15",
+  "ceremony_format": "线下",
+  "project_year_limit": "5年",
+  "project_year_specific": "2021年1月1日后完成",
+  "project_status": "不限",
+  "project_stage_accepted": ["概念", "在建", "已建成"],
+  "entrant_type": ["独立设计师", "设计公司", "学生", "企业", "机构"],
+  "entrant_nationality_limit": "不限",
+  "team_member_display": "最多5人",
+  "entry_limit_per_project": 3,
+  "multi_category_allowed": true,
+  "image_min_count": 5,
+  "image_max_count": 10,
+  "image_format": ["JPG", "JPEG", "PNG"],
+  "image_min_resolution": "1920x1080",
+  "image_recommended_resolution": "3840x2160",
+  "image_file_size_max": "5MB",
+  "image_total_size_max": "50MB",
+  "video_optional": true,
+  "video_format": ["MP4", "MOV"],
+  "video_max_length": "3分钟",
+  "video_max_file_size": "100MB",
+  "description_required": true,
+  "description_max_length": 500,
+  "description_language": "英文",
+  "description_sections": ["设计理念", "创新点", "解决的问题", "用户价值"],
+  "judging_criteria": "创意与创新性、执行与工艺质量、有效性与影响力、美学与视觉吸引力",
+  "judging_criteria_weight": {"创意与创新性": "30%", "执行与工艺质量": "25%", "有效性与影响力": "25%", "美学与视觉吸引力": "20%"},
+  "judging_process": "初评→复评→终评",
+  "judging_rounds": 3,
+  "judging_blind": true,
+  "award_levels": ["铂金奖", "金奖", "银奖"],
+  "trophy": true,
+  "trophy_material": "水晶/金属",
+  "certificate": true,
+  "certificate_format": ["电子版"],
+  "digital_badge": true,
+  "logo_usage_rights": true,
+  "logo_usage_duration": "永久",
+  "website_feature": true,
+  "website_feature_duration": "1年",
+  "media_publicity": true,
+  "press_release": true,
+  "yearbook_included": true,
+  "networking_events": true,
+  "other_benefits": "加入获奖者人才库、优先推荐至合作媒体",
+  "contact_email": "info@museawards.com",
+  "support_hours": "工作日9:00-18:00 EST",
+  "resubmission_policy": "未获奖作品次年可再投，需付全额费用",
+  "withdrawal_policy": "截止前可退赛，不退费",
+  "refund_policy": "不退费",
+  "copyright_policy": "参赛者保留版权，主办方有宣传使用权",
+  "code_of_conduct": "禁止抄袭、禁止贿赂评委",
+  "plagiarism_policy": "取消资格，永久禁赛",
+  "social_media": {"instagram": "@museaward", "facebook": "MUSE Design Awards", "linkedin": "MUSE Design Awards"}
+};
+
+    function hasValue(val) {
+      if (val === null || val === undefined) return false;
+      if (typeof val === 'string' && val.trim() === '') return false;
+      if (Array.isArray(val) && val.length === 0) return false;
+      if (typeof val === 'object' && Object.keys(val).length === 0) return false;
+      return true;
+    }
+
+    const levelColors = {
+      '铂金奖': { bg: '#E5E4E220', color: '#E5E4E2', border: '#E5E4E2' },
+      '金奖': { bg: '#FFD70020', color: '#FFD700', border: '#FFD700' },
+      '银奖': { bg: '#C0C0C020', color: '#C0C0C0', border: '#C0C0C0' }
+    };
+
+    // 渲染页面
+    let html = '';
+    
+    // 导航栏
+    html += `
+    <header class="bg-white shadow-sm">
+      <div class="max-w-6xl mx-auto px-4 py-4">
+        <a href="/" class="text-xl font-bold text-gray-800">← 返回首页</a>
+      </div>
+    </header>`;
+
+    // 主标题
+    html += `
+    <div class="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-16">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <div class="text-sm uppercase tracking-wider mb-4 text-gray-300">${museData.organizer}</div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">${museData.award_name_cn}</h1>
+        <p class="text-2xl text-gray-300 mb-2">${museData.award_name_en}</p>
+        <p class="text-lg text-yellow-400 mt-4">${museData.award_slogan || ''}</p>
+        <div class="flex justify-center gap-4 mt-8">
+          ${museData.award_levels.map(level => {
+            const colors = levelColors[level] || { bg: '#666', color: '#fff', border: '#666' };
+            return `<span style="background:${colors.bg};color:${colors.color};border:1px solid ${colors.border}" class="px-4 py-2 rounded-full text-sm font-medium">${level}</span>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>`;
+
+    // 主内容
+    html += '<div class="max-w-6xl mx-auto px-4 py-12">';
+
+    // 参赛费用
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">💰 参赛费用</h2>
+      <div class="grid md:grid-cols-4 gap-4">
+        <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+          <div class="text-sm text-green-600 mb-1">早鸟价</div>
+          <div class="text-3xl font-bold text-green-700">$${museData.fee_early_bird} <span class="text-sm font-normal">${museData.fee_currency}</span></div>
+          <div class="text-xs text-green-600 mt-2">截止: ${museData.deadline_early}</div>
+        </div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <div class="text-sm text-blue-600 mb-1">常规价</div>
+          <div class="text-3xl font-bold text-blue-700">$${museData.fee_regular} <span class="text-sm font-normal">${museData.fee_currency}</span></div>
+          <div class="text-xs text-blue-600 mt-2">截止: ${museData.deadline_regular}</div>
+        </div>
+        <div class="bg-orange-50 border border-orange-200 rounded-lg p-4">
+          <div class="text-sm text-orange-600 mb-1">最终价</div>
+          <div class="text-3xl font-bold text-orange-700">$${museData.fee_final} <span class="text-sm font-normal">${museData.fee_currency}</span></div>
+          <div class="text-xs text-orange-600 mt-2">截止: ${museData.deadline_final}</div>
+        </div>
+        <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+          <div class="text-sm text-red-600 mb-1">延期价</div>
+          <div class="text-3xl font-bold text-red-700">$${museData.fee_extended} <span class="text-sm font-normal">${museData.fee_currency}</span></div>
+          <div class="text-xs text-red-600 mt-2">截止: ${museData.deadline_extended}</div>
+        </div>
+      </div>
+      <div class="mt-4 text-sm text-gray-600 bg-gray-100 rounded-lg p-3">📝 ${museData.fee_notes}</div>
+    </section>`;
+
+    // 重要日期
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">📅 重要日期</h2>
+      <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <table class="w-full">
+          <tbody class="divide-y">
+            <tr><td class="px-4 py-3 text-gray-600">报名开始</td><td class="px-4 py-3 font-medium text-right">${museData.submission_open}</td></tr>
+            <tr class="bg-green-50"><td class="px-4 py-3 text-green-600">早鸟截止</td><td class="px-4 py-3 font-medium text-right">${museData.deadline_early}</td></tr>
+            <tr><td class="px-4 py-3 text-blue-600">常规截止</td><td class="px-4 py-3 font-medium text-right">${museData.deadline_regular}</td></tr>
+            <tr class="bg-orange-50"><td class="px-4 py-3 text-orange-600">最终截止</td><td class="px-4 py-3 font-medium text-right">${museData.deadline_final}</td></tr>
+            <tr><td class="px-4 py-3 text-red-600">延期截止</td><td class="px-4 py-3 font-medium text-right">${museData.deadline_extended}</td></tr>
+            <tr class="bg-purple-50"><td class="px-4 py-3 text-purple-600">结果公布</td><td class="px-4 py-3 font-medium text-right">${museData.announcement_date}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+
+    // 参赛类别
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">🏷️ 参赛类别</h2>
+      <div class="flex flex-wrap gap-2">
+        ${museData.category_sub.map(cat => `<span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm text-gray-700">${cat}</span>`).join('')}
+      </div>
+    </section>`;
+
+    // 参赛要求
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">📋 参赛要求</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg shadow-sm p-6">
+          <h3 class="font-semibold text-gray-800 mb-4">📐 项目要求</h3>
+          <ul class="space-y-2 text-sm">
+            <li>✓ 作品年限: ${museData.project_year_limit}</li>
+            <li>✓ ${museData.project_year_specific}</li>
+            <li>✓ 项目状态: ${museData.project_status}</li>
+            <li>✓ 接受阶段: ${museData.project_stage_accepted.join(', ')}</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6">
+          <h3 class="font-semibold text-gray-800 mb-4">👤 参赛者要求</h3>
+          <ul class="space-y-2 text-sm">
+            <li>✓ 参赛身份: ${museData.entrant_type.join(', ')}</li>
+            <li>✓ 国籍限制: ${museData.entrant_nationality_limit}</li>
+            <li>✓ 团队展示: ${museData.team_member_display}</li>
+            <li>✓ 每作品可投: ${museData.entry_limit_per_project} 个类别</li>
+          </ul>
+        </div>
+      </div>
+    </section>`;
+
+    // 评审标准
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">⚖️ 评审标准</h2>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <p class="text-gray-700 mb-4">${museData.judging_criteria}</p>
+        <div class="space-y-2 mt-4">
+          ${Object.entries(museData.judging_criteria_weight).map(([key, value]) => `
+            <div class="flex items-center">
+              <span class="w-40 text-sm text-gray-600">${key}</span>
+              <div class="flex-1 bg-gray-200 rounded-full h-2">
+                <div class="bg-yellow-500 h-2 rounded-full" style="width:${value}"></div>
+              </div>
+              <span class="ml-2 text-sm font-medium text-gray-700">${value}</span>
+            </div>
+          `).join('')}
+        </div>
+        <div class="mt-4 text-sm text-gray-600">评审流程: ${museData.judging_process}</div>
+      </div>
+    </section>`;
+
+    // 获奖权益
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">🏆 获奖权益</h2>
+      <div class="grid md:grid-cols-4 gap-4">
+        <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-lg p-4 text-center">
+          <div class="text-3xl mb-2">🏆</div>
+          <div class="font-medium text-gray-800">奖杯</div>
+          <div class="text-sm text-gray-600">${museData.trophy_material}</div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-4 text-center">
+          <div class="text-3xl mb-2">📜</div>
+          <div class="font-medium text-gray-800">证书</div>
+          <div class="text-sm text-gray-600">${museData.certificate_format.join('/')}</div>
+        </div>
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-4 text-center">
+          <div class="text-3xl mb-2">🎖️</div>
+          <div class="font-medium text-gray-800">数字徽章</div>
+          <div class="text-sm text-gray-600">PNG/SVG</div>
+        </div>
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-4 text-center">
+          <div class="text-3xl mb-2">✦</div>
+          <div class="font-medium text-gray-800">标志使用权</div>
+          <div class="text-sm text-gray-600">${museData.logo_usage_duration}</div>
+        </div>
+      </div>
+      <div class="mt-6 bg-white rounded-lg shadow-sm p-6">
+        <p class="text-sm text-gray-600">✓ 官网展示 ${museData.website_feature_duration}</p>
+        <p class="text-sm text-gray-600">✓ 媒体宣传 | ✓ 新闻稿发布 | ✓ 收录年鉴 | ✓ 社交活动</p>
+      </div>
+    </section>`;
+
+    // 联系方式
+    html += `
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-yellow-500">📞 联系方式</h2>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <p class="text-lg">✉️ ${museData.contact_email}</p>
+        <p class="text-sm text-gray-600 mt-2">🕐 ${museData.support_hours}</p>
+      </div>
+    </section>`;
+
+    // CTA
+    html += `
+    <section class="text-center bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">准备好参赛了吗？</h2>
+      <p class="text-gray-600 mb-6">设计能提供专业的参赛代理服务，助您高效完成申报</p>
+      <a href="${museData.website}" target="_blank" class="inline-block px-8 py-3 bg-yellow-500 text-white font-medium rounded-lg hover:bg-yellow-600 mr-4">前往官网报名 →</a>
+      <a href="tel:13692222744" class="inline-block px-8 py-3 bg-white text-gray-800 font-medium rounded-lg border border-gray-300 hover:bg-gray-50">咨询代理服务</a>
+    </section>`;
+
+    html += '</div>';
+
+    // 页脚
+    html += `
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-12">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p class="mb-2">© 2024 设计能 | 深圳日光月华文化传播有限公司</p>
+        <p class="text-sm">📞 13692222744 | ✉️ 9285962@qq.com</p>
+      </div>
+    </footer>`;
+
+    document.getElementById('app').innerHTML = html;
+  </script>
+</body>
+</html>

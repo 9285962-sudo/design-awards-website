@@ -1,0 +1,90 @@
+{
+  "award_id": "award_76_2026",
+  "name": "Illuminating Engineering Society",
+  "name_en": "Illuminating Engineering Society",
+  "website": "https://iesilluminationawards.secure-platform.com/a",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "contact_email": "awards@ies.org",
+    "raw_fees": [
+      "$265",
+      "$320",
+      "$365",
+      "$420"
+    ],
+    "raw_dates": [
+      "December 1, 2025",
+      "January 7, 2026",
+      "February 12, 2026",
+      "February 24, 2026",
+      "April 5, 2026",
+      "January 1, 2026"
+    ],
+    "raw_categories": [
+      "lighting",
+      "ui",
+      "Interior",
+      "video",
+      "digital",
+      "branding",
+      "product",
+      "service",
+      "web",
+      "photography",
+      "industrial",
+      "interactive"
+    ],
+    "raw_judges": [
+      "JUDGE RESOURCES",
+      "JUDGE PROCEDURES",
+      "JUDGE INSTRUCTIONS",
+      "Judging Panel",
+      "judged against one another"
+    ],
+    "raw_criteria": [
+      "criteria-based — projects are evaluated on how well they meet the defined program standards, not in comparison"
+    ],
+    "raw_award_levels": [
+      "MERIT",
+      "Award of\nExcellence"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://iesilluminationawards.secure-platform.com/a",
+      "chars": 4058,
+      "preview": "HOMEAPPLICANT RESOURCES\nPROGRAM SCHEDULE\nSUBMISSION PROCEDURES\nBEFORE YOU BEGIN CHECKLIST\nAWARD CATEGORIES\nAWARD LEVELS\nSCORE SHEETS\nAPPLICANT FAQS\nCONTACT US\nSECTION CHAIR RESOURCES\nSECTION CHAIR PROJECT APPROVAL\nSECTION FAQS\nMERIT JUDGE RESOURCES\nONLINE JUDGE PROCEDURES\nMERIT JUDGE INSTRUCTIONS\nSCORE SHEETS\nBECOME AN ONLINE JUDGE\nBACK TO IES.ORG\nIES.ORG\nILLUMINATION AWARDS\nLogin to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\n"
+    },
+    "时间": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/applicantresources/programschedule",
+      "chars": 247,
+      "preview": "2026 Illumination Awards Program\n\nSubmissions\t\n\nDecember 1 – January 7: Early Bird Pricing\n\nJanuary 8 – February 12: Regular Pricing\n\n\nSection IA Chair Processing\tFebruary 4–24\nOnline Merit Judging\tMarch 4 - April 5\nFinal Live Judging   \tMid-April"
+    },
+    "关于": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/applicantresources/submissionsprocedures",
+      "chars": 2920,
+      "preview": "Login to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\nCreate a New Account\n\n \n\n                  2026 Illumination Award Submittal Procedures\n\n \n\nStep-by-step details for a successful entry\n\n\nThe Illumination Awards welcome entries from lighting professionals worldwide — IES\nmembers and nonmembers alike. Manufacturers, IES staff, and IES Board of Directors\nmembers are not eligible to submit.\n\n \n\nEntry Requirements\n\nProject Compl"
+    },
+    "类别": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/applicantresources/awardcategories",
+      "chars": 3141,
+      "preview": "Login to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\nCreate a New Account\n\n \n\nIllumination Award Categories\n\nIllumination Award for Control Innovation, sponsored by Lighting Controls Academy, a NEMA Coalition (LCA)\nAdvanced lighting control solutions can provide significant energy savings, flexibility, and other benefits in buildings. This prestigious award recognizes good lighting projects that exemplify the effective use of l"
+    },
+    "参赛": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/applicantresources/SubmitterFAQs",
+      "chars": 6639,
+      "preview": "Login to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\nCreate a New Account\n\nApplicant FAQs\n\nEligibility and Project Requirements\n\n1. Who can submit?\n\nAny lighting professional — whether or not an IES member — may submit a project. Manufacturers, IES staff, and members of the IES Board of Directors are not eligible to\nenter.\n\n\n2. What types of projects qualify?\n\nAny permanent lighting installation may be submitted. The Experienti"
+    },
+    "联系": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/applicantresources/contactus",
+      "chars": 289,
+      "preview": "Login to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\nCreate a New Account\n\n \n\nContact Us\n\nFor all IA program questions, such as rules and procedures, award categories, etc., please contact IES directly at awards@ies.org."
+    },
+    "评审": {
+      "url": "https://iesilluminationawards.secure-platform.com/a/page/onlinejudgeresources/onlinjudgeprocedures",
+      "chars": 1608,
+      "preview": "Login to Complete an Application or to Access Judging Panel\n\n \n\nEmail Address\nPassword\nlost password?\n remember me\nLogin\n\nCreate a New Account\n\n \n\nOnline Judge Procedures\n\nThank you for your interest in becoming an Online Judge for the 2026 IES Illumination Awards program. Your involvement in this prestigious award program would help ensure the professionalism and diversity that the awards have always represented. This document outlines your important role as a judge. \n\nOnline Judge Process: \n\nO"
+    }
+  }
+}

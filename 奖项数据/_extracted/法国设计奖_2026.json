@@ -1,0 +1,70 @@
+{
+  "award_id": "法国设计奖_2026",
+  "name": "法国设计奖",
+  "name_en": "French Design Award",
+  "website": "https://www.frenchdesignaward.com/",
+  "organizer": "",
+  "organizer_location": "法国",
+  "extracted": {
+    "contact_email": "market@french-design-award.com",
+    "contact_phone": "+393445633160",
+    "raw_deadlines": [
+      "deadline of the award"
+    ],
+    "raw_categories": [
+      "concept",
+      "ui",
+      "graphic",
+      "Video",
+      "product",
+      "social",
+      "Mobile",
+      "digital"
+    ],
+    "raw_judges": [
+      "jury's task is to provide all participants with the most in-depth feedback possible on the quality of their submission",
+      "jury and helps avoid unconscious cultural biases",
+      "jury: each year, a different group of experts is invited to serve as jurors, bringing with them a fresh perspective",
+      "jury strictly abides by the judging ethics, and will not know the applicants of the entries during the judging, so as to ensure that excellent design works can stand out",
+      "judges and organizers of this esteemed award for acknowledging our work among a pool of incredibly talented designers, winning the French Design Award means a lot to me"
+    ],
+    "raw_criteria": [
+      "selection process, the awards celebrate the pinnacle of creativity and innovation in design"
+    ],
+    "raw_award_levels": [
+      "WINNER"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.frenchdesignaward.com/",
+      "chars": 2020,
+      "preview": "AWARDS\nWINNERS\nJURY\nREGULATION\nBLOGS&NEWS\nABOUT\nEN\n/\nFR\nMy FDA\nNavigation Menu\n×\nAWARDS\nAward Ceremony\nStudent Award\nWINNERS\nJURY\nREGULATION\nBLOGS&NEWS\nABOUT\nFrench Design Award\n2026 International Design Award\nREGISTER NOW\n2026 OPEN NOW FOR SUBMISSIONS\n\nThe French Design Award was established in France by the International Award Association. The French Design Award is committed to giving global designers a broader platform to convey their design concepts, display excellent design works, and lead"
+    },
+    "评审": {
+      "url": "https://www.frenchdesignaward.com/jury",
+      "chars": 694,
+      "preview": "EN\n/\nFR\nMy FDA\nNavigation Menu\n×\nJury Panel\n\nThe French Design Award Juries are composed of world-renowned design professors and design experts. It will strictly evaluate thousands of products every year, and select excellent design works from the aspects of design aesthetics, innovation, user experience, social impact, environmental protection, etc. , the jury strictly abides by the judging ethics, and will not know the applicants of the entries during the judging, so as to ensure that excellen"
+    },
+    "关于": {
+      "url": "https://www.frenchdesignaward.com/about",
+      "chars": 4296,
+      "preview": "EN\n/\nFR\nMy FDA\nNavigation Menu\n×\nAbout us\nFRENCH DESIGN AWARD\n\nThe French Design Award was established in France by the International Award Association. The French Design Award is committed to giving global designers a broader platform to convey their design concepts, display excellent design works, and lead global design innovation. The French Design Award Juries are composed of world-renowned design experts and professors, representing the world's first-class design appreciation level. The Fre"
+    },
+    "参赛": {
+      "url": "https://entry.french-design-award.com",
+      "chars": 54,
+      "preview": "AWARDS\nENTRY CENTER\nAWARD CEREMONY TICKET\nLogin\nSubmit"
+    },
+    "联系": {
+      "url": "https://www.frenchdesignaward.com/contact",
+      "chars": 290,
+      "preview": "EN\n/\nFR\nMy FDA\nNavigation Menu\n×\nFrench Design Award\nContact Information\nMedia & Public Relations\nmarket@french-design-award.com\nParticipation\ninfo@french-design-award.com\nContact\n+393445633160\nItaly\nCorso Valdocco, 2, 10122, Torino, Italy\n \nFrench\n25 Boulevard Romain Rolland, Paris, 75014"
+    },
+    "FAQ": {
+      "url": "https://www.frenchdesignaward.com/faq",
+      "chars": 1751,
+      "preview": "EN\n/\nFR\nMy FDA\nNavigation Menu\n×\nFAQ\nOrder\nRefund Policy\n\nAfter submitting the registration, if the registration fee has already been paid, it can be applied for a refund before the deadline of the award. If the entry has already entered the judging stage, it is no longer possible to apply for a refund.\n\nAdmission terms and conditions\n\nThe French Design Award presumes that every submission is a unique creation and entrants possess all requisite rights either by submitting their own work or by ob"
+    }
+  }
+}

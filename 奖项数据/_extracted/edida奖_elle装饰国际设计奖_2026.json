@@ -1,0 +1,58 @@
+{
+  "award_id": "edida奖_elle装饰国际设计奖_2026",
+  "name": "EDIDA奖（ELLE装饰国际设计奖）",
+  "name_en": "EDIDA",
+  "website": "https://www.edida-awards.com/",
+  "organizer": "",
+  "organizer_location": "法国",
+  "extracted": {
+    "contact_email": "elle.international@lagardernews.com",
+    "raw_categories": [
+      "video",
+      "SUSTAINABLE",
+      "Interior",
+      "Furniture",
+      "Lighting",
+      "ARCHITECTURE",
+      "ui",
+      "web",
+      "Mobile",
+      "digital",
+      "service",
+      "social",
+      "communication",
+      "interactive",
+      "product"
+    ],
+    "raw_criteria": [
+      "selection process and event format"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "SILVER",
+      "shortlist"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.edida-awards.com/",
+      "chars": 701,
+      "preview": "WINNERS CEREMONY NEWS ABOUT EDIDA ELLE DECORATION\nLearn more about\nLearn more about\nLearn more about\n#EDIDA 2026\n\n#EDIDA 2026\nEDIDA WINNERS 2026\n\nDISCOVER\n\nELLE DECO INTERNATIONAL A-LIST\n\nELLE DECO INTERNATIONAL A-LIST\nEUROPE\n\nDISCOVER\n\n\n\nDISCOVER\n\nELLE DECO INTERNATIONAL A-LIST\n\nELLE DECO INTERNATIONAL A-LIST\nASIA\n\nDISCOVER\n\n#EDIDA2025\n\n#EDIDA2025\nTHE EDIDA 2025 EVENT\n\nWatch the video\n\n#EDIDA2024\n\n#EDIDA2024\nEDIDA 2025 AWARDS CEREMONY\n\nRead\n\n#EDIDA2025\n\n#EDIDA2025\nEDIDA 2025: RED CARPET\n\nDiscov"
+    },
+    "类别": {
+      "url": "https://www.edida-awards.com/winners",
+      "chars": 1652,
+      "preview": "CATEGORY: \nCategory\nAll\nSustainable Achievement\nInterior designer of the year\nDesigner of the year\nYoung Design Talent\nFurniture\nSeating\nFabrics\nWall covering\nTableware\nLighting\nBedding\nFloor covering\nKitchen\nBathroom\nOutdoor\nALL\n \n\nTHE WINNERS\n\nDesigner of the year CRISTIÁN MOHADED\n\nDESIGNER OF THE YEAR\nDESIGNER OF THE YEAR\nCRISTIÁN MOHADED\n2026\n\nYoung Design Talent 6:AM\n\nYOUNG DESIGN TALENT\nYOUNG DESIGN TALENT OF THE YEAR\n6:AM\n2026\n\nInterior designer of the year FESTEN ARCHITECTURE\n\nINTERIOR D"
+    },
+    "关于": {
+      "url": "https://www.edida-awards.com/about-edida",
+      "chars": 1815,
+      "preview": "OK\n\nWe use cookies to improve your experience on this website. By continuing to browse our site you agree to our use of cookies. More info\n\nABOUT EDIDA\n\"The EDIDA are for the design community like the Oscars\nfor the film industry\" Patricia Urquiola, designer\n\nLaunched in 2003, the ELLE DECO INTERNATIONAL DESIGN AWARDS or EDIDA is a unique international event where the 25 Editors in Chief of the ELLE DECORATION international network gather to award global excellence in design in 15 categories.\n\nD"
+    },
+    "规则": {
+      "url": "https://www.edida-awards.com/terms-of-use",
+      "chars": 7562,
+      "preview": "OK\n\nWe use cookies to improve your experience on this website. By continuing to browse our site you agree to our use of cookies. More info\n\nLEGAL NOTICE\n\nLast updated in March 2023.\n\nSITE PUBLISHER\n\n\n\nThe company LAGARDERE MEDIA NEWS, single-person simplified joint stock company with a capital stock of 2 005 000 €, registered at Paris Trade and Companies Registry under the number 834 289 373, with its headquarters located at 2 rue des Cévennes, 75015 Paris, France, is the publisher of the websit"
+    }
+  }
+}

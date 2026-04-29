@@ -1,0 +1,37 @@
+{
+  "award_id": "uia金奖与三年展奖_2026",
+  "name": "UIA金奖与三年展奖",
+  "name_en": "UIA Gold Medal & Triennial Prizes",
+  "website": "https://www.uia-architectes.org/en/awards/uia-gold-medal-triennial-prizes/",
+  "organizer": "",
+  "organizer_location": "法国（国际）",
+  "extracted": {
+    "raw_categories": [
+      "UI",
+      "URBAN",
+      "ARCHITECTURE",
+      "Sustainable",
+      "graphic"
+    ],
+    "raw_award_levels": [
+      "Gold"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.uia-architectes.org/en/awards/uia-gold-medal-triennial-prizes/",
+      "chars": 3370,
+      "preview": "SEARCH\nLOGIN\nENGLISHFRANÇAIS\nHome\nAwards\nUIA Gold Medal & Triennial Prizes\nUIA GOLD MEDAL & TRIENNIAL PRIZES\n\nThe UIA Gold Medal and Prizes are awarded on a triennial basis to recognise achievements of international consequence. The only lifetime achievement awards bestowed upon architects by their peers, they are traditionally attributed on stage at an awards ceremony at the end of the UIA Triennial World Congress. Nominees for the UIA Gold Medal and the UIA Prizes may include any living archit"
+    },
+    "关于": {
+      "url": "https://www.uia-architectes.org/en/about/about-the-uia/",
+      "chars": 6008,
+      "preview": "SEARCH\nLOGIN\nENGLISHFRANÇAIS\nTHE UIA\nTHE UIA\nMEMBERS SECTION\nGOVERNANCE\nPARTNERS\nJOIN US\n\nThe UIA was founded on 28 June 1948 in Lausanne, Switzerland, following the merger of the Comité permanent international des Architectes and the Réunion International des Architectes. Its headquarters is located in Paris. The organisation is recognised as the only global architecture organisation by most United Nations agencies, including UNESCO, UN-Habitat, World Health Organization, ECOSOC, UNIDO and WTO."
+    },
+    "时间": {
+      "url": "https://www.uia-architectes.org/en/about/calendar/",
+      "chars": 65,
+      "preview": "SEARCH\nLOGIN\nENGLISHFRANÇAIS\nCALENDAR\nUpcoming Events Past Events"
+    }
+  }
+}

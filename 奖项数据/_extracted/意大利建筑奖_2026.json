@@ -1,0 +1,37 @@
+{
+  "award_id": "意大利建筑奖_2026",
+  "name": "意大利建筑奖",
+  "name_en": "Home",
+  "website": "https://www.premioarchitettura.it/it/",
+  "organizer": "",
+  "organizer_location": "意大利",
+  "extracted": {
+    "contact_email": "fassa@fassabortolo.it",
+    "raw_categories": [
+      "ui",
+      "web",
+      "social",
+      "GAME"
+    ],
+    "raw_award_levels": [
+      "merit"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.premioarchitettura.it/it/",
+      "chars": 6455,
+      "preview": "Consenso\nDettagli\n[#IABV2SETTINGS#]\nInformazioni sui cookie\nQuesto sito web utilizza i cookie\n\nQuesto sito utilizza cookie tecnici sia di prima parte [che di terze parti] e, con il consenso dell’utente, utilizza anche cookie di profilazione o altri strumenti di tracciamento, anche di terze parti, al fine di: inviare messaggi pubblicitari in linea con le preferenze manifestate dall’utente stesso nell’ambito dell’utilizzo delle funzionalità e della navigazione in rete; [e/o] effettuare analisi e m"
+    },
+    "FAQ": {
+      "url": "https://www.premioarchitettura.it/it/area-faq",
+      "chars": 9512,
+      "preview": "Consenso\nDettagli\n[#IABV2SETTINGS#]\nInformazioni sui cookie\nQuesto sito web utilizza i cookie\n\nQuesto sito utilizza cookie tecnici sia di prima parte [che di terze parti] e, con il consenso dell’utente, utilizza anche cookie di profilazione o altri strumenti di tracciamento, anche di terze parti, al fine di: inviare messaggi pubblicitari in linea con le preferenze manifestate dall’utente stesso nell’ambito dell’utilizzo delle funzionalità e della navigazione in rete; [e/o] effettuare analisi e m"
+    },
+    "费用": {
+      "url": "https://convegni.cieffeerre.it/Default.aspx?codConv=W-PAS-BAL-209-26",
+      "chars": 157,
+      "preview": "ITA | ENG\nBenvenuto sul portale Convegni del CFR\n\n\n\nAccedi all'area riservata inserendo le tue credenziali oppure registrati.\n\n\n\nHai dimenticato la Password?"
+    }
+  }
+}

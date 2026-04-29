@@ -1,0 +1,60 @@
+{
+  "award_id": "设计教育奖_2026",
+  "name": "设计教育奖",
+  "name_en": "Design Educates Awards",
+  "website": "https://www.designeducates.com/",
+  "organizer": "",
+  "organizer_location": "波兰",
+  "extracted": {
+    "contact_email": "hello@designeducates.com",
+    "raw_dates": [
+      "April 01, 2026",
+      "October 16, 2026"
+    ],
+    "raw_deadlines": [
+      "deadline: June 15,2026",
+      "deadline for submissions will not be taken into account",
+      "deadline for registration)"
+    ],
+    "raw_categories": [
+      "Architecture",
+      "urban",
+      "concept",
+      "product",
+      "ui",
+      "web",
+      "graphic",
+      "digital"
+    ],
+    "raw_judges": [
+      "jury consists of world-renowned architects, designers, innovators and educators who are successfully expanding the boundaries of what is possible in their fields",
+      "Jury members from previous editions here",
+      "Jury deliberation: July 2026",
+      "judges and media),",
+      "jury, schedule, fees, submission requirements, and awards ceremony"
+    ],
+    "raw_criteria": [
+      "evaluation, the student project with the highest score",
+      "evaluation criteria"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Honorable Mention"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.designeducates.com/",
+      "chars": 9997,
+      "preview": "中文\n\n日本語\n\n한국어\n\nEN\n\n\n2025 Winners Gallery\n\nJoin the 8th edition of the Design Educates Awards 2026\n\nfor Meaningful Architecture and Design!\n\n\n\n\nThe Design Educates Awards (DEAwards) recognize exceptional\n— Architecture\n— Design for Impact\nthat are remarkable not only for their aesthetics, but also for their impact on society.\n\n\n\n\nWhat We Are Looking For\n\nWe seek Architecture (1) that have the potential to make a meaningful\n\ncontribution to the world – at every scale, from the smallest shelter or\n\n"
+    },
+    "规则": {
+      "url": "https://www.designeducates.com/./terms-conditions",
+      "chars": 3152,
+      "preview": "中文\n\n日本語\n\n한국어\n\nEN\n\nOrganizer\n\nThe host of the awards is Laka Foundation (KRS: 0000639902, EU VAT No. PL6381817438, Poland), a nonprofit and nongovernmental organization. Contact person: Damian Przybyła,  damian@designeducates.com, address: Stanisława Konarskiego 18c, 44-100 Gliwice, Poland.  The official website of the awards (www.designeducates.com) includes information about the theme, awards, jury, schedule, fees, submission requirements, and awards ceremony. Contact the organizer at hello@des"
+    }
+  }
+}

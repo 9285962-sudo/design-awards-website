@@ -1,0 +1,356 @@
+/* 奖项对比页样式 */
+.container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding-bottom: 140rpx;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%);
+  padding: 40rpx 30rpx;
+  color: #fff;
+}
+
+.banner-title {
+  display: block;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+}
+
+.banner-subtitle {
+  display: block;
+  font-size: 24rpx;
+  opacity: 0.8;
+}
+
+/* 筛选栏 */
+.filter-bar {
+  background-color: #fff;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.filter-scroll {
+  white-space: nowrap;
+  padding: 0 20rpx;
+}
+
+.filter-tag {
+  display: inline-block;
+  padding: 10rpx 24rpx;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  color: #666;
+  background-color: #f0f0f0;
+  border: 1rpx solid transparent;
+  margin-right: 16rpx;
+}
+
+.filter-tag.active {
+  background-color: #E8F4FF;
+  color: #1E3A5F;
+  border-color: #1E3A5F;
+  font-weight: bold;
+}
+
+/* 已选提示 */
+.select-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16rpx 30rpx;
+  background-color: #FFF8E7;
+  font-size: 26rpx;
+  color: #666;
+}
+
+.select-count {
+  color: #D4AF37;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+.select-clear {
+  color: #999;
+  font-size: 24rpx;
+}
+
+/* 奖项列表 */
+.award-list {
+  padding: 20rpx 30rpx;
+}
+
+.award-item {
+  background-color: #fff;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+  padding: 24rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  border: 2rpx solid transparent;
+  position: relative;
+}
+
+.award-item.selected {
+  border-color: #D4AF37;
+  background-color: rgba(212, 175, 55, 0.04);
+}
+
+.check-mark {
+  position: absolute;
+  top: 16rpx;
+  right: 16rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #D4AF37;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rpx;
+  padding-right: 50rpx;
+}
+
+.award-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+}
+
+.award-country {
+  font-size: 22rpx;
+  color: #999;
+  flex-shrink: 0;
+}
+
+.award-tags {
+  display: flex;
+  gap: 12rpx;
+  margin-bottom: 12rpx;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 22rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 4rpx;
+}
+
+.tag.category {
+  background-color: #E8F4FF;
+  color: #1E3A5F;
+}
+
+.tag.prestige {
+  background-color: #FFF8E7;
+  color: #D4AF37;
+}
+
+.tag.deadline {
+  background-color: #FFF3E0;
+  color: #E65100;
+}
+
+.award-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.award-fee {
+  font-size: 24rpx;
+  color: #D4AF37;
+  font-weight: bold;
+}
+
+.award-tip {
+  font-size: 22rpx;
+  color: #999;
+}
+
+.award-tip.remove {
+  color: #D4AF37;
+}
+
+/* 底部对比按钮栏 */
+.compare-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1rpx solid #eee;
+  padding: 20rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -4rpx 12rpx rgba(0, 0, 0, 0.06);
+  z-index: 100;
+}
+
+.compare-info {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.compare-count {
+  color: #D4AF37;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.compare-btn {
+  background-color: #D4AF37;
+  color: #fff;
+  padding: 16rpx 48rpx;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.compare-btn.disabled {
+  opacity: 0.4;
+}
+
+/* 加载和空状态 */
+.loading, .empty {
+  text-align: center;
+  padding: 60rpx 0;
+  color: #999;
+  font-size: 28rpx;
+}
+
+/* ====== 对比结果样式 ====== */
+
+.result-back {
+  padding: 24rpx 30rpx;
+  color: #D4AF37;
+  font-size: 28rpx;
+}
+
+.result-names {
+  display: flex;
+  padding: 0 20rpx 20rpx;
+  gap: 16rpx;
+}
+
+.result-name-card {
+  flex: 1;
+  background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%);
+  border-radius: 12rpx;
+  padding: 20rpx 16rpx;
+  text-align: center;
+}
+
+.result-name-card:first-child {
+  border: 2rpx solid #D4AF37;
+}
+
+.result-name {
+  display: block;
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4rpx;
+}
+
+.result-name-en {
+  display: block;
+  font-size: 20rpx;
+  color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result-sections {
+  padding: 0 20rpx;
+}
+
+.result-section {
+  margin-bottom: 32rpx;
+}
+
+.section-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #1E3A5F;
+  margin-bottom: 16rpx;
+  padding-bottom: 12rpx;
+  border-bottom: 2rpx solid #D4AF37;
+}
+
+.section-grid {
+  display: flex;
+  gap: 16rpx;
+}
+
+.section-col {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+
+.section-col:first-child {
+  border: 2rpx solid #D4AF37;
+}
+
+.field-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 16rpx 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+
+.field-row:last-child {
+  border-bottom: none;
+}
+
+.field-label {
+  font-size: 24rpx;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.field-value {
+  font-size: 24rpx;
+  color: #333;
+  font-weight: 500;
+  text-align: right;
+  word-break: break-all;
+}
+
+/* 咨询入口 */
+.result-cta {
+  margin: 40rpx 30rpx;
+  background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%);
+  border-radius: 12rpx;
+  padding: 32rpx;
+  text-align: center;
+}
+
+.cta-text {
+  display: block;
+  font-size: 28rpx;
+  color: #fff;
+  margin-bottom: 12rpx;
+}
+
+.cta-phone {
+  display: block;
+  font-size: 32rpx;
+  color: #D4AF37;
+  font-weight: bold;
+}

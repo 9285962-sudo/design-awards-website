@@ -1,0 +1,75 @@
+{
+  "award_id": "award_60_2026",
+  "name": "MIPIM Asia Summit",
+  "name_en": "MIPIM Asia Summit",
+  "website": "https://www.mipim-asia.com/",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "contact_email": "neomie.cowgill@rxglobal.com",
+    "contact_phone": "+852 3891 8888",
+    "raw_fees": [
+      "USD 400"
+    ],
+    "raw_categories": [
+      "urban",
+      "ui",
+      "social",
+      "sustainable",
+      "green",
+      "Service",
+      "digital",
+      "web",
+      "communication",
+      "product",
+      "Photography",
+      "video",
+      "ux",
+      "graphic",
+      "Transport",
+      "Fashion",
+      "Packaging"
+    ],
+    "raw_judges": [
+      "jury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed",
+      "jury and/or damage to persons, animals or property as a matter of products liability, malpractice, failure to warn, negligence or otherwise, or from any use or operation of any ideas, instructions, me",
+      "JURY (INCLUDING DEATH), LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, BUSINESSINTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES) ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE "
+    ],
+    "raw_award_levels": [
+      "Gold",
+      "Silver"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.mipim-asia.com/",
+      "chars": 7743,
+      "preview": "Skip to content\nPress Escape to close the menu.\nMIPIM\nMIPIM MIDDLE EAST\n 2-3 December 2026\n Hong Kong\nMy Network & Plan\nEXPORT:\nCopy link\nPDF\ndonwnload\nPlan your show\n\nWelcome to planning your show. Use this panel to plan your next show. If you already have a plan, please login to retrieve your previous planning\n\nCompanies\nShow Map\nStay Informed\n Log in\nWhat is MIPIM Asia Summit? \nWhy Attend?\nWho is coming?\nThe programme \nSessions\nSpeakers\nAwards\nNetworking\nPractical Information \nPress\nOur commi"
+    },
+    "联系": {
+      "url": "https://www.mipim-asia.com/en-gb/contact.html",
+      "chars": 3136,
+      "preview": "Skip to content\nPress Escape to close the menu.\n 2-3 December 2026\n Hong Kong\nMy Network & Plan\nEXPORT:\nCopy link\nPDF\ndonwnload\nPlan your show\n\nWelcome to planning your show. Use this panel to plan your next show. If you already have a plan, please login to retrieve your previous planning\n\nCompanies\n\nPlease login to be able to view your network and plan.\n\nStay Informed\n Log in\nSign up for show news!\n\nBe the first to know about the ticket opening, our special offers and exhibiting companies.\n\nWe "
+    },
+    "FAQ": {
+      "url": "https://www.mipim-asia.com/en-gb/faq.html",
+      "chars": 9015,
+      "preview": "Skip to content\nPress Escape to close the menu.\n 2-3 December 2026\n Hong Kong\nMy Network & Plan\nEXPORT:\nCopy link\nPDF\ndonwnload\nPlan your show\n\nWelcome to planning your show. Use this panel to plan your next show. If you already have a plan, please login to retrieve your previous planning\n\nCompanies\nShow Map\nStay Informed\n Log in\nMIPIM Asia Summit - FAQ\n\nRegistration\nHotel & Visa\nSubscriptions & Privacy\n\nRegistration\nOnline registration\n\nI am having trouble registering online. Can you help?\n\nYou"
+    },
+    "关于": {
+      "url": "https://rxglobal.fr/en/admission-policy",
+      "chars": 4397,
+      "preview": "RX France \nEnglish\nFrançais\nAdmissions Policy\n\nAttendance\n\nThis event is an invitation only event. Only pre-registered badge holders and accepted delegates (who register at the event) will be able to attend.\n\n\n\nOnsite Registration\n\nAll attendees are vetted prior to attendance and are only permitted to do so at the discretion of the show team. Visitors who register on-site at the show may be charged a higher registration fee\n\n\n\nAdmission\n\nAdmission is open to professional and business visitors an"
+    },
+    "规则": {
+      "url": "https://legal.rxglobal.com/en-gb/WebsiteTC.html",
+      "chars": 15000,
+      "preview": "Skip to content\n\n< Back to Home \n\nWebsite Terms & Conditions of Use\n\nLast updated: Feburary 2023\n\nThis website, including all its features and content (this “Site”), is a service made available by Reed Exhibitions Limited (“RX”), and all content, information, products, services, and software ordered or provided on or through this site and related sites (“Services”) may be used solely under the following terms and conditions of use (“Terms & Conditions”). By accessing or using any of the Services"
+    },
+    "类别": {
+      "url": "https://rxglobal.com/our-sectors",
+      "chars": 1072,
+      "preview": "RX Global \nFilter Sectors: \nAll Sectors\nAgriculture\nArt\nAutomotive, Transport & Aerospace\nBuilding & Construction\nBusiness Services & Education\nCosmetics & Beauty\nData, IT & Tech\nEnergy\nEngineering & Manufacturing\nFashion\nFinance\nFood & Hospitality\nFranchise\nHealthcare, Medical & Pharma\nHomes, Gardens & Gifts\nJewellery & Watches\nMedia & Content\nPlastics\nPop Culture & Gaming\nPrinting & Packaging\nReal Estate\nSafety & Security\nSport & Wellbeing\nTravel & Tourism\nAgriculture\nEvents\nArt\nEvents\nAutomot"
+    }
+  }
+}

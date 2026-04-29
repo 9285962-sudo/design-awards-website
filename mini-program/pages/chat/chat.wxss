@@ -314,6 +314,50 @@
   background: rgba(102, 126, 234, 0.2);
 }
 
+/* AI生成声明横幅 */
+.ai-disclaimer-banner {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 30rpx;
+  background: linear-gradient(90deg, #fff3e0 0%, #fff8e1 100%);
+  border-bottom: 1rpx solid #ffe0b2;
+}
+
+.ai-disclaimer-icon {
+  font-size: 28rpx;
+  margin-right: 12rpx;
+  flex-shrink: 0;
+}
+
+.ai-disclaimer-text {
+  font-size: 24rpx;
+  color: #e65100;
+  line-height: 1.5;
+}
+
+/* AI生成标签 */
+.ai-generated-tag {
+  display: inline-block;
+  font-size: 20rpx;
+  color: #999;
+  background: #f5f5f5;
+  padding: 4rpx 16rpx;
+  border-radius: 8rpx;
+  margin-top: 12rpx;
+}
+
+/* AI生成底部声明 */
+.ai-disclaimer-footer {
+  text-align: center;
+  padding: 16rpx 30rpx;
+  background: #f5f7fa;
+}
+
+.ai-disclaimer-footer text {
+  font-size: 22rpx;
+  color: #bbb;
+}
+
 /* 输入区域 */
 .input-area {
   background: #fff;

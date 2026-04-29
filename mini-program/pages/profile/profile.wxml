@@ -1,133 +1,92 @@
+<!-- 关于我们页 -->
 <view class="container">
-  <!-- 用户信息卡片 -->
-  <view class="user-card">
-    <view class="user-avatar-large">
-      <open-data type="userAvatarUrl"></open-data>
-    </view>
-    <view class="user-info">
-      <open-data type="userNickName" class="user-name"></open-data>
-      <text class="user-role" wx:if="{{isLoggedIn}}">已认证用户</text>
-      <text class="user-role" wx:else>点击登录解锁更多功能</text>
-    </view>
-    <button 
-      class="login-btn" 
-      wx:if="{{!isLoggedIn}}"
-      bindtap="handleLogin"
-    >登录</button>
+  <!-- Logo区 -->
+  <view class="logo-section">
+    <view class="logo">设计能</view>
+    <view class="tagline">让设计被看见</view>
   </view>
 
-  <!-- 数据统计 -->
-  <view class="stats-card" wx:if="{{isLoggedIn}}">
-    <view class="stat-box">
-      <text class="stat-number">0</text>
-      <text class="stat-label">收藏奖项</text>
+  <!-- 核心数据 -->
+  <view class="stats-grid">
+    <view class="stat-card">
+      <view class="stat-num">10+</view>
+      <view class="stat-label">年行业经验</view>
     </view>
-    <view class="stat-box">
-      <text class="stat-number">0</text>
-      <text class="stat-label">咨询记录</text>
+    <view class="stat-card">
+      <view class="stat-num">108+</view>
+      <view class="stat-label">全球合作奖项</view>
     </view>
-    <view class="stat-box">
-      <text class="stat-number">0</text>
-      <text class="stat-label">预约服务</text>
+    <view class="stat-card">
+      <view class="stat-num">350+</view>
+      <view class="stat-label">服务设计师</view>
+    </view>
+    <view class="stat-card">
+      <view class="stat-num">80%</view>
+      <view class="stat-label">平均获奖率</view>
     </view>
   </view>
 
-  <!-- 功能菜单 -->
-  <view class="menu-card">
-    <view class="menu-title">我的服务</view>
-    
-    <view class="menu-list">
-      <view class="menu-item" bindtap="goToFavorites">
-        <view class="menu-icon">⭐</view>
-        <text class="menu-text">我的收藏</text>
-        <text class="menu-arrow">></text>
-      </view>
-      
-      <view class="menu-item" bindtap="goToHistory">
-        <view class="menu-icon">💬</view>
-        <text class="menu-text">咨询历史</text>
-        <text class="menu-arrow">></text>
-      </view>
-      
-      <view class="menu-item" bindtap="goToReminders">
-        <view class="menu-icon">⏰</view>
-        <text class="menu-text">截止提醒</text>
-        <text class="menu-badge" wx:if="{{reminderCount > 0}}">{{reminderCount}}</text>
-        <text class="menu-arrow" wx:else>></text>
-      </view>
-      
-      <view class="menu-item" bindtap="goToApplications">
-        <view class="menu-icon">📝</view>
-        <text class="menu-text">申报进度</text>
-        <text class="menu-arrow">></text>
-      </view>
+  <!-- 公司介绍 -->
+  <view class="section">
+    <view class="section-title">关于设计能</view>
+    <view class="about-text">
+      深圳日光月华文化传播有限公司旗下的设计能品牌，专注国际设计大奖申报代理服务10年+，服务客户覆盖两岸四地350+设计公司及设计师。累计代理参赛作品1200+，帮助设计师斩获1000+国际设计大奖，平均获奖率高达80%。
+    </view>
+    <view class="about-text">
+      我们代理包括德国iF设计奖、红点设计奖、美国IDEA奖、日本G-Mark奖、意大利A' Design奖、英国Dezeen Awards等在内的108个全球顶级设计大奖。
     </view>
   </view>
 
-  <!-- 专家服务 -->
-  <view class="menu-card">
-    <view class="menu-title">专家服务</view>
-    
-    <view class="menu-list">
-      <view class="menu-item highlight" bindtap="consultExpert">
-        <view class="menu-icon">👨‍💼</view>
-        <view class="menu-content">
-          <text class="menu-text">1对1咨询</text>
-          <text class="menu-desc">专业顾问为你定制报奖策略</text>
+  <!-- 服务范围 -->
+  <view class="section">
+    <view class="section-title">服务范围</view>
+    <view class="scope-tags">
+      <text class="scope-tag" wx:for="{{scopes}}" wx:key="index">{{item}}</text>
+    </view>
+  </view>
+
+  <!-- 联系方式 -->
+  <view class="section">
+    <view class="section-title">联系我们</view>
+    <view class="contact-list">
+      <view class="contact-item" bindtap="copyWechat">
+        <view class="contact-icon">💬</view>
+        <view class="contact-info">
+          <view class="contact-label">微信公众号</view>
+          <view class="contact-value">设计能</view>
         </view>
-        <text class="menu-arrow">></text>
       </view>
-      
-      <view class="menu-item" bindtap="goToServices">
-        <view class="menu-icon">🎯</view>
-        <view class="menu-content">
-          <text class="menu-text">服务套餐</text>
-          <text class="menu-desc">选奖+材料+申报全流程服务</text>
+      <view class="contact-item" bindtap="makePhoneCall">
+        <view class="contact-icon">📞</view>
+        <view class="contact-info">
+          <view class="contact-label">联系电话</view>
+          <view class="contact-value">13692222744 何先生</view>
         </view>
-        <text class="menu-arrow">></text>
       </view>
-      
-      <view class="menu-item" bindtap="goToCases">
-        <view class="menu-icon">🏆</view>
-        <view class="menu-content">
-          <text class="menu-text">成功案例</text>
-          <text class="menu-desc">90%获奖率，看看他们怎么做的</text>
+      <view class="contact-item" bindtap="copyEmail">
+        <view class="contact-icon">✉️</view>
+        <view class="contact-info">
+          <view class="contact-label">电子邮箱</view>
+          <view class="contact-value">9285962@qq.com</view>
         </view>
-        <text class="menu-arrow">></text>
+      </view>
+      <view class="contact-item" bindtap="openWebsite">
+        <view class="contact-icon">🌐</view>
+        <view class="contact-info">
+          <view class="contact-label">官方网站</view>
+          <view class="contact-value">www.52de.cc</view>
+        </view>
       </view>
     </view>
   </view>
 
-  <!-- 关于我们 -->
-  <view class="menu-card">
-    <view class="menu-title">关于</view>
-    
-    <view class="menu-list">
-      <view class="menu-item" bindtap="goToAbout">
-        <view class="menu-icon">ℹ️</view>
-        <text class="menu-text">关于我们</text>
-        <text class="menu-arrow">></text>
-      </view>
-      
-      <view class="menu-item" bindtap="contactUs">
-        <view class="menu-icon">📞</view>
-        <text class="menu-text">联系我们</text>
-        <text class="menu-arrow">></text>
-      </view>
-      
-      <view class="menu-item" bindtap="goToFeedback">
-        <view class="menu-icon">💡</view>
-        <text class="menu-text">意见反馈</text>
-        <text class="menu-arrow">></text>
-      </view>
+  <!-- 咨询按钮 -->
+  <view class="action-bar">
+    <view class="action-btn primary" bindtap="goToService">
+      <text>了解服务</text>
+    </view>
+    <view class="action-btn secondary" bindtap="makePhoneCall">
+      <text>电话咨询</text>
     </view>
   </view>
-
-  <!-- 版本信息 -->
-  <view class="version-info">
-    <text>奖项智能助手 v1.0.0</text>
-  </view>
-
-  <!-- 底部安全区域 -->
-  <view class="safe-area-bottom"></view>
 </view>

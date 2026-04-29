@@ -1,0 +1,91 @@
+{
+  "award_id": "纽约设计奖_2026",
+  "name": "纽约设计奖（NY Product Design Awards）",
+  "organizer": "International Awards Associate (IAA)",
+  "award_intro": "纽约产品设计奖（NY Product Design Awards）由国际奖项协会（IAA）主办，旨在表彰全球才华横溢的产品设计师、设计团队和制造商。该奖项认可设计行业卓越的各种形式——从日常生活的实用创意到开创性的技术创新。奖项注重设计的功能性与美学结合，欢迎专业设计师、新锐设计师和爱好者参赛。参赛作品须在近5年内（2021年至今）完成。IAA旗下拥有12个奖项项目，覆盖33,000+参赛作品，41个国家，66+国际评委。2026年度主题为'Innovate for Tomorrow'。",
+  "website": "https://nydesignawards.com/",
+  "contact": {
+    "邮箱": "info@nydesignawards.com",
+    "电话": "+1 646 781 8768（美国）/ +60 12 226 0347（亚太）",
+    "地址": "14 Wall Street 20th Floor, New York, NY 10005, United States（美国）\nOffice Suite 1320 Level 13(C), Block 4 Financial Park Complex, Labuan 87000, Malaysia（亚太）"
+  },
+  "category": [
+    "汽车与交通（Cars & Motorcycles、Commercial Vehicles、Motorhomes & Caravans、Trains & Planes、Vehicle Accessories、Vehicle Technologies、Watercraft）",
+    "婴幼儿与儿童（Apparel & Accessories、Bathing、Car Seats、Diapering、Feeding、Furniture、Gear、Gifts、Health、Nursery、Potty Training、Pregnancy & Maternity、Safety、Social Design、Stationery、Strollers、Toys）",
+    "概念设计（Conceptual - 涵盖上述所有大类）",
+    "数码电子设备与配件（Audio & Video、Communication Technology、Computer & IT、Digital Devices、Future Technologies、Imaging & Vision、Mobile Phones & Tablets、Networking、Recreational Technology、Robotics、Wireless Devices）",
+    "时尚服饰（Boy's/Men's/Women's Clothing、Footwear、Ethnic Clothing、Sportswear、Wedding Apparel等）",
+    "家具（Commercial、Sets、Seating、Storage、Table & Desks）",
+    "游戏/AR/VR（Gaming Gear、Gaming Input Devices）",
+    "爱好与休闲（Music Gear、Musical Instrument、Pet Supplies、Scooters、Skateboards、Toys）",
+    "家居内饰（Bathroom、Kitchen、Household Appliances、Decorative Items、Tableware、Personal Care）",
+    "工业工具与工程（Industrial Equipment、Heating & AC、Robotics、Tools）",
+    "界面与用户体验（UX、UI、Interactive Design IxD）",
+    "照明（Architectural Lighting、Indoor/Outdoor Lighting、Lamps & Luminaires、Lighting Components/Innovation/Systems）",
+    "医疗与科学设备（Medical Devices、Healthcare、Scientific Instruments）",
+    "户外与运动（Bicycles、Fitness Equipment、Garden Furniture/Equipment、Outdoor & Camping、Sports Equipment）",
+    "包装（Beverage、Body/Health & Beauty、Branding、Food、Sustainable Design、Student Packaging）",
+    "可穿戴技术（Body Sensors、Exoskeletons、Head-Mounted Displays、Healthcare Devices、Smart Garments/Jewelry、Wearable Cameras、Wrist Devices）",
+    "办公与工作场所（Office Furniture & Chairs、Office Supplies & Stationery）"
+  ],
+  "fee_timeline": [
+    {"period": "常规价", "date": "2025-12-18 ~ 2026-01-16", "price": 219, "note": "美元，首件作品费用"},
+    {"period": "最终价", "date": "2026-01-17 ~ 2026-02-13", "price": 239, "note": "美元"},
+    {"period": "延期价", "date": "2026-02-14 ~ 2026-03-18", "price": 249, "note": "美元"},
+    {"period": "最后期限", "date": "2026-03-19 ~ 2026-04-22", "price": 269, "note": "美元"},
+    {"period": "附加类别", "date": "", "price": 0, "note": "常规价$159 / 最终价$179 / 延期价$189 / 最后期限$209"},
+    {"period": "年度管理费", "date": "", "price": 30, "note": "美元，每位参赛者固定收取"}
+  ],
+  "timeline": [
+    {"阶段": "常规截止", "时间": "2026-01-16"},
+    {"阶段": "最终截止", "时间": "2026-02-13"},
+    {"阶段": "延期截止", "时间": "2026-03-18"},
+    {"阶段": "最后期限", "时间": "2026-04-22"},
+    {"阶段": "早期结果公布", "时间": "2026-04-03（4月1日前提交的作品）"},
+    {"阶段": "完整结果公布", "时间": "2026-05-15"}
+  ],
+  "judging_criteria": "评委按100分制评分，基于以下四大标准：\n1. 外观形态（Form）：设计的视觉和艺术质量、美学吸引力、对目标市场的吸引力、是否能引起用户情感共鸣、是否直观传达功能\n2. 创意与创新（Creativity & Innovation）：设计理念的整体评价、创意/创新概念运用、独特性、是否开拓新市场、是否改进现有产品\n3. 完工与功能（Finishing & Functionality）：产品质量、可用性、安全性、易维护性、性价比、性能表现\n4. 影响力（Impact）：对用户和环境的积极影响、文化/工业贡献、品质标杆推动、对更美好世界的贡献\n\n评审采用盲审制，评审期间隐藏评委和参赛者姓名，确保公正性。",
+  "award_levels": [
+    "Product Design of the Year（年度产品设计大奖）",
+    "Product Designer of the Year（年度产品设计师大奖）",
+    "Gold Winner（金奖）",
+    "Silver Winner（银奖）"
+  ],
+  "level_note": "年度大奖和年度设计师大奖仅各1名，获赠限量版Ava奖杯和证书。金奖85-100分，银奖60-84分。",
+  "eligibility": "开放给所有产品设计师，包括专业设计师、新锐设计师、业余爱好者。参赛对象涵盖广告代理商、艺术总监、品牌/企业主、汽车设计师、创意公司、设计公司、设计师、工程师、企业家、时装设计师、自由职业者、家具设计师、平面设计师、企业内部营销、机构、制造商、产品设计师、公关公司、学生、教师，以及任何年满18岁且拥有优秀产品设计的人士。作品须在近5年内完成（2021年至今）。支持个人或团队参赛。无参赛数量限制。",
+  "submission_requirements": {
+    "图片格式": "JPEG/PNG，单张不超过4MB，推荐宽度1200px，300dpi，RGB色彩模式",
+    "视频/音频": "上传至Vimeo/YouTube/Youku，提供直链和密码（如需）",
+    "PDF文件": "支持上传",
+    "作品简介": "建议约350字，阐述作品创意、原创性和设计理念",
+    "语言要求": "非英语作品需附英文翻译",
+    "隐私保护": "可选Keep My Entry Private保护隐私",
+    "多类别投递": "同一作品可投多个类别（需额外付费）"
+  },
+  "prize": "年度大奖和年度设计师大奖获赠限量版Ava奖杯+证书。金奖和银奖获证书、数字徽章、数字祝贺信。所有获奖者可购买Ava奖杯和额外定制证书。获奖者获得：专业新闻稿模板、获奖者专访机会（Muse.World）、社交媒体推广、在线展示5年、营销宣传资料。无需额外获奖确认费。",
+  "faq": [
+    {"q": "如何提交作品？", "a": "在线提交：注册/登录 → 填写表单（可选多个类别）→ 上传JPEG/PNG/PDF或URL → 加入购物车付款。4步完成。"},
+    {"q": "作品需要多久内完成？", "a": "参赛作品须在最近5个日历年内完成（截至最终截止日期）。"},
+    {"q": "参赛数量有限制吗？", "a": "没有数量限制。同一作品可投多个类别，每个额外类别需付附加费。"},
+    {"q": "评审流程是怎样的？", "a": "盲审制。评委和参赛者信息全程保密。作品随机评审，不与其他参赛作品比较。每个类别可有多名获奖者或无获奖者。"},
+    {"q": "获奖者如何获得通知？", "a": "2026年5月15日通过官网公布，同时通过邮件通知所有获奖者。"},
+    {"q": "是否需要发送实物样品？", "a": "不需要。图片和产品描述即可。"},
+    {"q": "获奖后是否需要额外付费？", "a": "不需要获奖确认费。如需奖杯和额外证书可自愿购买。奖杯定制生产，发货需6-12周。"},
+    {"q": "有颁奖典礼吗？", "a": "没有线下典礼。全部通过线上进行，以保持低参赛成本。"},
+    {"q": "费用是否可退款？", "a": "不可退款。已提交或被取消的参赛作品不予退款。"}
+  ],
+  "rights": "参赛者保留作品版权。提交作品即授权纽约设计奖及其媒体合作伙伴将作品用于比赛营销和推广目的，包括展览、印刷和数字媒体。IAA有权在不通知参赛者的情况下发布和宣传参赛内容。用户上传的信息授予IAA免费、非独占、全球性、永久的展示和使用许可。参赛作品默认为原创，参赛者需拥有作品版权或已获得客户授权。",
+  "website_pages_scraped": {
+    "首页": "https://nydesignawards.com/",
+    "类别": "https://nydesignawards.com/categories.php",
+    "费用与参赛信息": "https://nydesignawards.com/product-design-awards.php#deadlinefee",
+    "FAQ": "https://nydesignawards.com/content.php?pg=faq",
+    "评委": "https://nydesignawards.com/our-judge.php",
+    "关于": "https://nydesignawards.com/product-design-awards.php",
+    "联系方式": "https://nydesignawards.com/contact.php",
+    "条款": "https://nydesignawards.com/content.php?pg=terms",
+    "截止日期": "https://nydesignawards.com/deadlines"
+  },
+  "data_source": "官网采集 + AI结构化提取",
+  "last_updated": "2026-04-24"
+}

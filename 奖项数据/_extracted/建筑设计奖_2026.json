@@ -1,0 +1,75 @@
+{
+  "award_id": "建筑设计奖_2026",
+  "name": "建筑设计奖",
+  "name_en": "Arch Design Award and Competition 2026",
+  "website": "https://www.archdesignaward.com/",
+  "organizer": "",
+  "organizer_location": "未知",
+  "extracted": {
+    "contact_email": "info@archdesignaward.com",
+    "contact_phone": "+358 44 944 7802",
+    "raw_deadlines": [
+      "Deadline",
+      "deadline: 05 March 2025, 24:00 GMT+3",
+      "Deadline:",
+      "deadline",
+      "deadline: 05 March 2026, 24:00 GMT+3"
+    ],
+    "raw_categories": [
+      "Interior",
+      "Lighting",
+      "Furniture",
+      "Product",
+      "Packaging",
+      "Graphic",
+      "ui",
+      "architecture",
+      "branding",
+      "digital",
+      "Web",
+      "Landscape",
+      "green",
+      "social"
+    ],
+    "raw_judges": [
+      "Jury were selected from a wide range of applications",
+      "Jury Members are internationally recognised experts, highly experienced, award-winning professionals from around the world in the field of Architecture and Interior Design",
+      "Jury Members do not know any personal information about the Designers, the blind judging process allows everyone to stand on equal terms and with equal chances",
+      "Jury Members vote on different aspects: Design, Functionality, Structures and Materials, Innovation and Sustainability, Market Value, Presentation",
+      "Jury Members give between 1 and 10 points for each aspect, which will be weighted for the final score"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "BRONZE",
+      "SILVER",
+      "GOLD"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.archdesignaward.com/",
+      "chars": 5717,
+      "preview": "top of page\n\nHome\n\nArch\n\nTrophy\n\nWinners\n\nSubmit\n\nContact\n\nRegistration \n\nArch\nDesign\nAward \n\n2027\n\n1+1 EARLY PROMOTION: 20. APRIL, 2025.\n\nDays             Hours             Mins               Secs\n\nRegistration\nWinners 2026\n\n01. May, 2026. 24:00 GMT+3\n\n1+1 Early Registration Offer Until:\n\nExpanded Award\n\nCategories*\n\nArchitectural Design Category\nInterior Design Category\nLighting Design Category *\nFurniture and Product Design Category *\nPackaging and Graphic Design Category *\nInterior Design Ca"
+    },
+    "获奖者": {
+      "url": "https://www.archdesignaward.com/winners-2022",
+      "chars": 114,
+      "preview": "top of page\nRegistration \n\nArch\nWinners\n2022\n\nInterior Design CategoryArchitectural Design Category\nbottom of page"
+    },
+    "参赛": {
+      "url": "https://www.archdesignaward.com/submit",
+      "chars": 1902,
+      "preview": "top of page\nSkip to Main Content\nRegistration \n\nSubmit\nYour\nDesign\n\n1. Get your Registration Ticket(s)\n2. Receive the ARCH-ID(s) via E-Mail\n3. Submit your Design(s) by 05. March, 2027\n4. Winners' Announcement: 01. April, 2027\n\nFinal Submission Deadline:\n05. March, 2027 24:00 GMT+3. \nPlease don’t forget to finalize and submit your entries before the deadline. If you need any assistance, feel free to contact us at info@archdesignaward.com\n\nContact Name\nContact E-Mail\nARCH-ID\nGet your ARCH-ID\nDesig"
+    },
+    "联系": {
+      "url": "https://www.archdesignaward.com/contact",
+      "chars": 638,
+      "preview": "top of page\nSkip to Main Content\nRegistration \n\nSend\nUs a\nMessage\n \n\nFirst Name\nLast Name\nE-Mail\nWrite a Message\n\nThank you for your message!\n\nSubmit\n\nPowered by\n\nDAA - Design Award Agency\n\nBusiness ID: 3148527-4\nVAT ID: FI31485274\n\nAntinkatu 3D, 7th floor\n00100 Helsinki, Finland\n\n+358 44 944 7802\n\ninfo@archdesignaward.com\n\nbottom of page\nThis website collects cookies to deliver better user experience. For a complete overview, see your personal settings. By clicking Accept, you consent to the us"
+    },
+    "FAQ": {
+      "url": "https://www.archdesignaward.com/arch",
+      "chars": 15000,
+      "preview": "top of page\nRegistration \n\nArch\nDesign\nAward\n\nThe Mission\nAward Categories\nWinners' Kit\nGrand Jury Panel\nNEW \nExclusive Crystal Glass Trophy\nAward Calendar & Fees\nFrequently Asked Questions\nTerms of Use & Conditions\nThe Mission\n\nThe arch has been a recurring symbol and element in architecture all around the World for thousands of years. The history of arches can be traced back to ancient civilizations. This structure still widely used today and connecting us to our rich architectural heritage wh"
+    }
+  }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>赛事新闻 | 设计能</title>
+  <meta name="description" content="设计能赛事新闻 - 报名通知、获奖快讯、赛事动态">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; line-height: 1.6; color: #333; background-color: #fff; }
+    a { text-decoration: none; color: inherit; }
+    
+    .header { background-color: #1E3A5F; padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { display: flex; align-items: center; }
+    .logo img { height: 40px; width: auto; }
+    .logo-text { font-size: 20px; font-weight: bold; color: #D4AF37; margin-left: 12px; }
+    .nav-menu { display: flex; list-style: none; gap: 32px; }
+    .nav-menu a { color: #fff; font-size: 14px; opacity: 0.9; transition: opacity 0.2s; }
+    .nav-menu a:hover { opacity: 1; }
+    
+    .page-header { background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%); padding: 60px 0; text-align: center; color: #fff; }
+    .page-header h1 { font-size: 36px; margin-bottom: 12px; }
+    .page-header p { font-size: 16px; opacity: 0.9; }
+    
+    .filter-tabs { display: flex; justify-content: center; gap: 12px; padding: 24px 0; flex-wrap: wrap; }
+    .filter-tab { padding: 8px 20px; border-radius: 20px; cursor: pointer; border: 1px solid #ddd; transition: all 0.2s; }
+    .filter-tab:hover, .filter-tab.active { background: #1E3A5F; color: #fff; border-color: #1E3A5F; }
+    
+    .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 24px; padding: 24px 0 60px; }
+    .article-card { border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; }
+    .article-card:hover { transform: translateY(-4px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+    .article-cover { height: 200px; background: linear-gradient(135deg, #1E3A5F 0%, #2d5a8e 100%); display: flex; align-items: center; justify-content: center; }
+    .article-cover-text { font-size: 64px; color: rgba(255,255,255,0.3); font-weight: bold; }
+    .article-body { padding: 20px; }
+    .article-category { display: inline-block; background: #1E3A5F; color: #fff; padding: 4px 12px; border-radius: 4px; font-size: 12px; margin-bottom: 12px; }
+    .article-title { font-size: 18px; font-weight: 600; margin-bottom: 12px; color: #1E3A5F; }
+    .article-summary { font-size: 14px; color: #666; margin-bottom: 16px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .article-meta { font-size: 13px; color: #999; display: flex; gap: 16px; }
+    
+    .footer { background-color: #1A1A1A; padding: 32px 0; text-align: center; color: #fff; }
+    .footer p { font-size: 14px; margin-bottom: 8px; }
+    
+    @media (max-width: 768px) {
+      .nav-menu { display: none; }
+      .header-inner { justify-content: center; }
+      .articles-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo">
+          <img src="/设计能LOGO透明文件.png" alt="设计能">
+          <span class="logo-text">国际设计大奖策略咨询平台</span>
+        </a>
+        <nav class="nav-menu">
+          <a href="/">首页</a>
+          <a href="/awards">奖项库</a>
+          <a href="/compare">奖项对比</a>
+          <a href="/services">申报服务</a>
+          <a href="/cases">获奖作品</a>
+          <a href="/strategy">参赛策略</a>
+          <a href="/news">赛事新闻</a>
+          <a href="/about">关于我们</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>赛事新闻</h1>
+      <p>国际设计大奖最新动态、获奖快讯、报名通知</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="filter-tabs">
+      <div class="filter-tab active" data-category="all">全部</div>
+      <div class="filter-tab" data-category="报名通知">报名通知</div>
+      <div class="filter-tab" data-category="获奖快讯">获奖快讯</div>
+      <div class="filter-tab" data-category="赛事动态">赛事动态</div>
+    </div>
+    
+    <div class="articles-grid" id="articlesGrid">
+      
+    <article class="article-card" data-category="获奖快讯">
+      <a href="articles/重拾设计的荣光.html">
+        <div class="article-cover">
+          <span class="article-cover-text">重</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">获奖快讯</span>
+          <h3 class="article-title">重拾设计的荣光</h3>
+          <p class="article-summary"> 重拾设计的荣光——致身处奖项迷局中的中国设计师此刻，当你翻开这本书，或许正深陷于这样的困惑与焦虑：邮箱里塞满各种“国际设计大奖”的征稿函，社交媒体上刷到层出不穷的“金奖捷报”，耳...</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="赛事动态">
+      <a href="articles/让大家成为你的人生导师.html">
+        <div class="article-cover">
+          <span class="article-cover-text">让</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">赛事动态</span>
+          <h3 class="article-title">让大奖成为你的设计导师</h3>
+          <p class="article-summary"> 第一节 设计大奖是最好的学习捷径 一、为什么要把大奖当作学习的入口很多设计师第一次听到“设计大奖”时，心里浮现的往往是领奖台上的闪光灯和聚光灯。奖杯、...</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="报名通知">
+      <a href="articles/标准如何转化为学习方法.html">
+        <div class="article-cover">
+          <span class="article-cover-text">设</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">报名通知</span>
+          <h3 class="article-title">设计大奖是最丰富的学习资源库</h3>
+          <p class="article-summary"> 一、大奖是一座“公开的设计博物馆”如果把设计大奖看作一个持续运转的系统，它其实像一座没有围墙的博物馆。不同于传统博物馆展出的“历史遗迹”，大奖展示的是当下与未来的设计切片。每...</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="赛事动态">
+      <a href="articles/情绪与内心困扰02.html">
+        <div class="article-cover">
+          <span class="article-cover-text">人</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">赛事动态</span>
+          <h3 class="article-title">人生烦恼与智慧需求分类体系</h3>
+          <p class="article-summary"> 人生烦恼与智慧需求分类体系 第一大类：情绪与内心困扰 (对应“苦谛”中的“忧”、“悲”)这是最普遍、最直接的烦恼层。1.1 压力与焦虑：对未来的不确定性、工作 deadlines...</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="赛事动态">
+      <a href="articles/广州南沙邮轮码头何以征服全球评委？揭秘斩获双项国际大奖的设计密码 -备份.html">
+        <div class="article-cover">
+          <span class="article-cover-text">无</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">赛事动态</span>
+          <h3 class="article-title">无标题</h3>
+          <p class="article-summary">--- 广州南沙邮轮码头何以征服全球评委？揭秘斩获双项国际大奖的设计密码一座码头，如何让世界看见湾区？当一栋建筑同时摘得BLT建筑设计奖与WDA世界设计奖，它讲述的绝不只是一...</p>
+          <div class="article-meta">
+            <span>📅 2026-01-01</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="报名通知">
+      <a href="articles/设计大奖学习资源库.html">
+        <div class="article-cover">
+          <span class="article-cover-text">设</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">报名通知</span>
+          <h3 class="article-title">设计大奖是最丰富的学习资源库</h3>
+          <p class="article-summary">如果把设计大奖看作一个持续运转的系统，它其实像一座没有围墙的博物馆。</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="article-card" data-category="赛事动态">
+      <a href="articles/测试文章.html">
+        <div class="article-cover">
+          <span class="article-cover-text">测</span>
+        </div>
+        <div class="article-body">
+          <span class="article-category">赛事动态</span>
+          <h3 class="article-title">测试文章</h3>
+          <p class="article-summary">这是一篇测试文章，用于验证发布流程是否正常。</p>
+          <div class="article-meta">
+            <span>📅 2026-04-18</span>
+            <span>✍️ 设计能</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 设计能—国际设计大奖申报指南 | www.52de.cc</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const category = tab.dataset.category;
+        document.querySelectorAll('.article-card').forEach(card => {
+          card.style.display = (category === 'all' || card.dataset.category === category) ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

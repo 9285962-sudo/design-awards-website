@@ -1,0 +1,136 @@
+{
+  "award_id": "地产奖_2026",
+  "name": "地产奖",
+  "name_en": "TITAN Property Awards",
+  "website": "https://thepropertyawards.com/",
+  "organizer": "",
+  "organizer_location": "英国",
+  "extracted": {
+    "contact_email": "info@thepropertyawards.com",
+    "contact_phone": "+1 646 781 8768\n(",
+    "raw_fees": [
+      "$280",
+      "$219",
+      "$140",
+      "$30",
+      "$300",
+      "$320",
+      "$350",
+      "$240",
+      "$260",
+      "$310"
+    ],
+    "raw_dates": [
+      "January 1, 2022",
+      "May 15, 2026"
+    ],
+    "raw_deadlines": [
+      "DEADLINE: APR 22, 2026 • ENTER NOW",
+      "DEADLINE",
+      "DEADLINE",
+      "DEADLINE",
+      "DEADLINE",
+      "DEADLINES & FEES",
+      "DEADLINE: MAY 8 • ENTER NOW",
+      "DEADLINES & FEES",
+      "deadline",
+      "closing of the competition (e"
+    ],
+    "raw_categories": [
+      "INTERIOR",
+      "LANDSCAPE",
+      "ARCHITECTURE",
+      "LIGHTING",
+      "CONCEPT",
+      "PRODUCT",
+      "GREEN",
+      "UX",
+      "ui",
+      "furniture",
+      "Urban",
+      "communication",
+      "web",
+      "interactive",
+      "digital",
+      "game",
+      "Social",
+      "Mobile",
+      "Video",
+      "Service",
+      "branding",
+      "packaging",
+      "fashion",
+      "graphic",
+      "Industrial",
+      "Sustainable",
+      "Transport",
+      "Smart",
+      "Photography"
+    ],
+    "raw_judges": [
+      "JUDGES SPOTLIGHT",
+      "jury panel consists of leading property industry professionals, whose contributions and innovations to the advancement of societal infrastructure are genuinely inspirational",
+      "judges today",
+      "jury members, or be considered for future inclusions in the TITAN Awards program, do consider nominating yourself, and we’ll get back to you soon",
+      "judge at the North American Transform Awards and before her career in branding, she ran her own company, which included two retail stores in Boston, Massachusetts, specializing in fashion, art, antiqu"
+    ],
+    "raw_criteria": [
+      "JUDGING CRITERIA",
+      "evaluation of the work",
+      "Judging criteria",
+      "criteria determined by the requirements (see Judging Criteria)",
+      "selections are based entirely on the overall quality of submissions in the given category"
+    ],
+    "raw_award_levels": [
+      "Winner",
+      "finalist",
+      "silver",
+      "best in",
+      "Platinum",
+      "Gold",
+      "merit"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://thepropertyawards.com/",
+      "chars": 10894,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\nEntry Information\nAward Categories\nJury\nWinners\nPress & Media\nPartners\nStore\nEnter Awards\nMy Account\nLAST MINUTE DEADLINE: APR 22, 2026 • ENTER NOW\n\nHONORING THE EFFORTS OF DEXTROUS PROPERTY DEVELOPERS, INTERIOR DESIGNERS, ARCHITECTS, AND LANDSCAPE DESIGNERS, FROM RESIDENTIAL TO COMMERCIAL AND LOCAL TO INTERNATIONAL.\n\nPROPERTY DEVELOPMENT\nVIEW PROPERTY DEVEL"
+    },
+    "参赛": {
+      "url": "https://litentertainmentawards.com",
+      "chars": 13269,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\n2026 FINAL EXTENSION DEADLINE: MAY 8 • ENTER NOW\nLIT ENTERTAINMENT AWARDS\nEvolving with the Times – From Commercial to Entertainment.\n\nLIT Entertainment Awards recognizes creative and advertising excellence in the global entertainment industry - from the silver screen to interactive gaming, from television content to wide-encompassing digital entertainments."
+    },
+    "规则": {
+      "url": "https://thepropertyawards.com/property-awards.php#howtoenter",
+      "chars": 4257,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\n  \nTITAN PROPERTY AWARDS\n\nCalling all international property developers, interior designers, architects, landscape designers, lighting designers, and other property industry professionals.\n\nHome is the place we stay and work at. No matter where we are, we are tied to our surrounding environments and its beautiful splendor, where life meets ingeniously built "
+    },
+    "类别": {
+      "url": "https://thepropertyawards.com/category.php",
+      "chars": 15000,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\nTITAN PROPERTY AWARDS CATEGORIES\n\nThe TITAN Property Awards introduces categories dedicated to celebrating excellence in real estate, architecture, interior design, landscape, and property development. Created for designers and developers, each category recognizes outstanding achievement in design, functionality, and execution across residential, commercial,"
+    },
+    "FAQ": {
+      "url": "https://thepropertyawards.com/content.php?pg=faq",
+      "chars": 15000,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\nFAQ\nENTRY SUBMISSION, ELIGIBILITIES AND CATEGORIES\n\nHow to submit entries?\n\nEntry is simple. Submission is online and is completed in 5 simple steps:\n\nRegister - or login if you are already a registrant.\nFill in the simple online submission form - remember you can select multiple categories for each entry.\nUpload supporting materials such as Image, Website l"
+    },
+    "评审": {
+      "url": "https://thepropertyawards.com/our-judge.php",
+      "chars": 15000,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\nTAKE YOUR EXCLUSIVE SEAT ON THE\nTITAN PROPERTY AWARDS PANEL\n\nOur jury panel consists of leading real estate professionals, whose talents and contributions to both nation and environment are instrumental to building a well-constructed community. These individuals pave the way towards modern constructions and architectures, being an integral part of a new mode"
+    },
+    "关于": {
+      "url": "https://thepropertyawards.com/property-awards.php",
+      "chars": 4134,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\n  \nTITAN PROPERTY AWARDS\n\nCalling all international property developers, interior designers, architects, landscape designers, lighting designers, and other property industry professionals.\n\nHome is the place we stay and work at. No matter where we are, we are tied to our surrounding environments and its beautiful splendor, where life meets ingeniously built "
+    },
+    "联系": {
+      "url": "https://thepropertyawards.com/contact-us.php",
+      "chars": 636,
+      "preview": "IAA Partners :\nMUSE Awards \nVega Awards\nNYX Awards \nTITAN Awards \nNY Awards \nLIT Awards \nNoble Awards \nArte Collection \nTokyo Design Awards\nCONTACT US\nWE WOULD LOVE TO HEAR FROM YOU!\nTopic\nGeneral\nEntries\nStore\nShipping\nPartnership/Sponsorship\nEvent\n\n*\n\n*\n\n*\n\n*\n\nUnited States\n\nInternational Awards Associate Inc.\nCorrespondence Address\n14 Wall Street 20th Floor,\nNew York NY 10005,\nUnited States.\nTel: +1 646 781 8768\n(Mailing Only)\n\nAsia Pacific\n\nInternational Awards Associate Inc.\nRegistered Offi"
+    }
+  }
+}

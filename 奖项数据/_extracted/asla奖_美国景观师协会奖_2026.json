@@ -1,0 +1,62 @@
+{
+  "award_id": "asla奖_美国景观师协会奖_2026",
+  "name": "ASLA奖（美国景观师协会奖）",
+  "name_en": "Honors & Awards",
+  "website": "https://www.asla.org/awards-events-main-landing/honors-awards",
+  "organizer": "",
+  "organizer_location": "美国",
+  "extracted": {
+    "contact_phone": "202-898-2444",
+    "raw_categories": [
+      "Green",
+      "Landscape",
+      "service",
+      "ui",
+      "architecture",
+      "web",
+      "social",
+      "video",
+      "Communication",
+      "sustainable"
+    ],
+    "raw_criteria": [
+      "selectionDeny",
+      "selectionDeny",
+      "selectionDeny",
+      "selectionDeny",
+      "selectionDeny"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.asla.org/awards-events-main-landing/honors-awards",
+      "chars": 2013,
+      "preview": "Skip to content\nASLA logo. Green lines representing rolling fields.\nContact\nASLA Fund\nShop\nJoin\nLog in\nOpen search\nAbout ASLA\nMembership\nNews & Insights\nAwards & Events\nBecome a Landscape Architect\nFocus Areas\nResources\nHome\nHome\n/\nAwards & Events\nAwards & Events\n/\nHonors & Awards\nHonors & Awards\nHonors & Awards\n\nASLA Honors and Awards recognize excellence across projects, people, and lifelong service—celebrating achievement, leadership, and lasting contributions to communities and the built and"
+    },
+    "联系": {
+      "url": "https://www.asla.org/contact-us",
+      "chars": 14891,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    },
+    "关于": {
+      "url": "https://www.asla.org/about/asla-fund",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    },
+    "类别": {
+      "url": "https://www.asla.org/news-insights/all-news?sort=relevance&filter_ContentTypeName=ContentBase.ArticleDetail&filter_StandardCategoryGuids=0cdb02ec-6f1c-48a3-b647-4d682d67f48d",
+      "chars": 13934,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    },
+    "时间": {
+      "url": "https://www.asla.org/news-insights/land",
+      "chars": 13976,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    },
+    "规则": {
+      "url": "https://www.asla.org/terms-of-use",
+      "chars": 15000,
+      "preview": "Consent\nDetails\n[#IABV2SETTINGS#]\nAbout\nThis website uses cookies\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing\nShow details\nDetails\nNec"
+    }
+  }
+}

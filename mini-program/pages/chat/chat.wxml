@@ -3,9 +3,15 @@
   <view class="chat-header">
     <view class="header-icon">🤖</view>
     <view class="header-text">
-      <text class="header-title">奖项智能助手</text>
+      <text class="header-title">AI智能咨询助手</text>
       <text class="header-subtitle">5年经验 · 90%获奖率</text>
     </view>
+  </view>
+
+  <!-- AI生成声明 -->
+  <view class="ai-disclaimer-banner">
+    <text class="ai-disclaimer-icon">⚠️</text>
+    <text class="ai-disclaimer-text">本页面由人工智能（AI）生成内容，仅供参考，不构成专业建议。</text>
   </view>
 
   <!-- 消息列表 -->
@@ -48,6 +54,7 @@
         <!-- 文本消息 -->
         <block wx:if="{{item.contentType === 'text'}}">
           <text class="message-text">{{item.content}}</text>
+          <view class="ai-generated-tag">AI生成</view>
         </block>
 
         <!-- 卡片消息（奖项信息） -->
@@ -128,6 +135,9 @@
   </view>
 
   <!-- 输入区域 -->
+  <view class="ai-disclaimer-footer">
+    <text>以上回复由人工智能（AI）生成，内容仅供参考</text>
+  </view>
   <view class="input-area">
     <view class="input-wrapper">
       <input 

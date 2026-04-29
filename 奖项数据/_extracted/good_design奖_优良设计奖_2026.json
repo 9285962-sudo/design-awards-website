@@ -1,0 +1,129 @@
+{
+  "award_id": "good_design奖_优良设计奖_2026",
+  "name": "Good Design奖（优良设计奖）",
+  "name_en": "Good Design Australia",
+  "website": "https://good-design.org/",
+  "organizer": "",
+  "organizer_location": "美国",
+  "extracted": {
+    "contact_email": "mail@good-design.org",
+    "contact_phone": "+61 2 8015 6680",
+    "raw_fees": [
+      "$245",
+      "$495",
+      "$750",
+      "$1,500",
+      "$2,500",
+      "$3,500",
+      "$4,500",
+      "$250",
+      "$67"
+    ],
+    "raw_deadlines": [
+      "Deadline",
+      "Deadline",
+      "Deadline",
+      "Deadline",
+      "deadlines, must be withdrawn by the applicant and may be re-submitted the following year only",
+      "due date to the Australian Good Design Awards Presentation Ceremony",
+      "Deadline",
+      "Deadline"
+    ],
+    "raw_categories": [
+      "TRANSPORT",
+      "UI",
+      "industrial",
+      "sustainable",
+      "product",
+      "video",
+      "furniture",
+      "service",
+      "SMART",
+      "communication",
+      "game",
+      "FASHION",
+      "DIGITAL",
+      "URBAN",
+      "INTERACTIVE",
+      "LANDSCAPE",
+      "PACKAGING",
+      "MOBILE",
+      "WEB",
+      "LIGHTING",
+      "UX",
+      "SOCIAL",
+      "Concept",
+      "interior",
+      "Architecture",
+      "photography",
+      "branding"
+    ],
+    "raw_judges": [
+      "Jury Comments",
+      "Jury panel and evaluated against three overarching criteria – each specific to its Design Discipline:",
+      "Jury wants to understand if the project incorporates any leading-edge Built Environment innovations, if it advances the profession and pushes the boundaries of new and innovative thinking in Built Env",
+      "Jury want to understand what measurable outcomes have been achieved and if the design of the space, place or environment has the potential to improve the quality of life for people and our planet",
+      "Jury wants to understand if the project has the potential to be an exemplar for good design in the Built Environment"
+    ],
+    "raw_criteria": [
+      "Criteria and Fees before submitting your entry to the Australian Good Design Awards",
+      "criteria – each specific to its Design Discipline:",
+      "Criteria 1: Good Design",
+      "Criteria 2: Design Innovation",
+      "Criteria 3: Design Impact"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "DIAMOND",
+      "GOLD",
+      "Best in"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://good-design.org/",
+      "chars": 6321,
+      "preview": "WINNER’S INDEX\nAWARDS INFO\nENTRY PORTAL\nNEWS + EVENTS\nABOUT\nPARTNERS\nCONTACT\nDESIGN\nTHAT\nLEADS.\nDESIGN\nTHAT\nADVANCES.\nINNOVATES.\nILLUMINATES.\nMOVES.\nCARES.\nCONNECTS.\nSERVES.\nEMPOWERS.\nSAVES.\nPERFORMS.\nENDURES.\n2026\nAWARDS\nENTRIES\nOPEN\n\nENTER NOW\n\nNEWS & EVENTS\nNEWS\nDESIGNING BETTER TRANSPORT\n\nREAD MORE\n\nNEWS\nWINNER INSIGHTS ON THE BENEFITS OF ENTERING\n\nREAD MORE\n\nNEWS\nDESIGN THAT LEADS: SHIFTS SHAPING WHAT’S NEXT\n\nREAD MORE\n\nFEATURED ENTRIES\nPrevious\nNext\nDU. CHAIR – DOWN UP GENIUS\n\nThe Du Chair"
+    },
+    "获奖者": {
+      "url": "https://good-design.org/good-design-index/?yr=2025",
+      "chars": 15000,
+      "preview": "2025 \nALL DISCIPLINES \nALL AWARD TYPES \nALL COUNTRIES \n25\nHULLBOT AUTONOMOUS SHIP HULL CLEANING SYSTEM\nDEADLY DEMOCRACY: IMPROVING CIVIC EDUCATION FOR INDIGENOUS YOUTH\nFIRST BUILDING – BRADFIELD CITY CENTRE\nALLAN BORDER OVAL PAVILION\nPARRTJIMA – A FESTIVAL IN LIGHT\nSCHOLÉ\nFOOTPRINTS ON GADIGAL NURA\nCONNECTIONS\nFIRST RESPONDER, PORTABLE NEURODIAGNOSTIC DEVICE\nCENTRAL STATION SYDNEY METRO – CUSTOMER CENTRED DESIGN\nWASTEWOOD: DESIGNING SYSTEMS OF REUSE, STORYTELLING AND SELF-SERVICE\nOVUM\nKISMET.HEA"
+    },
+    "费用": {
+      "url": "https://good-design.org/australian-good-design-awards/timeline-fees/",
+      "chars": 4504,
+      "preview": "TIMELINE + FEES\n\nIf you have an innovative design project you believe is worthy of recognition, then we want to hear from you. \n\nPlease review the Timeline, Eligibility Criteria and Fees before submitting your entry to the Australian Good Design Awards.\n\nELIGIBILITY\n\nEligibility Criteria\n\nThe Australian Good Design Awards is an international awards program that accepts entries from all countries and regions. \nEntry must be completed or available on the market prior to the Australian Good Design "
+    },
+    "类别": {
+      "url": "https://good-design.org/australian-good-design-awards/categories-criteria/",
+      "chars": 4874,
+      "preview": "CATEGORIES & CRITERIA\n\nThe Australian Good Design Awards is one of the most diverse international design award programs in the world, comprising 13 overarching Design Disciplines and covering more than 30 Design Categories.\n\nAll entries are carefully assessed by an independent expert Jury panel and evaluated against three overarching criteria – each specific to its Design Discipline:\n\nCriteria 1: Good Design\nCriteria 2: Design Innovation\nCriteria 3: Design Impact \n\nThe Awards are renowned for th"
+    },
+    "FAQ": {
+      "url": "https://good-design.org/australian-good-design-awards/faqs/",
+      "chars": 1916,
+      "preview": "FAQS\n\nOur Frequently Asked Questions (FAQs) should answer any queries you may have about the Australian Good Design Awards program, processes and benefits. If you have any questions that are not answered, our team are here to help.\n\nWhat are the different Australian Good Design Award Accolades?\nThe Australian Good Design Award accolades are among the most respected and recognised international design endorsement symbols in the industry. These registered trademarks are visible indicators of good "
+    },
+    "关于": {
+      "url": "https://good-design.org/about/",
+      "chars": 3219,
+      "preview": "DESIGN FOR A BRIGHTER FUTURE\n\nGood Design Australia is an international design promotion organisation responsible for managing the annual Australian Good Design Awards and other signature design events and initiatives.\n\nWith a proud history that dates back to 1958, we remain committed to promoting the importance of design to business, industry, government and the general public and the critical role it plays in creating a better, safer and more prosperous future.\n\nWe are passionately committed t"
+    },
+    "联系": {
+      "url": "https://good-design.org/contact/",
+      "chars": 2247,
+      "preview": "CONTACT\n\nGOOD DESIGN AUSTRALIA\n\nHead Office: Level 2, 135/153 New South Head Road, Edgecliff New South Wales 2027 Australia\n\nMail: PO Box 720, Rose Bay, New South Wales 2029 Australia\n\nPhone: +61 2 8015 6680\n\nEmail: mail@good-design.org\n\nABN: 95 146 790 007\n\nAs a Certified B Corp in the design industry, we’re counted among businesses that are leading a global movement for an inclusive, equitable, and regenerative economy.\n\nCUSTOMER FEEDBACK\n\nAt Good Design Australia, we are dedicated to maintain"
+    },
+    "规则": {
+      "url": "https://good-design.org/terms-conditions/",
+      "chars": 15000,
+      "preview": "TERMS AND CONDITIONS\n\nTerms and Conditions of Entry to the Australian Good Design Awards\n\nGeneral\n\n1.  By submitting an application to the Australian Good Design Awards (an Entry), the applicant acknowledges that they have read this document (these Terms and Conditions) and agrees to be bound by, and comply with, these Terms and Conditions.\n\n2.  Good Design Australia Pty Ltd (Good Design Australia) reserves the right to amend these Terms and Conditions at any time and for any reason, and will no"
+    },
+    "参赛": {
+      "url": "https://good-design.org/enter",
+      "chars": 5440,
+      "preview": "2025 AWARDS ENTRIES OPEN\nPUBLISHED ON: 24 FEBRUARY 2025\nSHARE\n\nDesign is a powerful catalyst for change – it sparks innovation, solves complex challenges, and shapes the way we live. The 2025 Australian Good Design Awards embrace this transformative potential with the theme Rewarding, Defining and Celebrating Better ______.“\n\nThis year’s theme invites designers, innovators, architects, engineers and creative thinkers to explore and articulate what “better” means in today’s world. \n\nBy leaving th"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "award_id": "lia_awards_2026",
+  "name": "LIA Awards 2026",
+  "name_cn": "伦敦国际广告奖 2026",
+  "year": 2026,
+  "organizer": "London International Awards (LIA)",
+  "website": "https://www.liaawards.com/",
+  "description": "LIA（伦敦国际奖）是一项国际性的创意与广告奖项，表彰在广告、设计、数字、媒体等领域的卓越创意作品。2026年参赛资格要求为2025年7月1日至2026年8月31日期间发布的作品。",
+  "eligibility": {
+    "period": "2025年7月1日至2026年8月31日",
+    "requirement": "作品必须与实际播出、发布或发行时的形式一致，不得为参赛专门创作",
+    "originality": "必须为原创商业作品",
+    "verification": "如评审团有疑问，参赛公司需提供额外证明材料"
+  },
+  "deadlines": {
+    "early_bird": "2026年4月30日 23:59 EST",
+    "regular": "2026年6月30日 23:59 EST",
+    "final": "系统关闭前（8月31日后）",
+    "judging": "2026年9月25日至10月3日（拉斯维加斯）",
+    "results": "2026年9月28日至10月5日"
+  },
+  "fees": {
+    "currency": "USD",
+    "early_bird_discount": "35%",
+    "regular_discount": "20%",
+    "categories": [
+      {"name": "Ambient & Activation", "early_bird": 601.25, "regular": 740, "full": 925},
+      {"name": "Audio & Radio (Single)", "early_bird": 406.25, "regular": 500, "full": 625},
+      {"name": "Audio & Radio (Campaign)", "early_bird": 455, "regular": 560, "full": 700},
+      {"name": "B2B", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Billboard (Single)", "early_bird": 520, "regular": 640, "full": 800},
+      {"name": "Billboard (Campaign)", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Business Transformation (Single)", "early_bird": 650, "regular": 800, "full": 1000},
+      {"name": "Business Transformation (Campaign)", "early_bird": 812.50, "regular": 1000, "full": 1250},
+      {"name": "Creative Strategy", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Creative Use of Data", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Creativity In Media (Single)", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Creativity In Media (Campaign)", "early_bird": 650, "regular": 800, "full": 1000},
+      {"name": "Creativity In PR", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Creators & Social Platforms", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Cultural Catalyst (Single)", "early_bird": 650, "regular": 800, "full": 1000},
+      {"name": "Cultural Catalyst (Campaign)", "early_bird": 812.50, "regular": 1000, "full": 1250},
+      {"name": "Democracy & Human Rights", "early_bird": 250, "regular": 250, "full": 250},
+      {"name": "Design (Single)", "early_bird": 406.25, "regular": 500, "full": 625},
+      {"name": "Design (Campaign)", "early_bird": 471.25, "regular": 580, "full": 725},
+      {"name": "Digital", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Direct", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Entertainment & Content (Single)", "early_bird": 877.50, "regular": 1080, "full": 1350},
+      {"name": "Entertainment & Content (Campaign)", "early_bird": 975, "regular": 1200, "full": 1500},
+      {"name": "Evolution", "early_bird": 812.50, "regular": 1000, "full": 1250},
+      {"name": "Gaming", "early_bird": 812.50, "regular": 1000, "full": 1250},
+      {"name": "Health & Wellness (Single)", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Health & Wellness (Campaign)", "early_bird": 682.50, "regular": 840, "full": 1050},
+      {"name": "Health & Wellness-Craft (Single)", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Health & Wellness-Craft (Campaign)", "early_bird": 682.50, "regular": 840, "full": 1050},
+      {"name": "Music & Sound (Single)", "early_bird": 406.25, "regular": 500, "full": 625},
+      {"name": "Music & Sound (Campaign)", "early_bird": 455, "regular": 560, "full": 700},
+      {"name": "Music Video", "early_bird": 357.50, "regular": 440, "full": 550},
+      {"name": "Non-Traditional", "early_bird": 633.75, "regular": 780, "full": 975},
+      {"name": "Online Film (Single)", "early_bird": 568.75, "regular": 700, "full": 875},
+      {"name": "Online Film (Campaign)", "early_bird": 715, "regular": 880, "full": 1100},
+      {"name": "Package Design", "early_bird": 325, "regular": 400, "full": 500},
+      {"name": "Pharma (Single)", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Pharma (Campaign)", "early_bird": 682.50, "regular": 840, "full": 1050},
+      {"name": "Pharma-Craft (Single)", "early_bird": 552.50, "regular": 680, "full": 850},
+      {"name": "Pharma-Craft (Campaign)", "early_bird": 682.50, "regular": 840, "full": 1050},
+      {"name": "Poster (Single)", "early_bird": 520, "regular": 640, "full": 800},
+      {"name": "Poster (Campaign)", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Print (Single)", "early_bird": 520, "regular": 640, "full": 800},
+      {"name": "Print (Campaign)", "early_bird": 585, "regular": 720, "full": 900},
+      {"name": "Production & Post (Single)", "early_bird": 406.25, "regular": 500, "full": 625},
+      {"name": "Production & Post (Campaign)", "early_bird": 503.75, "regular": 620, "full": 775},
+      {"name": "Sports", "early_bird": 650, "regular": 800, "full": 1000},
+      {"name": "TV & Cinema (Single)", "early_bird": 568.75, "regular": 700, "full": 875},
+      {"name": "TV & Cinema (Campaign)", "early_bird": 715, "regular": 880, "full": 1100}
+    ],
+    "payment_methods": ["Visa", "Mastercard", "American Express", "银行转账", "ACH", "支票（美国公司）"],
+    "payment_terms": "最终确定参赛作品后7天内付款，不退费",
+    "additional_fees": {
+      "bank_transfer": "$25/笔",
+      "credit_card": "4%",
+      "creative_credit_change": "$250/条目",
+      "media_change_after_judging": "$500/条目"
+    }
+  },
+  "categories": {
+    "main": [
+      "Ambient & Activation",
+      "Audio & Radio",
+      "B2B",
+      "Billboard",
+      "Business Transformation",
+      "Creative Strategy",
+      "Creative Use of Data",
+      "Creativity In Media",
+      "Creativity In PR",
+      "Creators & Social Platforms",
+      "Cultural Catalyst",
+      "Democracy and Human Rights",
+      "Design",
+      "Digital",
+      "Direct",
+      "Entertainment & Content",
+      "Evolution",
+      "Gaming",
+      "Health & Wellness",
+      "Health & Wellness-Craft",
+      "Music & Sound",
+      "Music Video",
+      "Non-Traditional",
+      "Online Film",
+      "Package Design",
+      "Pharma",
+      "Pharma-Craft",
+      "Poster",
+      "Print",
+      "Production & Post",
+      "Sports",
+      "TV & Cinema"
+    ],
+    "new_2026": [
+      "Sports",
+      "Gaming",
+      "Cultural Catalyst",
+      "Entertainment & Content",
+      "Business Transformation",
+      "Democracy and Human Rights"
+    ],
+    "client_sectors": [
+      "Automotive & Mobility",
+      "B2B",
+      "Beauty & Well-being",
+      "Brand Entertainment & Content",
+      "Education",
+      "Entertainment",
+      "Fashion & Lifestyle",
+      "Finance",
+      "Food & Beverage",
+      "Gaming",
+      "Health & Pharma",
+      "Political",
+      "Retail",
+      "Sports",
+      "Sustainability & CSRs",
+      "Tech",
+      "Travel & Leisure",
+      "Zeitgeist"
+    ]
+  },
+  "requirements": {
+    "video": {
+      "formats": ["MOV", "MP4"],
+      "min_resolution": "720 x 480",
+      "hd_resolution": "1920 x 1080",
+      "frame_rate": "原始帧率 (23.98, 24, 25, 29.97, 50, 59.94, 60)",
+      "codec": "H264 或 Mpeg4",
+      "bitrate": "最低 5,000kbps / 最高 10,000kbps",
+      "audio": "AAC 48KHz",
+      "max_file_size": "1GB",
+      "prohibitions": ["不得出现Slate、Clock或Bars", "不得包含参赛者名称或公司品牌标识"]
+    },
+    "image": {
+      "format": "JPEG",
+      "resolution": "300 dpi",
+      "color_mode": "RGB",
+      "max_file_size": "6MB",
+      "portrait": "约 2400 x 3000 像素 (203mm x 254mm)",
+      "landscape": "约 3000 x 2400 像素 (254mm x 203mm)"
+    },
+    "audio": {
+      "format": "MP3",
+      "bitrate": "最低 64kbps (单声道) / 最高 196kbps",
+      "type": "MP3 (立体声)，压缩比 22:1",
+      "max_file_size": "3MB"
+    },
+    "upload_limits": {
+      "most_categories": "最多3个文件",
+      "single_media_categories": ["Music & Sound", "Music Video", "Online Film", "Production & Post", "TV & Cinema"]
+    },
+    "case_study": {
+      "max_duration": "3分钟",
+      "language": "英文或带英文字幕",
+      "content": "清楚展示作品的实际应用场景、概念及核心创意表达",
+      "anonymity": "不得包含公司名称或个人创意署名",
+      "music": "必须使用免版税音乐",
+      "required_for": [
+        "Business Transformation",
+        "Creative Strategy",
+        "Creative Use of Data",
+        "Creativity In Media",
+        "Creativity In PR",
+        "Cultural Catalyst",
+        "Democracy and Human Rights",
+        "Direct",
+        "Entertainment & Content",
+        "Evolution",
+        "Gaming",
+        "Non-Traditional"
+      ]
+    },
+    "url_requirements": {
+      "valid_until": "2026年12月31日",
+      "access": "如需用户名/密码需提供"
+    }
+  },
+  "judging": {
+    "period": "2026年9月25日至10月3日",
+    "location": "拉斯维加斯永利安可酒店 (Encore @ Wynn Las Vegas)",
+    "principle": "所有评审不带偏见进行",
+    "jury_presidents": [
+      {"category": "Ambient & Activation / Billboard / Poster / Print", "name": "Aaron Starkman", "title": "Global Chief Creative Officer", "company": "Rethink Communications"},
+      {"category": "Audio & Radio", "name": "Ajay Vikram", "title": "Chief Creative Officer", "company": "Publicis Groupe SEA"},
+      {"category": "B2B & Business Transformation", "name": "Javier Campopiano", "title": "Global Chief Creative Officer", "company": "Omnicom Advertising"},
+      {"category": "Creative Strategy", "name": "Monica Radulescu", "title": "Senior Strategy Manager", "company": "OLA - Our LEGO® Agency"},
+      {"category": "Creativity In Media", "name": "Dino Myers-Lamptey", "title": "Founder", "company": "The Barber Shop"},
+      {"category": "Creativity In PR", "name": "Rachael Sansom", "title": "CEO UK & Europe", "company": "HAVAS Red"},
+      {"category": "Democracy and Human Rights", "name": "Anthony Chelvanathan", "title": "Global Creative Partner & CCO", "company": "Edelman Canada"},
+      {"category": "Design & Package Design", "name": "Yoshihiro Yagi", "title": "Executive Creative Director", "company": "dentsu Japan"},
+      {"category": "Digital & Creators & Social Platforms", "name": "Menno Kluin", "title": "Global Chief Creative Officer", "company": "Iris Worldwide"},
+      {"category": "Direct", "name": "Keka Morelle", "title": "CCO Latam", "company": "OGILVY LATAM"},
+      {"category": "Entertainment & Content & Cultural Catalyst", "name": "Geoff Edwards", "title": "Managing Director, Creative", "company": "GALE"},
+      {"category": "Evolution, Gaming & Creative Use of Data", "name": "Marco Venturelli", "title": "Global CCO/CEO", "company": "Publicis Conseil"},
+      {"category": "Health & Wellness", "name": "Rich Levy", "title": "Chief Creative Officer", "company": "Klick Health"},
+      {"category": "Health & Wellness-Craft & Pharma-Craft", "name": "Marie Julie Gerbauld", "title": "Chief Creative Officer", "company": "DAVID"},
+      {"category": "Music & Sound", "name": "Lucas Mayer", "title": "Founder & Global Music Director", "company": "DaHouse Audio"},
+      {"category": "Non-Traditional", "name": "Tara Ford", "title": "Chief Creative Officer", "company": "Droga5 London"},
+      {"category": "Pharma", "name": "Tim Hawkey", "title": "Chief Creative Officer", "company": "Area 23"},
+      {"category": "Production & Post & Music Video", "name": "Christiane Dressler", "title": "Managing Director", "company": "Anorak Film"},
+      {"category": "Sports", "name": "Shannon Washington", "title": "Chief Creative Officer", "company": "11 Ounces"},
+      {"category": "TV & Cinema & Online Film", "name": "Chaka Sobhani", "title": "Global Chief Creative Officer", "company": "TBWA Worldwide"}
+    ]
+  },
+  "contact": {
+    "address": "2 Bay Club Drive / Suite 3J, Bayside, NY 11360, United States",
+    "general_phone": "+1 516 931 1050",
+    "general_email": "info@liaawards.com",
+    "team": [
+      {"name": "Barbara Levy", "title": "总裁兼创始人", "phone": "+1 917 881 1136", "email": "barbara@liaawards.com"},
+      {"name": "Christina Shaw", "title": "副总裁-奖项总监", "phone": "+1 631 433 1794", "email": "christina@liaawards.com"},
+      {"name": "Laurissa Levy", "title": "Creative LIAisons及全球倡议总监", "phone": "+1 760 415 1497", "email": "laurissa@liaawards.com"},
+      {"name": "Bee Lee", "title": "公关与营销总监", "email": "beelee@liaawards.com"},
+      {"name": "Natalie Warren", "title": "执行助理", "email": "Natalie@liaawards.com"}
+    ],
+    "global_representatives": [
+      {"region": "亚洲及中国", "name": "Gordon Tan", "email": "gordontan1@mac.com"},
+      {"region": "印度", "name": "Raahil Chopra", "email": "raahil@manifest-media.in"}
+    ]
+  },
+  "special_programs": {
+    "creative_liaisons": {
+      "description": "创意新人培养计划，由LIA全额资助",
+      "virtual_program": "2026年5月至11月",
+      "onsite_program": "2026年9月27日至10月1日（拉斯维加斯）",
+      "participants_per_year": "300+"
+    }
+  },
+  "rules": {
+    "ai_usage": {
+      "creative_works": "必须合乎伦理且公平，明确声明AI使用情况，有有意义的人类监督",
+      "case_films": "禁止使用AI操纵图像或重建不准确的数据"
+    },
+    "music": "必须使用免版税音乐或已授权音乐",
+    "modification_fees": {
+      "creative_credit_change": "$250/条目",
+      "media_change_after_judging_start": "$500/条目"
+    },
+    "penalties": "如发现作品或案例片被操纵，奖项将被公开撤回，参赛者将被取消资格且不退款"
+  },
+  "collected_at": "2026-04-20",
+  "data_source": "https://www.liaawards.com/"
+}

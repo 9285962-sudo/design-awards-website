@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.52de.cc/sitemap.xml
+
+# Crawl-delay (optional, be nice to the server)
+Crawl-delay: 1

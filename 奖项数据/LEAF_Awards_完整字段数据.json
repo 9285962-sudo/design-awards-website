@@ -1,0 +1,12 @@
+{
+  "basic_info": {},
+  "timeline": {},
+  "fees": {},
+  "requirements": {},
+  "judging": {},
+  "awards": {},
+  "contact": {},
+  "faq": {},
+  "raw_content": {},
+  "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.leafawards.arena-international.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.leafawards.arena-international.com/\", waiting until \"networkidle\"\u001b[22m\n"
+}

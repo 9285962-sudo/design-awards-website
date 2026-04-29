@@ -1,0 +1,16 @@
+# French Design Award - 官网信息
+
+> 采集时间: 2026-04-20T07:27:28.465Z
+
+## 基础信息
+
+- **website**: https://www.frenchdesignaward.com/
+- **name**: French Design Award
+- **description**: The French Design Award was established in France by the International Award Association (IAA), committed to giving global designers a broader platform to convey design concepts and lead global design innovation.
+
+## 官网内容
+
+### homepage
+
+French Design Award EN / FR Toggle Menu AWARDS Award Ceremony Student Award WINNERS JURY REGULATION BLOGS&amp;NEWS ABOUT EN / FR My FDA Navigation Menu &times; AWARDS Award Ceremony Student Award WINNERS JURY REGULATION BLOGS&amp;NEWS ABOUT EN / FR French Design Award 2026 International Design Award REGISTER NOW 2026 OPEN NOW FOR SUBMISSIONS The French Design Award was established in France by the International Award Association. The French Design Award is committed to giving global designers a broader platform to convey their design concepts, display excellent design works, and lead global design innovation. The French Design Award Juries are composed of world-renowned design experts and professors, representing the world's first-class design appreciation level. Winning the French Design Award is equivalent to being highly recognized by world-renowned design masters. Winners STANDARD OF REVIEW Aesthetics The entry must demonstrate the concept of the design and how to achieve the final visual effect, such as form, shape, color, texture, finishing, material, etc. Design Impact The entry must be able to express the positive impact it creates for the end user and/or the society. Innovation The entry must be able to illustrate the originality of the design and how it benefits the end user. Ergonomics The entry should have a good interaction with the user. Learn more JURY The jury&#39;s task is to provide all participants with the most in-depth feedback possible on the quality of their submission. A geographic and cultural mix makes for more interesting discussions among the jury and helps avoid unconscious cultural biases. Design is changing and so should the jury: each year, a different group of experts is invited to serve as jurors, bringing with them a fresh perspective. Click to view more JURY Danny Venlet Manuel Alvarez-Fuentes Hans Sandgren Jakobsen Kishore Munshi Shamsudin Kerimov Jacques Vermonden Timothy Chryssicopoulos Alexander Nemov Dario Olivero Congratulations to all winners ABOUT BLOGS&NEWS Contact information FAQ Privacy policy Copyright Ⓒ French Design Award
+

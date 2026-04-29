@@ -1,0 +1,84 @@
+{
+  "award_id": "k_design奖_2026",
+  "name": "K-Design奖",
+  "name_en": "KUDOS FOR YOUR DESIGN",
+  "website": "https://kdesignaward.com/",
+  "organizer": "",
+  "organizer_location": "韩国",
+  "extracted": {
+    "contact_email": "info@kdesignaward.com",
+    "raw_dates": [
+      "April 28, 2026",
+      "May 30, 2026",
+      "June 30, 2026",
+      "July 10, 2026",
+      "July 30, 2026",
+      "August 18, 2026",
+      "October 31, 2026"
+    ],
+    "raw_categories": [
+      "SERVICE",
+      "UI",
+      "Product",
+      "Graphic",
+      "INDUSTRIAL",
+      "COMMUNICATION",
+      "Packaging",
+      "Architecture",
+      "concept",
+      "Video"
+    ],
+    "raw_judges": [
+      "judges strictly adhere to our screening rules and systems to best select the unique and superior work created by designers, companies, and design studios",
+      "JUDGED BY A DISTINGUISHED",
+      "judges, and key players under a unified standard, turning exposure into real opportunities in the global market",
+      "JURY AUTHORITY",
+      "judges, applying a unified and rigorous standard"
+    ],
+    "raw_criteria": [
+      "evaluation system that proves the true value of design",
+      "evaluation comments are published alongside their profiles in the online exhibition, ensuring full transparency in the review process",
+      "evaluation, with only 0",
+      "evaluation itself becomes the standard of value",
+      "EVALUATION CRITERIA"
+    ],
+    "raw_award_levels": [
+      "winner",
+      "DIAMOND",
+      "Gold",
+      "Finalist"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://kdesignaward.com/",
+      "chars": 4508,
+      "preview": "ABOUT\nJURY\nRULES\nEXHIBITION\nGALLERY\nSERVICE\nRANKING\nKUDOS SANS\nSUBMIT NOW\nLOGIN\n15 YEARS. ONE STANDARD.\nOUR MISSION\nKUDOS\nFOR YOUR\nDESIGN\nSince 2012, K-DESIGN AWARD has celebrated creativity and innovation, honoring designers who shape the future of global design.\nKudos to your brilliant design work\n01 - 08\n \nThe K-Design Award is renowned for strict judging and a top winner program, showcasing 14,000+ designers globally and pledging lasting recognition for all winners.\n\nOUR MISSION\n\nKUDOS\nFOR Y"
+    },
+    "关于": {
+      "url": "https://kdesignaward.com/about_en",
+      "chars": 3516,
+      "preview": "LOGIN\n \n(ABOUT)\n\nK-Design Award fairly evaluates the achievements of designers worldwide and archives their value. Through recognition and kudos, we prove the true value of design.\n\nEnglish\nTHE WORLD'S BEST:\nK-DESIGN AWARD\n \n \n\nThe K-Design Award is defined by a rigorous and unbiased evaluation system that proves the true value of design. Winning is not just recognition—it is a validation of capability, a mark of credibility, and a foundation for global opportunity. Since its establishment in 20"
+    },
+    "评审": {
+      "url": "https://kdesignaward.com/jury",
+      "chars": 2192,
+      "preview": "LOGIN\n\n(JURY)\n\nGlobal experts assess the essence and potential of design with fairness and insight. The evaluation itself becomes the standard of value\n\nGRAND JURY PANEL\n\nJUDGED BY A DISTINGUISHED\nPANEL OF GLOBAL DESIGN\nEXPERTS\n\nThey strictly follow screening rules to\nselect the most unique and outstanding works.\n\nPresent\nPast\nChair of the Jury. Ken NAH\" loading=\"lazy\">\nChair of the Jury. Ken NAH\n\nKOREA\n\nK-Design Award\nVice President. Anne Asensio\" loading=\"lazy\">\nVice President. Anne Asensio\n\nF"
+    },
+    "规则": {
+      "url": "https://kdesignaward.com/rules_en",
+      "chars": 3560,
+      "preview": "LOGIN\n \n(RULES)\n\nClear regulations and a structured system ensure fairness. This trust forms the foundation that proves the authority and value of the award.\n\nEnglish\nK-Design Award 2026\n\nThe K-Design Award evaluates projects in industrial design, communication design, and spatial design. Eligible entries include projects that have already been commercialized and released to the market, as well as concept-stage designs that have not yet been commercialized. The award aims to discover projects th"
+    },
+    "参赛": {
+      "url": "https://kdesignaward.com/index.php?act=dispMemberLoginForm&success_return_url=https%3A%2F%2Fkdesignaward.com%2Findex.php%3Fmid%3Dsubmit_2026%26amp%3Bact%3DdispBoardWrite",
+      "chars": 142,
+      "preview": "LOGIN\nLOGIN\nEmail\nPassword\nKeep me signed in.\nlogin\nForgot your password?\nFind Account Info\nDon't have an account?\nStart here\nSUBMIT NOW\nKUDOS"
+    },
+    "FAQ": {
+      "url": "https://kdesignaward.com/faq",
+      "chars": 2417,
+      "preview": "Q. How will the screening take place?\nA. Twenty four of globally renowned designed experts will be make up the judging panel and conducting the screening.\n\nQ. How does the registration process take place?\nA. You can easily submit your works by just uploading your image.\n\nQ. Is there a limitation in the number of works submitted for the screening?\nA. No, there is noparticular limit on the number of works for those who register their content.\n\nQ. I have many images to submit. How do I submit them?"
+    }
+  }
+}

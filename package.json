@@ -1,4 +1,7 @@
 {
   "name": "design-awards-website-root",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
 }

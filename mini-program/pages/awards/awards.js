@@ -1,10 +1,11 @@
-const app = getApp();
+var app = getApp();
 
 Page({
   data: {
     awardList: [],
-    filterType: 'all', // all, design, advertising, student
-    searchKeyword: ''
+    filterType: 'all',
+    searchKeyword: '',
+    loading: true
   },
 
   onLoad() {
@@ -15,119 +16,104 @@ Page({
     this.loadAwards();
   },
 
-  // 加载奖项数据
+  // 加载奖项数据（异步）
   loadAwards() {
-    const awardList = app.globalData.awardList || [];
-    const awardsWithDays = awardList.map(award => ({
-      ...award,
-      daysLeft: this.calculateDaysLeft(award.deadline_final)
-    }));
-    
+    var self = this;
+
+    // 如果数据已就绪，直接使用
+    if (app.globalData.awardDataReady && app.globalData.awardList.length > 0) {
+      this.applyFilters();
+      return;
+    }
+
+    // 数据还没加载完，显示loading并等待
+    this.setData({ loading: true });
+
+    // 等待数据就绪
+    var timer = setInterval(function() {
+      if (app.globalData.awardDataReady) {
+        clearInterval(timer);
+        self.applyFilters();
+      }
+    }, 200);
+
+    // 超时保护（5秒）
+    setTimeout(function() {
+      clearInterval(timer);
+      if (self.data.loading) {
+        self.setData({ loading: false });
+        self.applyFilters();
+      }
+    }, 5000);
+  },
+
+  // 应用筛选并渲染
+  applyFilters() {
+    var awardList = app.globalData.awardList || [];
+    var filteredList = this._filterList(awardList);
+    var awardsWithDays = filteredList.map(function(award) {
+      return Object.assign({}, award, {
+        daysLeft: _calculateDaysLeft(award.deadline_final)
+      });
+    });
+
     this.setData({
-      awardList: awardsWithDays
+      awardList: awardsWithDays,
+      loading: false
     });
   },
 
-  // 计算剩余天数
-  calculateDaysLeft(deadline) {
-    if (!deadline) return 0;
-    const deadlineDate = new Date(deadline);
-    const today = new Date();
-    const diffTime = deadlineDate - today;
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays > 0 ? diffDays : 0;
+  // 内部筛选逻辑
+  _filterList(list) {
+    var type = this.data.filterType;
+    var keyword = this.data.searchKeyword;
+    var filtered = list;
+
+    if (type !== 'all') {
+      filtered = filtered.filter(function(award) {
+        if (type === 'student') {
+          return award.award_type === '学生奖';
+        }
+        if (type === 'design') {
+          return ['综合设计', '室内设计', '建筑设计'].indexOf(award.category_main) !== -1;
+        }
+        if (type === 'advertising') {
+          return award.category_main === '综合创意';
+        }
+        return true;
+      });
+    }
+
+    if (keyword) {
+      filtered = filtered.filter(function(award) {
+        return (award.award_name_cn && award.award_name_cn.indexOf(keyword) !== -1) ||
+          (award.category_main && award.category_main.indexOf(keyword) !== -1) ||
+          (award.award_name_short && award.award_name_short.indexOf(keyword) !== -1);
+      });
+    }
+
+    return filtered;
   },
 
   // 筛选奖项
   filterAwards(e) {
-    const type = e.currentTarget.dataset.type;
+    var type = e.currentTarget.dataset.type;
     this.setData({ filterType: type });
-    
-    let filteredList = app.globalData.awardList || [];
-    
-    if (type !== 'all') {
-      filteredList = filteredList.filter(award => {
-        if (type === 'student') {
-          return award.award_type === '学生奖';
-        }
-        if (type === 'design') {
-          // 设计类包括综合设计、室内设计、建筑设计等
-          return ['综合设计', '室内设计', '建筑设计'].includes(award.category_main);
-        }
-        if (type === 'advertising') {
-          return award.category_main === '综合创意';
-        }
-        return true;
-      });
-    }
-    
-    // 应用搜索过滤
-    if (this.data.searchKeyword) {
-      filteredList = filteredList.filter(award => 
-        award.award_name_cn.includes(this.data.searchKeyword) ||
-        award.category_main.includes(this.data.searchKeyword)
-      );
-    }
-    
-    const awardsWithDays = filteredList.map(award => ({
-      ...award,
-      daysLeft: this.calculateDaysLeft(award.deadline_final)
-    }));
-    
-    this.setData({
-      awardList: awardsWithDays
-    });
+    this.applyFilters();
   },
 
   // 搜索输入
   onSearchInput(e) {
-    const keyword = e.detail.value;
+    var keyword = e.detail.value;
     this.setData({ searchKeyword: keyword });
-    
-    let filteredList = app.globalData.awardList || [];
-    
-    // 应用类型筛选
-    if (this.data.filterType !== 'all') {
-      const type = this.data.filterType;
-      filteredList = filteredList.filter(award => {
-        if (type === 'student') {
-          return award.award_type === '学生奖';
-        }
-        if (type === 'design') {
-          // 设计类包括综合设计、室内设计、建筑设计等
-          return ['综合设计', '室内设计', '建筑设计'].includes(award.category_main);
-        }
-        if (type === 'advertising') {
-          return award.category_main === '综合创意';
-        }
-        return true;
-      });
-    }
-    
-    // 应用搜索过滤
-    if (keyword) {
-      filteredList = filteredList.filter(award => 
-        award.award_name_cn.includes(keyword) ||
-        award.category_main.includes(keyword) ||
-        award.award_name_short.includes(keyword)
-      );
-    }
-    
-    const awardsWithDays = filteredList.map(award => ({
-      ...award,
-      daysLeft: this.calculateDaysLeft(award.deadline_final)
-    }));
-    
-    this.setData({
-      awardList: awardsWithDays
-    });
+    this.applyFilters();
   },
 
   // 跳转到奖项详情
   goToAwardDetail(e) {
-    const awardId = e.currentTarget.dataset.id;
+    var awardId = e.currentTarget.dataset.id;
     wx.navigateTo({
-      url: `/pages/award-detail/award-detail?id=${awardId}`
+      url: '/pages/award-detail/award-detail?id=' + awardId
     });
   },
 
@@ -136,3 +122,13 @@ Page({
     wx.navigateBack();
   }
 });
+
+// 独立函数，避免 this 绑定问题
+function _calculateDaysLeft(deadline) {
+  if (!deadline) return 0;
+  var deadlineDate = new Date(deadline);
+  var today = new Date();
+  var diffTime = deadlineDate - today;
+  var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  return diffDays > 0 ? diffDays : 0;
+}

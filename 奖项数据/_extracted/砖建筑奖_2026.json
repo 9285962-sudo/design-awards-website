@@ -1,0 +1,77 @@
+{
+  "award_id": "砖建筑奖_2026",
+  "name": "砖建筑奖",
+  "name_en": "Brick Award",
+  "website": "https://www.brickaward.com/",
+  "organizer": "",
+  "organizer_location": "奥地利",
+  "extracted": {
+    "contact_email": "brickaward@wienerberger.com",
+    "contact_phone": "+43 664 8283146",
+    "raw_categories": [
+      "web",
+      "social",
+      "service",
+      "product",
+      "video",
+      "smart",
+      "mobile",
+      "ui",
+      "Architecture",
+      "Sustainable",
+      "concept",
+      "urban",
+      "industrial",
+      "communication"
+    ],
+    "raw_judges": [
+      "jury of renowned architects selects the winners",
+      "jury of renowned architects, who change with every award, selects the winners within the categories including one Grand Prize winner",
+      "jury member of the Brick Award 20",
+      "jury of renowned international architects",
+      "Jury Members"
+    ],
+    "raw_criteria": [
+      "selection Allow cookies",
+      "selection Allow cookies",
+      "selection Allow cookies",
+      "selection Allow cookies",
+      "selection Allow cookies"
+    ],
+    "raw_award_levels": [
+      "Winner"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.brickaward.com/",
+      "chars": 11087,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    },
+    "关于": {
+      "url": "https://www.brickaward.com/About.html",
+      "chars": 14103,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    },
+    "评审": {
+      "url": "https://www.brickaward.com/About/Jury/Jury-2026.html",
+      "chars": 9473,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    },
+    "获奖者": {
+      "url": "https://www.brickaward.com/Winners/2024.html",
+      "chars": 10016,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    },
+    "联系": {
+      "url": "https://www.brickaward.com/contact.html",
+      "chars": 10177,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    },
+    "规则": {
+      "url": "https://www.brickaward.com/Info/Terms-of-use.html",
+      "chars": 10574,
+      "preview": "This website uses cookies\n\nWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Our online services use so-called browser cookies and web beacons. Cookies do not cause any harm on your computer. They are small files with configuration settings that help us to make our online services user-friendlier, more effective and more secure. Moreover, cookies serve to implement certain user functions. You consent to our cookies if you continue to use "
+    }
+  }
+}

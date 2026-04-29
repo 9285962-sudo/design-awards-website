@@ -1,0 +1,12 @@
+{
+  "basic_info": {},
+  "timeline": {},
+  "fees": {},
+  "requirements": {},
+  "judging": {},
+  "awards": {},
+  "contact": {},
+  "faq": {},
+  "raw_content": {},
+  "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.baliawards.co.uk/\", waiting until \"networkidle\"\u001b[22m\n"
+}

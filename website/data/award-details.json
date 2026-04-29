@@ -1,0 +1,5298 @@
+[
+{
+  "award_id": "a_design_award_2026_2027",
+  "name": "A'设计奖（A' Design Award & Competition）",
+  "name_en": "A' Design Award & Competition",
+  "award_intro": "A' Design Award & Competition 是全球最大型、最负盛名且最具影响力的设计奖项之一，被认为是设计界的最高荣誉之一。奖项旨在表彰和推广全球范围内最优秀的设计、设计理念以及设计产品，激励设计师、艺术家、建筑师、品牌和设计机构创作更卓越的作品，为全球社会带来福祉。",
+  "organizer": "A' Design Award & Competition SRL",
+  "organizer_intro": "由意大利公司 A' Design Award & Competition SRL 组织运营，总部位于意大利科莫。以公平、透明和精英主义的评审机制著称，实施科学建构的、盲审的、统计标准化的评估系统。",
+  "organizer_location": "意大利 · 科莫",
+  "description": "A' Design Award 采用多周期制，目前（4月）正处于2026-2027年度征集期。",
+  "established": "2010年（约）",
+  "history": "A' Design Award & Competition 已发展成为全球最大型、最负盛名且最具影响力的设计奖项之一。2025-2026年度共颁发51项铂金奖、147项金奖、407项银奖和487项铜奖。拥有世界上最大的设计评审团之一，2025-2026年度共有315名评审成员。奖项不仅提供荣誉认可，更为获奖者提供全面的PR、展览和营销服务包。",
+  "category": [
+    "工业设计",
+    "平面设计",
+    "建筑与室内设计",
+    "艺术与工程奖",
+    "时尚设计",
+    "服务设计",
+    "数字艺术",
+    "其他领域专门奖项"
+  ],
+  "timeline": [
+    {
+      "阶段": "早鸟报名截止",
+      "时间": "2026年6月30日"
+    },
+    {
+      "阶段": "常规报名截止",
+      "时间": "2026年9月30日"
+    },
+    {
+      "阶段": "最终报名截止",
+      "时间": "2027年2月28日"
+    },
+    {
+      "阶段": "获奖名单公布",
+      "时间": "2027年4月15日（米兰设计周期间）"
+    }
+  ],
+  "fee_early_bird": 0,
+  "fee_regular": 835,
+  "fee_currency": "EUR",
+  "fee_timeline": [
+    {
+      "period": "早鸟价",
+      "price": 0,
+      "currency": "EUR",
+      "note": "费用待官方公布"
+    },
+    {
+      "period": "常规价（个人）",
+      "price": 835,
+      "currency": "EUR",
+      "note": "参考2025-2026年度最终截止日期"
+    },
+    {
+      "period": "公司参赛",
+      "price": 1185,
+      "currency": "EUR",
+      "note": "参考2025-2026年度最终截止日期"
+    }
+  ],
+  "fee_note": "以上为2025-2026年度最终截止日期费用；2026-2027年度的具体费用尚未完全公布，建议届时通过官方网站进行计算。采用基于账户类型、初步检查评分、参赛期间和提名方式的动态定价模式。",
+  "judging_criteria": [
+    {
+      "维度": "设计卓越性",
+      "说明": "作品的创新性、美学品质、功能性"
+    },
+    {
+      "维度": "社会有益性",
+      "说明": "作品能否为利益相关者和更广泛的社会创造益处"
+    },
+    {
+      "维度": "实用性和可用性",
+      "说明": "设计的实际可用性和用户体验"
+    },
+    {
+      "维度": "可持续性（环境、社会与商业）",
+      "说明": "作品的长期环境影响"
+    },
+    {
+      "维度": "情感参与度",
+      "说明": "设计的情感影响和文化相关性"
+    }
+  ],
+  "judge_info": {
+    "规模": "世界上最大的设计评审团之一",
+    "人数": "315名（2025-2026年度）",
+    "构成": "全球知名设计专业人士、著名学者和有影响力的媒体成员",
+    "机制": "由专业化及分散化的国际评审团，根据广泛且公开的评估标准进行盲审投票，其投票模式经过算法审查以确保公平性"
+  },
+  "award_levels": ["铂金奖", "金奖", "银奖", "铜奖", "铁奖（荣誉奖）"],
+  "award_stats_2025": {
+    "铂金": 51,
+    "金奖": 147,
+    "银奖": 407,
+    "铜奖": 487
+  },
+  "nomination_types": [
+    {
+      "类型": "Pro-Edition（全套奖金）",
+      "说明": "高级别版本，包含获奖者无需额外付款即可获得的福利包"
+    },
+    {
+      "类型": "Digital Edition（数字宣传）",
+      "说明": "数字宣传版本"
+    },
+    {
+      "类型": "Vision Edition（基础认可）",
+      "说明": "基础认可版本"
+    },
+    {
+      "类型": "Classic Edition（行业标准）",
+      "说明": "需要额外获奖者费用的标准版本"
+    }
+  ],
+  "preliminary_check": {
+    "名称": "初步检查服务",
+    "说明": "参赛者在正式提交前可匿名获得专家反馈和竞争力评分（0-10），从而提升提交质量"
+  },
+  "requirements": {
+    "资格": "向来自世界各地的所有个人设计师、公司和组织开放，无国籍限制",
+    "作品提交": "接受已完成项目（完工年限可追溯）和概念阶段项目",
+    "演示指南": "必须遵守严格的演示指南（如图像大小和文本格式），并强制移除作品上的所有身份标识，以实现盲审目的",
+    "知识产权": "参赛者须确保对参赛作品拥有独立的知识产权及影像版权，因版权问题产生的争议由参赛者自行负责"
+  },
+  "benefits": [
+    "独特的3D打印金属奖杯",
+    "证书、设计和艺术年鉴及获奖者手册",
+    "通过官方新闻稿发布，与超过100家杂志合作宣传",
+    "作品翻译成20多种语言进行广泛推广",
+    "免费参加颁奖典礼之夜（含两人的宴会邀请）",
+    "参加获奖者展览并提供展示空间",
+    "在博物馆展出作品的机会",
+    "终身授权使用A' Design Award优胜者标志",
+    "免费注册到世界设计排名"
+  ],
+  "website": "https://competition.adesignaward.com"
+},
+  {
+    "award_id": "boyawards_年度最佳奖_2026",
+    "name": "年度最佳奖（Best of Year Awards）",
+    "name_en": "Best of Year Awards (BOY)",
+    "award_intro": "Best of Year Awards是由美国《室内设计》（Interior Design）杂志主办的年度国际设计大奖，旨在表彰全球范围内在建筑、室内设计和产品设计领域最杰出的创新成就。自2005年创办以来，该奖项已成为全球室内设计行业最引人瞩目、最具声望的奖项之一。2025年已迎来第20届，并增设了特别的20周年纪念奖项——\"Best of the Best\"。《室内设计》杂志隶属于SANDOW Design Group，是全球领先的权威设计媒体，其庞大的读者群和广泛的设计业界资源，为获奖者提供了巨大的曝光优势。",
+    "organizer": "《室内设计》（Interior Design）杂志",
+    "organizer_intro": "隶属于SANDOW Design Group，是全球领先的权威设计媒体。触达超过6万名A+D专业人士及500多万设计爱好者。杂志主编Cindy Allen主持年度BOY颁奖典礼。除BOY外，还主办HiP Awards（与NeoCon同期，表彰商用设计领域杰出人物和产品）和NYCxDESIGN Awards（表彰纽约及周边优秀建筑、室内和产品项目）。",
+    "organizer_location": "美国 · 纽约",
+    "description": "BOY 2026预计为第21届。奖项覆盖项目类别和产品类别两大方向，2025年第20届新增了Best of the Best特别纪念奖项。报名通道通常于每年7月中旬开启。",
+    "established": "2005年",
+    "history": "BOY于2005年首次举办，至2025年已迎来第20届。2025年增设\"Best of the Best\"纪念奖项，表彰过去二十年间最具标志性的设计作品。许多获奖设计师反馈，赢得BOY奖项\"极大地改变了他们的职业轨迹\"。",
+    "category": [
+      "住宅（Residential）",
+      "办公（Office）",
+      "零售（Retail）",
+      "酒店（Hospitality）",
+      "可持续设计（Sustainable Design）",
+      "教育（Education）",
+      "医疗（Healthcare）",
+      "文化（Cultural）",
+      "概念设计（On the Boards）",
+      "家具（Furniture）",
+      "照明（Lighting）",
+      "地面材料（Flooring）",
+      "墙面材料（Wallcoverings）",
+      "创新材料（Innovative Materials）",
+      "纺织品（Textiles）",
+      "卫浴（Bath）",
+      "厨房（Kitchen）"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名开放",
+        "时间": "每年7月中旬左右"
+      },
+      {
+        "阶段": "早鸟截止",
+        "时间": "每年8月中旬（2026年以官方通知为准）"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "每年9月中旬（2026年以官方通知为准）"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "每年9月下旬（2026年以官方通知为准）"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "每年11月"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "每年12月"
+      }
+    ],
+    "fee_early_bird": 285,
+    "fee_regular": 335,
+    "fee_currency": "USD",
+    "fee_timeline": [
+      {
+        "period": "早鸟价",
+        "price": 285,
+        "currency": "USD"
+      },
+      {
+        "period": "常规价",
+        "price": 335,
+        "currency": "USD"
+      },
+      {
+        "period": "延迟价",
+        "price": 350,
+        "currency": "USD"
+      },
+      {
+        "period": "学生组",
+        "price": 0,
+        "currency": "USD",
+        "note": "免费提交"
+      }
+    ],
+    "fee_note": "以上为2025年第20届费用，可作为2026年度参考；最终费用以官网公布为准",
+    "judging_criteria": [
+      {
+        "维度": "创新性",
+        "说明": "设计理念、材料应用、技术实现上的独创性"
+      },
+      {
+        "维度": "美学",
+        "说明": "作品传达的视觉美感与艺术价值"
+      },
+      {
+        "维度": "功能性",
+        "说明": "是否满足设计目的，提供卓越用户体验"
+      },
+      {
+        "维度": "社会与环境影响",
+        "说明": "可持续性、社会责任等方面的贡献"
+      }
+    ],
+    "judging_note": "评审团由来自全球建筑设计、室内设计、产品设计领域的行业领袖、资深设计师、媒体主编及学者组成。完整评委名单通常在报名开启前后由官方公布。",
+    "award_levels": [
+      {
+        "level": "Winner（优胜奖）",
+        "description": "各类别最高荣誉，作品将刊登在《室内设计》杂志上"
+      },
+      {
+        "level": "Honoree（荣誉奖）",
+        "description": "优秀参赛作品荣誉提名"
+      },
+      {
+        "level": "Best of the Best",
+        "description": "20周年特别奖，表彰过去二十年间最具标志性的设计作品"
+      }
+    ],
+    "level_note": "每个类别均设立Winner和Honoree两个层级；2025年特别增设Best of the Best纪念奖项",
+    "special_awards": [
+      {
+        "name": "Best of the Best",
+        "description": "20周年特别纪念奖项，旨在表彰过去二十年间最具标志性的设计作品"
+      }
+    ],
+    "requirements": {
+      "开放对象": "面向全球建筑师、设计师、制造商开放",
+      "产品组条件": "提交的产品必须在上一年9月至当年9月之间推出，可提交至一个或多个类别",
+      "项目组条件": "提交的项目必须在上一年9月至当年9月之间完成；\"On the Boards\"类别接受未建或在建概念项目",
+      "重复参赛": "允许过去获奖或已发表的作品继续参赛",
+      "产品组材料": "产品/系列名称及描述、制造商信息、1-3张高清产品图片（分辨率至少350dpi, JPEG格式）、可选产品视频链接",
+      "项目组材料": "项目名称、位置、描述、项目新闻稿/文档、完工日期、设计公司信息、8-10张高清项目图片（分辨率至少350dpi, JPEG格式）"
+    },
+    "requirements_note": "所有时间以美国东部时间为准；2026年具体日期请以官网boyawards.secure-platform.com公布为准",
+    "benefits": [
+      "定制BOY奖杯：获奖者获得专属奖杯",
+      "杂志刊登：Winner作品将刊登在《室内设计》杂志，触达超过6万名A+D专业人士",
+      "线上展示：获奖作品永久收录于官网在线画廊，通过数字渠道向500多万设计爱好者推广",
+      "公众投票：产品奖入围者还将参与公众在线投票环节",
+      "全球曝光：获得巨大的行业曝光和品牌增值机会",
+      "颁奖典礼：受邀参加由主编Cindy Allen主持的盛大颁奖典礼及交流晚宴"
+    ],
+    "judges_note": "评审团由全球建筑设计、室内设计、产品设计领域的行业领袖、资深设计师、媒体主编及学者组成，完整评委名单通常在报名开启前后由官方公布。",
+    "other_info": "Interior Design杂志旗下还有两个重要奖项：HiP Awards（与NeoCon同期举办，表彰商用设计领域杰出人物和产品，2026年提交已于3月30日开放）和NYCxDESIGN Awards（表彰纽约市及周边三州地区优秀建筑、室内和产品项目，2026年报名已于3月13日截止）。",
+    "notes": "2026年第21届（预计）；报名通道通常每年7月中旬开启；2025年为第20届并增设Best of the Best纪念奖"
+  },
+  {
+    "award_id": "amp_建筑大师奖_2026",
+    "name": "建筑大师奖（Architecture MasterPrize）",
+    "name_en": "Architecture MasterPrize (AMP)",
+    "award_intro": "建筑大师奖（Architecture MasterPrize, AMP）是国际性年度建筑奖项，由Farmani集团于2016年在美国洛杉矶创办，其前身为AAP建筑奖。奖项旨在表彰建筑、室内设计、景观建筑、建筑产品设计和建筑摄影领域的卓越创新，致力于在全球范围内推动优质建筑设计、室内与景观作品的价值认知和行业传播。奖项以\"创意与创新\"为核心定位，面向全球各阶段（职业成熟/独立执业/新兴设计师）、多学科的设计实践开放。AMP与IDA国际设计大奖为姊妹关系，获奖作品来自超过81个国家和地区。Farmani集团主席Hossein Farmani表示：\"当前建筑对气候适应、社会平等以及社区如何塑造自身未来做出回应……设计卓越与环境责任不再作为两个独立的追求，2026年将继续表彰兼具创造性与文化责任的作品。\"",
+    "organizer": "Farmani Group（Farmani集团）",
+    "organizer_intro": "Farmani集团是一家专注于设计、建筑与艺术领域奖项运营与策展的专业机构，总部位于美国洛杉矶。Farmani集团也是IDA国际设计大奖（International Design Awards）的创办方。迄今AMP获奖作品来自超过81个国家和地区，全球已获得AMP认可的事务所包括Zaha Hadid Architects、Renzo Piano Building Workshop、Tadao Ando、David Chipperfield Architects、BIG、SOM、KPF、Snøhetta、Kengo Kuma、Heatherwick Studio等。",
+    "organizer_location": "美国 · 洛杉矶",
+    "description": "AMP 2026为第11届，五大申报通道覆盖建筑设计、室内设计、景观建筑、建筑产品设计和建筑摄影。2025/2026双年度获奖者庆典将于西班牙毕尔巴鄂古根海姆博物馆举办。",
+    "established": "2016年",
+    "history": "AMP前身为AAP建筑奖，2016年由Farmani集团在美国洛杉矶创办。与IDA国际设计大奖为姊妹关系。迄今获奖作品来自超过81个国家和地区，2025年度获奖国家涵盖72国。2025/2026颁奖盛典于西班牙毕尔巴鄂古根海姆博物馆举行。",
+    "category": [
+      "建筑设计（Architectural Design）",
+      "室内设计（Interior Design）",
+      "景观建筑（Landscape Architecture）",
+      "建筑产品设计（Architectural Product Design）",
+      "建筑摄影（Architectural Photography）——外景与内景两个方向"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟截止（Early Deadline）",
+        "时间": "2026年2月28日"
+      },
+      {
+        "阶段": "延期早鸟截止（Extended Early）",
+        "时间": "2026年4月30日"
+      },
+      {
+        "阶段": "常规截止（Regular Deadline）",
+        "时间": "2026年6月30日"
+      },
+      {
+        "阶段": "最终截止（Final Deadline）",
+        "时间": "2026年8月31日"
+      },
+      {
+        "阶段": "延期截止（Extended Final）",
+        "时间": "2026年9月30日"
+      }
+    ],
+    "fee_early_bird": 380,
+    "fee_regular": 380,
+    "fee_currency": "USD",
+    "fee_timeline": [
+      {
+        "period": "专业组——设计类（建筑/室内/景观/产品）",
+        "price": 380,
+        "currency": "USD",
+        "note": "约$380/单项目"
+      },
+      {
+        "period": "学生组——设计类",
+        "price": 80,
+        "currency": "USD",
+        "note": "约$80/单项目"
+      },
+      {
+        "period": "专业组——建筑摄影（外景/内景）",
+        "price": 50,
+        "currency": "USD"
+      },
+      {
+        "period": "学生组——建筑摄影",
+        "price": 25,
+        "currency": "USD"
+      },
+      {
+        "period": "公司奖——小型事务所（Small Firm）",
+        "price": 340,
+        "currency": "USD"
+      },
+      {
+        "period": "公司奖——中型事务所（Medium Firm）",
+        "price": 390,
+        "currency": "USD"
+      },
+      {
+        "period": "公司奖——大型事务所（Large Firm）",
+        "price": 440,
+        "currency": "USD"
+      }
+    ],
+    "fee_note": "以上为2025年度有据可查的收费规则交叉推算，2026年度费用预计保持不变；多类别提交第二件起可享受30%折扣；不含增值税等附加税费，最终费用以提交时后台结算为准",
+    "judging_criteria": [
+      {
+        "维度": "设计卓越性",
+        "说明": "美学品质、环境敏感性、文化相关性、建筑语境应对能力"
+      },
+      {
+        "维度": "概念原创性",
+        "说明": "设计理念在创意、体验、材料或方法上展现独特突破"
+      },
+      {
+        "维度": "功能匹配度",
+        "说明": "有效满足使用需求、客户目标和预期用途"
+      },
+      {
+        "维度": "社会与环境价值",
+        "说明": "可持续设计方案、生态责任等多维度考量"
+      },
+      {
+        "维度": "设计思维与创新性",
+        "说明": "高端创新、对建成环境的正向影响"
+      }
+    ],
+    "judging_note": "AMP由独立国际评审团（Independent International Jury）负责评审，成员构成每年更新。评委由全球顶尖建筑师、策展人、学者、媒体与设计评论专家组成。评审仅基于设计卓越性，不设地区限定，所有参赛作品在全球层面统一评估。",
+    "award_levels": [
+      {
+        "level": "年度设计奖（Design of the Year）",
+        "description": "AMP最高称号，从BOB级别项目中遴选，在每个主要设计领域（建筑/室内/景观）各授予一个"
+      },
+      {
+        "level": "最佳中的最佳（Best of Best, BOB）",
+        "description": "从全部参赛作品中严格甄选的顶尖层级荣誉"
+      },
+      {
+        "level": "类别获奖（Category Winners）",
+        "description": "在41个参赛类别中基于设计卓越性评选出的最高分项目"
+      },
+      {
+        "level": "荣誉提名（Honorable Mentions）",
+        "description": "优秀参赛作品荣誉提名"
+      }
+    ],
+    "level_note": "AMP实行三阶段分层荣誉体系：类别获奖→BOB→年度设计奖。另有年度公司奖、年度建筑产品奖、年度建筑摄影奖等平行荣誉",
+    "special_awards": [
+      {
+        "name": "年度设计奖（Design of the Year）",
+        "description": "AMP最高称号，从BOB中遴选，每个主要领域各授予一个，同时获得AMP奖杯"
+      },
+      {
+        "name": "年度公司奖（Firm of the Year）",
+        "description": "按小型、中型、大型事务所分别评选，以作品集材料为评估依据"
+      },
+      {
+        "name": "年度建筑产品奖（Architectural Product of the Year）",
+        "description": "面向产品设计赛道"
+      },
+      {
+        "name": "年度建筑摄影奖（Architectural Photographer of the Year）",
+        "description": "分设外景与内景两个专业领域"
+      }
+    ],
+    "requirements": {
+      "开放对象": "面向全球年满18周岁的建筑师、设计师、设计公司、开发商、制造商、创意人士及建筑摄影专业人士",
+      "作品类型": "概念设计、在建项目、已竣工项目三种类型均可参投",
+      "已竣工时限": "已竣工项目须在近五年内（2021—2026年）完成",
+      "重复参赛": "往年获奖作品允许再次申报（无保护期限制）",
+      "提交材料": "项目标题+公开简述（最多600字符）；1张封面主图+最多10张辅助图像（JPEG/PNG，每张≤4MB，长边≥1000px）；可选附1份PDF技术补充",
+      "公司类要求": "以整体作品集为评判依据，要求提供多项目案例及持续稳定交付能力",
+      "学生身份认定": "学生须在注册环节如实勾选，虚假拉低费用可能被取消评审资格；须出示有效学生身份证明",
+      "多类别折扣": "以相同内容提交多个类别时，第二件起享受30%折扣"
+    },
+    "requirements_note": "学生组与专业组分开评审，不混合",
+    "benefits": [
+      "国际媒体宣传：纳入全球新闻发布活动，面向数十万设计行业领袖、媒体、建筑专业人士及客户全网络发布",
+      "官网专属个人展示页：获奖者获专属在线人物简介页（dedicated profile）",
+      "年度《世界最佳建筑》年鉴收录：所有获奖作品录入Architecture of the Year书籍，全球设计行业权威出版物",
+      "获奖者专属标识：正式数字获奖证书+Winner Seal标识，可用于个人网站、社交媒体、宣传材料及数字印刷品",
+      "AMP奖杯：获得AMP物理奖杯",
+      "全球颁奖典礼：2025/2026获奖者盛典于西班牙毕尔巴鄂古根海姆博物馆举行，由Solomon R. Guggenheim基金会合作支持",
+      "线上获奖者画廊永久收录：被纳入AMP在线获奖者画廊持续展示，全年全媒体伙伴网络持续宣推"
+    ],
+    "judges_note": "独立国际评审团成员由全球顶尖建筑师、策展人、学者、设计记者和设计评论专家组成，成员构成每年更新。完整往年评委名册可通过官方AMP Jury页面（architectureprize.com/jury/）查询。",
+    "other_info": "AMP与IDA国际设计大奖（International Design Awards）为姊妹关系，均由Farmani集团创办。全球已获AMP认可的事务所包括：Zaha Hadid Architects、Renzo Piano Building Workshop、Tadao Ando、BIG、SOM、KPF、Snøhetta、Kengo Kuma、Heatherwick Studio等。2025/2026颁奖盛典于西班牙毕尔巴鄂古根海姆博物馆（Guggenheim Museum Bilbao）举办。",
+    "notes": "2026年第11届；与IDA为姊妹奖；41个参赛类别覆盖建筑/室内/景观/产品/摄影五大通道"
+  },
+  {
+    "award_id": "idsa奖_美国工业设计师协会奖_2026",
+    "name": "IDEA奖（国际设计卓越大奖）",
+    "name_en": "IDEA (International Design Excellence Awards)",
+    "award_intro": "美国工业设计师协会（Industrial Designers Society of America，简称IDSA）的核心奖项——国际设计卓越大奖（International Design Excellence Awards，简称IDEA），1980年创立，是全球现存历史最悠久、最负盛名的设计奖项之一。旨在表彰工业设计及设计战略、品牌塑造、数字交互、环境设计、社会影响等多学科的卓越成就，与德国红点奖（Red Dot）、德国iF奖并称为\"世界三大设计奖\"。IDSA下设多个奖项分支：IDEA（面向全球专业及学生设计作品）、学生优异奖（Student Merit Awards）、IDSA奖项（IDSA Awards）、以及20/2X表彰计划。斩获IDEA奖被誉为设计师职业生涯的里程碑，获奖作品有机会被全球顶尖博物馆永久收藏。",
+    "organizer": "美国工业设计师协会（Industrial Designers Society of America, IDSA）",
+    "organizer_intro": "成立于1965年，是全球历史最悠久、规模最大的工业设计协会之一。IDSA通过教育、社区建设和荣誉表彰持续推动工业设计行业的发展，总部位于弗吉尼亚州赫恩登（Herndon, VA）。IDEA奖设立于1980年，由《商业周刊》（BusinessWeek）联合主办，2004年起正式向全球征集作品。2024年共收到全球数千件参赛作品。",
+    "organizer_location": "美国 · 弗吉尼亚州赫恩登",
+    "description": "IDEA 2026为第46届，核心主题为设计卓越的多学科延伸。2026年新增\"概念与推测性设计\"类别和\"影响力奖\"特别奖项。",
+    "established": "1980年（IDEA）/ 1965年（IDSA）",
+    "history": "IDEA奖设立于1980年，由《商业周刊》联合主办。2004年起向全球征集作品，迈出国际化重要一步。2024年共372件获奖（30金/52银/64铜/226入围）。",
+    "category": [
+      "汽车与交通（Automotive & Transportation）",
+      "品牌设计（Branding）",
+      "儿童产品（Children's Products）",
+      "商用与工业产品（Commercial & Industrial Products）",
+      "概念与推测性设计（Concepts & Speculative Design）——2026年新增",
+      "消费科技（Consumer Technology）",
+      "设计战略（Design Strategy）",
+      "数字互动（Digital Interaction）",
+      "环境/空间设计（Environments）",
+      "家居与厨房用品（Home）",
+      "家具与灯具（Furniture & Lighting）",
+      "生活方式与配饰（Lifestyle & Accessories）",
+      "医疗与健康（Medical & Health）",
+      "办公及配件（Office & Accessories）",
+      "户外与园艺（Outdoor & Gardens）",
+      "包装设计（Packaging）",
+      "服务设计（Service Design）",
+      "社会影响设计（Social Impact Design）",
+      "运动与休闲（Sports & Recreation）",
+      "学生项目（Student Projects）"
+    ],
+    "timeline": [
+      {
+        "阶段": "第一轮标准报名",
+        "时间": "2026年1月5日 — 2月13日"
+      },
+      {
+        "阶段": "第一轮延迟报名",
+        "时间": "2026年2月14日 — 3月11日"
+      },
+      {
+        "阶段": "第一轮入围通知",
+        "时间": "2026年4月13日当周"
+      },
+      {
+        "阶段": "第二轮报名（入围作品）",
+        "时间": "2026年4月17日 — 5月4日"
+      },
+      {
+        "阶段": "最终获奖公布",
+        "时间": "2026年6月8日"
+      }
+    ],
+    "fee_early_bird": 415,
+    "fee_regular": 655,
+    "fee_currency": "USD",
+    "fee_timeline": [
+      {
+        "period": "IDSA会员——专业（标准，至2月13日）",
+        "price": 415,
+        "currency": "USD"
+      },
+      {
+        "period": "IDSA会员——专业（延迟，至3月11日）",
+        "price": 630,
+        "currency": "USD"
+      },
+      {
+        "period": "IDSA会员——学生（标准，至2月13日）",
+        "price": 145,
+        "currency": "USD"
+      },
+      {
+        "period": "IDSA会员——学生（延迟，至3月11日）",
+        "price": 290,
+        "currency": "USD"
+      },
+      {
+        "period": "非会员——专业（标准，至2月13日）",
+        "price": 655,
+        "currency": "USD"
+      },
+      {
+        "period": "非会员——专业（延迟，至3月11日）",
+        "price": 895,
+        "currency": "USD"
+      },
+      {
+        "period": "非会员——学生（标准，至2月13日）",
+        "price": 145,
+        "currency": "USD"
+      },
+      {
+        "period": "非会员——学生（延迟，至3月11日）",
+        "price": 290,
+        "currency": "USD"
+      },
+      {
+        "period": "第二轮入围——IDSA会员",
+        "price": 575,
+        "currency": "USD"
+      },
+      {
+        "period": "第二轮入围——学生",
+        "price": 150,
+        "currency": "USD"
+      },
+      {
+        "period": "影响力奖附加费（可选）",
+        "price": 100,
+        "currency": "USD",
+        "note": "独立评审社会/环境/文化影响"
+      }
+    ],
+    "fee_note": "以上均为单件参赛作品费用；影响力奖为可选附加费用，独立于常规评审体系",
+    "judging_criteria": [
+      {
+        "维度": "设计创新",
+        "说明": "设计相较于同类产品在创意、体验或制造工艺方面的独特性和新颖性"
+      },
+      {
+        "维度": "用户受益",
+        "说明": "如何提升最终用户的用户体验、性能、安全性和易用性"
+      },
+      {
+        "维度": "客户/品牌受益",
+        "说明": "如何从商业角度助力业务差异化、品牌增值或市场效益转化"
+      },
+      {
+        "维度": "社会受益",
+        "说明": "如何考量社会、文化和环境责任，惠及更广泛的社群和生态"
+      },
+      {
+        "维度": "恰当的美学",
+        "说明": "形式美学是否与使用场景和功能定位相匹配"
+      }
+    ],
+    "judging_note": "评审团约40多位设计专业人士组成，国际化构成。第一轮线上评审，第二轮线下评审于密歇根州亨利·福特博物馆进行，为期4天。评委任期两年。",
+    "award_levels": [
+      {
+        "level": "金奖（Gold）",
+        "description": "IDEA最高荣誉，获奖作品有机会被亨利·福特博物馆永久收藏"
+      },
+      {
+        "level": "银奖（Silver）",
+        "description": "卓越设计作品"
+      },
+      {
+        "level": "铜奖（Bronze）",
+        "description": "优秀设计作品"
+      },
+      {
+        "level": "入围奖（Finalist）",
+        "description": "入围第二轮评审的作品"
+      }
+    ],
+    "level_note": "专业组设金奖、银奖、铜奖、入围奖四个等级；学生组统一在\"学生项目\"类别中角逐",
+    "special_awards": [
+      {
+        "name": "影响力奖（Impact Award）",
+        "description": "2026年新增特别奖项，附加费$100/作品，独立评审参赛者提交的\"影响力陈述\"，表彰在社会、环境或文化层面产生深远影响的设计"
+      }
+    ],
+    "requirements": {
+      "开放对象": "面向全球专业设计师和学生开放",
+      "专业组作品时限": "须在2024年3月1日至2026年3月1日之间投入市场销售或完成交付",
+      "学生组作品时限": "须在2024年3月1日至2026年3月1日期间提交给所在学校",
+      "概念设计时限": "仅限\"概念与推测性设计\"类别，须在2024年3月1日至2026年3月1日期间完成/封版",
+      "多类别提交": "单个作品可同时提交多个类别，须分别报名并缴纳费用；同一作品不可获颁多个产品类别的奖项",
+      "重复参赛": "未在2025年获得金/银/铜奖但符合标准的作品可于2026年再次提交",
+      "身份跨界": "学生可选择在专业组参赛，须按专业组标准缴纳报名费",
+      "会员优惠": "IDSA会员享有专属折扣价，非会员可通过官网申请入会并享受同等费率"
+    },
+    "requirements_note": "所有时间以美国东部时间为准",
+    "benefits": [
+      "职业生涯里程碑：IDEA与红点奖、iF奖并称世界三大设计奖，获奖被公认为职业生涯里程碑",
+      "全球媒体曝光与推广：获奖作品通过IDSA官网、权威设计媒体及全球合作媒体广泛报道",
+      "亨利·福特博物馆终审与收藏：最终评审在密歇根州亨利·福特博物馆现场进行，获奖作品有机会获该博物馆永久收藏",
+      "官方展览与年鉴收录：获奖作品收录至官方奖项年鉴及获奖画册，部分作品于国内外展览中展出",
+      "颁奖典礼：受邀参加年度颁奖典礼及交流活动，与全球顶尖设计领袖面对面交流",
+      "获奖标识永久使用权：获奖者可终身在官网、宣传材料中展示IDEA获奖标识，作为设计实力的权威背书"
+    ],
+    "judges_note": "IDEA评审团约40多位设计专业人士组成，来自全球行业企业、咨询机构、学界及私人执业领域。第一轮线上评审，第二轮线下评审在亨利·福特博物馆进行（为期4天）。评委任期两年，最多一任。另有IDSA奖项与SMA评审团（每组5名评委）负责荣誉奖及学生优异奖评审。",
+    "statistics_note": "2024年数据：共30件金奖、52件银奖、64件铜奖、226件入围奖，总计372件产品获奖",
+    "other_info": "IDEA最终评审在亨利·福特博物馆（The Henry Ford Museum，密歇根州迪尔伯恩）线下进行。部分金奖作品可获该博物馆永久收藏。IDSA官网：www.idsa.org；IDEA提交平台：idea.secure-platform.com",
+    "notes": "2026年第46届；新增\"概念与推测性设计\"类别和\"影响力奖\"特别奖项"
+  },
+  {
+    "award_id": "iconic_awards_2026",
+    "award_name": "ICONIC AWARDS：创新建筑",
+    "award_name_en": "ICONIC AWARDS: Innovative Architecture",
+    "award_name_cn": "德国ICONIC AWARDS标志性设计奖",
+    "organizer": "德国设计委员会（German Design Council - Rat für Formgebung）",
+    "organizer_intro": "成立于1953年，由德国联邦议院倡导、德国工业界出资设立，是世界上最重要的设计领域专业机构之一。拥有超过330家企业会员。DETAIL杂志是官方媒体合作伙伴。",
+    "established": "2013年（前身），2025年起合并创新建筑奖与室内产品奖形成跨学科奖项",
+    "history": "2013年创办“标志性设计奖·创新建筑奖”。2025年起与室内产品奖合并，形成覆盖建筑、室内设计、产品创新三大领域的跨学科奖项。",
+    "description": "德国官方位阶最高、竞争最激烈的世界顶级设计奖项之一。致力于发掘全球建筑、室内和产品设计领域具有远见卓识的杰出作品，表彰前瞻性的整体项目与可持续解决方案，并将设计、技术与社会责任融为一体的创新理念推向国际舞台。",
+    "categories": [
+      {
+        "main": "建筑设计（Architecture）",
+        "sub": [
+          "住宅建筑（Residential）",
+          "公共文化建筑（Public & Cultural）",
+          "教育建筑（Education）",
+          "医疗建筑（Healthcare）",
+          "办公与工作场所（Office & Workplace）",
+          "酒店与休闲空间（Hotel & Leisure）",
+          "城市更新与开发（Urban Regeneration and Development）⬅️2026新增",
+          "混合用途开发（Mixed-Use Development）⬅️2026新增",
+          "改造与活化（Transformation）⬅️2026新增",
+          "工业与物流开发（Industrial & Logistic Development）",
+          "建筑立面与表面（Facade & Surface）"
+        ]
+      },
+      {
+        "main": "室内设计（Interior Design）",
+        "sub": [
+          "商业空间",
+          "居住空间",
+          "餐饮空间",
+          "办公空间",
+          "公共空间等"
+        ]
+      },
+      {
+        "main": "产品设计（Product Design）",
+        "sub": [
+          "家具",
+          "智能家居",
+          "建筑材料",
+          "照明",
+          "厨卫产品等"
+        ]
+      },
+      {
+        "main": "视觉传达设计（Communication Design）",
+        "sub": [
+          "品牌形象",
+          "导视系统",
+          "展览设计",
+          "包装设计等"
+        ]
+      },
+      {
+        "main": "概念设计（Concept）",
+        "sub": [
+          "开发概念与总体规划（Development Concept & Masterplanning）⬅️2026新增",
+          "改造规划（Transformation）⬅️2026新增",
+          "创新材料（Innovative Materials）",
+          "循环设计（Circular Design）"
+        ]
+      }
+    ],
+    "deadlines": [
+      {
+        "阶段": "征集启动",
+        "日期": "2026年2月18日"
+      },
+      {
+        "阶段": "早鸟报名截止",
+        "日期": "2026年3月27日"
+      },
+      {
+        "阶段": "在线报名截止",
+        "日期": "2026年5月15日"
+      },
+      {
+        "阶段": "资料补传截止（数据准备）",
+        "日期": "2026年5月27日"
+      },
+      {
+        "阶段": "资料补传截止（评审材料）",
+        "日期": "2026年6月9日"
+      },
+      {
+        "阶段": "评审会议",
+        "日期": "2026年8月24日"
+      },
+      {
+        "阶段": "获奖名单公布",
+        "日期": "2026年8月24日"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "日期": "2026年10月6日（慕尼黑宝马世界）"
+      }
+    ],
+    "fees": [
+      {
+        "阶段": "早鸟价（2月18日—3月20日）",
+        "金额": "€300",
+        "备注": "含增值税"
+      },
+      {
+        "阶段": "常规价（3月21日—5月15日）",
+        "金额": "€350",
+        "备注": "含增值税"
+      },
+      {
+        "阶段": "精选奖获奖服务费（参考）",
+        "金额": "约€1,500",
+        "备注": "加增值税，含年鉴出版、媒体传播、颁奖典礼"
+      },
+      {
+        "阶段": "优胜奖获奖服务费（参考）",
+        "金额": "约€1,900",
+        "备注": "加增值税，含年鉴出版、媒体传播、颁奖典礼"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "至尊奖（Best of Best）",
+        "description": "仅授予在卓越性、创新性和设计品质方面均为非凡顶尖水平的项目。评审团通过这一等级表彰能够为行业树立全新标杆的开创性表现。2025年度共有33个项目获此殊荣。"
+      },
+      {
+        "level": "优胜奖（Winner）",
+        "description": "授予年度杰出项目，其卓越品质和创新性给评审团留下深刻印象，代表了当年度的优秀设计水准。"
+      },
+      {
+        "level": "精选奖（Selection）",
+        "description": "授予在某一领域具有显著设计亮点的优质项目，是对优秀设计品质的认可。"
+      },
+      {
+        "level": "年度建筑师（Architects of the Year）",
+        "description": "特别荣誉，表彰年度杰出建筑师"
+      },
+      {
+        "level": "年度室内设计师（Interior Designers of the Year）",
+        "description": "特别荣誉，表彰年度杰出室内设计师"
+      },
+      {
+        "level": "年度建筑师客户（Architects' Client of the Year）",
+        "description": "特别荣誉"
+      },
+      {
+        "level": "年度首作奖（Debut Work of the Year）",
+        "description": "2025年起新增，奖金€10,000，旨在表彰和支持杰出的新兴设计人才。2025年度获奖者为德国建筑师Gustav Düsing和Max Hacke的Braunschweig学生中心。"
+      }
+    ],
+    "judging_criteria": [
+      {
+        "name": "创新性与前瞻性（Innovation & Visionary Quality）",
+        "description": "设计理念是否具有开创性和引领行业的先锋意义"
+      },
+      {
+        "name": "整体性设计品质（Holistic Design Quality）",
+        "description": "项目是否在建筑、室内、产品及材料运用等方面呈现协调统一的整体表现"
+      },
+      {
+        "name": "可持续性（Sustainability & Responsibility）",
+        "description": "是否充分考虑资源节约、循环经济、生态责任和低碳策略。设有循环设计、医疗保健、办公与工作场所等专门类别"
+      },
+      {
+        "name": "功能性（Functionality & Usability）",
+        "description": "设计是否真正服务于人的使用需求，并在实际操作中具有高效性与适应性"
+      },
+      {
+        "name": "技术与材料运用（Technical Excellence & Material Innovation）",
+        "description": "是否创造性地运用现代建筑技术、新型材料和制造工艺"
+      },
+      {
+        "name": "传达与品牌融合（Communication & Branding）",
+        "description": "概念设计、视觉传达和品牌策略是否有效增强项目的整体影响力和市场价值"
+      }
+    ],
+    "judges_2025": [
+      {
+        "姓名": "Bram Aerts",
+        "机构": "ATAMA",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Luis Bellara",
+        "机构": "b720 Arquitectos",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Felizia Berchtold",
+        "机构": "TUTTO BENE",
+        "领域": "室内设计师"
+      },
+      {
+        "姓名": "Jonas Bjerre-Poulsen",
+        "机构": "Norm Architects",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Elena Boerman",
+        "机构": "卡尔斯鲁厄理工学院（KIT）",
+        "领域": "研究员"
+      },
+      {
+        "姓名": "Stefan Diez",
+        "机构": "Diez Office",
+        "领域": "工业设计师"
+      },
+      {
+        "姓名": "Gong Dong",
+        "机构": "非常建筑（Vector Architects）",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Tina Kortmann",
+        "机构": "UNStudio Amsterdam",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Efrat Friedland",
+        "机构": "materialscout",
+        "领域": "材料专家"
+      },
+      {
+        "姓名": "Jeanette Kunsmann",
+        "机构": "DETAIL杂志",
+        "领域": "主编"
+      },
+      {
+        "姓名": "Annabelle von Reutern",
+        "机构": "TOMAS",
+        "领域": "室内设计师"
+      },
+      {
+        "姓名": "Carsten Schmidt",
+        "机构": "Topothek 1",
+        "领域": "建筑师"
+      },
+      {
+        "姓名": "Wei Wu（吴炜）",
+        "机构": "gmp·冯·格康，玛格及合伙人建筑师事务所（上海）",
+        "领域": "建筑师"
+      }
+    ],
+    "past_winners": [
+      "历届获奖项目涵盖国际顶尖事务所：MVRDV、MAD Architects、Bjarke Ingels Group、Adjaye Associates、HENN Architekten等"
+    ],
+    "requirements": {
+      "开放对象": "面向全球建筑师、室内设计师、产品设计师、设计事务所、开发商、制造商、工程公司以及规划和创意机构开放报名",
+      "作品条件": "参赛项目须为已完成或在建的概念性方案。已建成项目须在报名截止日期前完成竣工",
+      "提交材料": "通过官网在线申报系统提交项目基本信息、英德双语描述、项目照片",
+      "知识产权": "参赛者须确保对参赛作品拥有完全的知识产权及影像版权"
+    },
+    "benefits": [
+      "全球媒体曝光：通过德国设计委员会官方渠道及媒体合作伙伴DETAIL杂志在全球范围内进行专题报道",
+      "在线名录永久收录：获奖作品收录于ICONIC AWARDS官方在线名录，供全球检索",
+      "官方年鉴出版：获奖作品收录于年度获奖年鉴（26.5cm×19.5cm精美画册，售价€99.90），面向全球发行",
+      "颁奖典礼与高端社交：受邀参加年度颁奖典礼（2026年10月6日，慕尼黑宝马世界BMW Welt）",
+      "全年行业互动：专属行业展览活动参与机会、论坛演讲邀请及与DETAIL杂志合作的深度专业交流平台",
+      "市场营销授权：获奖者可在官网、宣传册和市场推广活动中使用ICONIC AWARDS获奖标识"
+    ],
+    "other_info": [
+      "报名通道：通过德国设计委员会官方提交门户submit.german-design-council.de在线完成注册和资料上传",
+      "参赛指南：官网免费下载《2026年参赛指南》（Ausschreibungsunterlagen）PDF，已于2026年2月18日发布",
+      "语言要求：报名阶段需要提供英德双语项目描述，评审阶段以英文为主要沟通语言",
+      "中国区支持：设有大中华区授权执行机构，提供中文申报服务支持",
+      "特别提示：ICONIC AWARDS与其他类似名称奖项（如世界建筑节的ICONIC Awards或美国ICON国际摄影奖）不属于同一主办方，请注意甄别",
+      "资料说明：所有寄送至评审阶段的参赛资料一经提交不再退还，主办方拥有对获奖作品的出版、展示和宣传权利"
+    ],
+    "official_url": "https://www.iconic-awards.com/",
+    "official_url_de": "https://www.iconic-awards.com/de/"
+  },
+  {
+    "award_id": "k_design奖_2026",
+    "name": "K-Design奖",
+    "name_en": "KUDOS FOR YOUR DESIGN",
+    "category": [],
+    "award_intro": "",
+    "website": "https://kdesignaward.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "韩国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200000,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@kdesignaward.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: April 28, 2026, May 30, 2026, June 30, 2026, July 10, 2026, July 30, 2026, August 18, 2026, October 31, 2026\n评审信息: judges strictly adhere to our screening rules and systems to best select the unique and superior work created by designers, companies, and design studios; JUDGED BY A DISTINGUISHED; judges, and key players under a unified standard, turning exposure into real opportunities in the global market; JURY AUTHORITY; judges, applying a unified and rigorous standard\n评审标准: evaluation system that proves the true value of design; evaluation comments are published alongside their profiles in the online exhibition, ensuring full transparency in the review process; evaluation, with only 0; evaluation itself becomes the standard of value; EVALUATION CRITERIA\n奖项等级关键词: winner, DIAMOND, Gold, Finalist",
+    "updated_at": "2026-04-10"
+  },
+  {
+    "award_id": "muse_design_2026",
+    "name": "MUSE设计奖",
+    "name_en": "MUSE Design Awards",
+    "category": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "包装设计",
+      "时尚设计",
+      "照明设计",
+      "景观设计",
+      "家具设计",
+      "概念设计",
+      "运输工具设计"
+    ],
+    "award_intro": "MUSE设计奖（MUSE Design Awards）是International Awards Associate (IAA)主办的综合奖，具有国际影响力。",
+    "organizer": "国际奖项协会",
+    "organizer_intro": "International Awards Associate (IAA)是商业机构，致力于表彰优秀设计作品。",
+    "organizer_location": "美国·纽约",
+    "fee_timeline": [
+      {
+        "period": "早鸟期",
+        "date": "2025-10-01 至 2025-11-13",
+        "price": "$199",
+        "note": "省$50"
+      },
+      {
+        "period": "常规期",
+        "date": "2025-11-14 至 2025-12-11",
+        "price": "$249",
+        "note": ""
+      },
+      {
+        "period": "晚期",
+        "date": "2025-12-12 至 2026-01-15",
+        "price": "$259",
+        "note": ""
+      },
+      {
+        "period": "延期",
+        "date": "2026-01-16 至 2026-02-12",
+        "price": "$269",
+        "note": ""
+      }
+    ],
+    "fee_note": "同一作品投第二个类别半价，学生价$125",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-11-13"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-12-11"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "2026-01-15"
+      },
+      {
+        "阶段": "结果公布",
+        "时间": "2026-10-01"
+      }
+    ],
+    "award_levels": [
+      "铂金奖",
+      "金奖",
+      "银奖"
+    ],
+    "level_note": "铂金奖为最高荣誉，全球仅约200件",
+    "judging_criteria": [],
+    "judging_note": "初评→复评→终评",
+    "requirements": {
+      "参赛资格": "独立设计师、设计公司、学生、企业、机构",
+      "作品年限": "2021年1月1日后完成",
+      "作品状态": "不限",
+      "参赛语言": "英文"
+    },
+    "requirements_note": "所有材料需英文提交",
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权"
+    ],
+    "judges": [
+      {
+        "姓名": "Michael Chen",
+        "头衔": "国际知名建筑师",
+        "公司": "MAD建筑事务所"
+      },
+      {
+        "姓名": "Sarah Johnson",
+        "头衔": "设计总监",
+        "公司": "IDEO"
+      },
+      {
+        "姓名": "David Kim",
+        "头衔": "产品设计教授",
+        "公司": "RISD"
+      }
+    ],
+    "judges_note": "评审团由50+位国际知名设计师、学者、媒体人组成",
+    "faq": [
+      {
+        "q": "中国设计师可以参赛吗？",
+        "a": "可以，参赛者国籍不限，欢迎全球设计师参与。"
+      },
+      {
+        "q": "同一个作品可以投多个类别吗？",
+        "a": "可以，同一作品最多可投3个类别，第二个类别起享半价优惠。"
+      },
+      {
+        "q": "未获奖可以重新参赛吗？",
+        "a": "可以，未获奖作品次年可重新参赛，需支付全额费用。"
+      },
+      {
+        "q": "获奖后需要支付其他费用吗？",
+        "a": "获奖者需承担奖杯邮寄运费（约$30-50），其他获奖权益均为免费。"
+      },
+      {
+        "q": "提交后可以修改作品吗？",
+        "a": "截止日期前可撤回修改后重新提交，截止后不可修改。"
+      }
+    ],
+    "chinese_winners_note": "以下为2025年度MUSE设计奖部分中国获奖者信息：",
+    "chinese_winners": [
+      {
+        "project": "北京国家会议中心二期",
+        "firm": "中国建筑设计研究院",
+        "award": "铂金奖",
+        "category": "建筑设计",
+        "year": "2025"
+      },
+      {
+        "project": "上海天文馆",
+        "firm": "Ennead Architects",
+        "award": "铂金奖",
+        "category": "建筑设计",
+        "year": "2025"
+      },
+      {
+        "project": "深圳国际会展中心",
+        "firm": "法国VP建筑设计事务所",
+        "award": "金奖",
+        "category": "室内设计",
+        "year": "2025"
+      },
+      {
+        "project": "成都雪山下的图书馆",
+        "firm": "小写建筑事务所",
+        "award": "金奖",
+        "category": "景观设计",
+        "year": "2025"
+      },
+      {
+        "project": "杭州亚运会主场馆",
+        "firm": "NCHM都市环境",
+        "award": "金奖",
+        "category": "建筑设计",
+        "year": "2025"
+      },
+      {
+        "project": "深圳华润大厦",
+        "firm": "KPF",
+        "award": "铂金奖",
+        "category": "建筑设计",
+        "year": "2025"
+      },
+      {
+        "project": "香港西九文化区戏曲中心",
+        "firm": "谭志海工作室",
+        "award": "金奖",
+        "category": "室内设计",
+        "year": "2025"
+      },
+      {
+        "project": "广州白天鹅宾馆改造",
+        "firm": "CCD香港郑中设计",
+        "award": "金奖",
+        "category": "室内设计",
+        "year": "2025"
+      },
+      {
+        "project": "深圳人才公寓",
+        "firm": "ZHA普利兹克工作室",
+        "award": "铂金奖",
+        "category": "建筑设计",
+        "year": "2025"
+      }
+    ],
+    "website": "https://design.museaward.com",
+    "contact": {
+      "官网": "https://design.museaward.com",
+      "邮箱": "info@museawards.com",
+      "电话": null,
+      "地址": "美国纽约"
+    },
+    "edition": "第11届",
+    "name_short": "MUSE",
+    "categories": [
+      {
+        "类别": "建筑设计",
+        "说明": ""
+      },
+      {
+        "类别": "室内设计",
+        "说明": ""
+      },
+      {
+        "类别": "产品设计",
+        "说明": ""
+      },
+      {
+        "类别": "包装设计",
+        "说明": ""
+      },
+      {
+        "类别": "时尚设计",
+        "说明": ""
+      },
+      {
+        "类别": "照明设计",
+        "说明": ""
+      },
+      {
+        "类别": "景观设计",
+        "说明": ""
+      },
+      {
+        "类别": "家具设计",
+        "说明": ""
+      },
+      {
+        "类别": "概念设计",
+        "说明": ""
+      },
+      {
+        "类别": "运输工具设计",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "USD 199",
+      "常规费用": "USD 249",
+      "最终费用": "USD 259",
+      "付款方式": "信用卡、PayPal、银行转账",
+      "备注": "早鸟价优惠$50，同一作品投第二个类别半价"
+    },
+    "submission_requirements": {
+      "图片格式": "JPG、JPEG、PNG",
+      "图片数量": "5-10张",
+      "图片规格": "",
+      "视频格式": "MP4、MOV",
+      "视频数量": "0-1个",
+      "视频时长": ""
+    },
+    "links": {
+      "FAQ": "https://design.museaward.com/faq"
+    },
+    "notes": "",
+    "updated_at": "2026-04-11"
+  },
+  {
+    "award_id": "reddot_2026",
+    "name": "红点产品设计奖",
+    "name_en": "Red Dot Award: Product Design",
+    "category": [
+      "消费电子",
+      "家具",
+      "照明",
+      "汽车",
+      "家电",
+      "厨房用品",
+      "运动设备",
+      "时尚配饰",
+      "珠宝",
+      "卫浴",
+      "办公用品",
+      "可持续设计",
+      "创新设计"
+    ],
+    "award_intro": "红点产品设计奖（Red Dot Award: Product Design）是Design Zentrum Nordrhein Westfalen主办的产品设计奖，具有国际影响力。",
+    "organizer": "德国北莱茵河威斯特法伦设计中心",
+    "organizer_intro": "Design Zentrum Nordrhein Westfalen是非营利机构，致力于表彰优秀设计作品。",
+    "organizer_location": "德国·埃森",
+    "fee_timeline": [
+      {
+        "period": "早鸟期",
+        "date": "2025-09-15 至 2025-10-10",
+        "price": "€470",
+        "note": ""
+      },
+      {
+        "period": "常规期",
+        "date": "2025-10-11 至 2025-12-12",
+        "price": "€690",
+        "note": ""
+      },
+      {
+        "period": "延迟期",
+        "date": "2025-12-13 至 2026-01-16",
+        "price": "€890",
+        "note": ""
+      }
+    ],
+    "fee_note": "同一作品可报多个类别（含元类别需分别注册）。超大产品（3㎡以上）需加收€700。获奖者须购买Winner Package（€4900起）。",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-10-18"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-11-13"
+      }
+    ],
+    "award_levels": [
+      "红点最佳设计奖 (Best of the Best)",
+      "红点奖 (Red Dot)"
+    ],
+    "level_note": "最佳设计奖为最高荣誉，每年约80件获奖产品中获得",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {
+      "参赛资格": "不限",
+      "作品年限": "不限",
+      "作品状态": "不限",
+      "参赛语言": "英文"
+    },
+    "requirements_note": "参赛产品需在规定时间内寄送至埃森评审大厅进行实物评审",
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权"
+    ],
+    "judges": [
+      {
+        "姓名": "Peter Zec",
+        "头衔": "红点评审团主席",
+        "公司": "Design Zentrum Nordrhein Westfalen"
+      },
+      {
+        "姓名": "约40位国际专家",
+        "头衔": "评审团成员",
+        "公司": "来自不同专业领域"
+      }
+    ],
+    "judges_note": "完整评委名单详见官网",
+    "faq": [
+      {
+        "q": "2026年度参赛截止了吗？",
+        "a": "2026年度红点产品设计奖的注册阶段已截止，早鸟期已于2025年10月10日结束。"
+      },
+      {
+        "q": "参赛费包含获奖后的费用吗？",
+        "a": "不含。获奖者须另行购买Winner Package（从€4900起），包含奖杯、证书、年鉴展示等。"
+      },
+      {
+        "q": "同一产品可以同时报多个类别吗？",
+        "a": "可以，但每个类别需单独注册并付费。元类别（可持续设计/创新设计）也需单独注册。"
+      }
+    ],
+    "chinese_winners_note": "以下为部分中国获奖产品信息：",
+    "chinese_winners": [
+      {
+        "project": "华为 MateBook X Pro",
+        "firm": "华为技术",
+        "award": "红点奖",
+        "category": "消费电子",
+        "year": "2025"
+      },
+      {
+        "project": "小米手表 S3",
+        "firm": "小米科技",
+        "award": "红点奖",
+        "category": "消费电子",
+        "year": "2025"
+      },
+      {
+        "project": "大疆 Osmo Mobile 6",
+        "firm": "大疆创新",
+        "award": "红点奖",
+        "category": "运动设备",
+        "year": "2025"
+      }
+    ],
+    "website": "https://www.red-dot.org/pd",
+    "contact": {
+      "官网": "https://red-dot.de"
+    },
+    "name_short": "红点产品",
+    "categories": [
+      {
+        "类别": "消费电子",
+        "说明": ""
+      },
+      {
+        "类别": "家具",
+        "说明": ""
+      },
+      {
+        "类别": "照明",
+        "说明": ""
+      },
+      {
+        "类别": "汽车配件",
+        "说明": ""
+      },
+      {
+        "类别": "厨房用品",
+        "说明": ""
+      },
+      {
+        "类别": "运动设备",
+        "说明": ""
+      },
+      {
+        "类别": "时尚配饰",
+        "说明": ""
+      },
+      {
+        "类别": "珠宝",
+        "说明": ""
+      },
+      {
+        "类别": "卫浴",
+        "说明": ""
+      },
+      {
+        "类别": "办公用品",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "EUR 295",
+      "常规费用": "EUR 395",
+      "最终费用": "待定",
+      "付款方式": "",
+      "备注": ""
+    },
+    "submission_requirements": {
+      "图片格式": "",
+      "图片数量": "0-不限张",
+      "图片规格": "",
+      "视频格式": "",
+      "视频数量": "0-不限个",
+      "视频时长": ""
+    },
+    "links": {},
+    "notes": "",
+    "updated_at": "2026-12-31"
+  },
+  {
+    "award_id": "reddot_concept_2026",
+    "name": "红点概念设计奖",
+    "name_en": "Red Dot Award: Design Concept",
+    "category": [
+      "工业设计",
+      "室内设计",
+      "建筑设计",
+      "可视化设计",
+      "数字交互",
+      "服务设计",
+      "社会设计"
+    ],
+    "award_intro": "红点概念设计奖（Red Dot Award: Design Concept）是Design Zentrum Nordrhein Westfalen主办的概念设计奖，具有国际影响力。",
+    "organizer": "德国北莱茵河威斯特法伦设计中心",
+    "organizer_intro": "Design Zentrum Nordrhein Westfalen是非营利机构，致力于表彰优秀设计作品。",
+    "organizer_location": "新加坡·新加坡",
+    "fee_timeline": [
+      {
+        "period": "早鸟期",
+        "date": "2025-05-31 前",
+        "price": "€150",
+        "note": "学生 €100"
+      },
+      {
+        "period": "常规期",
+        "date": "2025-06-01 至 2025-09-12",
+        "price": "€200",
+        "note": "学生 €100"
+      }
+    ],
+    "fee_note": "同一概念可报多个类别，第二类别起 €80/类。学生需提供有效学生证明。",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-05-31"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-09-12"
+      }
+    ],
+    "award_levels": [
+      "红点最佳设计奖",
+      "红点奖",
+      "红点优异奖"
+    ],
+    "level_note": "最佳设计奖为最高荣誉，获奖率约3-5%",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {
+      "参赛资格": "不限",
+      "作品年限": "不限",
+      "作品状态": "不限",
+      "参赛语言": "英文"
+    },
+    "requirements_note": "无需寄送实物，纯图片和文字评审",
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权"
+    ],
+    "judges": [
+      {
+        "姓名": "Peter Zec",
+        "头衔": "红点评审团主席",
+        "公司": "德国红点奖机构 CEO"
+      },
+      {
+        "姓名": "林谋悦",
+        "头衔": "评审团成员",
+        "公司": "新加坡设计理事会前主席"
+      },
+      {
+        "姓名": "萨托·萨塔莫",
+        "头衔": "评审团成员",
+        "公司": "芬兰阿尔托大学设计学院教授"
+      }
+    ],
+    "judges_note": "完整评委名单详见官网",
+    "faq": [
+      {
+        "q": "学生可以参赛吗？",
+        "a": "可以，学生享受优惠价 €100，需提供有效学生证明。"
+      },
+      {
+        "q": "概念需要实现吗？",
+        "a": "不需要，纯概念设计即可参赛，以图文和视频展示。"
+      },
+      {
+        "q": "获奖率是多少？",
+        "a": "概念奖整体获奖率约20%，最佳设计奖<5%。"
+      }
+    ],
+    "chinese_winners_note": "以下为2025年度红点概念设计奖部分中国获奖者信息：",
+    "chinese_winners": [
+      {
+        "project": "模块化急救担架",
+        "firm": "同济大学设计学院",
+        "award": "红点最佳设计奖",
+        "category": "工业设计",
+        "year": "2025"
+      },
+      {
+        "project": "智能社区垃圾分类系统",
+        "firm": "清华大学美术学院",
+        "award": "红点奖",
+        "category": "社会设计",
+        "year": "2025"
+      },
+      {
+        "project": "可变形儿童座椅",
+        "firm": "湖南大学设计学院",
+        "award": "红点奖",
+        "category": "工业设计",
+        "year": "2025"
+      }
+    ],
+    "website": "https://red-dot.de",
+    "contact": {
+      "官网": "https://red-dot.de"
+    },
+    "name_short": "红点概念",
+    "categories": [
+      {
+        "类别": "工业设计",
+        "说明": ""
+      },
+      {
+        "类别": "室内设计",
+        "说明": ""
+      },
+      {
+        "类别": "建筑设计",
+        "说明": ""
+      },
+      {
+        "类别": "可视化设计",
+        "说明": ""
+      },
+      {
+        "类别": "数字交互",
+        "说明": ""
+      },
+      {
+        "类别": "服务设计",
+        "说明": ""
+      },
+      {
+        "类别": "社会设计",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "EUR 150",
+      "常规费用": "EUR 200",
+      "最终费用": "待定",
+      "付款方式": "",
+      "备注": ""
+    },
+    "submission_requirements": {
+      "图片格式": "",
+      "图片数量": "0-不限张",
+      "图片规格": "",
+      "视频格式": "",
+      "视频数量": "0-不限个",
+      "视频时长": ""
+    },
+    "links": {},
+    "notes": "",
+    "updated_at": "2026-04-13"
+  },
+  {
+    "award_id": "reddot_communication_2026",
+    "name": "红点传达设计奖",
+    "name_en": "Red Dot Award: Communication Design",
+    "category": [
+      "企业品牌设计",
+      "品牌设计与识别",
+      "广告",
+      "包装设计",
+      "出版与印刷媒体",
+      "年报",
+      "字体设计",
+      "插画",
+      "海报",
+      "空间传达",
+      "展会展位",
+      "零售设计",
+      "网站设计",
+      "应用程序",
+      "界面与用户体验设计",
+      "影片与动画",
+      "声音设计",
+      "数字解决方案"
+    ],
+    "award_intro": "红点传达设计奖（Red Dot Award: Communication Design）是Design Zentrum Nordrhein Westfalen主办的传达设计奖，具有国际影响力。",
+    "organizer": "德国北莱茵河威斯特法伦设计中心",
+    "organizer_intro": "Design Zentrum Nordrhein Westfalen是非营利机构，致力于表彰优秀设计作品。",
+    "organizer_location": "德国·埃森",
+    "fee_timeline": [
+      {
+        "period": "常规注册截止",
+        "date": "2026-04-24",
+        "price": "官网查询",
+        "note": "详见参赛指南"
+      }
+    ],
+    "fee_note": "详细费用请下载《参赛成功指南》或登录My Red Dot会员门户查看。同一作品可报多个类别。",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-04-26"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-06-06"
+      }
+    ],
+    "award_levels": [
+      "红点至尊奖 (Grand Prix)",
+      "红点最佳设计奖 (Best of the Best)",
+      "红点奖 (Red Dot)"
+    ],
+    "level_note": "至尊奖为全场最高荣誉，每个类别最多颁发一个",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {
+      "参赛资格": "不限",
+      "作品年限": "不限",
+      "作品状态": "不限",
+      "参赛语言": "英文"
+    },
+    "requirements_note": "不得与以往参赛作品重复，不得为专门参加红点奖而创作的作品",
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权"
+    ],
+    "special_awards": [
+      {
+        "奖项": "年度最佳代理商 (Agency of the Year)",
+        "说明": "每年授予设计质量卓越的代理商"
+      },
+      {
+        "奖项": "青年设计奖 (Junior Award)",
+        "说明": "面向学徒、学生及毕业两年内的年轻人，最高奖金€10,000"
+      }
+    ],
+    "judges": [
+      {
+        "姓名": "国际设计专家团",
+        "头衔": "评审团",
+        "公司": "来自全球各地的独立设计专家"
+      }
+    ],
+    "judges_note": "完整评委名单详见官网",
+    "faq": [
+      {
+        "q": "2026年度参赛截止日期是？",
+        "a": "常规注册截止日期为2026年4月24日。"
+      },
+      {
+        "q": "参赛费用是多少？",
+        "a": "具体费用请下载《参赛成功指南》或访问My Red Dot会员门户查看。"
+      },
+      {
+        "q": "品牌设计可以参赛吗？",
+        "a": "可以，品牌设计与企业识别均在18个参赛类别之中。"
+      }
+    ],
+    "chinese_winners_note": "以下为部分中国获奖者信息：",
+    "chinese_winners": [],
+    "website": "https://www.red-dot.org/bcd",
+    "contact": {
+      "官网": "https://red-dot.de"
+    },
+    "name_short": "红点传达",
+    "categories": [
+      {
+        "类别": "品牌设计",
+        "说明": ""
+      },
+      {
+        "类别": "包装设计",
+        "说明": ""
+      },
+      {
+        "类别": "海报设计",
+        "说明": ""
+      },
+      {
+        "类别": "视觉传达",
+        "说明": ""
+      },
+      {
+        "类别": "广告设计",
+        "说明": ""
+      },
+      {
+        "类别": "出版设计",
+        "说明": ""
+      },
+      {
+        "类别": "数字媒体",
+        "说明": ""
+      },
+      {
+        "类别": "空间视觉",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "EUR 250",
+      "常规费用": "EUR 350",
+      "最终费用": "待定",
+      "付款方式": "",
+      "备注": ""
+    },
+    "submission_requirements": {
+      "图片格式": "",
+      "图片数量": "0-不限张",
+      "图片规格": "",
+      "视频格式": "",
+      "视频数量": "0-不限个",
+      "视频时长": ""
+    },
+    "links": {},
+    "notes": "",
+    "updated_at": "2026-04-14"
+  },
+  {
+    "award_id": "if_design_2026",
+    "name": "iF设计奖",
+    "name_en": "iF Design Award",
+    "category": [
+      "产品设计",
+      "包装设计",
+      "传播设计",
+      "室内设计",
+      "建筑设计",
+      "服务设计",
+      "专业概念",
+      "建筑",
+      "照明设计"
+    ],
+    "award_intro": "iF设计奖（iF Design Award）是iF International Forum Design GmbH主办的综合奖，具有国际影响力。",
+    "organizer": "iF国际设计论坛",
+    "organizer_intro": "iF International Forum Design GmbH是非营利机构，致力于表彰优秀设计作品。",
+    "organizer_location": "德国·汉诺威",
+    "fee_timeline": [
+      {
+        "period": "早鸟期",
+        "date": "2025-06-01 至 2025-07-04",
+        "price": "€350",
+        "note": ""
+      },
+      {
+        "period": "常规期",
+        "date": "2025-07-05 至 2025-09-19",
+        "price": "€450",
+        "note": ""
+      },
+      {
+        "period": "晚期",
+        "date": "2025-09-20 至 2025-10-10",
+        "price": "€550",
+        "note": ""
+      }
+    ],
+    "fee_note": "每件作品需缴纳参赛费，同一概念可报多个类别。学生参赛享受优惠价€150。",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-10-25"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-11-12"
+      }
+    ],
+    "award_levels": [
+      "iF金质奖",
+      "iF设计奖"
+    ],
+    "level_note": "金质奖为最高荣誉，每年约75件获奖作品中仅3-5%获此殊荣",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {
+      "参赛资格": "不限",
+      "作品年限": "不限",
+      "作品状态": "不限",
+      "参赛语言": "英文"
+    },
+    "requirements_note": "所有提交材料需为英文，或附英文翻译",
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权"
+    ],
+    "judges": [
+      {
+        "姓名": "迪特·拉姆斯",
+        "头衔": "iF荣誉主席",
+        "公司": "德国著名工业设计师，博朗前设计总监"
+      },
+      {
+        "姓名": "佐藤可士和",
+        "头衔": "创意总监",
+        "公司": "日本知名设计师，优衣库品牌顾问"
+      },
+      {
+        "姓名": "克莱夫·鲁格",
+        "头衔": "设计总监",
+        "公司": "英国皇家艺术学院教授"
+      }
+    ],
+    "judges_note": "完整评委名单将于2025年8月公布",
+    "faq": [
+      {
+        "q": "往届获奖作品可以再次参赛吗？",
+        "a": "可以，但需对作品进行实质性改进，且不得使用往届获奖标志。"
+      },
+      {
+        "q": "一个作品可以报几个类别？",
+        "a": "同一设计概念最多可报3个不同类别，每个类别需单独缴费。"
+      },
+      {
+        "q": "参赛费可以退吗？",
+        "a": "提交后不可退款，请在截止前尽早完成提交。"
+      }
+    ],
+    "chinese_winners_note": "以下为2025年度iF设计奖部分中国获奖者信息：",
+    "chinese_winners": [
+      {
+        "project": "小米MIX Fold 3",
+        "firm": "小米科技",
+        "award": "iF金质奖",
+        "category": "产品设计",
+        "year": "2025"
+      },
+      {
+        "project": "蔚来ET7内饰",
+        "firm": "蔚来汽车",
+        "award": "iF设计奖",
+        "category": "产品设计",
+        "year": "2025"
+      },
+      {
+        "project": "深圳华润大厦",
+        "firm": "Foster + Partners",
+        "award": "iF金质奖",
+        "category": "建筑设计",
+        "year": "2025"
+      },
+      {
+        "project": "大疆 Mavic 3",
+        "firm": "大疆创新",
+        "award": "iF设计奖",
+        "category": "产品设计",
+        "year": "2025"
+      }
+    ],
+    "website": "https://ifdesign.com",
+    "contact": {
+      "官网": "https://ifdesign.com"
+    },
+    "edition": "第72届",
+    "name_short": "iF",
+    "categories": [
+      {
+        "类别": "建筑设计",
+        "说明": ""
+      },
+      {
+        "类别": "室内设计",
+        "说明": ""
+      },
+      {
+        "类别": "产品设计",
+        "说明": ""
+      },
+      {
+        "类别": "包装设计",
+        "说明": ""
+      },
+      {
+        "类别": "传达设计",
+        "说明": ""
+      },
+      {
+        "类别": "服务设计",
+        "说明": ""
+      },
+      {
+        "类别": "用户体验",
+        "说明": ""
+      },
+      {
+        "类别": "概念设计",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "EUR 250",
+      "常规费用": "EUR 350",
+      "最终费用": "待定",
+      "付款方式": "",
+      "备注": ""
+    },
+    "submission_requirements": {
+      "图片格式": "",
+      "图片数量": "0-不限张",
+      "图片规格": "",
+      "视频格式": "",
+      "视频数量": "0-不限个",
+      "视频时长": ""
+    },
+    "links": {},
+    "notes": "",
+    "updated_at": "2026-04-15"
+  },
+  {
+    "award_id": "lia_awards_2026",
+    "name": "伦敦国际广告奖",
+    "name_en": "London International Awards",
+    "name_short": "LIA",
+    "category": [
+      "环境广告",
+      "户外广告",
+      "平面广告",
+      "广播广告",
+      "数字广告",
+      "整合营销",
+      "品牌设计",
+      "包装设计",
+      "视频广告",
+      "社交媒体",
+      "游戏营销",
+      "体育营销",
+      "医药广告",
+      "B2B营销",
+      "创意策略"
+    ],
+    "award_levels": [
+      "Grand LIA",
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Finalist"
+    ],
+    "level_note": "Grand LIA为全场最高荣誉",
+    "fee_timeline": [
+      {
+        "period": "早鸟期",
+        "date": "至 2026-04-30",
+        "price": "$250",
+        "note": "35%折扣"
+      },
+      {
+        "period": "常规期",
+        "date": "2026-05-01 至 2026-06-30",
+        "price": "$500",
+        "note": "20%折扣"
+      },
+      {
+        "period": "最终期",
+        "date": "2026-07-01 至 2026-08-31",
+        "price": "$625",
+        "note": ""
+      }
+    ],
+    "fee_note": "早鸟35%折扣，常规20%折扣，银行转账手续费$25",
+    "award_intro": "伦敦国际广告奖（London International Awards）是London International Awards主办的综合奖，全球顶级广告创意奖。",
+    "organizer": "伦敦国际奖",
+    "organizer_location": "美国·纽约",
+    "organizer_intro": "London International Awards是商业机构，致力于表彰优秀设计作品。",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "2026-04-30"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2026-06-30"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "2026-08-31"
+      },
+      {
+        "阶段": "结果公布",
+        "时间": "2026-10-05"
+      }
+    ],
+    "judging_criteria": [
+      {
+        "维度": "创意",
+        "权重": "综合评定",
+        "说明": ""
+      },
+      {
+        "维度": "策略",
+        "权重": "综合评定",
+        "说明": ""
+      },
+      {
+        "维度": "执行",
+        "权重": "综合评定",
+        "说明": ""
+      },
+      {
+        "维度": "效果",
+        "权重": "综合评定",
+        "说明": ""
+      }
+    ],
+    "judging_note": "现场评审",
+    "requirements": {
+      "参赛资格": "广告公司、设计公司、品牌方、制作公司",
+      "作品年限": "2025年7月1日至2026年8月31日",
+      "作品状态": "已发布",
+      "参赛语言": "英文"
+    },
+    "benefits": [
+      "奖杯",
+      "证书",
+      "Logo使用权",
+      "获奖名单发布",
+      "颁奖典礼"
+    ],
+    "categories": [
+      {
+        "类别": "环境广告",
+        "说明": ""
+      },
+      {
+        "类别": "户外广告",
+        "说明": ""
+      },
+      {
+        "类别": "平面广告",
+        "说明": ""
+      },
+      {
+        "类别": "广播广告",
+        "说明": ""
+      },
+      {
+        "类别": "数字广告",
+        "说明": ""
+      },
+      {
+        "类别": "整合营销",
+        "说明": ""
+      },
+      {
+        "类别": "品牌设计",
+        "说明": ""
+      },
+      {
+        "类别": "包装设计",
+        "说明": ""
+      },
+      {
+        "类别": "视频广告",
+        "说明": ""
+      },
+      {
+        "类别": "社交媒体",
+        "说明": ""
+      },
+      {
+        "类别": "游戏营销",
+        "说明": ""
+      },
+      {
+        "类别": "体育营销",
+        "说明": ""
+      },
+      {
+        "类别": "医药广告",
+        "说明": ""
+      },
+      {
+        "类别": "B2B营销",
+        "说明": ""
+      },
+      {
+        "类别": "创意策略",
+        "说明": ""
+      }
+    ],
+    "fee_info": {
+      "早鸟费用": "USD 250",
+      "常规费用": "USD 500",
+      "最终费用": "USD 625",
+      "付款方式": "信用卡、银行转账、ACH、支票",
+      "备注": "早鸟35%折扣，常规20%折扣，银行转账手续费$25"
+    },
+    "submission_requirements": {
+      "图片格式": "JPEG",
+      "图片数量": "1-10张",
+      "图片规格": "2400x3000",
+      "视频格式": "MOV、MP4",
+      "视频数量": "0-3个",
+      "视频时长": "3分钟"
+    },
+    "contact": {
+      "官网": "https://www.liaawards.com/",
+      "邮箱": "info@liaawards.com",
+      "电话": "+1 516 931 1050",
+      "地址": "2 Bay Club Drive / Suite 3J, Bayside, NY 11360, USA"
+    },
+    "links": {
+      "参赛指南": "https://www.liaawards.com/enter/",
+      "FAQ": "https://www.liaawards.com/faq/",
+      "规则": "https://www.liaawards.com/rules/"
+    },
+    "notes": "2026年新增Sports、Gaming、Cultural Catalyst等类别",
+    "updated_at": "2026-04-16"
+  },
+  {
+    "award_id": "ahead奖_酒店设计奖_2026",
+    "name": "AHEAD奖（酒店设计奖）",
+    "name_en": "AHEAD is the new global celebration of hospitality experience and…",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.aheadawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 250,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "k.dean@mondiale.co.uk",
+      "电话": "+44 (0)161 464 4750"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadline reminders, shortlist announcements, ticket offers and more; deadline reminders, shortlist announcements and more; deadline reminders, shortlist announcements, event updates and more; DEADLINE; DEADLINE\n评审信息: judged by top names from the hospitality design world, from owners and operators to developers and designers\n奖项等级关键词: shortlist, winner",
+    "updated_at": "2026-04-17"
+  },
+  {
+    "award_id": "aia国际奖_2026",
+    "name": "AIA国际奖",
+    "name_en": "2025 Design Awards — AIA INTERNATIONAL",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.aiainternational.org/awards",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国（国际）",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "administrativedirector@aiainternational.org",
+      "电话": "+44 7966674331"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $350, $475\n采集到日期: January 1, 2020, October 11, 2025, January 1, 2020, April 14, 2026, December 22, 2025, November 5, 2025, July 28, 2025, December 29, 2025, December 18, 2025, May 7, 2026, May 10, 2026, November 2, 2023\n截止日期: Deadline and Entry Fees; DEADLINE AND ENTRY FEES; DEADLINE IS THURSDAY 7 AUGUST, 2025, 5:00PM EASTERN US TIME; deadline will be strictly observed; deadline expires but no refunds will be issued; DEADLINE: 2025 AIA SOUTH KOREA DESIGN\n评审信息: jury will award AIA International Honor Awards and AIA International Merit Awards; Jury will comprise no less than three distinguished architects including at least two AIA architects; Jury decisions will be based solely on the materials submitted; no field trips will be taken; judged on how successfully the design addresses individual project program requirements, the successful integration of the solution within its context, and its worthiness for an award in design excell; jury deliberations\n评审标准: criteria, which includes how firms have:; evaluation tool for jurors; assessment of the circumstances to exclude individuals who display unprofessional or disruptive behaviour\n奖项等级关键词: WINNER, Merit",
+    "updated_at": "2026-04-18"
+  },
+  {
+    "award_id": "andrew_martin_2026",
+    "name": "Andrew Martin国际室内设计大奖",
+    "name_en": "The Design Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.andrewmartin.co.uk/design-awards",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "国际参赛费",
+        "date": "",
+        "price": 95,
+        "currency": "GBP",
+        "note": "£95/项目，向官网直接提交"
+      },
+      {
+        "period": "中国区申报服务费",
+        "date": "",
+        "price": 850,
+        "currency": "CNY",
+        "note": "800-900元/项目，通过授权渠道"
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "robert@andrewmartin.co.uk",
+      "电话": "020 7580 0444"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadline 20 December 2025; deadline 20 December 2025\n评审信息: judges have included:; judges from Gordon Ramsey to Olympic champion Lord Coe are charged with the fiendish task of selecting the winner from an array of esteemed entrants; judged by a panel of celebrity opinion makers; judges have included Gordon Ramsey, Thandie Newton, Twiggy, Jo Malone and Anya Hindmarch\n奖项等级关键词: WINNER, best in",
+    "updated_at": "2026-04-19"
+  },
+  {
+    "award_id": "arcasia奖_2026",
+    "name": "ARCASIA奖",
+    "name_en": "Architects Regional Council Asia (ARCASIA)",
+    "category": [],
+    "award_intro": "",
+    "website": "http://www.arcasia.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "亚洲（国际）",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "enquiry@arcasia.org"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: March 26, 2026",
+    "updated_at": "2026-04-20"
+  },
+  {
+    "award_id": "asla奖_美国景观师协会奖_2026",
+    "name": "ASLA奖（美国景观师协会奖）",
+    "name_en": "Honors & Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.asla.org/awards-events-main-landing/honors-awards",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "电话": "202-898-2444"
+    },
+    "notes": "",
+    "_raw_extracted": "评审标准: selectionDeny; selectionDeny; selectionDeny; selectionDeny; selectionDeny",
+    "updated_at": "2026-04-21"
+  },
+  {
+    "award_id": "dezeen_awards_2026",
+    "name": "Dezeen Awards",
+    "name_en": "Dezeen Awards",
+    "category": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "可持续设计",
+      "年度设计师",
+      "特别奖项"
+    ],
+    "award_intro": "Dezeen Awards 由英国建筑设计媒体 Dezeen 主办，是全球规模最大且最具权威性的年度设计奖项之一，旨在表彰全球最优秀的建筑、室内设计、设计和可持续发展项目，以及杰出工作室、建筑师和设计师。2026年奖项开放49个项目类别，并新增「地区甄选」TOP 50榜单（覆盖欧洲/中东/非洲、亚太、美洲三大区）及中国区 TOP 20榜单。",
+    "website": "https://www.dezeen.com/dezeen-awards/",
+    "organizer": "Dezeen",
+    "organizer_intro": "英国 Dezeen 是每月读者数超千万的全球知名建筑与设计媒体。",
+    "organizer_location": "英国伦敦",
+    "fee_timeline": [
+      {
+        "period": "早鸟价",
+        "date": "2026-03-25",
+        "price": 105,
+        "currency": "GBP",
+        "note": "105英镑/项目，伦敦时间23:59截止"
+      },
+      {
+        "period": "常规价",
+        "date": "2026-05-27",
+        "price": null,
+        "currency": "GBP",
+        "note": "待官网公布最终金额"
+      }
+    ],
+    "fee_note": "所有费用以英镑结算",
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026-03-25"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "2026-05-27"
+      },
+      {
+        "阶段": "地区甄选入围公布",
+        "时间": "2026-09"
+      },
+      {
+        "阶段": "短名单公布",
+        "时间": "2026-10"
+      },
+      {
+        "阶段": "最终获奖公布",
+        "时间": "2026-11"
+      }
+    ],
+    "award_levels": [
+      "年度最佳项目（每类别一名，共49项）",
+      "年度设计师（共6项）",
+      "本特利灯塔奖"
+    ],
+    "level_note": "所有获奖者将在 Dezeen 官网公布，并获得由知名设计师特制的纸理石材质奖杯及荣誉证书",
+    "judging_criteria": [
+      "设计创新与卓越性",
+      "推动环保与社会价值",
+      "项目的完成度与落地质量",
+      "对行业的影响力"
+    ],
+    "judging_note": "2026年最终评审标准尚未公布，以上为参考标准",
+    "requirements": {
+      "eligible_participants": "全球建筑师、设计师、工作室及创意机构",
+      "submission_type": "建成项目、产品模型或落地作品",
+      "submission_format": "需提交完整项目资料，包括图片、文字说明等"
+    },
+    "requirements_note": "专业从业者均可按项目提交，每类独立评审",
+    "submission_requirements": {},
+    "benefits": [
+      "在 Dezeen 官网及各大合作渠道进行全球推广",
+      "颁发由知名设计师特制的纸理石材质奖杯",
+      "荣誉证书",
+      "部分年度设计师获得者有机会获得相关资助或合作资源"
+    ],
+    "judges": [
+      {
+        "name": "马岩松",
+        "title": "MAD建筑事务所创始人",
+        "company": "MAD Architects",
+        "country": "中国/北京"
+      },
+      {
+        "name": "Annabelle Selldorf",
+        "title": "创始人",
+        "company": "Selldorf建筑设计事务所",
+        "country": "美国/纽约"
+      },
+      {
+        "name": "Omar Degan",
+        "title": "建筑师",
+        "company": "Degan Studio",
+        "country": "国际"
+      },
+      {
+        "name": "Aziza Chaouni",
+        "title": "建筑师",
+        "company": "Chaouni Studio",
+        "country": "国际"
+      },
+      {
+        "name": "Miminat Shodeinde",
+        "title": "室内设计师",
+        "company": "Shodeinde Studio",
+        "country": "英国/伦敦"
+      },
+      {
+        "name": "Britt Moran",
+        "title": "室内设计师",
+        "company": "Emulsion",
+        "country": "国际"
+      },
+      {
+        "name": "Benni Allan",
+        "title": "室内设计师",
+        "company": "Bjarke Ingels Group",
+        "country": "国际"
+      },
+      {
+        "name": "Jo Barnard",
+        "title": "创始人/创意总监",
+        "company": "Morrama",
+        "country": "英国/伦敦"
+      },
+      {
+        "name": "Michael Anastassiades",
+        "title": "设计师",
+        "company": "Anastassiades Studio",
+        "country": "英国/伦敦"
+      },
+      {
+        "name": "Martin Lotti",
+        "title": "设计师",
+        "company": "Lotti Design",
+        "country": "国际"
+      },
+      {
+        "name": "Smita Thomas",
+        "title": "室内设计师",
+        "company": "Studio Thomas",
+        "country": "国际"
+      }
+    ],
+    "judges_note": "此外还有 Jaime Hayon、Alessandro Arienzo、Nao Tamura、Felicia Hung、Massimiliano Fuksas、Zandra Rhodes 等人担任评审",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "官网": "https://www.dezeen.com/dezeen-awards/"
+    },
+    "notes": "2026年新增「地区甄选」TOP 50榜单，覆盖欧洲/中东/非洲、亚太、美洲三大区及中国区 TOP 20榜单。合作方包括 Trimble（主要合作伙伴）和 Bentley（深度合作参与评奖）。",
+    "_raw_extracted": "",
+    "updated_at": "2026-12-31"
+  },
+  {
+    "award_id": "award_21_2026",
+    "name": "AZ Awards",
+    "name_en": "AZ Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://awards.azuremagazine.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 100,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "February 27, 2026"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "azawards@azureonline.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $5,000\n采集到日期: May 28, 2026, November 10, 2025, January 23, 2026, February 27, 2026, April 17, 2026, May 8, 2026\n截止日期: deadline; Deadline; deadline; Deadline; deadline; Deadline; deadline; Deadline\n评审信息: jury convenes in March to review the submissions and select the winners; jury looking for; jury convenes in March to review the submissions and select the winners; jury includes Rasmus Astrup, Ali McQuaid Mitchell, Simone Vingerhoets-Ziesmann and more influential thinkers and doers in the realm of global design, architecture and urbanism; jury includes Héctor Esrawe, Wanda Dalla Costa, Piero Lissoni and more influential thinkers and doers in the realm of global design, architecture and urbanism\n评审标准: criteria is the jury looking for; selection and arrangement (“Site Content”) are the property of Azure Publishing Inc, and/or other entities under our direction or from whom we have obtained an appropriate licence, with all rights res\n奖项等级关键词: Winner, Finalist, best in, shortlist, Merit",
+    "updated_at": "2026-04-23"
+  },
+  {
+    "award_id": "award_26_2026",
+    "name": "Core77 / Design Awards",
+    "name_en": "Core77 / Design Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://designawards.core77.com/about",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 150,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "最终截止",
+        "时间": "March 27, 2026"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "awards@core77.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $70, $235, $85, $335, $110, $435\n采集到日期: January 30, 2026, February 27, 2026, March 27, 2026, January 1, 2025, December 10, 2025, January 31, 2026, April 1, 2026\n截止日期: Deadlines; Deadlines; Deadlines; Deadlines; Deadline; Deadlines; Deadlines; Deadlines; deadline); deadline rush\n评审信息: Jury Captains assigned to the 18 awards categories will pick local team members who are also experts in their category to join them in the jury process; jury through self-directed, honest video testimonials; jury of experts for being exemplary in its field; jury or juries to critique it; judges called “Jury Teams” headed up by a “Jury Captain” and have been selected by the Core77 Design Awards\n评审标准: criteria may not be conveyed to the jury\n奖项等级关键词: Winner, merit",
+    "updated_at": "2026-04-24"
+  },
+  {
+    "award_id": "award_37_2026",
+    "name": "Improving the quality of life",
+    "name_en": "Improving the quality of life",
+    "category": [],
+    "award_intro": "",
+    "website": "https://the.akdn/en/home",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $8, $820, $240",
+    "updated_at": "2026-04-25"
+  },
+  {
+    "award_id": "award_49_2026",
+    "name": "A' Design Award and Competition",
+    "name_en": "A' Design Award and Competition",
+    "category": [],
+    "award_intro": "",
+    "website": "https://competition.adesignaward.com/",
+    "organizer": "BOTINKIT  in collaboration with the",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 180,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "采集到日期: April 15, 2027\n截止日期: Deadlines; Deadline; Deadlines; Deadlines; Deadlines; Deadlines; Deadlines; Deadline; Deadline ends on June 30th, Regular Entry Fees become effective, Preliminary Scores are still provided; Deadline\n评审信息: Jury Panel brings together the World’s leading design professionals, prominent academics, influential press members and leading experts in industry to recognize, cherish and value good design products; jury membership and good design activism; Judges, 110+ Categories, 40+ Languages, 17 Years; jury, blind peer-review process, ethical evaluation methodology and the design prize; JURY | CATEGORIES | REGISTRATION | PRESS | WINNERS | PUBLICATIONS | ENTRY INSTRUCTIONS\n评审标准: selection, the crème de la crème, if you will, in arts, architecture, fashion, communication and product design; evaluation methodology and the design prize; evaluation and celebration; EVALUATION CRITERIA; evaluation of entries by a respected jury panel, lifelong licensing of the award winners logo, A2 poster design and printing for exhibition,  and many others such as inclusion in the World Design Rank\n奖项等级关键词: Winner, merit, Gold, Platinum, Silver, Bronze",
+    "updated_at": "2026-04-26"
+  },
+  {
+    "award_id": "award_60_2026",
+    "name": "MIPIM Asia Summit",
+    "name_en": "MIPIM Asia Summit",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.mipim-asia.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "neomie.cowgill@rxglobal.com",
+      "电话": "+852 3891 8888"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: USD 400\n评审信息: jury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; jury and/or damage to persons, animals or property as a matter of products liability, malpractice, failure to warn, negligence or otherwise, or from any use or operation of any ideas, instructions, me; JURY (INCLUDING DEATH), LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, BUSINESSINTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES) ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE \n奖项等级关键词: Gold, Silver",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "award_id": "award_74_2026",
+    "name": "The One Club for Creativity",
+    "name_en": "The One Club for Creativity",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.oneclub.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "October 31, 2025"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "January 23, 2026"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "February 20, 2026"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "INFO@ONECLUB.ORG",
+      "电话": "(212) 979-1900"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: APRIL 3, 2026, May 15, 2026, December 8, 2026, June 15, 2026\n截止日期: DEADLINE; DEADLINE\n评审信息: JURY ARCHIVE; JURY ARCHIVE; JURY ARCHIVE; JURY ARCHIVE; jury of over 300 global creative leaders\n评审标准: selections, we'll extend an offer\n奖项等级关键词: FINALIST, WINNER, best in, Gold, Merit, SILVER, BRONZE, Diamond",
+    "updated_at": "2026-04-28"
+  },
+  {
+    "award_id": "award_76_2026",
+    "name": "Illuminating Engineering Society",
+    "name_en": "Illuminating Engineering Society",
+    "category": [],
+    "award_intro": "",
+    "website": "https://iesilluminationawards.secure-platform.com/a",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "awards@ies.org"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $265, $320, $365, $420\n采集到日期: December 1, 2025, January 7, 2026, February 12, 2026, February 24, 2026, April 5, 2026, January 1, 2026\n评审信息: JUDGE RESOURCES; JUDGE PROCEDURES; JUDGE INSTRUCTIONS; Judging Panel; judged against one another\n评审标准: criteria-based — projects are evaluated on how well they meet the defined program standards, not in comparison\n奖项等级关键词: MERIT, Award of\nExcellence",
+    "updated_at": "2026-04-29"
+  },
+  {
+    "award_id": "award_77_2026",
+    "name": "Architizer A+Awards",
+    "name_en": "Architizer A+Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://awards.architizer.com/a",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 195,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "awards@architizer.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $195, $275, $325, $375, $425\n采集到日期: October 13, 2025, October 31, 2025, December 12, 2025, January 30, 2026, February 27, 2026\n截止日期: deadline reminders and helpful submission resources; Deadline\tOctober 31, 2025; Deadline\tDecember 12, 2025; Deadline\tJanuary 30, 2026; Deadline\tFebruary 27, 2026; Deadlines; Deadline\tFee; Deadline\tOctober 31, 2025\t$275 USD; Deadline\tDecember 12, 2025\t$325 USD; Deadline\tJanuary 30, 2026\t$375 USD\n评审信息: judged by distinguished luminaries from fields as diverse as design, technology, real estate, fashion, and more; judges nominate five finalists within each award category; Jury Winners; jury from thousands of entries around the globe, The World's Best Architecture is the definitive guide to the year’s best buildings and spaces; Jury Voting\tApril 2026\n评审标准: criteria below; criteria by satisfying a minimum of 50% (9) of the 18 criteria listed above; criteria, they will pass through to the main judging round, where they will be judged using the same criteria as the Typology and Plus categories — Form, Function and Impact (for which sustainability ; criteria below\n奖项等级关键词: Winner, Finalist, special mention, best in, Diamond, gold",
+    "updated_at": "2026-04-30"
+  },
+  {
+    "award_id": "award_78_2026",
+    "name": "Interior Design Magazine",
+    "name_en": "Interior Design Magazine",
+    "category": [],
+    "award_intro": "",
+    "website": "https://interiordesign.net/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "interiordesign@omeda.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: March 30, 2026, April 10, 2026, May 1, 2026, April 15, 2026\n截止日期: deadline on May 1, 2026, for a chance to be a 2026 HiP Awards winner\n评审标准: selection process was guided by the desire to present a constellation of practices rather than a single narrative, one that could meaningfully engage with the specific B2B audience of the Salone del M; selection reveal the different aesthetic styles, unexpected uses of material, and formal retooling currently defining contemporary practice\n奖项等级关键词: Winner, Best in, Diamond",
+    "updated_at": "2026-04-31"
+  },
+  {
+    "award_id": "award_82_2026",
+    "name": "Hospitality Design",
+    "name_en": "Hospitality Design",
+    "category": [],
+    "award_intro": "",
+    "website": "https://hospitalitydesign.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "aponchione@hospitalitydesign.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $100, $6\n采集到日期: April 9, 2026, April 15, 2026, May 25, 2018\n评审信息: JURY TRIAL, AND WAIVE ANY OF YOUR RIGHTS TO BRING CLASS ACTIONS AGAINST US\n评审标准: selection, coordination, arrangement and enhancement of the Materials on the Sites\n奖项等级关键词: Winner, finalist, Platinum, best in, Gold",
+    "updated_at": "2026-04-32"
+  },
+  {
+    "award_id": "bali国家景观奖_2026",
+    "name": "BALI国家景观奖",
+    "name_en": "National Landscape Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.baliawards.co.uk/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "contact@bali.org.uk",
+      "电话": "+44(0)24 7669 0333"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadlines:; Deadline*:; Deadline:; Deadline: £175 per entry\n评审信息: JUDGING PANEL; Judging Panel; Judging Panel; Judging Panel since 2005 and has been the recipient of numerous awards including RHS Gold medals and BALI National Landscape Awards; Judging Panel for the National Landscape Awards for close to 5 years up to 2005, returning in 2020\n奖项等级关键词: WINNER, Gold",
+    "updated_at": "2026-04-33"
+  },
+  {
+    "award_id": "better_future奖_drift奖_2026",
+    "name": "Better Future奖（Drift奖）",
+    "name_en": "",
+    "category": [],
+    "award_intro": "",
+    "website": "https://betterfutureawards.com/d100/Default.asp",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "澳大利亚",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@betterfutureawards.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: USD673\n截止日期: DEADLINES; Deadline; Deadline; Deadline; DEADLINES; Deadline; Deadline; Deadline; DEADLINES; Deadline\n评审信息: Judges - Design Intelligent Awards | Advisor - IRUK Healthy Ageing Challenge\n奖项等级关键词: Winner",
+    "updated_at": "2026-04-34"
+  },
+  {
+    "award_id": "dna巴黎设计奖_2026",
+    "name": "DNA巴黎设计奖",
+    "name_en": "The Award 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://dna.paris/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 80,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "support@dna.paris"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $2,500\n截止日期: deadline : 8th May 2026; deadline until May 22nd); deadlines; DEADLINE / May 8th 2026; DEADLINE +10% / May 22nd 2026\n评审信息: jury of design luminaries; jury committee is comprised of designers, editors and creatives who are devoted to true excellence in design; jury of design luminaries; jury committee is comprised of designers, editors and creatives who are devoted to true excellence in design; jury members : http://dna\n评审标准: evaluation of entries is based on a range of criteria that are constantly adapted to current standards; Selection Process\n奖项等级关键词: Winner, Bronze, Gold, Honorable Mention, GRAND PRIX",
+    "updated_at": "2026-04-35"
+  },
+  {
+    "award_id": "d_ad奖_2026",
+    "name": "D&AD奖",
+    "name_en": "D&AD",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.dandad.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 275,
+        "note": ""
+      },
+      {
+        "period": "学生价",
+        "date": "",
+        "price": 75,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "评审信息: Jury President and Mulberry Brand Director Priya Matadeen explains how her in-house team balances creative excellence with ROIs and efficiency; judge Jonathan Santana on his newest commercial for Volkswagen and his favourite spots of all time; Jury President Noma Bar on where he finds inspiration; Jury President for 2026, gives three propositions to explain the reasons why; Jury President Teemu Suviala\n奖项等级关键词: winner, Gold",
+    "updated_at": "2026-04-36"
+  },
+  {
+    "award_id": "edida奖_elle装饰国际设计奖_2026",
+    "name": "EDIDA奖（ELLE装饰国际设计奖）",
+    "name_en": "EDIDA",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.edida-awards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "elle.international@lagardernews.com"
+    },
+    "notes": "",
+    "_raw_extracted": "评审标准: selection process and event format\n奖项等级关键词: WINNER, SILVER, shortlist",
+    "updated_at": "2026-04-37"
+  },
+  {
+    "award_id": "fx国际设计奖_2026",
+    "name": "FX国际设计奖",
+    "name_en": "FX Awards 2025",
+    "category": [],
+    "award_intro": "",
+    "website": "https://fxdesignawards.co.uk/2025/en/page/home",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 195,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "奖项等级关键词: WINNER, FINALIST",
+    "updated_at": "2026-04-38"
+  },
+  {
+    "award_id": "good_design奖_优良设计奖_2026",
+    "name": "Good Design奖（优良设计奖）",
+    "name_en": "Good Design Australia",
+    "category": [],
+    "award_intro": "",
+    "website": "https://good-design.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 195,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "02 May 2025"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "mail@good-design.org",
+      "电话": "+61 2 8015 6680"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $245, $495, $750, $1,500, $2,500, $3,500, $4,500, $250, $67\n截止日期: Deadline; Deadline; Deadline; Deadline; deadlines, must be withdrawn by the applicant and may be re-submitted the following year only; due date to the Australian Good Design Awards Presentation Ceremony; Deadline; Deadline\n评审信息: Jury Comments; Jury panel and evaluated against three overarching criteria – each specific to its Design Discipline:; Jury wants to understand if the project incorporates any leading-edge Built Environment innovations, if it advances the profession and pushes the boundaries of new and innovative thinking in Built Env; Jury want to understand what measurable outcomes have been achieved and if the design of the space, place or environment has the potential to improve the quality of life for people and our planet; Jury wants to understand if the project has the potential to be an exemplar for good design in the Built Environment\n评审标准: Criteria and Fees before submitting your entry to the Australian Good Design Awards; criteria – each specific to its Design Discipline:; Criteria 1: Good Design; Criteria 2: Design Innovation; Criteria 3: Design Impact\n奖项等级关键词: WINNER, DIAMOND, GOLD, Best in",
+    "updated_at": "2026-04-39"
+  },
+  {
+    "award_id": "g_mark奖_优良设计奖_日本_2026",
+    "name": "G-Mark奖（优良设计奖/日本）",
+    "name_en": "GOOD DESIGN AWARD",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.g-mark.org/zh-CN",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "日本",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 7000,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "",
+    "updated_at": "2026-04-40"
+  },
+  {
+    "award_id": "ida奖_国际设计奖_2026",
+    "name": "IDA奖（国际设计奖）",
+    "name_en": "Home",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.idesignawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 180,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "support@idesignawards.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: €250, €80, €200, €60, €1000\n采集到日期: February 8, 2026\n截止日期: deadline: May 15; DEADLINES & FEES; Deadline; Deadline; Deadline; Deadline\n评审信息: jury news media mentions partners store people’s choice SUBMIT/LOGIN; jury committee evaluate each work based on its merit assigning it a score; Jury is passionately committed to providing a fair and unbiased evaluation of all entries; Jury members are assigned categories based on their specific backgrounds and design expertise; judged randomly and anonymously to ensure unbiased and fair judging\n评审标准: JUDGING CRITERIA; evaluation process for entries to the IDA is based on various judging criteria which are constantly adapted to new creative, technical, social, economic and ecological requirements; criteria are not comprehensive and not all criteria are applicable to each design; evaluation of all entries; judging criteria include the following:\n奖项等级关键词: winner, merit, Honorable Mention, Gold, Silver, Bronze",
+    "updated_at": "2026-04-41"
+  },
+  {
+    "award_id": "idsa奖_美国工业设计师协会奖_2026",
+    "name": "IDSA奖（美国工业设计师协会奖）",
+    "name_en": "Awards & Recognitions",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.idsa.org/awards-recognitions/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $100\n采集到日期: April 17, 2026, May 4, 2026, January 5, 2026, February 13, 2026, February 14, 2025, March 11, 2026, April 13, 2026, March 1, 2024, March 1, 2026\n截止日期: DEADLINES; Deadlines details here\n评审信息: judged separately from the general entry criteria and will not affect overall results in your primary IDEA entry submission; judges to advance to Round 2 as finalists will be notified by approximately during the week of April 13, 2026\n评审标准: criteria and will not affect overall results in your primary IDEA entry submission\n奖项等级关键词: Merit, finalist",
+    "updated_at": "2026-04-42"
+  },
+  {
+    "award_id": "jcd商业空间设计奖_2026",
+    "name": "JCD商业空间设计奖",
+    "name_en": "トップページ",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.jcd.or.jp/jp/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "日本",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "",
+    "updated_at": "2026-04-43"
+  },
+  {
+    "award_id": "lita奖_伦敦国际创意奖_2026",
+    "name": "LITA奖（伦敦国际创意奖）",
+    "name_en": "LIT Lighting Design Awards 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://litawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "立陶宛",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 150,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@litawards.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $240, $110, $250, $115\n采集到日期: June 16, 2026\n截止日期: DEADLINES: LIT DESIGN AWARDS 2022; Deadline: August 31st, 2022; Deadline: September 30th till October 22nd, 2022 (10% late fee applies); deadlines; DEADLINES: LIT DESIGN AWARDS 2026; Deadline: August 31st, 2026; Deadline: September 30th (10% late fee applies) till October 18th, 2026\n评审信息: JURY EVENTS DESIGN STORIES FAQS SUBMIT / LOGIN; JURY BOARD MEMBERS; jury panel composed of experienced and prominent academics, professionals, press members, entrepreneurs and key people from the lighting design industry; jury of designers and leaders in the lighting, interior design, and architectural fields, the annual winners will receive the LIT trophy, extensive publicity showcasing their designs and products to a; jury members\n评审标准: JUDGING CRITERIA; evaluation process for entries to the LIT Lighting Design Awards is based on various judging criteria that are constantly adapted to new technical, social, economic, and ecological requirements; criteria are not comprehensive and not all criteria are applicable to each product; judging criteria include the following:; SELECTION OF OUTSTANDING LIGHTING DESIGNS\n奖项等级关键词: WINNER, merit, Honorable Mention, gold, finalist",
+    "updated_at": "2026-04-44"
+  },
+  {
+    "award_id": "liva奖_2026",
+    "name": "LIVA奖",
+    "name_en": "LIV Hospitality Design Awards 2025",
+    "category": [],
+    "award_intro": "",
+    "website": "https://livawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "未知",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@livawards.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $240, $76\n截止日期: deadlines; DEADLINES 2026; Deadline: October 31st, 2026; Deadline: December 20th, 2026 (10% late fee applies)\n评审信息: jury panel composed of experienced and prominent academics, professionals, press members, entrepreneurs, and developers in the fields of hospitality, architecture, and interior design; jury members select the winners in professional and student categories; judges evaluate each project based on their own merit; rewarding the most pioneering and ground-breaking hospitality designs and selecting those that stand out; Jury’s Picks” designation is an exclusive accolade bestowed upon projects achieving a remarkable rating of 80 points or higher from our esteemed panel of experts, out of a possible 100; jury’s favorites in “Architecture” and “Interior Design\n评审标准: SELECTION OF OUTSTANDING HOSPITALITY DESIGNS; evaluation criteria here\n奖项等级关键词: WINNER, best in, merit, HONORABLE MENTION, Silver, gold, finalist",
+    "updated_at": "2026-04-45"
+  },
+  {
+    "award_id": "mipim奖_2026",
+    "name": "MIPIM奖",
+    "name_en": "MIPIM Awards 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://mipimawards.com/mipimawards2026/en/page/homepage",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 350,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "mipim.awards@rxglobal.com"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: jury focus on projects that seek to enhance the built environment’s prospects, in line with ESG goals; JURY OF EXPERTS; jury, composed of high-profile real estate experts and chaired by Véronique BEDAGUE Chief Executive Officer & Chief Investment Officer of Nexity, will review all the entries and select three winners i\n奖项等级关键词: WINNER, finalist",
+    "updated_at": "2026-04-46"
+  },
+  {
+    "award_id": "novum设计奖_2026",
+    "name": "Novum设计奖",
+    "name_en": "HOME",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.novumdesignaward.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "越南",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 89,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@novumdesignaward.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: EUR\n15\n截止日期: Deadline: 01; deadline; deadline: 15; deadline: 15; deadline: 15; deadline: 15; DEADLINE; deadlines for registration; deadline is 15; deadline is 15\n评审信息: Jury of Novum Design Award (NDA) in 10 categories: Architectural Design Category, Interior Design Category, Urban Planning and Landscape Design Category, Furniture Design Category, Lightning Design Ca; Jury shall evaluate and check all the submitted Designs for the following aspects: quality, technical adequacy, authentication of the Designs, etc; Jury have no informations about the Designers name, email address, location, age or profession; Jury’s decisions will be binding; jury will start the check your design\n评审标准: selection process for the Winners\n奖项等级关键词: WINNER, Gold, Silver, Bronze",
+    "updated_at": "2026-04-47"
+  },
+  {
+    "award_id": "one_show奖_2026",
+    "name": "One Show奖",
+    "name_en": "Home / The One Show 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://oneshow.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "January 23, 2026",
+        "price": 250,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "早鸟截止",
+        "时间": "October 31, 2025"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "January 23, 2026"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "February 20, 2026"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "oneshow@oneclub.org"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $35, $550, $600, $625, $725, $900, $700, $750, $775, $875\n采集到日期: May 15, 2026, February 20, 2026, October 31, 2025, December 12, 2025, January 23, 2026, February 6, 2026, May 16 2025, May 15 2025, April 14, 2026, April 16, 2026, April 17, 2026, April 20, 2026, January 1, 2024, January 1, 2025, January 1, 2022\n截止日期: Deadlines & Dates; Deadline: February 20, 2026; Deadlines; Deadline: October 31, 2025; Deadline: December 12, 2025; Deadline: January 23, 2026; Deadline: February 6, 2026; Deadline: February 20, 2026; Deadlines; DEADLINES\n评审信息: jury of over 300 global creative leaders; jury room—through a new AI-powered feedback tool designed to educate, clarify, and elevate future submissions; judges and how award decisions were made; judged by a jury of 300+ industry leaders representing every corner of the globe; judges, complete with discipline deep-dives, trends, and actionable takeaways\n奖项等级关键词: FINALIST, winner, GOLD, SILVER, BRONZE, Merit",
+    "updated_at": "2026-04-48"
+  },
+  {
+    "award_id": "riba_international_awards_2027",
+    "name": "RIBA国际奖",
+    "name_en": "RIBA International Awards",
+    "category": [
+      "国际卓越奖",
+      "国际奖",
+      "国际新锐建筑师奖",
+      "中东奖项",
+      "亚太奖项"
+    ],
+    "award_intro": "",
+    "website": "https://www.riba.org/explore/awards/international-awards/",
+    "organizer": "英国皇家建筑师学会",
+    "organizer_intro": "",
+    "organizer_location": "英国 · 伦敦",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 250,
+        "note": ""
+      }
+    ],
+    "fee_note": "按项目造价分档：低于200万英镑250英镑（会员200），200-1000万英镑550英镑（会员440），超过1000万英镑800英镑（会员640）",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "privacy@canva.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: April 15, 2026",
+    "updated_at": "2026-04-49"
+  },
+  {
+    "award_id": "sbid国际设计奖_2026",
+    "name": "SBID国际设计奖",
+    "name_en": "SBID International Interior Design Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.sbidawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 250,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "awards@sbid.org",
+      "电话": "+44 (0)20 7738 9383"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadline extensions; deadlines; deadline extensions\n评审信息: judging panel features esteemed industry experts from some of the world’s most innovative companies; judged by a panel of esteemed interior designers; judging panel consists of highly respected, expert industry figures from some of the world's most innovative and exciting companies; judges and voters are able to choose from a wide field, both in terms of types of project, scale, value and creative inspiration; Judges are invited to lend their expertise due to their superior standing in the creative fields; they have each achieved a high level of creativity and professionalism in their career\n奖项等级关键词: WINNER, GOLD, Finalist, merit, shortlist",
+    "updated_at": "2026-04-50"
+  },
+  {
+    "award_id": "the_plan奖_2026",
+    "name": "THE PLAN奖",
+    "name_en": "The Plan Award 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.theplan.it/award",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "意大利",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "abbonamenti@theplan.it",
+      "电话": "+39 051 227634"
+    },
+    "notes": "",
+    "_raw_extracted": "奖项等级关键词: shortlist, finalist, Gold",
+    "updated_at": "2026-04-51"
+  },
+  {
+    "award_id": "uia金奖与三年展奖_2026",
+    "name": "UIA金奖与三年展奖",
+    "name_en": "UIA Gold Medal & Triennial Prizes",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.uia-architectes.org/en/awards/uia-gold-medal-triennial-prizes/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国（国际）",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {},
+    "notes": "",
+    "_raw_extracted": "奖项等级关键词: Gold",
+    "updated_at": "2026-04-52"
+  },
+  {
+    "award_id": "ux设计奖_2026",
+    "name": "UX设计奖",
+    "name_en": "The UX Design Awards honor excellent user experiences",
+    "category": [],
+    "award_intro": "",
+    "website": "https://ux-design-awards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "德国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "contact@ux-design-awards.com",
+      "电话": "+49 30 61 62 321 18"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: Deadlines; deadline; deadline\n评审信息: jury of the UX Design Awards; Jury, admission of a limited number of entries to compete for the Award titles; Jury Session: Granting of the Gold Awards, UX Design Awards, and Special Mentions by the Jury in the categories Product, Concept and New Talent; Jury Knows Great UX Design; Jury Members\n评审标准: Judging Criteria; evaluation of all submissions throughout our rigorous judging process; Judging Criteria\n奖项等级关键词: Winner, Gold, Special Mention",
+    "updated_at": "2026-04-53"
+  },
+  {
+    "award_id": "win_awards_2026",
+    "name": "世界室内新闻奖",
+    "name_en": "World Interiors News Awards",
+    "category": [
+      "Public & Cultural Interiors 公共与文化空间",
+      "Entertainment & Performance Spaces 娱乐与表演空间",
+      "Education 教育空间",
+      "Transport 交通空间",
+      "Civic 公民空间（政府建筑、法院、社区中心等）",
+      "Historic 历史建筑室内",
+      "Restaurants & Cafes 餐厅与咖啡馆",
+      "Hotel & Other Overnight Accommodation 酒店及其他过夜住宿",
+      "Members Clubs 会员俱乐部",
+      "Sports, Spas & Wellness Spaces 体育、水疗与康体空间",
+      "Hospitals & Clinics 医院与诊所",
+      "Corporate Offices (Under 5,000 sqm) 企业办公（5000平米以下）",
+      "Corporate Offices (5,000 - 10,000 sqm) 企业办公（5000-10000平米）",
+      "Corporate Offices (Over 10,000 sqm) 企业办公（10000平米以上）",
+      "Studios, Co-Working Spaces & Home Offices 工作室、联合办公与居家办公",
+      "Communal Areas 公共区域",
+      "Independent Shops & Small Chains 独立商店与小连锁店",
+      "Retails Chains, Department Stores & Shopping Centres 零售连锁、百货商场与购物中心",
+      "One-off Homes (Under £1M) 独栋住宅（100万英镑以下）",
+      "One-off Homes (Over £1M) 独栋住宅（100万英镑以上）",
+      "Show Flats & Developments 样板房与开发项目",
+      "Residential Developments (Apartments) 住宅开发项目（公寓）",
+      "Lighting Projects 照明设计项目",
+      "Temporary, Experiential Projects & Pop Ups 临时性、体验性项目及快闪店",
+      "CGI & Visualisation CGI与可视化表现",
+      "Excellence in Sustainable Design 卓越可持续设计",
+      "Excellence in Inclusive Design 卓越包容性设计",
+      "Reuse & Refurbishment Projects 再利用与翻新改造项目"
+    ],
+    "award_intro": "世界室内新闻奖（World Interiors News Awards，简称WIN Awards）由英国知名设计媒体《世界室内新闻》杂志主办，是全球室内设计领域最受瞩目的年度奖项之一。奖项面向全球的室内设计师、建筑师及产品设计师征集作品，旨在表彰世界各地具有创新精神、远见卓识和富有想象力的室内设计师的杰出作品，涵盖住宅、商业及公共空间等多元领域。WIN Awards始于2010年，至2025年已成功举办十五届。所有入围及获奖作品将在World Interiors News及World Architecture News等全球性平台进行广泛报道和展示。",
+    "website": "https://www.worldinteriorsnewsawards.com/",
+    "organizer": "World Interiors News",
+    "organizer_intro": "英国World Interiors News，隶属于全球顶尖的建筑领域出版机构——World Architecture News（世界建筑新闻）。WIN Awards与WAN Awards（世界建筑新闻奖）互为姊妹奖项，共同构成该集团在建筑与室内设计领域的权威奖项体系。",
+    "organizer_location": "英国伦敦",
+    "fee_timeline": [
+      {
+        "period": "早鸟报名",
+        "date": "2026-06上旬（预测）",
+        "price": 405,
+        "currency": "GBP",
+        "note": "£405+VAT，2026年度费用近期公布"
+      },
+      {
+        "period": "常规报名",
+        "date": "2026-07上旬（预测）",
+        "price": 515,
+        "currency": "GBP",
+        "note": "£515+VAT"
+      },
+      {
+        "period": "最终报名",
+        "date": "2026-08上旬（预测）",
+        "price": 555,
+        "currency": "GBP",
+        "note": "£555+VAT"
+      }
+    ],
+    "fee_note": "参赛者可按需提交多个作品；完成缴费提交后，可于当年8月8日前登录系统对参赛信息进行修改。",
+    "timeline": [
+      {
+        "阶段": "早鸟报名",
+        "时间": "2026-06上旬（预测）"
+      },
+      {
+        "阶段": "常规报名",
+        "时间": "2026-07上旬（预测）"
+      },
+      {
+        "阶段": "最终报名",
+        "时间": "2026-08上旬（预测）"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "2026-10上旬（预测）"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026-11"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "参赛类别金奖（Category Winners）",
+        "description": "在每一个细分参赛类别中评选出金奖、银奖及入围作品（Shortlist）"
+      },
+      {
+        "level": "年度新兴室内设计事务所（Emerging Interiors Practice of the Year）",
+        "description": "经评审团终审产生，在所有参赛类别金奖得主中评选"
+      },
+      {
+        "level": "年度室内设计事务所（Interiors Practice of the Year）",
+        "description": "经评审团终审产生，在所有参赛类别金奖得主中评选"
+      },
+      {
+        "level": "年度杰出室内设计项目（Outstanding Interiors Project of the Year）",
+        "description": "经评审团终审产生，在所有参赛类别金奖得主中评选"
+      }
+    ],
+    "level_note": "WIN Awards共设置约27个参赛类别，设有两个年度工作室大奖和一个年度项目大奖（Grand Prix Awards），自动从参赛类别获奖者中评选。",
+    "judging_criteria": [
+      {
+        "dimension": "创意性（Creativity & Innovation）",
+        "description": "在空间规划、形式语言、材料运用等方面的原创性与突破性"
+      },
+      {
+        "dimension": "功能性与用户体验（Functionality & User Experience）",
+        "description": "空间布局是否高效合理，是否真正满足使用者的功能需求和情感体验"
+      },
+      {
+        "dimension": "可持续性与社会价值（Sustainability & Social Responsibility）",
+        "description": "包括低碳材料运用、节能设计、包容性设计等。奖项设有专门的\"卓越可持续设计\"和\"卓越包容性设计\"类别"
+      },
+      {
+        "dimension": "文化叙事与品牌融合（Cultural Narrative & Brand Integration）",
+        "description": "设计是否传达独特的文化故事或品牌精神"
+      },
+      {
+        "dimension": "技术与工艺水准（Technical Excellence & Craftsmanship）",
+        "description": "灯光、声学、材料细节等专业技术的表现"
+      },
+      {
+        "dimension": "挑战应对与设计解决（Brief & Response）",
+        "description": "如何回应客户需求、场地限制等设计挑战。建议参赛者在500字以内清晰阐述以上维度"
+      }
+    ],
+    "judging_note": "WIN Awards评审团由全球顶尖的室内设计师、建筑师及行业领袖组成，具有高度的国际化与专业性。2026年度评审团主席为Ruud Belmans（比利时WeWantMore联合创始人）。",
+    "requirements": {
+      "global": "奖项面向全球所有从事室内设计或委托室内设计的个人及公司开放，包括室内设计师、建筑师、开发商、零售商、酒店经营者、餐厅经营者、制造商和供应商等",
+      "completion": "参赛项目须于2022年1月1日之后竣工；快闪店和临时展览项目须于2023年1月1日之后竣工",
+      "repeat": "已提交过的项目不允许重复参赛",
+      "quantity": "参赛者提交项目数量没有上限，可按需提交多个作品"
+    },
+    "requirements_note": "参赛者需通过官网在线系统提交，包括：项目基本信息、500字以内的项目说明文字、一张项目主图（705×350px）、一张缩略图（614×614px）、一份A3 PDF展板、最多八张高分辨率项目图片（1280×854px）。",
+    "submission_requirements": {},
+    "benefits": [
+      "全球媒体报道：入围及获奖作品将在世界室内新闻官网、世界建筑新闻网等全球顶级设计媒体上进行专题报道",
+      "年度画册收录：所有入围及获奖作品将被收录于WIN Awards官方年鉴及年度画册",
+      "颁奖典礼：受邀参加年度颁奖典礼及交流晚宴，与全球顶尖设计师进行面对面交流",
+      "奖杯与证书：金奖及年度大奖获得者将获得定制奖杯及荣誉证书",
+      "官网永久展示：所有获奖项目将在WIN Awards官网进行永久展示",
+      "市场推广筹码：获奖项目可于商业推广、宣传材料中标明WIN Awards获奖身份"
+    ],
+    "judges": [
+      {
+        "name": "Ruud Belmans",
+        "title": "联合创始人",
+        "company": "WeWantMore（比利时）",
+        "note": "2026年度评审团主席"
+      },
+      {
+        "name": "Nada Elsaid",
+        "title": "国际知名室内设计师",
+        "company": "",
+        "note": "2025年度评委"
+      },
+      {
+        "name": "Duyi Han",
+        "title": "国际知名设计师、艺术家",
+        "company": "",
+        "note": "2025年度评委"
+      }
+    ],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "官网": "https://www.worldinteriorsnewsawards.com/",
+      "邮箱": "morgan.lovegrove@haymarket.com",
+      "电话": "+44 (0) 7508787310"
+    },
+    "notes": "2026年度为第十六届WIN Awards。以上日程为基于往年规律的预测，正式日期以官网公布为准。2025年度各项截止日期分别为：早鸟2025年6月5日、常规2025年7月8日、最终2025年8月8日。",
+    "_raw_extracted": "截止日期: Deadline: Thursday 7 May | £410 +VAT; Deadline: Thursday 28 May | £520 +VAT; Deadline: Thursday 7 May | £410 +VAT; Deadline: Thursday 28 May | £520 +VAT; Deadline (7 May 2026): £410 + VAT; Deadline (28 May 2026): £520 + VAT; Deadline (10 August 2026): £560 + VAT; deadline for entries; Deadline: Thursday 7 May 2026; Deadline: Thursday 28 May 2026\n评审信息: Judges Awards / ‘Grand Prix’ - The winners of any of the above pay-to-enter categories will be automatically entered into the below categories; judging panel will be comprised of an inclusive range of individuals to fully represent the industry; judging panels, gaining visibility among peers, collaborators, and potential clients across the world; judges may move projects to another category if they think it is more appropriate; Judges Awards / ‘Grand Prix’ - The winners of any of the above pay-to-enter categories will be automatically entered into the below categories\n评审标准: criteria outlined for each award category - you can find out more in the Entry Kit here; assessment within tight constraints\n奖项等级关键词: WINNER, best in, Shortlist, Grand Prix, GOLD, SILVER, FINALIST, BRONZE",
+    "updated_at": "2026-04-27T21:00"
+  },
+  {
+    "award_id": "waf_2026",
+    "name": "WAF世界建筑节",
+    "name_en": "World Architecture Festival (WAF)",
+    "category": [
+      "已完工建筑",
+      "未来项目",
+      "室内设计",
+      "景观设计"
+    ],
+    "award_intro": "WAF是全球规模最大、唯一采用「现场评审」机制的建筑奖项盛典。所有入围决赛的建筑师必须进行10分钟项目演讲和8分钟问答，使评选过程公开透明。WAF被称为「建筑界奥斯卡」，2026年主题为「Water（水）」。",
+    "website": "https://www.worldarchitecturefestival.com/",
+    "organizer": "EMAP集团",
+    "organizer_intro": "英国EMAP集团主办，自2008年起每年在不同城市举办。所有参赛作品永久发布在「世界建筑名录」（World Buildings Directory）在线数据库中。",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "早鸟价（已完工/未来项目/景观）",
+        "date": "2026-03-13",
+        "price": 795,
+        "currency": "GBP"
+      },
+      {
+        "period": "标准价（已完工/未来项目/景观）",
+        "date": "2026-04-24",
+        "price": 895,
+        "currency": "GBP"
+      },
+      {
+        "period": "逾期价（已完工/未来项目/景观）",
+        "date": "2026-05-15",
+        "price": 995,
+        "currency": "GBP"
+      },
+      {
+        "period": "早鸟价（室内设计类）",
+        "date": "2026-03-13",
+        "price": 645,
+        "currency": "GBP"
+      },
+      {
+        "period": "标准价（室内设计类）",
+        "date": "2026-04-24",
+        "price": 745,
+        "currency": "GBP"
+      },
+      {
+        "period": "逾期价（室内设计类）",
+        "date": "2026-05-15",
+        "price": 845,
+        "currency": "GBP"
+      }
+    ],
+    "fee_note": "入围决赛者需购买至少2张参会门票（£999起）",
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026-03-13"
+      },
+      {
+        "阶段": "标准报名截止",
+        "时间": "2026-04-24"
+      },
+      {
+        "阶段": "逾期报名截止",
+        "时间": "2026-05-15"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "2026-07"
+      },
+      {
+        "阶段": "现场评审与颁奖",
+        "时间": "2026-11-18至20日（美国佛罗里达州劳德代尔堡）"
+      }
+    ],
+    "award_levels": [
+      "世界建筑奖（World Building of the Year）",
+      "世界未来项目奖（Future Project of the Year）",
+      "世界室内设计奖（World Interior of the Year）",
+      "世界景观奖（Landscape of the Year）",
+      "WAFX特别奖",
+      "GROHE水资源奖（免费）",
+      "建筑绘图奖",
+      "学生设计竞赛（免费）"
+    ],
+    "level_note": "入围者在所属类别中角逐，优胜者再竞争四大年度大奖",
+    "judging_criteria": [
+      "设计质量与独创性",
+      "功能性",
+      "现场演讲与互动能力",
+      "应对全球性挑战的前瞻性思考"
+    ],
+    "judging_note": "WAF核心评审机制：现场演说（10分钟）+ 即时答辩（8分钟）",
+    "requirements": {
+      "eligible_participants": "全球建筑师、设计公司",
+      "submission_type": "已完工项目、未建/在建/概念项目",
+      "completed_projects": "须在2025年1月1日至2026年6月1日之间竣工"
+    },
+    "requirements_note": "已完工建筑、未来项目、室内设计、景观设计四大类",
+    "submission_requirements": {},
+    "benefits": [
+      "作品永久收录于「世界建筑名录」在线数据库",
+      "出席现场评审与颁奖典礼",
+      "与国际评委和观众互动",
+      "提升全球知名度"
+    ],
+    "judges": [
+      {
+        "name": "马岩松",
+        "title": "创始人",
+        "company": "MAD建筑事务所",
+        "country": "中国"
+      },
+      {
+        "name": "Ken Shuttleworth",
+        "title": "创始人",
+        "company": "Make Architects",
+        "country": "英国"
+      },
+      {
+        "name": "Richard Maimon",
+        "title": "高级负责人",
+        "company": "KieranTimberlake",
+        "country": "美国"
+      }
+    ],
+    "judges_note": "评审团规模庞大，2025年超过160位来自37个国家的建筑师、设计师、学者和媒体人",
+    "faq": [],
+    "chinese_winners": [
+      {
+        "year": 2025,
+        "award": "世界景观奖",
+        "project": "Embracing Flood: Xinjiang River Ecological Corridor",
+        "company": "土人设计（Turenscape）"
+      },
+      {
+        "year": 2025,
+        "award": "已完工建筑-文化类",
+        "project": "Shunde Yunlu Wetland Museum",
+        "company": "STUDIO LINK-ARC, LLC"
+      },
+      {
+        "year": 2025,
+        "award": "已完工建筑-酒店与休闲类",
+        "project": "Poodom Deqin Meri Hotel",
+        "company": "BUZZ | Büro Ziyu Zhuang"
+      }
+    ],
+    "contact": {
+      "官网": "https://www.worldarchitecturefestival.com/"
+    },
+    "notes": "2026年举办地为美国佛罗里达州劳德代尔堡，主题「Water（水）」",
+    "_raw_extracted": "",
+    "updated_at": "2026-12-31"
+  },
+  {
+    "award_id": "伦敦创意大赛_2026",
+    "name": "伦敦创意大赛",
+    "name_en": "London International Creative Competition",
+    "category": [],
+    "award_intro": "",
+    "website": "https://licc.uk/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 90,
+        "note": ""
+      },
+      {
+        "period": "学生价",
+        "date": "",
+        "price": 50,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "support@licc.uk",
+      "电话": "+1 (800) 456 37 11"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: €1,500, €1,000, €10,000\n截止日期: Deadlines and discounts; Deadline; Deadline; Deadline\n评审信息: judging panel has chosen the Best In Category winners of the 2025 Edition of the London International Creative Competition; jury members, making the selection process more challenging than ever; jury panel shortlist 100 of their favorites design and projects, then chose 15 finalists for their breath-taking creativity; jury is made up of of internationally esteemed creatives, curators, gallery owners, writers and other artistic arbiters; jury members click on their profile picture\n评审标准: selection process more challenging than ever; Selection” is made and put through for a second and final round of Jury voting; selection process; Selection of Previous Winners\n奖项等级关键词: WINNER, Best in, shortlist, finalist, Platinum, Gold",
+    "updated_at": "2026-04-57"
+  },
+  {
+    "award_id": "全球卓越奖_2026",
+    "name": "全球卓越奖",
+    "name_en": "Global Excellence Awards 2025, GEA2025 by Brand Empower",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.globalexcellenceawards.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "entry@brandempower.org",
+      "电话": "+91-767-821-9024"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: judges and a rigorous selection process, the GEA, ILA, and NQA Awards have become the epitome of recognition in the Indian corporate landscape; jury panel carefully evaluates all entries based on merit, innovation, and impact; jury evaluates your submission based on credibility, impact, and innovation\n评审标准: selection process, the GEA, ILA, and NQA Awards have become the epitome of recognition in the Indian corporate landscape; selection process ensures that only the most deserving candidates receive these accolades, making your recognition all the more prestigious\n奖项等级关键词: Winner, best in, Diamond, merit, Shortlist",
+    "updated_at": "2026-04-58"
+  },
+  {
+    "award_id": "凡尔赛奖_2026",
+    "name": "凡尔赛奖",
+    "name_en": "Prix Versailles",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.prix-versailles.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "contact@prix-versailles.com"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: Jury are tasked with awarding twenty-four World Titles from among the Selected Sites – in the categories of Airports, Campuses, Passenger Stations, Sports, Museums, Emporiums, Hotels and Restaurants; Jury are tasked with awarding twenty-four World Titles from among the Selected Sites – in the categories of Airports, Campuses, Passenger Stations, Sports, Museums, Emporiums, Hotels and Restaurants",
+    "updated_at": "2026-04-59"
+  },
+  {
+    "award_id": "可持续建筑奖_2026",
+    "name": "可持续建筑奖",
+    "name_en": "Sustainability Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.sustainablebuildingawards.com.au/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "澳大利亚",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "adrian.wilson@architectureanddesign.com.au"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: Jury Of The Future: Voices From Sustainability Awards Judges Of Years Past; Jury 2026Jury 2026; judges, and will ensure that only the country’s most pioneering green projects have made the final cut; judges and winners in 18 categories are announced at the five-star Sustainability Awards gala evening hosted at the Museum of Contemporary Art, Sydney, on 12 November 2026\n评审标准: selection of finalists a challenging task for our expert jury\n奖项等级关键词: WINNER, Platinum, Gold, finalist, shortlist",
+    "updated_at": "2026-04-60"
+  },
+  {
+    "award_id": "国际建筑奖_2026",
+    "name": "国际建筑奖",
+    "name_en": "The International Architecture Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://internationalarchitectureawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@europeanarch.eu"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: Closing date for 2027 applications: December 1st, 2026; Closing date for 2027 applications:\n评审信息: Jury for The International Architecture Awards for 2025; Jury for The International Architecture Awards for 2025\n奖项等级关键词: Winner, Honorable mention",
+    "updated_at": "2026-04-61"
+  },
+  {
+    "award_id": "国际房地产奖_2026",
+    "name": "国际房地产奖",
+    "name_en": "The International Property Awards 2025",
+    "category": [],
+    "award_intro": "",
+    "website": "https://propertyawards.net/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 275,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@propertyawards.net",
+      "电话": "+44(0) 1245 250981"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: DEADLINES; Deadlines; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region\n评审信息: JUDGE THE AWARDS; JUDGE THE AWARDS; judged annually; judged by a highly experienced team of professionals who cover the whole range of property disciplines; JUDGE THE AWARDS\n评审标准: criteria and marking process for that category, as well as detailed rules and guidelines for your entry; criteria point for that category and given a rating\n奖项等级关键词: WINNER, Gold, best in",
+    "updated_at": "2026-04-62"
+  },
+  {
+    "award_id": "国际酒店与地产设计奖_2026",
+    "name": "国际酒店与地产设计奖",
+    "name_en": "design et al        Home",
+    "category": [],
+    "award_intro": "",
+    "website": "https://thedesignawards.co.uk/international-hotel-property-awards/home-2/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "awards@design-et-al.com",
+      "电话": "+44 (0)1244 401932"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: JUDGE DESIGN FAIRLY YOU NEED TO PUT; judged by a panel\n奖项等级关键词: Winner, shortlist, best in",
+    "updated_at": "2026-04-63"
+  },
+  {
+    "award_id": "地产奖_2026",
+    "name": "地产奖",
+    "name_en": "TITAN Property Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://thepropertyawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [
+      {
+        "阶段": "常规截止",
+        "时间": "Jan 16, 2026"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "Feb 13, 2026"
+      }
+    ],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@thepropertyawards.com",
+      "电话": "+1 646 781 8768\n("
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $280, $219, $140, $30, $300, $320, $350, $240, $260, $310\n采集到日期: January 1, 2022, May 15, 2026\n截止日期: DEADLINE: APR 22, 2026 • ENTER NOW; DEADLINE; DEADLINE; DEADLINE; DEADLINE; DEADLINES & FEES; DEADLINE: MAY 8 • ENTER NOW; DEADLINES & FEES; deadline; closing of the competition (e\n评审信息: JUDGES SPOTLIGHT; jury panel consists of leading property industry professionals, whose contributions and innovations to the advancement of societal infrastructure are genuinely inspirational; judges today; jury members, or be considered for future inclusions in the TITAN Awards program, do consider nominating yourself, and we’ll get back to you soon; judge at the North American Transform Awards and before her career in branding, she ran her own company, which included two retail stores in Boston, Massachusetts, specializing in fashion, art, antiqu\n评审标准: JUDGING CRITERIA; evaluation of the work; Judging criteria; criteria determined by the requirements (see Judging Criteria); selections are based entirely on the overall quality of submissions in the given category\n奖项等级关键词: Winner, finalist, silver, best in, Platinum, Gold, merit",
+    "updated_at": "2026-04-64"
+  },
+  {
+    "award_id": "巴黎设计奖_2026",
+    "name": "巴黎设计奖",
+    "name_en": "GRANDS PRIX DU DESIGN Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://int.design/en/grands-prix-du-design/the-award/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 300,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@int.design"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $425, $225, $125, $275, $175, $75, $375, $200, $100\n采集到日期: MAY 1, 2026, May 1, 2026, may 1, 2026, November 15, 2025, November 16, 2025, February 15, 2026\n截止日期: Deadline: May 1, 2026; Deadline; Deadline: May 1, 2026 — 41 days remaining; deadline; Deadline: may 1, 2026; deadline, a first evaluation determines the OFFICIAL SELECTION of the GRANDS PRIX DU DESIGN Awards; Deadline: may 1, 2026; Deadline: may 1, 2026; closing date of the call for applications), select the discipline and categories you are interested in and; Deadline: may 1, 2026\n评审信息: Jury of Experts; jury of 110+ leading experts in design, architecture, landscape, communication and the built environment — from prominent firms, academia and specialized media worldwide; jury of leading experts in architecture and design, and benefit from a distinction that immediately strengthens your professional credibility with clients and partners; Jury will conduct an online deliberation; jury’s deliberation\n评审标准: evaluation determines the OFFICIAL SELECTION of the GRANDS PRIX DU DESIGN Awards; evaluation, meet or exceed the competition’s standards of excellence; EVALUATION CRITERIA; Evaluation Process; evaluation is based on a structured framework that analyzes projects according to their intent, execution, and impact\n奖项等级关键词: Winner, Platinum, Gold, finalist, BRONZE, SILVER",
+    "updated_at": "2026-04-65"
+  },
+  {
+    "award_id": "建筑奖_2026",
+    "name": "建筑奖",
+    "name_en": "Architecture MasterPrize Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://architectureprize.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "未知",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "team@architectureprize.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: April 30, 2026, November 24, 2026\n截止日期: deadline: April 30, 2026; deadlines, winners and events; Deadlines & Fees\n评审信息: JURY INFO & FAQ MEDIA PARTNERS ENTER; judged by an international jury of leading practitioners and critics; jury of architects and leaders in the architecture world, and will receive the AMP trophy, extensive publicity showcasing their designs to a worldwide audience, and more; Jury, and the best projects were selected; Jury Board of Architecture MasterPrize\n奖项等级关键词: WINNER, best in, Honorable Mention",
+    "updated_at": "2026-04-66"
+  },
+  {
+    "award_id": "建筑设计奖_2026",
+    "name": "建筑设计奖",
+    "name_en": "Arch Design Award and Competition 2026",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.archdesignaward.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "未知",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 89,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@archdesignaward.com",
+      "电话": "+358 44 944 7802"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: Deadline; deadline: 05 March 2025, 24:00 GMT+3; Deadline:; deadline; deadline: 05 March 2026, 24:00 GMT+3\n评审信息: Jury were selected from a wide range of applications; Jury Members are internationally recognised experts, highly experienced, award-winning professionals from around the world in the field of Architecture and Interior Design; Jury Members do not know any personal information about the Designers, the blind judging process allows everyone to stand on equal terms and with equal chances; Jury Members vote on different aspects: Design, Functionality, Structures and Materials, Innovation and Sustainability, Market Value, Presentation; Jury Members give between 1 and 10 points for each aspect, which will be weighted for the final score\n奖项等级关键词: Winner, BRONZE, SILVER, GOLD",
+    "updated_at": "2026-04-67"
+  },
+  {
+    "award_id": "意大利建筑奖_2026",
+    "name": "意大利建筑奖",
+    "name_en": "Home",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.premioarchitettura.it/it/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "意大利",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "fassa@fassabortolo.it"
+    },
+    "notes": "",
+    "_raw_extracted": "奖项等级关键词: merit",
+    "updated_at": "2026-04-68"
+  },
+  {
+    "award_id": "新加坡设计奖_2026",
+    "name": "新加坡设计奖",
+    "name_en": "Singapore Good Design Awards (SG Mark)",
+    "category": [],
+    "award_intro": "",
+    "website": "https://sgmark.org/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "新加坡",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 300,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "info@sgmark.org",
+      "电话": "+65 8829 2990"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $375, $500, $3, $3,600, $5,100, $4,800, $6,300\n截止日期: Deadline; Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8); Deadline, 2359 hrs (GMT +8)\n评审标准: evaluation and feedback by internationally renowned design practitioners; JUDGING CRITERIA; JUDGING CRITERIA; evaluation criteria (max; evaluation criteria (max\n奖项等级关键词: WINNER, SILVER",
+    "updated_at": "2026-04-69"
+  },
+  {
+    "award_id": "标志性设计奖_2026",
+    "name": "标志性设计奖",
+    "name_en": "Start",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.iconic-awards.com/de/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "德国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "iconicawards@gdc.de",
+      "电话": "+49 (0) 69 24 74 48 6"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: JURYSITZUNG; JURYSITZUNG; Jurysitzung hoch; Jury durch ihre Qualität und Innovation überzeugen; Jury würdigt damit zukunftsweisende Spitzenleistungen\n奖项等级关键词: WINNER",
+    "updated_at": "2026-04-70"
+  },
+  {
+    "award_id": "法国设计奖_2026",
+    "name": "法国设计奖",
+    "name_en": "French Design Award",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.frenchdesignaward.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "法国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 80,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "market@french-design-award.com",
+      "电话": "+393445633160"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadline of the award\n评审信息: jury's task is to provide all participants with the most in-depth feedback possible on the quality of their submission; jury and helps avoid unconscious cultural biases; jury: each year, a different group of experts is invited to serve as jurors, bringing with them a fresh perspective; jury strictly abides by the judging ethics, and will not know the applicants of the entries during the judging, so as to ensure that excellent design works can stand out; judges and organizers of this esteemed award for acknowledging our work among a pool of incredibly talented designers, winning the French Design Award means a lot to me\n评审标准: selection process, the awards celebrate the pinnacle of creativity and innovation in design\n奖项等级关键词: WINNER",
+    "updated_at": "2026-04-71"
+  },
+  {
+    "award_id": "砖建筑奖_2026",
+    "name": "砖建筑奖",
+    "name_en": "Brick Award",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.brickaward.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "奥地利",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "brickaward@wienerberger.com",
+      "电话": "+43 664 8283146"
+    },
+    "notes": "",
+    "_raw_extracted": "评审信息: jury of renowned architects selects the winners; jury of renowned architects, who change with every award, selects the winners within the categories including one Grand Prize winner; jury member of the Brick Award 20; jury of renowned international architects; Jury Members\n评审标准: selection Allow cookies; selection Allow cookies; selection Allow cookies; selection Allow cookies; selection Allow cookies\n奖项等级关键词: Winner",
+    "updated_at": "2026-04-72"
+  },
+  {
+    "award_id": "红点设计奖_2026",
+    "name": "红点设计奖",
+    "name_en": "Red Dot Design Award",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.red-dot.org/zh/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "德国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 200,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "电话": "+49 201 838885"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: deadlines, and costs can be found here; deadlines\n评审信息: jury of experts; jury members of the Red Dot Award: Brands & Communication Design; Jury decides on the quality of the entries and thus awards the Red Dot distinctions; jury members here\n评审标准: selection Customize; selection when browsing the website; selection Customize; selection Customize; selection Customize\n奖项等级关键词: Winner, Grand Prix",
+    "updated_at": "2026-04-73"
+  },
+  {
+    "award_id": "纽约设计奖_2026",
+    "name": "纽约设计奖（NY Product Design Awards）",
+    "organizer": "International Awards Associate (IAA)",
+    "award_intro": "纽约产品设计奖（NY Product Design Awards）由国际奖项协会（IAA）主办，旨在表彰全球才华横溢的产品设计师、设计团队和制造商。该奖项认可设计行业卓越的各种形式——从日常生活的实用创意到开创性的技术创新。奖项注重设计的功能性与美学结合，欢迎专业设计师、新锐设计师和爱好者参赛。参赛作品须在近5年内（2021年至今）完成。IAA旗下拥有12个奖项项目，覆盖33,000+参赛作品，41个国家，66+国际评委。2026年度主题为'Innovate for Tomorrow'。",
+    "website": "https://nydesignawards.com/",
+    "contact": {
+      "邮箱": "info@nydesignawards.com",
+      "电话": "+1 646 781 8768（美国）/ +60 12 226 0347（亚太）",
+      "地址": "14 Wall Street 20th Floor, New York, NY 10005, United States（美国）\nOffice Suite 1320 Level 13(C), Block 4 Financial Park Complex, Labuan 87000, Malaysia（亚太）"
+    },
+    "category": [
+      "汽车与交通（Cars & Motorcycles、Commercial Vehicles、Motorhomes & Caravans、Trains & Planes、Vehicle Accessories、Vehicle Technologies、Watercraft）",
+      "婴幼儿与儿童（Apparel & Accessories、Bathing、Car Seats、Diapering、Feeding、Furniture、Gear、Gifts、Health、Nursery、Potty Training、Pregnancy & Maternity、Safety、Social Design、Stationery、Strollers、Toys）",
+      "概念设计（Conceptual - 涵盖上述所有大类）",
+      "数码电子设备与配件（Audio & Video、Communication Technology、Computer & IT、Digital Devices、Future Technologies、Imaging & Vision、Mobile Phones & Tablets、Networking、Recreational Technology、Robotics、Wireless Devices）",
+      "时尚服饰（Boy's/Men's/Women's Clothing、Footwear、Ethnic Clothing、Sportswear、Wedding Apparel等）",
+      "家具（Commercial、Sets、Seating、Storage、Table & Desks）",
+      "游戏/AR/VR（Gaming Gear、Gaming Input Devices）",
+      "爱好与休闲（Music Gear、Musical Instrument、Pet Supplies、Scooters、Skateboards、Toys）",
+      "家居内饰（Bathroom、Kitchen、Household Appliances、Decorative Items、Tableware、Personal Care）",
+      "工业工具与工程（Industrial Equipment、Heating & AC、Robotics、Tools）",
+      "界面与用户体验（UX、UI、Interactive Design IxD）",
+      "照明（Architectural Lighting、Indoor/Outdoor Lighting、Lamps & Luminaires、Lighting Components/Innovation/Systems）",
+      "医疗与科学设备（Medical Devices、Healthcare、Scientific Instruments）",
+      "户外与运动（Bicycles、Fitness Equipment、Garden Furniture/Equipment、Outdoor & Camping、Sports Equipment）",
+      "包装（Beverage、Body/Health & Beauty、Branding、Food、Sustainable Design、Student Packaging）",
+      "可穿戴技术（Body Sensors、Exoskeletons、Head-Mounted Displays、Healthcare Devices、Smart Garments/Jewelry、Wearable Cameras、Wrist Devices）",
+      "办公与工作场所（Office Furniture & Chairs、Office Supplies & Stationery）"
+    ],
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "2025-12-18 ~ 2026-01-16",
+        "price": 219,
+        "note": "美元，首件作品费用"
+      },
+      {
+        "period": "最终价",
+        "date": "2026-01-17 ~ 2026-02-13",
+        "price": 239,
+        "note": "美元"
+      },
+      {
+        "period": "延期价",
+        "date": "2026-02-14 ~ 2026-03-18",
+        "price": 249,
+        "note": "美元"
+      },
+      {
+        "period": "最后期限",
+        "date": "2026-03-19 ~ 2026-04-22",
+        "price": 269,
+        "note": "美元"
+      },
+      {
+        "period": "附加类别",
+        "date": "",
+        "price": 0,
+        "note": "常规价$159 / 最终价$179 / 延期价$189 / 最后期限$209"
+      },
+      {
+        "period": "年度管理费",
+        "date": "",
+        "price": 30,
+        "note": "美元，每位参赛者固定收取"
+      }
+    ],
+    "timeline": [
+      {
+        "阶段": "常规截止",
+        "时间": "2026-01-16"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "2026-02-13"
+      },
+      {
+        "阶段": "延期截止",
+        "时间": "2026-03-18"
+      },
+      {
+        "阶段": "最后期限",
+        "时间": "2026-04-22"
+      },
+      {
+        "阶段": "早期结果公布",
+        "时间": "2026-04-03（4月1日前提交的作品）"
+      },
+      {
+        "阶段": "完整结果公布",
+        "时间": "2026-05-15"
+      }
+    ],
+    "judging_criteria": "评委按100分制评分，基于以下四大标准：\n1. 外观形态（Form）：设计的视觉和艺术质量、美学吸引力、对目标市场的吸引力、是否能引起用户情感共鸣、是否直观传达功能\n2. 创意与创新（Creativity & Innovation）：设计理念的整体评价、创意/创新概念运用、独特性、是否开拓新市场、是否改进现有产品\n3. 完工与功能（Finishing & Functionality）：产品质量、可用性、安全性、易维护性、性价比、性能表现\n4. 影响力（Impact）：对用户和环境的积极影响、文化/工业贡献、品质标杆推动、对更美好世界的贡献\n\n评审采用盲审制，评审期间隐藏评委和参赛者姓名，确保公正性。",
+    "award_levels": [
+      "Product Design of the Year（年度产品设计大奖）",
+      "Product Designer of the Year（年度产品设计师大奖）",
+      "Gold Winner（金奖）",
+      "Silver Winner（银奖）"
+    ],
+    "level_note": "年度大奖和年度设计师大奖仅各1名，获赠限量版Ava奖杯和证书。金奖85-100分，银奖60-84分。",
+    "eligibility": "开放给所有产品设计师，包括专业设计师、新锐设计师、业余爱好者。参赛对象涵盖广告代理商、艺术总监、品牌/企业主、汽车设计师、创意公司、设计公司、设计师、工程师、企业家、时装设计师、自由职业者、家具设计师、平面设计师、企业内部营销、机构、制造商、产品设计师、公关公司、学生、教师，以及任何年满18岁且拥有优秀产品设计的人士。作品须在近5年内完成（2021年至今）。支持个人或团队参赛。无参赛数量限制。",
+    "submission_requirements": {
+      "图片格式": "JPEG/PNG，单张不超过4MB，推荐宽度1200px，300dpi，RGB色彩模式",
+      "视频/音频": "上传至Vimeo/YouTube/Youku，提供直链和密码（如需）",
+      "PDF文件": "支持上传",
+      "作品简介": "建议约350字，阐述作品创意、原创性和设计理念",
+      "语言要求": "非英语作品需附英文翻译",
+      "隐私保护": "可选Keep My Entry Private保护隐私",
+      "多类别投递": "同一作品可投多个类别（需额外付费）"
+    },
+    "prize": "年度大奖和年度设计师大奖获赠限量版Ava奖杯+证书。金奖和银奖获证书、数字徽章、数字祝贺信。所有获奖者可购买Ava奖杯和额外定制证书。获奖者获得：专业新闻稿模板、获奖者专访机会（Muse.World）、社交媒体推广、在线展示5年、营销宣传资料。无需额外获奖确认费。",
+    "faq": [
+      {
+        "q": "如何提交作品？",
+        "a": "在线提交：注册/登录 → 填写表单（可选多个类别）→ 上传JPEG/PNG/PDF或URL → 加入购物车付款。4步完成。"
+      },
+      {
+        "q": "作品需要多久内完成？",
+        "a": "参赛作品须在最近5个日历年内完成（截至最终截止日期）。"
+      },
+      {
+        "q": "参赛数量有限制吗？",
+        "a": "没有数量限制。同一作品可投多个类别，每个额外类别需付附加费。"
+      },
+      {
+        "q": "评审流程是怎样的？",
+        "a": "盲审制。评委和参赛者信息全程保密。作品随机评审，不与其他参赛作品比较。每个类别可有多名获奖者或无获奖者。"
+      },
+      {
+        "q": "获奖者如何获得通知？",
+        "a": "2026年5月15日通过官网公布，同时通过邮件通知所有获奖者。"
+      },
+      {
+        "q": "是否需要发送实物样品？",
+        "a": "不需要。图片和产品描述即可。"
+      },
+      {
+        "q": "获奖后是否需要额外付费？",
+        "a": "不需要获奖确认费。如需奖杯和额外证书可自愿购买。奖杯定制生产，发货需6-12周。"
+      },
+      {
+        "q": "有颁奖典礼吗？",
+        "a": "没有线下典礼。全部通过线上进行，以保持低参赛成本。"
+      },
+      {
+        "q": "费用是否可退款？",
+        "a": "不可退款。已提交或被取消的参赛作品不予退款。"
+      }
+    ],
+    "rights": "参赛者保留作品版权。提交作品即授权纽约设计奖及其媒体合作伙伴将作品用于比赛营销和推广目的，包括展览、印刷和数字媒体。IAA有权在不通知参赛者的情况下发布和宣传参赛内容。用户上传的信息授予IAA免费、非独占、全球性、永久的展示和使用许可。参赛作品默认为原创，参赛者需拥有作品版权或已获得客户授权。",
+    "website_pages_scraped": {
+      "首页": "https://nydesignawards.com/",
+      "类别": "https://nydesignawards.com/categories.php",
+      "费用与参赛信息": "https://nydesignawards.com/product-design-awards.php#deadlinefee",
+      "FAQ": "https://nydesignawards.com/content.php?pg=faq",
+      "评委": "https://nydesignawards.com/our-judge.php",
+      "关于": "https://nydesignawards.com/product-design-awards.php",
+      "联系方式": "https://nydesignawards.com/contact.php",
+      "条款": "https://nydesignawards.com/content.php?pg=terms",
+      "截止日期": "https://nydesignawards.com/deadlines"
+    },
+    "data_source": "官网采集 + AI结构化提取",
+    "last_updated": "2026-04-24",
+    "updated_at": "2026-04-74"
+  },
+  {
+    "award_id": "设计教育奖_2026",
+    "name": "设计教育奖",
+    "name_en": "Design Educates Awards",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.designeducates.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "波兰",
+    "fee_timeline": [],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "hello@designeducates.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: April 01, 2026, October 16, 2026\n截止日期: deadline: June 15,2026; deadline for submissions will not be taken into account; deadline for registration)\n评审信息: jury consists of world-renowned architects, designers, innovators and educators who are successfully expanding the boundaries of what is possible in their fields; Jury members from previous editions here; Jury deliberation: July 2026; judges and media),; jury, schedule, fees, submission requirements, and awards ceremony\n评审标准: evaluation, the student project with the highest score; evaluation criteria\n奖项等级关键词: Winner, Gold, Silver, Bronze, Honorable Mention",
+    "updated_at": "2026-04-75"
+  },
+  {
+    "award_id": "金点设计奖_2026",
+    "name": "金点设计奖",
+    "name_en": "Golden Pin Design Award",
+    "category": [],
+    "award_intro": "",
+    "website": "https://www.goldenpin.org.tw/goldenpin/en",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "中国台湾",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 1500,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "gpaward@tdri.org.tw",
+      "电话": "+886-2-27458199"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到日期: December 31, 2021\n评审信息: jury body selects outstanding works from commercially available products and completed spatial or integrated design projects to receive the \"Golden Pin Design Mark,\" recognizing their design quality a; Jury Feedback; Jury Feedback; Jury's Evaluation\n评审标准: Selection Perspectives; selection process to encourage manufacturers to develop and design new products; selection process to involve the public in the movement to recognize and appreciate good product design; selection process followed by an open voting and discussions by a panel of experts in a campaign to turn the Golden Pin into a world-class design award; selection, where jurors evaluate and rate each entry individually based on the selection criteria, allowing participants to better understand how their product compares to others\n奖项等级关键词: WINNER, Gold",
+    "updated_at": "2026-04-76"
+  },
+  {
+    "award_id": "金钥匙奖_2026",
+    "name": "金钥匙奖",
+    "name_en": "Home",
+    "category": [],
+    "award_intro": "",
+    "website": "https://goldkeyawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "美国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 350,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "Keisha.Byrd@EmeraldX.com"
+    },
+    "notes": "",
+    "_raw_extracted": "采集到费用信息: $235\n采集到日期: November 10, 2025, JULY 1, 2024, JULY 25, 2025, August 8, 2025, JULY 26, 2025\n截止日期: Deadline extended: You know have until August 8 to submit; deadline has been extended to August 8, 2025\n评审信息: judges reserve the right to change categories for a submission; the submitter will be notified in those cases; judged according to the following criteria; judges shall first examine all the entries submitted by the participants online and assign a score for each of the criteria listed above on a scale of 1-5 (with 1 being the lowest and 5 being the high; judges based on the cumulative results of the online judging results and an in-person judging session; jury of hospitality industry leaders from the operations, design, development and investment sectors\n评审标准: JUDGING CRITERIA; criteria listed above on a scale of 1-5 (with 1 being the lowest and 5 being the highest)\n奖项等级关键词: Gold, Finalist, winner, best in",
+    "updated_at": "2026-04-77"
+  },
+  {
+    "award_id": "餐厅与酒吧设计奖_2026",
+    "name": "餐厅与酒吧设计奖",
+    "name_en": "The world's most creative spaces",
+    "category": [],
+    "award_intro": "",
+    "website": "https://restaurantandbardesignawards.com/",
+    "organizer": "",
+    "organizer_intro": "",
+    "organizer_location": "英国",
+    "fee_timeline": [
+      {
+        "period": "常规价",
+        "date": "",
+        "price": 250,
+        "note": ""
+      }
+    ],
+    "fee_note": "",
+    "timeline": [],
+    "award_levels": [],
+    "level_note": "",
+    "judging_criteria": [],
+    "judging_note": "",
+    "requirements": {},
+    "requirements_note": "",
+    "submission_requirements": {},
+    "benefits": [],
+    "judges": [],
+    "judges_note": "",
+    "faq": [],
+    "chinese_winners": [],
+    "contact": {
+      "邮箱": "kirsty@restaurantandbardesignawards.com"
+    },
+    "notes": "",
+    "_raw_extracted": "截止日期: Closing date for entries31st May 2026; closing date for entries; closing date, the organizers reserve the right to refuse entry; deadline of 31st May 2026, however all fees (including the registration fee) will not be refunded\n评审信息: Judges including Tony Chambers (Editor-in-Chief, Wallpaper*); Judges including Michelle Ogundehin (Editor-in-Chief, ELLE Decoration); Judges including Karim Rashid (Designer); Judges including Stephen Alden (CEO, Maybourne Hotel Group); Judges including Thomas Heatherwick (Designer)\n评审标准: criteria in a separate text document, and then cut and paste your responses into the relevant parts of the online submission form; criteria is divided into three sections, design brief, design challenges & design results; criteria to enter\n奖项等级关键词: Winner, Gold, shortlist",
+    "updated_at": "2026-04-78"
+  },
+  {
+    "award_id": "architizer_awards_2026",
+    "award_name": "Architizer A+Awards",
+    "award_name_en": "Architizer A+Awards",
+    "award_name_cn": "Architizer A+奖",
+    "organizer": "Architizer",
+    "organizer_intro": "全球最具影响力的建筑网站，总部位于美国纽约，致力于连接建筑师与建筑设计产品。其在线档案库收录了全球数万个建筑项目，是建筑师获取灵感与行业资源的重要平台。",
+    "established": "2013年",
+    "history": "A+Awards于2013年举办首届，2026年已进入第14届。2024年第13届颁奖典礼分别在纽约、巴黎和深圳三地举行，体现了奖项的全球化视野。",
+    "description": "全球最大、最全面的建筑与空间设计奖项之一。奖项旨在表彰年度最具创新性与社会价值的建筑、室内与景观作品，推动公众鉴赏全球范围内有意义的建筑，并提倡建筑对日常生活产生的积极影响。奖项以其全面、严谨和权威的评审过程，及不到5%入围率的竞争机制，在全球建筑界享有极高的含金量。2026年第14届以'Craft'（匠心工艺）为年度核心主题，致敬那些平衡技术创新与永恒工艺的建筑作品。",
+    "categories": [
+      {
+        "main": "类型学类别（Typology）",
+        "sub": [
+          "住宅",
+          "商业办公",
+          "酒店与接待",
+          "体育与休闲",
+          "文化建筑",
+          "教育机构",
+          "景观与规划",
+          "交通建筑"
+        ]
+      },
+      {
+        "main": "建筑+类别（Plus）",
+        "sub": [
+          "概念（Concepts）",
+          "细节（Details）",
+          "建筑+当地环境（Architecture+Context）",
+          "建筑+工艺（Architecture+Craft）",
+          "建筑+家居（Architecture+Home）"
+        ]
+      },
+      {
+        "main": "可持续类别（Sustainability）",
+        "sub": [
+          "可持续系统",
+          "气候友好材料",
+          "健康建材",
+          "道德建造实践",
+          "未建成类别"
+        ]
+      },
+      {
+        "main": "公司类别（Firm）",
+        "sub": [
+          "按规模分类",
+          "按专业方向分类",
+          "最佳工艺事务所（Best in Craft Firm）"
+        ]
+      }
+    ],
+    "deadlines": [
+      {
+        "阶段": "报名启动",
+        "时间": "2025-10-13"
+      },
+      {
+        "阶段": "早鸟截止",
+        "时间": "2025-10-31"
+      },
+      {
+        "阶段": "常规截止",
+        "时间": "2025-12-12"
+      },
+      {
+        "阶段": "最终截止",
+        "时间": "2026-01-30"
+      },
+      {
+        "阶段": "延期截止",
+        "时间": "2026-02-27"
+      },
+      {
+        "阶段": "评审团投票",
+        "时间": "2026-04"
+      },
+      {
+        "阶段": "公众投票",
+        "时间": "2026-05"
+      },
+      {
+        "阶段": "获奖公布",
+        "时间": "2026-06"
+      }
+    ],
+    "fees": [
+      {
+        "阶段": "早鸟",
+        "价格": "$275",
+        "截止日期": "2025-10-31",
+        "备注": "可使用折扣码SUNSHINEPR减免$25"
+      },
+      {
+        "阶段": "常规",
+        "价格": "$325",
+        "截止日期": "2025-12-12",
+        "备注": "可使用折扣码SUNSHINEPR减免$25"
+      },
+      {
+        "阶段": "最终",
+        "价格": "$375",
+        "截止日期": "2026-01-30",
+        "备注": "可使用折扣码SUNSHINEPR减免$25"
+      },
+      {
+        "阶段": "延期",
+        "价格": "$425",
+        "截止日期": "2026-02-27",
+        "备注": "可使用折扣码SUNSHINEPR减免$25"
+      },
+      {
+        "阶段": "年度项目参评附加费",
+        "价格": "$195",
+        "备注": "不计入单项目报名费，可在提交时勾选"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "专业评审奖（Jury Winner）",
+        "description": "由250+人规模的国际化评审团（Jury Academy）投票选出，体现专业判断。每个类别均评选出专业评审奖获得者。"
+      },
+      {
+        "level": "大众评审奖（Popular Choice Winner）",
+        "description": "通过网络公众投票产生，体现社会广泛认可。每个类别均评选出大众评审奖获得者。"
+      },
+      {
+        "level": "年度项目大奖（Project of the Year）",
+        "description": "由Architizer编辑团队从所有参赛作品中遴选出最具远见和文化相关性的作品，颁发此特别荣誉。参选需在提交过程中额外勾选对应选项。"
+      }
+    ],
+    "judging_criteria": [
+      {
+        "name": "创新性",
+        "description": "设计理念的前瞻性和独特的解决问题方式"
+      },
+      {
+        "name": "工艺与匠心（Craft）",
+        "description": "材料的运用、构造细节的打磨、对工艺的精益求精——2026年度核心关注点"
+      },
+      {
+        "name": "在地性回应",
+        "description": "建筑是否深刻理解和尊重其所在地的文化、历史与生态环境"
+      },
+      {
+        "name": "可持续价值",
+        "description": "是否在可持续系统、材料选择和建造实践上体现出对环境和社会的责任感"
+      },
+      {
+        "name": "社会与文化影响力",
+        "description": "建筑如何回应更广泛的社会议题，产生超越使用功能的文化意义"
+      },
+      {
+        "name": "公众吸引力",
+        "description": "项目的视觉表现力和对公众的感染力（影响大众评审的选择）"
+      }
+    ],
+    "judges_2025": [
+      {
+        "姓名": "Carlo Ratti",
+        "头衔": "Carlo Ratti Associati 创始人",
+        "公司": "2025年威尼斯建筑双年展总策展人"
+      },
+      {
+        "姓名": "Ma Yansong（马岩松）",
+        "头衔": "创始合伙人",
+        "公司": "MAD建筑事务所"
+      },
+      {
+        "姓名": "Benedetta Tagliabue",
+        "头衔": "主持建筑师",
+        "公司": "EMBT Architects，Enric Miralles基金会创始人兼总监"
+      },
+      {
+        "姓名": "Andrés Jaque",
+        "头衔": "创始人，哥伦比亚大学GSAPP建筑学院院长",
+        "公司": "OFFPOLINN"
+      },
+      {
+        "姓名": "Carson Chan",
+        "头衔": "首席策展人",
+        "公司": "赫尔辛基建筑与设计博物馆"
+      },
+      {
+        "姓名": "Llisa Demetrios",
+        "头衔": "首席策展人",
+        "公司": "Eames研究所"
+      },
+      {
+        "姓名": "Michael Magill",
+        "头衔": "RSP全球设计负责人暨迪拜区域执行总监",
+        "公司": "RSP"
+      },
+      {
+        "姓名": "Kathy Scott",
+        "头衔": "合伙人",
+        "公司": "Walker Warner"
+      },
+      {
+        "姓名": "Greg Mottola",
+        "头衔": "CEO",
+        "公司": "Walker Warner"
+      }
+    ],
+    "past_winners": "历届获奖项目涵盖国际顶尖事务所，包括MVRDV、MAD Architects、Bjarke Ingels Group、Adjaye Associates等。",
+    "requirements": {
+      "开放对象": "面向全球所有从事建筑、室内设计、景观设计、规划和施工的公司及个人开放",
+      "作品年限": "类型学、Plus和可持续类别须为过去三年内竣工的项目（未建成类别除外）",
+      "公司类别作品年限": "须包含至少三个过去十年内竣工的项目",
+      "提交数量": "无提交数量和报名类别的上限",
+      "图片要求": "1-12张高分辨率项目图片（含封面图），单张10MB以内，JPG/JPEG/TIFF/PNG格式",
+      "可选材料": "视频补充材料",
+      "知识产权": "参赛者须确保对参赛作品拥有独立的知识产权及影像版权"
+    },
+    "benefits": [
+      "全球媒体曝光：获奖项目及团队通过Architizer官网、Architizer Journal及全球合作媒体网络获得广泛国际媒体报道",
+      "年鉴收录：被收录于年度特别出版物《The World's Best Architecture》精装画册，面向全球发行",
+      "A+List荣誉：获奖事务所将被列入Architizer的A+List——全球领先建筑事务所年度名录",
+      "颁奖典礼：受邀参加年度颁奖典礼及交流活动。第13届颁奖典礼曾在纽约、巴黎和深圳三座城市举办区域性活动",
+      "奖杯：获得Architizer特别定制的A+Awards奖杯",
+      "年度项目大奖额外权益：在Architizer Journal获得定制化编辑报道，优先获得行业演讲机会和活动邀请"
+    ],
+    "other_info": [
+      "报名通道：通过官网awards.architizer.com在线提交",
+      "年度主题：2026年第14届以Craft（匠心工艺）为核心主题",
+      "中国区折扣码：SUNSHINEPR可减免$25报名费",
+      "特别提示：第14届报名窗口已关闭，公众投票和评审正在进行中",
+      "类别数量：共设124个细分参赛类别，分为类型学、建筑+、可持续、公司四大类体系"
+    ],
+    "official_url": "https://awards.architizer.com"
+  },
+  {
+    "award_id": "sida奖_新加坡室内设计师协会奖_2026",
+    "award_name": "SIDA奖（新加坡室内设计师协会奖）",
+    "award_name_en": "Singapore Interior Design Awards (SIDA)",
+    "award_name_cn": "SIDA奖（新加坡室内设计师协会奖）",
+    "organizer": "新加坡室内设计师协会 (Society of Interior Designers Singapore, SIDS)",
+    "organizer_intro": "新加坡室内设计师协会（SIDS）是新加坡最活跃、最强大的室内设计团体，受新加坡法律管辖，致力于提升室内设计专业水准、解决行业问题，并推动新加坡设计走向世界。协会与国际室内建筑师/设计师联盟（IFI）及新加坡设计理事会（DSG）深度合作，确保奖项标准的权威性与国际影响力。",
+    "established": "2017年",
+    "history": "SIDA由新加坡室内设计师协会（SIDS）于2017年创办，是新加坡唯一获得国际认可的室内设计奖项，深受国际室内建筑师/设计师联盟（IFI）及新加坡设计理事会（DSG）双重权威认证。奖项旨在表彰区域及全球范围内在室内设计领域作出卓越贡献的设计师、优秀作品和行业新秀。",
+    "description": "新加坡室内设计奖（SIDA）是新加坡最成熟的室内设计奖，旨在通过严谨的评选标准提升行业水平与公众认知。作为新加坡唯一获得IFI及DSG双重认证的室内设计奖项，SIDA以激发行业潜能为己任，既为资深从业者提供展示舞台，也为青年设计师搭建了通往国际的职业桥梁。",
+    "categories": [
+      {
+        "main": "已建成项目（SIDA COMPLETED）",
+        "sub": [
+          "住宅 (Residential)",
+          "酒店/餐饮 (Hospitality / F&B)",
+          "零售 (Retail)",
+          "办公 (Workspace)",
+          "展览 (Exhibition)",
+          "公共空间 (Public Space)",
+          "医疗保健 (Healthcare)",
+          "学术空间 (Academia)",
+          "可持续/产品专项"
+        ]
+      },
+      {
+        "main": "概念性项目（SIDA CONCEPT）",
+        "sub": [
+          "住宅",
+          "酒店/餐饮",
+          "零售",
+          "办公",
+          "展览",
+          "公共空间",
+          "医疗保健",
+          "学术空间",
+          "可持续/产品专项"
+        ]
+      },
+      {
+        "main": "青年学生组（SIDA YOUTH）",
+        "sub": [
+          "设计院校在读学生作品"
+        ]
+      }
+    ],
+    "fees": [
+      {
+        "阶段": "SIDS会员",
+        "金额": "$400起/件",
+        "备注": "每件作品约400美元起"
+      },
+      {
+        "阶段": "非会员",
+        "金额": "$500起/件",
+        "备注": "每件作品约500美元起"
+      },
+      {
+        "阶段": "批量优惠",
+        "金额": "阶梯折扣",
+        "备注": "提交多件作品（如5件）可享受阶梯折扣"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "金奖（Gold）",
+        "description": "每个细分类别最高荣誉，授予卓越设计作品"
+      },
+      {
+        "level": "银奖（Silver）",
+        "description": "授予设计品质突出的优秀作品"
+      },
+      {
+        "level": "铜奖（Bronze）",
+        "description": "授予具有显著设计亮点的优质作品"
+      },
+      {
+        "level": "荣誉奖（Honorable Mention）",
+        "description": "授予值得表彰的优秀设计作品"
+      }
+    ],
+    "level_note": "特别奖项包括：成就奖（Luminary/Lifetime Achievement）、年度设计师（Designer of the Year）、年度青年设计师（Young Designer of the Year）、年度设计公司（Best Design Firm of the Year）、年度设计教育家（Design Educator of the Year）、ADMIRA创新与可持续性大奖、Hansgrohe+Axor最佳浴室设计奖等。",
+    "judging_criteria": [
+      {
+        "维度": "设计影响力（Design Impact）",
+        "说明": "作品是否能对最终用户及环境产生积极而深远的影响"
+      },
+      {
+        "维度": "创造力与创新（Creativity & Innovation）",
+        "说明": "是否具备独特的原创性和突破性的设计手法"
+      },
+      {
+        "维度": "空间规划与利用（Spatial Planning & Utilization）",
+        "说明": "是否通过巧妙的战略规划，高效解决了功能需求"
+      },
+      {
+        "维度": "美学价值（Aesthetic Value）",
+        "说明": "是否呈现出强大的设计理念与视觉感染力"
+      }
+    ],
+    "judging_note": "评审格外青睐那些敢于挑战常规、引入新材料创新并将人类体验置于首位的作品。评审团由来自全球设计、建筑及酒店业领域的顶尖专家、创意总监与行业领袖组成，通过严谨的集体评议确保评选的国际化视野与专业性。完整评委名单通常在报名开启后于官网公布。",
+    "requirements": {
+      "开放对象": "面向全球室内设计师、室内建筑师及相关专业学生",
+      "作品时效": "参赛作品须为最近3年内完成或提出",
+      "提交方式": "通过官网 sidawards.sg 完成线上注册、资料上传及缴费",
+      "材料要求": "详细要求以当届参赛指南（Entry Kit）为准"
+    },
+    "benefits": [
+      "奖杯与证书：金、银、铜奖得主获特质奖杯；荣誉奖得主获纸质证书",
+      "全球媒体曝光：作品与设计师将在国际及新加坡主流设计媒体、合作媒体平台及SIDA官方网站上获得广泛宣传",
+      "颁奖盛典：受邀参加年度颁奖晚宴，与行业领袖和全球同行面对面交流，拓展商业与人脉机遇",
+      "年终年鉴收录：获奖作品将被收录于SIDA官方年度出版物，作为权威背书",
+      "专属荣誉标识：终身享有使用SIDA获奖标志的权利，可用于个人履历、宣传材料及官网，提升市场竞争力"
+    ],
+    "judges_note": "SIDA的评审阵容由来自全球设计、建筑及酒店业领域的顶尖专家、创意总监与行业领袖组成。近期评委来自中西文化背景，涵盖知名设计事务所创始人、设计院校教授及高端生活方式品牌主理人，确保评价维度的多元与公正。",
+    "other_info": [
+      "以上信息基于2025年度（第9届）整理，2026年确切日程以官网 www.sidawards.sg 公布为准",
+      "最终收费标准以当届官网公布的参赛指引（Entry Kit）为准",
+      "SIDA受IFI及DSG双重认证，是新加坡唯一获得国际认可的室内设计奖项"
+    ],
+    "official_url": "https://sidawards.sg",
+    "contact": "sida@sid-singapore.org",
+    "award_intro": "新加坡室内设计奖（SIDA）是新加坡最成熟的室内设计奖，旨在通过严谨的评选标准提升行业水平与公众认知。作为新加坡唯一获得IFI及DSG双重认证的室内设计奖项，SIDA以激发行业潜能为己任，既为资深从业者提供展示舞台，也为青年设计师搭建了通往国际的职业桥梁。",
+    "organizer_location": "新加坡",
+    "timeline": [
+      {
+        "阶段": "早鸟报名启动",
+        "时间": "2026年4月-5月间（预测）"
+      },
+      {
+        "阶段": "早鸟优惠截止",
+        "时间": "2026年6月底（预测）"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2026年8月初（预测）"
+      },
+      {
+        "阶段": "获奖公布",
+        "时间": "2026年10月-11月（预测）"
+      },
+      {
+        "阶段": "颁奖典礼暨年度晚宴",
+        "时间": "2026年11月（预测）"
+      }
+    ]
+  }
+]

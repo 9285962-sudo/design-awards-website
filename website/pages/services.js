@@ -7,24 +7,22 @@ export default function Services() {
 
   const services = [
     {
-      icon: '🎯',
-      title: '参赛作品优劣势分析',
-      desc: '以国际评委的视角，对您的作品进行全方位剖析，明确指出核心优势与潜在短板，并提供具象、可执行的优化策略。'
-    },
-    {
       icon: '🏆',
       title: '奖项精准匹配',
-      desc: '根据项目特点精准匹配最适合的国际设计大奖，结合历年获奖数据、评委偏好及行业趋势，制定最佳参赛策略。'
+      desc: '根据项目特点精准匹配最适合的国际设计大奖，结合历年获奖数据、评委偏好及行业趋势，制定最佳参赛策略。',
+      link: '/services/award-matching'
+    },
+    {
+      icon: '📊',
+      title: '获奖概率评估',
+      desc: '多维度交叉分析，提供客观前瞻性的获奖预测报告，助您科学决策，优化参赛资源配置。',
+      link: '/services/win-probability'
     },
     {
       icon: '✨',
       title: '精准叙事呈现',
-      desc: '深度挖掘项目内核，将其转化为具有感染力的国际设计语言，优化版面及多媒体材料，确保您的创意被精准且动人地呈现。'
-    },
-    {
-      icon: '💰',
-      title: '荣誉价值最大化',
-      desc: '获奖后，我们提供从品牌宣传、媒体公关到市场转化的全方位策略，助您将这份荣誉转化为切实的品牌资产与商业价值。'
+      desc: '深度挖掘项目内核，将其转化为具有感染力的国际设计语言，优化版面及多媒体材料，确保您的创意被精准且动人地呈现。',
+      link: '/services/storytelling'
     }
   ]
 
@@ -39,20 +37,20 @@ export default function Services() {
   ]
 
   const advantages = [
-    { icon: '🎯', title: '参赛作品优劣势分析', desc: '以国际评委视角全方位剖析作品，明确核心优势与潜在短板' },
-    { icon: '🏆', title: '奖项精准匹配', desc: '根据项目特点精准匹配最适合的国际设计大奖' },
-    { icon: '📊', title: '获奖概率评估', desc: '多维度交叉分析，提供客观前瞻性的获奖预测报告' },
-    { icon: '✨', title: '精准叙事呈现', desc: '深度挖掘项目内核，确保创意被精准且动人地呈现' },
-    { icon: '🔄', title: '全程跟进', desc: '从策略提案到获奖报道，专人对接服务到底' },
-    { icon: '💰', title: '荣誉价值最大化', desc: '从品牌宣传到市场转化，全方位策略支持' }
+    { icon: '⭐', title: '经验丰富', desc: '15年深耕国际设计大奖申报，熟悉全球各大奖项的评审标准和偏好' },
+    { icon: '🌐', title: '资源广泛', desc: '与108个全球奖项建立官方合作，涵盖建筑、室内、景观、产品、视觉传达全品类' },
+    { icon: '🏆', title: '成功率高', desc: '80%平均获奖率，累计服务350+设计师，1000+作品成功获奖' },
+    { icon: '💎', title: '省心省力', desc: '全程代理服务，您只需提供作品资料，其他所有流程交给我们' }
   ]
 
   return (
     <>
       <Head>
-        <title>专业代理服务 | 设计能—国际设计大奖申报指南</title>
-        <meta name="description" content="设计能提供专业国际设计大奖代理申报服务：参赛作品优劣势分析、获奖概率评估、荣誉价值最大化、精准叙事呈现。15年经验，合作108个奖项，75%获奖率。" />
-        <meta name="keywords" content="设计大奖代理,报奖服务,代理申报,MUSE奖代理,国际设计奖,参赛代理" />
+        <title>专业代理服务 | 设计能 - 国际设计大奖申报平台</title>
+        <meta name="description" content="设计能提供专业国际设计大奖代理申报服务：参赛作品优劣势分析、获奖概率评估、荣誉价值最大化、精准叙事呈现。15年经验，国际奖项研究、参赛策略咨询，合作108个奖项，获奖率80%。" />
+        <meta name="keywords" content="设计大奖代理,报奖服务,代理申报,国际奖项研究,参赛策略咨询,国际设计奖申报,参赛代理服务,MUSE奖代理,红点奖代理,iF奖代理" />
+        <meta name="robots" content="index,follow" />
+        <link rel="canonical" href="https://www.52de.cc/services" />
       </Head>
 
       {/* Header */}
@@ -67,8 +65,11 @@ export default function Services() {
             </div>
             <nav style={styles.nav}>
               <Link href="/" style={styles.navLink}>首页</Link>
-              <Link href={`/awards/${museAward.award_id}`} style={styles.navLink}>奖项详情</Link>
+              <Link href="/awards" style={styles.navLink}>奖项库</Link>
+              <Link href="/compare" style={styles.navLink}>奖项对比</Link>
               <Link href="/services" style={{...styles.navLink, color: '#D4AF37'}}>申报服务</Link>
+              <Link href="/strategy" style={styles.navLink}>参赛策略</Link>
+              <Link href="/news" style={styles.navLink}>赛事新闻</Link>
               <Link href="/about" style={styles.navLink}>关于我们</Link>
             </nav>
           </div>
@@ -104,17 +105,21 @@ export default function Services() {
       {/* Services Section */}
       <section style={styles.section}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>核心服务项目</h2>
+          <h2 style={styles.sectionTitle}>服务亮点</h2>
           <div style={styles.servicesGrid}>
             {services.map((service, index) => (
-              <div 
+              <Link 
                 key={index} 
-                style={styles.serviceCard}
+                href={service.link}
+                style={{textDecoration: 'none'}}
               >
-                <div style={styles.serviceIcon}>{service.icon}</div>
-                <h3 style={styles.serviceTitle}>{service.title}</h3>
-                <p style={styles.serviceDesc}>{service.desc}</p>
-              </div>
+                <div style={styles.serviceCard}>
+                  <div style={styles.serviceIcon}>{service.icon}</div>
+                  <h3 style={styles.serviceTitle}>{service.title}</h3>
+                  <p style={styles.serviceDesc}>{service.desc}</p>
+                  <div style={styles.serviceLink}>了解详情 →</div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -124,20 +129,8 @@ export default function Services() {
       <section style={{...styles.section, backgroundColor: '#fff'}}>
         <div style={styles.container}>
           <h2 style={styles.sectionTitle}>服务流程</h2>
-          {/* 第一行：4个 */}
           <div style={styles.processRow}>
-            {process.slice(0, 4).map((item, index) => (
-              <div key={index} style={styles.processItem}>
-                <div style={styles.processStep}>{item.step}</div>
-                {item.items.map((text, i) => (
-                  <p key={i} style={styles.processItemText}>{text}</p>
-                ))}
-              </div>
-            ))}
-          </div>
-          {/* 第二行：3个 */}
-          <div style={styles.processRow}>
-            {process.slice(4, 7).map((item, index) => (
+            {process.map((item, index) => (
               <div key={index} style={styles.processItem}>
                 <div style={styles.processStep}>{item.step}</div>
                 {item.items.map((text, i) => (
@@ -165,25 +158,49 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Extended Services Section */}
-      <section style={styles.section}>
+      {/* Value-Added Services Section */}
+      <section style={{...styles.section, backgroundColor: '#fff'}}>
         <div style={styles.container}>
-          <h2 style={styles.sectionTitle}>延伸业务</h2>
-          <div style={styles.extendedServicesGrid}>
-            <div style={styles.extendedServiceItem}>
-              <h3 style={styles.extendedServiceTitle}>1、设计师个人IP塑造服务</h3>
-              <p style={styles.extendedServiceDesc}>帮助设计师建立个人品牌，打造专业形象</p>
-            </div>
-            <div style={styles.extendedServiceItem}>
-              <h3 style={styles.extendedServiceTitle}>5、设计方法论研究报告</h3>
-              <p style={styles.extendedServiceDesc}>对全球设计大奖获奖作品及其获奖理由进行分析，撰写各个垂类设计领域设计方法论研究报告，为设计师设计理念提供指导，对设计灵感提供启发。</p>
-            </div>
+          <h2 style={styles.sectionTitle}>增值服务</h2>
+          <div style={styles.valueAddedGrid}>
+            <Link href="/services/work-analysis" style={{textDecoration: 'none'}}>
+              <div style={{...styles.valueAddedItem, cursor: 'pointer'}}>
+                <div style={styles.valueAddedIcon}>🎯</div>
+                <h3 style={styles.valueAddedTitle}>参赛作品优劣势分析及改进建议</h3>
+                <p style={styles.valueAddedDesc}>以国际评委的视角，对您的作品进行全方位剖析，明确指出核心优势与潜在短板，并提供具象、可执行的优化策略。</p>
+                <span style={styles.detailLink}>了解详情 →</span>
+              </div>
+            </Link>
+            <Link href="/services/methodology-research" style={{textDecoration: 'none'}}>
+              <div style={{...styles.valueAddedItem, cursor: 'pointer'}}>
+                <div style={styles.valueAddedIcon}>📚</div>
+                <h3 style={styles.valueAddedTitle}>垂直领域设计方法论研究报告定制</h3>
+                <p style={styles.valueAddedDesc}>基于红点、iF、IDEA等大奖获奖作品深度解析，提炼可复用的设计策略与思维模型，单品类报告涵盖50+国际案例。</p>
+                <span style={styles.detailLink}>了解详情 →</span>
+              </div>
+            </Link>
+            <Link href="/services/honor-conversion" style={{textDecoration: 'none'}}>
+              <div style={{...styles.valueAddedItem, cursor: 'pointer'}}>
+                <div style={styles.valueAddedIcon}>💎</div>
+                <h3 style={styles.valueAddedTitle}>荣誉转化与价值变现</h3>
+                <p style={styles.valueAddedDesc}>获奖后提供从品牌宣传、媒体公关到市场转化的全方位策略，助您将这份荣誉转化为切实的品牌资产与商业价值。</p>
+                <span style={styles.detailLink}>了解详情 →</span>
+              </div>
+            </Link>
+            <Link href="/services/ip-incubation" style={{textDecoration: 'none'}}>
+              <div style={{...styles.valueAddedItem, cursor: 'pointer'}}>
+                <div style={styles.valueAddedIcon}>👤</div>
+                <h3 style={styles.valueAddedTitle}>设计师个人IP孵化服务</h3>
+                <p style={styles.valueAddedDesc}>从"懂设计"到"被记住"的IP化跃迁，通过十大核心模块，帮您建立差异化定位、构建影响力并实现商业变现。</p>
+                <span style={styles.detailLink}>了解详情 →</span>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section style={{...styles.section, backgroundColor: '#fff'}}>
+      <section style={{...styles.section, backgroundColor: '#f8f9fa'}}>
         <div style={styles.container}>
           <h2 style={styles.sectionTitle}>常见问题</h2>
           <div style={styles.faqList}>
@@ -261,7 +278,7 @@ export default function Services() {
 
 const styles = {
   header: {
-    backgroundColor: '#1E3A5F',
+    backgroundColor: '#1A1A1A',
     padding: '16px 0',
     position: 'sticky',
     top: 0,
@@ -291,14 +308,14 @@ const styles = {
     width: 'auto',
   },
   logoSubText: {
-    fontSize: '24px',
+    fontSize: '18px',
     fontWeight: 'bold',
     color: '#D4AF37',
     marginLeft: '12px',
   },
   nav: {
     display: 'flex',
-    gap: '32px',
+    gap: '28px',
   },
   navLink: {
     color: '#fff',
@@ -355,9 +372,9 @@ const styles = {
   },
   servicesGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
+    gridTemplateColumns: 'repeat(3, 1fr)',
     gap: '32px',
-    maxWidth: '900px',
+    maxWidth: '1200px',
     margin: '0 auto',
   },
   serviceCard: {
@@ -381,6 +398,13 @@ const styles = {
     fontSize: '15px',
     color: '#666',
     lineHeight: 1.8,
+    marginBottom: '16px',
+  },
+  serviceLink: {
+    fontSize: '14px',
+    color: '#D4AF37',
+    fontWeight: 'bold',
+    marginTop: 'auto',
   },
   btnPrimary: {
     backgroundColor: '#D4AF37',
@@ -411,8 +435,8 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'flex-start',
-    gap: '16px',
-    marginBottom: '16px',
+    gap: '12px',
+    flexWrap: 'wrap',
   },
   turnArrow: {
     display: 'flex',
@@ -428,13 +452,14 @@ const styles = {
   processItem: {
     backgroundColor: '#fff',
     borderRadius: '12px',
-    padding: '20px',
+    padding: '16px 12px',
     boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
     border: '1px solid #E5E5E5',
     textAlign: 'center',
     position: 'relative',
-    minWidth: '180px',
-    flex: '0 0 auto',
+    flex: '1 1 calc(14.28% - 12px)',
+    minWidth: '140px',
+    maxWidth: '160px',
   },
   processItemSecond: {
     backgroundColor: '#fff',
@@ -470,20 +495,21 @@ const styles = {
     height: '24px',
   },
   processStep: {
-    fontSize: '32px',
+    fontSize: '28px',
     fontWeight: 'bold',
     color: '#D4AF37',
-    marginBottom: '16px',
+    marginBottom: '12px',
   },
   processItemText: {
-    fontSize: '16px',
+    fontSize: '14px',
     fontWeight: 'bold',
     color: '#1E3A5F',
-    marginBottom: '8px',
+    marginBottom: '6px',
+    lineHeight: '1.4',
   },
   advantagesGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+    gridTemplateColumns: 'repeat(4, 1fr)',
     gap: '24px',
   },
   advantageItem: {
@@ -531,6 +557,190 @@ const styles = {
     fontSize: '15px',
     color: '#555',
     lineHeight: 1.8,
+  },
+  valueAddedGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    gap: '24px',
+    maxWidth: '900px',
+    margin: '0 auto',
+  },
+  valueAddedItem: {
+    backgroundColor: '#fff',
+    padding: '32px',
+    borderRadius: '12px',
+    boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
+    border: '1px solid #E5E5E5',
+    textAlign: 'center',
+    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+  },
+  valueAddedIcon: {
+    fontSize: '40px',
+    marginBottom: '16px',
+  },
+  valueAddedTitle: {
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#1E3A5F',
+    marginBottom: '12px',
+    lineHeight: 1.4,
+  },
+  valueAddedDesc: {
+    fontSize: '14px',
+    color: '#666',
+    lineHeight: 1.7,
+  },
+  detailLink: {
+    display: 'inline-block',
+    marginTop: '16px',
+    color: '#D4AF37',
+    fontSize: '14px',
+    fontWeight: '500',
+    textDecoration: 'none',
+    transition: 'color 0.3s ease',
+  },
+  methodologyAchievements: {
+    maxWidth: '900px',
+    margin: '40px auto 0',
+    padding: '32px',
+    backgroundColor: '#f8f9fa',
+    borderRadius: '16px',
+    border: '1px solid #E5E5E5',
+  },
+  achievementsTitle: {
+    fontSize: '20px',
+    fontWeight: 'bold',
+    color: '#1E3A5F',
+    marginBottom: '24px',
+    textAlign: 'center',
+  },
+  achievementSection: {
+    marginBottom: '24px',
+  },
+  achievementSubtitle: {
+    fontSize: '15px',
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: '12px',
+    paddingBottom: '8px',
+    borderBottom: '2px solid #D4AF37',
+    display: 'inline-block',
+  },
+  achievementList: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '10px',
+  },
+  achievementItemCompleted: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '12px 16px',
+    backgroundColor: '#fff',
+    borderRadius: '8px',
+    borderLeft: '4px solid #4CAF50',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
+  },
+  achievementItemInProgress: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '12px 16px',
+    backgroundColor: '#fff',
+    borderRadius: '8px',
+    borderLeft: '4px solid #FF9800',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
+  },
+  achievementName: {
+    fontSize: '14px',
+    fontWeight: '500',
+    color: '#1E3A5F',
+  },
+  achievementSpec: {
+    fontSize: '12px',
+    color: '#666',
+    backgroundColor: '#f0f0f0',
+    padding: '4px 10px',
+    borderRadius: '12px',
+  },
+  achievementClient: {
+    fontSize: '12px',
+    color: '#FF9800',
+    fontStyle: 'italic',
+  },
+  plannedAreas: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    gap: '10px',
+  },
+  plannedTag: {
+    fontSize: '13px',
+    color: '#666',
+    backgroundColor: '#fff',
+    padding: '6px 14px',
+    borderRadius: '16px',
+    border: '1px dashed #ccc',
+  },
+  ipServiceRow: {
+    marginTop: '40px',
+    maxWidth: '900px',
+    margin: '40px auto 0',
+  },
+  ipServiceCard: {
+    backgroundColor: '#fff',
+    padding: '40px',
+    borderRadius: '16px',
+    boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+    border: '2px solid #D4AF37',
+    textAlign: 'left',
+  },
+  ipServiceHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '20px',
+    marginBottom: '20px',
+  },
+  ipServiceIcon: {
+    fontSize: '48px',
+    width: '80px',
+    height: '80px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f8f9fa',
+    borderRadius: '50%',
+    border: '2px solid #D4AF37',
+  },
+  ipServiceTitle: {
+    fontSize: '24px',
+    fontWeight: 'bold',
+    color: '#1E3A5F',
+    marginBottom: '8px',
+  },
+  ipServiceSubtitle: {
+    fontSize: '16px',
+    color: '#D4AF37',
+    fontWeight: '500',
+  },
+  ipServiceDesc: {
+    fontSize: '15px',
+    color: '#555',
+    lineHeight: 1.8,
+    marginBottom: '24px',
+  },
+  ipModulesPreview: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    gap: '8px',
+    marginBottom: '20px',
+  },
+  ipModuleTag: {
+    fontSize: '13px',
+    color: '#1E3A5F',
+    backgroundColor: '#f8f9fa',
+    padding: '6px 12px',
+    borderRadius: '16px',
+    border: '1px solid #E5E5E5',
   },
   faqList: {
     maxWidth: '800px',

@@ -1,0 +1,112 @@
+{
+  "award_id": "liva奖_2026",
+  "name": "LIVA奖",
+  "name_en": "LIV Hospitality Design Awards 2025",
+  "website": "https://livawards.com/",
+  "organizer": "",
+  "organizer_location": "未知",
+  "extracted": {
+    "contact_email": "info@livawards.com",
+    "raw_fees": [
+      "$240",
+      "$76"
+    ],
+    "raw_deadlines": [
+      "deadlines",
+      "DEADLINES 2026",
+      "Deadline: October 31st, 2026",
+      "Deadline: December 20th, 2026 (10% late fee applies)"
+    ],
+    "raw_categories": [
+      "ui",
+      "architecture",
+      "interior",
+      "landscape",
+      "web",
+      "ux",
+      "Lighting",
+      "Green",
+      "Urban",
+      "Branding",
+      "concept",
+      "Social",
+      "product",
+      "Service",
+      "video",
+      "digital",
+      "photography"
+    ],
+    "raw_judges": [
+      "jury panel composed of experienced and prominent academics, professionals, press members, entrepreneurs, and developers in the fields of hospitality, architecture, and interior design",
+      "jury members select the winners in professional and student categories",
+      "judges evaluate each project based on their own merit; rewarding the most pioneering and ground-breaking hospitality designs and selecting those that stand out",
+      "Jury’s Picks” designation is an exclusive accolade bestowed upon projects achieving a remarkable rating of 80 points or higher from our esteemed panel of experts, out of a possible 100",
+      "jury’s favorites in “Architecture” and “Interior Design"
+    ],
+    "raw_criteria": [
+      "SELECTION OF OUTSTANDING HOSPITALITY DESIGNS",
+      "evaluation criteria here"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "best in",
+      "merit",
+      "HONORABLE MENTION",
+      "Silver",
+      "gold",
+      "finalist"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://livawards.com/",
+      "chars": 6497,
+      "preview": "EDITION 2026 IS NOW OPEN\nTHE AWARD\nWINNERS\nCATEGORIES\nBENEFITS\nJURY\nEVENTS\nNOMINATION\nNEWS\nPRESS\nFAQS\nSUBMIT / LOGIN\nSelect Language\nEnglish\nFrench\nGerman\nItalian\nSpanish\nThe Jewel Suites of Patiala by the Park Hotels\nLIV DESIGN AWARDS\n\nJoin the 2026 edition\n\nSubmit\nLIV HOSPITALITY DESIGN AWARDS \nrecognize excellence in hospitality architecture, interior design, and guest experiences on a global scale.\n\nThe LIV Hospitality Design Awards aims to celebrate the quality and diversity of architectura"
+    },
+    "参赛": {
+      "url": "https://livawards.com/submit/login.php",
+      "chars": 197,
+      "preview": "Account Login\n\nIf you don't have an account you can create it here\n\nEmail Address\nPassword\nShow Password\nBy proceeding, you agree to the Terms and Privacy Policy\nI forgot my password\nCreate Account"
+    },
+    "获奖者": {
+      "url": "https://livawards.com/winner/liv/2025/",
+      "chars": 15000,
+      "preview": "DISCOVER A SELECTION OF OUTSTANDING HOSPITALITY DESIGNS!\n\nThe LIV Hospitality Design Awards takes pride in acknowledging the outstanding contributions of some of the industry’s most brilliant minds.\n\nAfter a multi-round of votes, the jury members select the winners in professional and student categories. The judges evaluate each project based on their own merit; rewarding the most pioneering and ground-breaking hospitality designs and selecting those that stand out. The winners serve as a testam"
+    },
+    "类别": {
+      "url": "https://livawards.com/categories/",
+      "chars": 5405,
+      "preview": "AUKA Inn by FGMF\nENTRY CATEGORIES IN LIVING SPACE \nArchitectural Design of the Year: Professional // Emerging Architectural Design of the Year: Student\nInterior Design of the Year: Professional // Emerging Interior Design of the Year: Student\n\nSociety constantly redefines space. Hospitality responds by embracing these changes, whether through the introduction of new accommodation concepts, or by focusing on lifestyle, design, and the lived experience of guests.\n\nWithin the LIVING space, architec"
+    },
+    "评审": {
+      "url": "https://livawards.com/jury/",
+      "chars": 4486,
+      "preview": "Mercure Antwerp City Centre by Buckley Gray Yeoman\nJURY MEMBERS\n\nLIV Hospitality Design Awards is an annual design competition { architecture & Interior Design} dedicated to the Hospitality industry, split into two key divisions: Living Space and Eating Space. All entries are voted on by a grand jury panel composed of experienced and prominent academics, professionals, press members, entrepreneurs, and developers in the Hospitality, Architecture, and Interior Design fields. Learn more about the "
+    },
+    "FAQ": {
+      "url": "https://livawards.com/faqs/",
+      "chars": 14097,
+      "preview": "FREQUENTLY ASKED QUESTIONS\nEntry Process and Requirements\nWhat are the steps for submitting an entry?\nSign up for a free membership profile\nOnce you’re a member, login with your username and password, and you will be directed to the submissions page\nFill in the required information and upload your submission\nProceed to payment.\n\nFor more information on the application process, download the LIV Awards Entry Guide 2026, and contact us via online chat or via email at support@livawards.com.\n\nWhat in"
+    },
+    "费用": {
+      "url": "https://livawards.com/winner/special/2025/2033/0/",
+      "chars": 2488,
+      "preview": "Mandarin Oriental, Costa Navarino\nPrize\nArchitectural Design of the Year - Living Space\nCompany/Firm\nAlexandros N. Tombazis and Associates Architects S.A., K-Studio\nLead Designer\nYiannis Romanos, Dimitris Karampatakis, Christina Fragkouli, Christos Spetseris\nOther Designer(s)\nCoopers Hill, Greenways Hellas\nArchitect\nAlexandros N. Tombazis and Associates Architects S.A., K-Studio\nInterior Designer\nAfroditi, Alexander Waterworth Interiors, K-Studio, MKV Design, Tombazis Architects, Mare Studio\nHos"
+    },
+    "联系": {
+      "url": "https://livawards.com/contact",
+      "chars": 383,
+      "preview": "Het Achterhuis: An atmospheric bedroom, in the attic of the back-house. by Minimuc Design Studio\nContact the LIV Hospitality Design Awards Team\nSupport\n\nPlease see our Frequently Asked Questions.\n\nIf you don’t find an answer to your question, please contact us at support@livawards.com.\n\nCompany Address:\n\nThree C Group GmbH\nGrabenstrasse 15a\n6340 Baar, Switzerland\n\nwww.3Cawards.com"
+    },
+    "关于": {
+      "url": "https://livawards.com/about-liv-design-awards/",
+      "chars": 2821,
+      "preview": "Aramness Gir by Fox Browne Creative\nABOUT THE LIV HOSPITALITY DESIGN AWARDS\n\nLIV Hospitality Design Awards recognize excellence in hospitality architecture, interior design, and guest experiences: on a global scale.\n\nThe mission of the LIV Hospitality Design Awards is to celebrate the quality and diversity of the architectural ventures and interior design projects shaping the worldwide hospitality industry today. The program was launched in 2020 and is an inclusive platform, pursuing and rewardi"
+    },
+    "规则": {
+      "url": "https://livawards.com/terms-conditions/",
+      "chars": 15000,
+      "preview": "Terms & Conditions\n\nLast updated: 10th February 2023\n\nWelcome to LIV Hospitality Design Awards, this document (“Terms”, “Terms and Conditions”, “Agreement”, “Contract”) govern your use of our web pages located at https://livawards.com/ (“Service”, “Website”, “Site” “we”, “our”, “us”), and is a legally binding agreement between you as the User (“User”, “You”, “Your”, “Yourself”), and LIV Hospitality Design Awards that is owned by Three C Group GmbH, CHE-461.840.267  (“Company”, “LIV”, “LIV Design"
+    }
+  }
+}

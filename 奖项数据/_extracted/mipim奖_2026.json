@@ -1,0 +1,83 @@
+{
+  "award_id": "mipim奖_2026",
+  "name": "MIPIM奖",
+  "name_en": "MIPIM Awards 2026",
+  "website": "https://mipimawards.com/mipimawards2026/en/page/homepage",
+  "organizer": "",
+  "organizer_location": "法国",
+  "extracted": {
+    "contact_email": "mipim.awards@rxglobal.com",
+    "raw_categories": [
+      "sustainable",
+      "ui",
+      "urban",
+      "concept",
+      "Green",
+      "service",
+      "digital",
+      "social",
+      "web"
+    ],
+    "raw_judges": [
+      "jury focus on projects that seek to enhance the built environment’s prospects, in line with ESG goals",
+      "JURY OF EXPERTS",
+      "jury, composed of high-profile real estate experts and chaired by Véronique BEDAGUE Chief Executive Officer & Chief Investment Officer of Nexity, will review all the entries and select three winners i"
+    ],
+    "raw_award_levels": [
+      "WINNER",
+      "finalist"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://mipimawards.com/mipimawards2026/en/page/homepage",
+      "chars": 6754,
+      "preview": "HOME\n \nWINNERS 2026\n \nCOMPETITION \nCategories\nHow to enter\nCompetition Rules\nFAQ\n \nJURY\n \nPREVIOUS WINNERS \n2025 Winners\n2024 Winners\n2023 Winners\n2022 Winners\n2021 Winners\n2020 Winners\n2019 Winners\n2018 Winners\n2017 Winners\n2016 Winners\n2015 Winners\n1991 - 2014 Winners\n \nCEREMONY \nCeremony 2026\nCeremony 2025\nCeremony 2024\nCeremony 2023\nCeremony 2022\nCeremony 2021\nCeremony 2020\nCeremony 2019\nCeremony 2018\nCeremony 2017\nCeremony 2016\nCeremony 2015\nCeremony 2014\nCeremony 2013\nCeremony 2012\nCeremon"
+    },
+    "获奖者": {
+      "url": "https://mipimawards.com/../page/winners-2026",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "类别": {
+      "url": "https://mipimawards.com/../page/categories",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "参赛": {
+      "url": "https://mipimawards.com/../page/how-to-enter",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "规则": {
+      "url": "https://mipimawards.com/../page/competition-rules",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "FAQ": {
+      "url": "https://mipimawards.com/../page/faq",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "评审": {
+      "url": "https://mipimawards.com/../page/jury",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "费用": {
+      "url": "https://mipimawards.com/fees",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "关于": {
+      "url": "https://mipimawards.com/about",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    },
+    "时间": {
+      "url": "https://mipimawards.com/deadlines",
+      "chars": 89,
+      "preview": "Event\tEvent Contact\tLanguages\n\nMIPIM Awards 2026\nEvent Features: Award\n\tJuliette Ridel\ten"
+    }
+  }
+}

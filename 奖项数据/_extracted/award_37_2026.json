@@ -1,0 +1,55 @@
+{
+  "award_id": "award_37_2026",
+  "name": "Improving the quality of life",
+  "name_en": "Improving the quality of life",
+  "website": "https://the.akdn/en/home",
+  "organizer": "",
+  "organizer_location": "",
+  "extracted": {
+    "raw_fees": [
+      "$8",
+      "$820",
+      "$240"
+    ],
+    "raw_categories": [
+      "UI",
+      "Industrial",
+      "Architecture",
+      "Service",
+      "Video",
+      "social",
+      "mobile",
+      "GRAPHIC",
+      "sustainable",
+      "product",
+      "communication"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://the.akdn/en/home",
+      "chars": 5742,
+      "preview": "WHO WE ARE\nOur Chair\nOur Founder\nOur Partners\nAwards\nFact Sheet\nFrequently Asked Questions\nContact Us\nWHAT WE DO\n\nDEVELOPING HUMAN CAPACITY\n\nEarly Childhood Development\nEducation\nHealth\n\nBUILDING RESILIENT COMMUNITIES\n\nEnvironment & Climate Change\nAgriculture & Food Security\nCivil Society\nDisaster Preparedness & Response\nHabitat Planning & Improvement\n\nGENERATING ECONOMIC GROWTH\n\nEnterprise Development\nFinancial Inclusion\nHospitality & Tourism\nIndustrial Development\nInfrastructure Development\nMe"
+    },
+    "FAQ": {
+      "url": "https://the.akdn/en/how-we-work/our-approach/frequently-asked-questions",
+      "chars": 7561,
+      "preview": "FREQUENTLY ASKED QUESTIONS\nThis page is also available in\nEnglish\nWHAT IS AKDN?\n\nAKDN’s agencies are private, international, non-denominational development organisations. They work to improve the welfare and prospects of people in the developing world, particularly in Asia and Africa. Some programmes, such as specific research, education and cultural programmes, span both the developed and developing worlds. While each agency pursues its own mandate, all of them work together within the overarch"
+    },
+    "参赛": {
+      "url": "https://the.akdn/en/what-we-do/generating-economic-growth/enterprise-development",
+      "chars": 6101,
+      "preview": "IN A FRAGMENTING WORLD, OLD PARTNERSHIPS OFFER NEW PROMISE\n\nLearn more\n\nIN THE KYRGYZ REPUBLIC, START-UPS ARE IN STYLE\n\nIN THE KYRGYZ REPUBLIC, START-UPS ARE IN STYLE\n\nLEARN MORE\n\nYOUTH AND THE RISE OF A NEW KYRGYZ ECONOMY\n\nLearn more\n\nHOW NARYN ENTREPRENEURS ARE TURNING HERITAGE INTO JOBS\n\nLearn more\n\nENTREPRENEURS POWERING SYRIA’S RECOVERY\n\nLearn more\nThis page is also available in\nEnglish\nAKDN | ENTERPRISE DEVELOPMENT\n\nAKDN seeks to create economically sound and viable enterprises, both in sm"
+    },
+    "费用": {
+      "url": "https://the.akdn/en/resources-media/whats-new/spotlights/the-struggle-to-help-mozambiques-poorest-villages-as-aid-cuts-really-bite",
+      "chars": 5250,
+      "preview": "SPOTLIGHT\n\nThe struggle to help Mozambique’s poorest villages as aid cuts really bite: \"I feel our feet are being cut off\"\n\nMozambique · 21 April 2026 · 3 min\n\nShare\n\nEmail\n\nPrint\n\nPDF\n\nBy Harry Johnstone\n\n\n\n\nMarques Joao steps uneasily over the pile of plastic which sits like a glacier in front of his work building. Searching for little brown bottles, he picks them out of the pile and fills his bucket. He works for ASMOG, a community organisation operating in Cabo Delgado province, northern Moz"
+    },
+    "关于": {
+      "url": "https://the.akdn/en/how-we-work/our-approach/frequently-asked-questions#logo",
+      "chars": 7561,
+      "preview": "FREQUENTLY ASKED QUESTIONS\nThis page is also available in\nEnglish\nWHAT IS AKDN?\n\nAKDN’s agencies are private, international, non-denominational development organisations. They work to improve the welfare and prospects of people in the developing world, particularly in Asia and Africa. Some programmes, such as specific research, education and cultural programmes, span both the developed and developing worlds. While each agency pursues its own mandate, all of them work together within the overarch"
+    }
+  }
+}

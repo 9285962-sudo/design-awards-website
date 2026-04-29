@@ -1,0 +1,36 @@
+{
+  "award_id": "凡尔赛奖_2026",
+  "name": "凡尔赛奖",
+  "name_en": "Prix Versailles",
+  "website": "https://www.prix-versailles.com/",
+  "organizer": "",
+  "organizer_location": "法国",
+  "extracted": {
+    "contact_email": "contact@prix-versailles.com",
+    "raw_categories": [
+      "ARCHITECTURE",
+      "Video",
+      "social",
+      "sustainable",
+      "urban",
+      "ux",
+      "ui"
+    ],
+    "raw_judges": [
+      "Jury are tasked with awarding twenty-four World Titles from among the Selected Sites – in the categories of Airports, Campuses, Passenger Stations, Sports, Museums, Emporiums, Hotels and Restaurants",
+      "Jury are tasked with awarding twenty-four World Titles from among the Selected Sites – in the categories of Airports, Campuses, Passenger Stations, Sports, Museums, Emporiums, Hotels and Restaurants"
+    ]
+  },
+  "page_summaries": {
+    "首页": {
+      "url": "https://www.prix-versailles.com/",
+      "chars": 5007,
+      "preview": "top of page\nTHE WORLD ARCHITECTURE AND DESIGN AWARD\n\n“Inspiration, Progress and Inclusion”\n\nLaureates Area\nPrix Versailles\nAbout\nNominations\nContact\nInternational Appeal\nPress\nEditions\nVideos\nGeography\n\nPress release\n\nPRIX VERSAILLES WORLD CEREMONY\n\n4 December 2025 | Paris, UNESCO\n\n2025 Laureates\n\nA PRIX VERSAILLES INITIATIVE:\n\nRECOGNISING THE “WORLD'S MOST BEAUTIFUL” ACHIEVEMENTS\n\nThe \"World's Most Beautiful” Achievements recognition, granted by the Prix Versailles, highlights the primary role "
+    },
+    "关于": {
+      "url": "https://www.prix-versailles.com",
+      "chars": 4948,
+      "preview": "top of page\nSkip to Main Content\nTHE WORLD ARCHITECTURE AND DESIGN AWARD\n\n“Inspiration, Progress and Inclusion”\n\nEN\nEN\nES\nFR\nZH\nLaureates Area\n\nPress release\n\nPRIX VERSAILLES WORLD CEREMONY\n\n4 December 2025 | Paris, UNESCO\n\n2025 Laureates\n\nA PRIX VERSAILLES INITIATIVE:\n\nRECOGNISING THE “WORLD'S MOST BEAUTIFUL” ACHIEVEMENTS\n\nThe \"World's Most Beautiful” Achievements recognition, granted by the Prix Versailles, highlights the primary role of the Laureates in beautifying and improving the living en"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-const dataLoader = require('./utils/data-loader.js');
+var dataLoader = require('./utils/data-loader.js');
 
 App({
   globalData: {
@@ -8,6 +8,8 @@ App({
     // 奖项数据列表
     awardList: [],
     currentAward: null,
+    // 数据加载状态
+    awardDataReady: false,
     // 对话历史
     chatHistory: []
   },
@@ -20,37 +22,36 @@ App({
       });
     }
 
-    // 加载奖项数据
+    // 异步加载奖项数据
     this.loadAwardData();
 
     // 检查登录状态
     this.checkLoginStatus();
   },
 
-  // 加载所有奖项数据
+  // 异步加载所有奖项数据
   loadAwardData() {
-    try {
-      // 使用数据加载工具从JSON文件加载
-      const awards = dataLoader.getAwardsList();
-      this.globalData.awardList = awards;
-      
+    var self = this;
+    dataLoader.getAwardsList().then(function(awards) {
+      self.globalData.awardList = awards;
+      self.globalData.awardDataReady = true;
+
       // 默认设置第一个奖项为当前奖项
-      if (awards.length > 0 && !this.globalData.currentAward) {
-        this.globalData.currentAward = dataLoader.getAwardDetail(awards[0].award_id);
+      if (awards.length > 0 && !self.globalData.currentAward) {
+        self.globalData.currentAward = awards[0];
       }
-      
+
       console.log('奖项数据加载成功:', awards.length, '个奖项');
-    } catch (error) {
+    }).catch(function(error) {
       console.error('奖项数据加载失败:', error);
-      // 如果JSON加载失败，使用内置备用数据
-      this.loadBackupData();
-    }
+      // 使用内置备用数据
+      self.loadBackupData();
+    });
   },
 
-  // 备用数据（当JSON加载失败时使用）
+  // 备用数据（当远程加载失败且无缓存时使用）
   loadBackupData() {
-    // 这里保留原来的硬编码数据作为备用
-    const backupAwards = [
+    var backupAwards = [
       {
         award_id: "muse_design_2026",
         award_name_cn: "MUSE设计奖",
@@ -65,13 +66,14 @@ App({
         deadline_final: "2026-01-15"
       }
     ];
-    
+
     this.globalData.awardList = backupAwards;
     this.globalData.currentAward = backupAwards[0];
+    this.globalData.awardDataReady = true;
     console.warn('使用备用数据');
   },
 
-  // 获取单个奖项完整数据
+  // 获取单个奖项完整数据（异步）
   getAwardDetail(awardId) {
     return dataLoader.getAwardDetail(awardId);
   },
@@ -83,7 +85,7 @@ App({
 
   // 检查登录状态
   checkLoginStatus() {
-    const token = wx.getStorageSync('token');
+    var token = wx.getStorageSync('token');
     if (token) {
       this.globalData.isLoggedIn = true;
     }

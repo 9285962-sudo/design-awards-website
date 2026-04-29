@@ -1,0 +1,114 @@
+<!-- 奖项对比页 -->
+<view class="container">
+  <!-- Banner -->
+  <view class="banner">
+    <view class="banner-content">
+      <text class="banner-title">奖项对比</text>
+      <text class="banner-subtitle" wx:if="{{!showResult}}">选择2-{{maxCompare}}个奖项，对比费用、时间、声誉</text>
+      <text class="banner-subtitle" wx:else>对比结果</text>
+    </view>
+  </view>
+
+  <!-- ====== 选择模式 ====== -->
+  <block wx:if="{{!showResult}}">
+    <!-- 快速筛选 -->
+    <view class="filter-bar">
+      <scroll-view scroll-x class="filter-scroll">
+        <view
+          class="filter-tag {{currentCategory === item ? 'active' : ''}}"
+          wx:for="{{categories}}"
+          wx:key="index"
+          bindtap="selectCategory"
+          data-category="{{item}}"
+        >{{item}}</view>
+      </scroll-view>
+    </view>
+
+    <!-- 已选提示 -->
+    <view class="select-info" wx:if="{{selectedIds.length > 0}}">
+      <text>已选 <text class="select-count">{{selectedIds.length}}</text>/{{maxCompare}} 个</text>
+      <text class="select-clear" bindtap="clearSelect">清空</text>
+    </view>
+
+    <!-- 奖项列表 -->
+    <view class="award-list">
+      <block wx:if="{{loading}}">
+        <view class="loading"><text>加载中...</text></view>
+      </block>
+      <block wx:elif="{{filteredAwards.length > 0}}">
+        <view
+          class="award-item {{selectedIds.indexOf(item.award_id) !== -1 ? 'selected' : ''}}"
+          wx:for="{{filteredAwards}}"
+          wx:key="award_id"
+          bindtap="toggleSelect"
+          data-id="{{item.award_id}}"
+        >
+          <!-- 选中标记 -->
+          <view class="check-mark" wx:if="{{selectedIds.indexOf(item.award_id) !== -1}}">✓</view>
+          <view class="award-header">
+            <view class="award-name">{{item.award_name_cn}}</view>
+            <view class="award-country">🌍 {{item.country}}</view>
+          </view>
+          <view class="award-tags">
+            <text class="tag category">{{item.category_main}}</text>
+            <text class="tag prestige" wx:if="{{item.prestige_level}}">{{item.prestige_level}}</text>
+            <text class="tag deadline" wx:if="{{item.deadline_final}}">📅 {{item.deadline_final}}</text>
+          </view>
+          <view class="award-footer">
+            <view class="award-fee" wx:if="{{item.fee_early_bird || item.fee_regular}}">
+              参赛费: {{item.fee_currency === 'USD' ? '$' : (item.fee_currency === 'EUR' ? '€' : '£')}}{{item.fee_early_bird || item.fee_regular}}起
+            </view>
+            <view class="award-tip" wx:if="{{selectedIds.indexOf(item.award_id) === -1}}">点击选择</view>
+            <view class="award-tip remove" wx:else>点击取消</view>
+          </view>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="empty"><text>暂无数据</text></view>
+      </block>
+    </view>
+
+    <!-- 底部对比按钮 -->
+    <view class="compare-bar" wx:if="{{selectedIds.length > 0}}">
+      <text class="compare-info">已选 <text class="compare-count">{{selectedIds.length}}</text> 个奖项</text>
+      <view class="compare-btn {{selectedIds.length < 2 ? 'disabled' : ''}}" bindtap="startCompare">
+        开始对比
+      </view>
+    </view>
+  </block>
+
+  <!-- ====== 对比结果模式 ====== -->
+  <block wx:else>
+    <view class="result-back" bindtap="backToSelect">← 重新选择</view>
+
+    <!-- 对比奖项名称 -->
+    <view class="result-names">
+      <view class="result-name-card" wx:for="{{selectedAwards}}" wx:key="award_id">
+        <text class="result-name">{{item.award_name_cn}}</text>
+        <text class="result-name-en">{{item.award_name_en}}</text>
+      </view>
+    </view>
+
+    <!-- 对比区块 -->
+    <view class="result-sections">
+      <view class="result-section" wx:for="{{compareSections}}" wx:key="title" wx:for-item="section">
+        <view class="section-title">{{section.title}}</view>
+        <view class="section-grid">
+          <!-- 每个奖项一列 -->
+          <view class="section-col" wx:for="{{selectedAwards}}" wx:key="award_id" wx:for-item="award">
+            <view class="field-row" wx:for="{{section.fields}}" wx:key="label" wx:for-item="field">
+              <text class="field-label">{{field.label}}</text>
+              <text class="field-value">{{award[field.key] ? (field.currency ? ((award.fee_currency === 'USD' ? '$' : (award.fee_currency === 'EUR' ? '€' : '£')) + award[field.key]) : (field.array ? (award[field.key].join ? award[field.key].join('、') : award[field.key]) : award[field.key])) : '—'}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 咨询入口 -->
+    <view class="result-cta">
+      <text class="cta-text">不确定选哪个？专业顾问帮您分析</text>
+      <text class="cta-phone">📞 136-9222-2744</text>
+    </view>
+  </block>
+</view>
