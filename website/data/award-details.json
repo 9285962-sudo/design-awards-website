@@ -1,143 +1,275 @@
 [
-{
-  "award_id": "a_design_award_2026_2027",
-  "name": "A'设计奖（A' Design Award & Competition）",
-  "name_en": "A' Design Award & Competition",
-  "award_intro": "A' Design Award & Competition 是全球最大型、最负盛名且最具影响力的设计奖项之一，被认为是设计界的最高荣誉之一。奖项旨在表彰和推广全球范围内最优秀的设计、设计理念以及设计产品，激励设计师、艺术家、建筑师、品牌和设计机构创作更卓越的作品，为全球社会带来福祉。",
-  "organizer": "A' Design Award & Competition SRL",
-  "organizer_intro": "由意大利公司 A' Design Award & Competition SRL 组织运营，总部位于意大利科莫。以公平、透明和精英主义的评审机制著称，实施科学建构的、盲审的、统计标准化的评估系统。",
-  "organizer_location": "意大利 · 科莫",
-  "description": "A' Design Award 采用多周期制，目前（4月）正处于2026-2027年度征集期。",
-  "established": "2010年（约）",
-  "history": "A' Design Award & Competition 已发展成为全球最大型、最负盛名且最具影响力的设计奖项之一。2025-2026年度共颁发51项铂金奖、147项金奖、407项银奖和487项铜奖。拥有世界上最大的设计评审团之一，2025-2026年度共有315名评审成员。奖项不仅提供荣誉认可，更为获奖者提供全面的PR、展览和营销服务包。",
-  "category": [
-    "工业设计",
-    "平面设计",
-    "建筑与室内设计",
-    "艺术与工程奖",
-    "时尚设计",
-    "服务设计",
-    "数字艺术",
-    "其他领域专门奖项"
-  ],
-  "timeline": [
-    {
-      "阶段": "早鸟报名截止",
-      "时间": "2026年6月30日"
+  {
+    "award_id": "arch_design_award_2027",
+    "name": "Arch Design Award（建筑与设计奖）",
+    "name_en": "Arch Design Award",
+    "award_intro": "Arch Design Award（建筑与设计奖）是一项备受瞩目的国际设计竞赛。奖项名称「Arch」（拱门）象征着这一经典建筑结构数千年来的核心地位，它既是历史与未来的视觉桥梁，也体现了设计在美学与功能之间的联结作用。该奖项的使命是发掘和表彰建筑与室内设计领域中，在创意、质量和前瞻性思维方面表现卓越的才华横溢的设计师和工作室，帮助他们提升在全球设计界的声誉和影响力。",
+    "organizer": "Design Award Agency (DAA)",
+    "organizer_intro": "Design Award Agency (DAA) 是一家在芬兰注册的营销机构。奖项与多家国际知名机构合作推广，其中包括中国的官方合作伙伴 DesignRe-explore 设计再探索。Arch Design Award 是年度奖项，多年来已成功举办多届，致力于推动全球设计行业的高质量发展。",
+    "organizer_location": "芬兰 · 赫尔辛基",
+    "description": "Arch Design Award 采用分阶段注册的滚动式报名系统，目前可参考2027年度报名周期进行规划。覆盖建筑设计与室内设计两大核心类别，以及家具与产品设计、照明设计、包装与平面设计等创意领域。",
+    "established": "不详（已成功举办多届）",
+    "history": "Arch Design Award 是一个年度奖项，多年来已成功举办多届，致力于推动全球设计行业的高质量发展。奖项采用严格的盲审（Blind Judging）机制，评审团成员无法获知参赛设计师的个人信息，以确保每位参赛者都能在公平的环境下竞争。所有参赛作品将根据其最终综合得分获得相应等级的奖项。",
+    "category": [
+      "建筑设计类（Architectural Design Category）",
+      "室内设计类（Interior Design Category）",
+      "家具与产品设计",
+      "照明设计",
+      "包装设计",
+      "平面设计"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止（Early Bird）",
+        "时间": "2026年6月1日"
+      },
+      {
+        "阶段": "常规报名截止（Standard）",
+        "时间": "2026年10月1日"
+      },
+      {
+        "阶段": "最终报名截止（Final）",
+        "时间": "2027年1月1日"
+      },
+      {
+        "阶段": "延期报名截止（Late）",
+        "时间": "2027年3月5日"
+      },
+      {
+        "阶段": "提名者/获奖名单公布",
+        "时间": "2027年4月1日"
+      }
+    ],
+    "fee_currency": "EUR",
+    "fee_timeline": [
+      {
+        "period": "早鸟报名（Early Bird）",
+        "price": 200,
+        "currency": "EUR",
+        "note": "每项目"
+      },
+      {
+        "period": "常规报名（Standard）",
+        "price": 300,
+        "currency": "EUR",
+        "note": "每项目"
+      },
+      {
+        "period": "最终报名（Final）",
+        "price": 400,
+        "currency": "EUR",
+        "note": "每项目"
+      },
+      {
+        "period": "延期报名（Late）",
+        "price": 500,
+        "currency": "EUR",
+        "note": "每项目"
+      }
+    ],
+    "fee_note": "参赛费用取决于报名阶段，随阶段递增。以上为2027年度官方参考费用，实际费用以官网为准。部分授权代理机构可能提供增值服务包，总费用会高于官方指导价。奖项通常不设固定的颁奖典礼，没有大型的年度线下活动安排。",
+    "judging_criteria": [
+      {
+        "维度": "设计（Design）— 权重35%",
+        "说明": "评估作品的整体创意性和美学价值"
+      },
+      {
+        "维度": "功能性（Functionality）— 权重20%",
+        "说明": "评估作品在使用逻辑、用户体验上的合理性"
+      },
+      {
+        "维度": "结构与材料（Structures & Materials）— 权重15%",
+        "说明": "评估作品在结构逻辑和材料运用上的技巧"
+      },
+      {
+        "维度": "介绍/展示（Presentation）— 权重15%",
+        "说明": "评估项目说明、图像及视频的呈现质量"
+      },
+      {
+        "维度": "创新与可持续性（Innovation & Sustainability）— 权重10%",
+        "说明": "评估作品对环境、生态的友好度与创新解决方案"
+      },
+      {
+        "维度": "市场价值（Market Value）— 权重5%",
+        "说明": "评估作品在商业上的潜力与价值"
+      }
+    ],
+    "judge_info": "评审团成员是在全球范围内严格筛选的国际公认专家，均来自建筑和室内设计领域的知名人士，拥有丰富的从业经验和获奖经历。评审过程采用严格的盲审（Blind Judging）机制，评审团成员无法获知参赛设计师的个人信息，确保公平竞争。",
+    "award_levels": {
+      "金奖（Golden）": "综合得分 9.0–10.0：授予在设计、功能性、材料与绿色技术的创新应用、艺术价值与市场价值等方面均表现出卓越水平的项目",
+      "银奖（Silver）": "综合得分 8.0–8.9：授予具有出色的设计理念、功能性和创新解决方案，并具备优异整合性与市场价值的项目",
+      "铜奖（Bronze）": "综合得分 7.0–7.9：授予除功能性外，还展现了优秀设计理念、对材料的恰当使用以及与环境的良好融合的项目"
     },
-    {
-      "阶段": "常规报名截止",
-      "时间": "2026年9月30日"
+    "nomination_types": [
+      "建筑设计类（商业及办公建筑、文化建筑、教育建筑、医疗保健建筑、酒店及度假村建筑、住宅建筑等）",
+      "室内设计类"
+    ],
+    "preliminary_check": "评审过程采用严格的盲审（Blind Judging）机制，评审团成员无法获知参赛设计师的个人信息。参赛信息在评审阶段对评审团保密，确保公平。",
+    "requirements": {
+      "参赛资格": "面向全球年满18周岁的任何人（设计师、工作室等）开放，无国籍限制",
+      "作品时效": "参赛作品需是在提交截止日期前10年内完成的设计（例如，至2027年，需是2017年1月1日之后完成的项目）",
+      "作品类型": "接受实际项目和概念设计；同一项目可同时提交至建筑和室内设计类别",
+      "提交数量": "对提交数量无限制，可提交多件作品",
+      "提交材料": "必填项：项目及设计师信息、英文项目概述（1000-2000字符）、图像来源及版权信息；最多可上传11张图片，格式为JPEG或PNG，建议尺寸为2000x1200像素"
     },
-    {
-      "阶段": "最终报名截止",
-      "时间": "2027年2月28日"
-    },
-    {
-      "阶段": "获奖名单公布",
-      "时间": "2027年4月15日（米兰设计周期间）"
-    }
-  ],
-  "fee_early_bird": 0,
-  "fee_regular": 835,
-  "fee_currency": "EUR",
-  "fee_timeline": [
-    {
-      "period": "早鸟价",
-      "price": 0,
-      "currency": "EUR",
-      "note": "费用待官方公布"
-    },
-    {
-      "period": "常规价（个人）",
-      "price": 835,
-      "currency": "EUR",
-      "note": "参考2025-2026年度最终截止日期"
-    },
-    {
-      "period": "公司参赛",
-      "price": 1185,
-      "currency": "EUR",
-      "note": "参考2025-2026年度最终截止日期"
-    }
-  ],
-  "fee_note": "以上为2025-2026年度最终截止日期费用；2026-2027年度的具体费用尚未完全公布，建议届时通过官方网站进行计算。采用基于账户类型、初步检查评分、参赛期间和提名方式的动态定价模式。",
-  "judging_criteria": [
-    {
-      "维度": "设计卓越性",
-      "说明": "作品的创新性、美学品质、功能性"
-    },
-    {
-      "维度": "社会有益性",
-      "说明": "作品能否为利益相关者和更广泛的社会创造益处"
-    },
-    {
-      "维度": "实用性和可用性",
-      "说明": "设计的实际可用性和用户体验"
-    },
-    {
-      "维度": "可持续性（环境、社会与商业）",
-      "说明": "作品的长期环境影响"
-    },
-    {
-      "维度": "情感参与度",
-      "说明": "设计的情感影响和文化相关性"
-    }
-  ],
-  "judge_info": {
-    "规模": "世界上最大的设计评审团之一",
-    "人数": "315名（2025-2026年度）",
-    "构成": "全球知名设计专业人士、著名学者和有影响力的媒体成员",
-    "机制": "由专业化及分散化的国际评审团，根据广泛且公开的评估标准进行盲审投票，其投票模式经过算法审查以确保公平性"
+    "benefits": [
+      "获得由回收金属（黄铜/不锈钢/铜）精密加工而成的标志性拱门造型金属奖杯（免费国际配送）",
+      "获得获奖证书",
+      "获得独家水晶玻璃奖杯的购买权",
+      "官方授权使用的获奖者标识（Logo）",
+      "获奖作品在 Arch Design Award 官网获得专用展示页面",
+      "通过官网、新闻通讯及社交媒体网络向国际观众展示，获得广泛的曝光和认可",
+      "加入 DAA 会员计划，获得专属的权益及推广方案，提升在国际设计界的知名度和影响力",
+      "获得官方独家采访机会，提升个人与工作室的品牌价值",
+      "社会责任实践：每提交一次设计即可种一棵树，坚持绿色与可持续理念"
+    ],
+    "website": "https://www.archdesignaward.com"
   },
-  "award_levels": ["铂金奖", "金奖", "银奖", "铜奖", "铁奖（荣誉奖）"],
-  "award_stats_2025": {
-    "铂金": 51,
-    "金奖": 147,
-    "银奖": 407,
-    "铜奖": 487
-  },
-  "nomination_types": [
-    {
-      "类型": "Pro-Edition（全套奖金）",
-      "说明": "高级别版本，包含获奖者无需额外付款即可获得的福利包"
+  {
+    "award_id": "a_design_award_2026_2027",
+    "name": "A'设计奖（A' Design Award & Competition）",
+    "name_en": "A' Design Award & Competition",
+    "award_intro": "A' Design Award & Competition 是全球最大型、最负盛名且最具影响力的设计奖项之一，被认为是设计界的最高荣誉之一。奖项旨在表彰和推广全球范围内最优秀的设计、设计理念以及设计产品，激励设计师、艺术家、建筑师、品牌和设计机构创作更卓越的作品，为全球社会带来福祉。",
+    "organizer": "A' Design Award & Competition SRL",
+    "organizer_intro": "由意大利公司 A' Design Award & Competition SRL 组织运营，总部位于意大利科莫。以公平、透明和精英主义的评审机制著称，实施科学建构的、盲审的、统计标准化的评估系统。",
+    "organizer_location": "意大利 · 科莫",
+    "description": "A' Design Award 采用多周期制，目前（4月）正处于2026-2027年度征集期。",
+    "established": "2010年（约）",
+    "history": "A' Design Award & Competition 已发展成为全球最大型、最负盛名且最具影响力的设计奖项之一。2025-2026年度共颁发51项铂金奖、147项金奖、407项银奖和487项铜奖。拥有世界上最大的设计评审团之一，2025-2026年度共有315名评审成员。奖项不仅提供荣誉认可，更为获奖者提供全面的PR、展览和营销服务包。",
+    "category": [
+      "工业设计",
+      "平面设计",
+      "建筑与室内设计",
+      "艺术与工程奖",
+      "时尚设计",
+      "服务设计",
+      "数字艺术",
+      "其他领域专门奖项"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026年6月30日"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "2026年9月30日"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2027年2月28日"
+      },
+      {
+        "阶段": "获奖名单公布",
+        "时间": "2027年4月15日（米兰设计周期间）"
+      }
+    ],
+    "fee_early_bird": 0,
+    "fee_regular": 835,
+    "fee_currency": "EUR",
+    "fee_timeline": [
+      {
+        "period": "早鸟价",
+        "price": 0,
+        "currency": "EUR",
+        "note": "费用待官方公布"
+      },
+      {
+        "period": "常规价（个人）",
+        "price": 835,
+        "currency": "EUR",
+        "note": "参考2025-2026年度最终截止日期"
+      },
+      {
+        "period": "公司参赛",
+        "price": 1185,
+        "currency": "EUR",
+        "note": "参考2025-2026年度最终截止日期"
+      }
+    ],
+    "fee_note": "以上为2025-2026年度最终截止日期费用；2026-2027年度的具体费用尚未完全公布，建议届时通过官方网站进行计算。采用基于账户类型、初步检查评分、参赛期间和提名方式的动态定价模式。",
+    "judging_criteria": [
+      {
+        "维度": "设计卓越性",
+        "说明": "作品的创新性、美学品质、功能性"
+      },
+      {
+        "维度": "社会有益性",
+        "说明": "作品能否为利益相关者和更广泛的社会创造益处"
+      },
+      {
+        "维度": "实用性和可用性",
+        "说明": "设计的实际可用性和用户体验"
+      },
+      {
+        "维度": "可持续性（环境、社会与商业）",
+        "说明": "作品的长期环境影响"
+      },
+      {
+        "维度": "情感参与度",
+        "说明": "设计的情感影响和文化相关性"
+      }
+    ],
+    "judge_info": {
+      "规模": "世界上最大的设计评审团之一",
+      "人数": "315名（2025-2026年度）",
+      "构成": "全球知名设计专业人士、著名学者和有影响力的媒体成员",
+      "机制": "由专业化及分散化的国际评审团，根据广泛且公开的评估标准进行盲审投票，其投票模式经过算法审查以确保公平性"
     },
-    {
-      "类型": "Digital Edition（数字宣传）",
-      "说明": "数字宣传版本"
+    "award_levels": [
+      "铂金奖",
+      "金奖",
+      "银奖",
+      "铜奖",
+      "铁奖（荣誉奖）"
+    ],
+    "award_stats_2025": {
+      "铂金": 51,
+      "金奖": 147,
+      "银奖": 407,
+      "铜奖": 487
     },
-    {
-      "类型": "Vision Edition（基础认可）",
-      "说明": "基础认可版本"
+    "nomination_types": [
+      {
+        "类型": "Pro-Edition（全套奖金）",
+        "说明": "高级别版本，包含获奖者无需额外付款即可获得的福利包"
+      },
+      {
+        "类型": "Digital Edition（数字宣传）",
+        "说明": "数字宣传版本"
+      },
+      {
+        "类型": "Vision Edition（基础认可）",
+        "说明": "基础认可版本"
+      },
+      {
+        "类型": "Classic Edition（行业标准）",
+        "说明": "需要额外获奖者费用的标准版本"
+      }
+    ],
+    "preliminary_check": {
+      "名称": "初步检查服务",
+      "说明": "参赛者在正式提交前可匿名获得专家反馈和竞争力评分（0-10），从而提升提交质量"
     },
-    {
-      "类型": "Classic Edition（行业标准）",
-      "说明": "需要额外获奖者费用的标准版本"
-    }
-  ],
-  "preliminary_check": {
-    "名称": "初步检查服务",
-    "说明": "参赛者在正式提交前可匿名获得专家反馈和竞争力评分（0-10），从而提升提交质量"
+    "requirements": {
+      "资格": "向来自世界各地的所有个人设计师、公司和组织开放，无国籍限制",
+      "作品提交": "接受已完成项目（完工年限可追溯）和概念阶段项目",
+      "演示指南": "必须遵守严格的演示指南（如图像大小和文本格式），并强制移除作品上的所有身份标识，以实现盲审目的",
+      "知识产权": "参赛者须确保对参赛作品拥有独立的知识产权及影像版权，因版权问题产生的争议由参赛者自行负责"
+    },
+    "benefits": [
+      "独特的3D打印金属奖杯",
+      "证书、设计和艺术年鉴及获奖者手册",
+      "通过官方新闻稿发布，与超过100家杂志合作宣传",
+      "作品翻译成20多种语言进行广泛推广",
+      "免费参加颁奖典礼之夜（含两人的宴会邀请）",
+      "参加获奖者展览并提供展示空间",
+      "在博物馆展出作品的机会",
+      "终身授权使用A' Design Award优胜者标志",
+      "免费注册到世界设计排名"
+    ],
+    "website": "https://competition.adesignaward.com"
   },
-  "requirements": {
-    "资格": "向来自世界各地的所有个人设计师、公司和组织开放，无国籍限制",
-    "作品提交": "接受已完成项目（完工年限可追溯）和概念阶段项目",
-    "演示指南": "必须遵守严格的演示指南（如图像大小和文本格式），并强制移除作品上的所有身份标识，以实现盲审目的",
-    "知识产权": "参赛者须确保对参赛作品拥有独立的知识产权及影像版权，因版权问题产生的争议由参赛者自行负责"
-  },
-  "benefits": [
-    "独特的3D打印金属奖杯",
-    "证书、设计和艺术年鉴及获奖者手册",
-    "通过官方新闻稿发布，与超过100家杂志合作宣传",
-    "作品翻译成20多种语言进行广泛推广",
-    "免费参加颁奖典礼之夜（含两人的宴会邀请）",
-    "参加获奖者展览并提供展示空间",
-    "在博物馆展出作品的机会",
-    "终身授权使用A' Design Award优胜者标志",
-    "免费注册到世界设计排名"
-  ],
-  "website": "https://competition.adesignaward.com"
-},
   {
     "award_id": "boyawards_年度最佳奖_2026",
     "name": "年度最佳奖（Best of Year Awards）",
@@ -3175,36 +3307,6 @@
     "notes": "",
     "_raw_extracted": "采集到费用信息: €250, €80, €200, €60, €1000\n采集到日期: February 8, 2026\n截止日期: deadline: May 15; DEADLINES & FEES; Deadline; Deadline; Deadline; Deadline\n评审信息: jury news media mentions partners store people’s choice SUBMIT/LOGIN; jury committee evaluate each work based on its merit assigning it a score; Jury is passionately committed to providing a fair and unbiased evaluation of all entries; Jury members are assigned categories based on their specific backgrounds and design expertise; judged randomly and anonymously to ensure unbiased and fair judging\n评审标准: JUDGING CRITERIA; evaluation process for entries to the IDA is based on various judging criteria which are constantly adapted to new creative, technical, social, economic and ecological requirements; criteria are not comprehensive and not all criteria are applicable to each design; evaluation of all entries; judging criteria include the following:\n奖项等级关键词: winner, merit, Honorable Mention, Gold, Silver, Bronze",
     "updated_at": "2026-04-41"
-  },
-  {
-    "award_id": "idsa奖_美国工业设计师协会奖_2026",
-    "name": "IDSA奖（美国工业设计师协会奖）",
-    "name_en": "Awards & Recognitions",
-    "category": [],
-    "award_intro": "",
-    "website": "https://www.idsa.org/awards-recognitions/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "美国",
-    "fee_timeline": [],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {},
-    "notes": "",
-    "_raw_extracted": "采集到费用信息: $100\n采集到日期: April 17, 2026, May 4, 2026, January 5, 2026, February 13, 2026, February 14, 2025, March 11, 2026, April 13, 2026, March 1, 2024, March 1, 2026\n截止日期: DEADLINES; Deadlines details here\n评审信息: judged separately from the general entry criteria and will not affect overall results in your primary IDEA entry submission; judges to advance to Round 2 as finalists will be notified by approximately during the week of April 13, 2026\n评审标准: criteria and will not affect overall results in your primary IDEA entry submission\n奖项等级关键词: Merit, finalist",
-    "updated_at": "2026-04-42"
   },
   {
     "award_id": "jcd商业空间设计奖_2026",

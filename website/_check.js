@@ -1,7 +1,23 @@
-const d=require('C:/Users/Administrator/WorkBuddy/国际设计大奖参赛咨询/website/data/awards.json');
-const dt=require('C:/Users/Administrator/WorkBuddy/国际设计大奖参赛咨询/website/data/award-details.json');
-let ai=-1, di=-1;
-for(let k=0;k<d.length;k++){if(d[k].award_id&&d[k].award_id.toLowerCase().includes('adesign')){ai=k;break;}}
-for(let k=0;k<dt.length;k++){if(dt[k].award_id&&dt[k].award_id.toLowerCase().includes('adesign')){di=k;break;}}
-console.log('awards.json:', ai>=0?'index '+ai:'NOT FOUND');
-console.log('details.json:', di>=0?'index '+di:'NOT FOUND');
+var fs = require('fs');
+var h = fs.readFileSync('out/awards.html', 'utf8');
+var idx = h.indexOf('__NEXT_DATA__');
+var start = h.indexOf('{', idx);
+var end = h.indexOf('</script>', idx);
+var d = JSON.parse(h.substring(start, end));
+var arr = d.props.pageProps.awardsData;
+console.log('Total awards:', arr.length);
+console.log('First award_id:', arr[0].award_id);
+console.log('First name:', arr[0].award_name || arr[0].award_name_cn);
+console.log('First update_time:', arr[0].update_time || '(none)');
+console.log('');
+// 检查详情页
+try {
+  var dh = fs.readFileSync('out/awards/arch_design_award_2027.html', 'utf8');
+  var di = dh.indexOf('__NEXT_DATA__');
+  var ds = dh.indexOf('{', di);
+  var de = dh.indexOf('</script>', di);
+  var dd = JSON.parse(dh.substring(ds, de));
+  console.log('Detail page OK:', dd.props.pageProps?.award?.award_id || 'N/A');
+} catch(e) {
+  console.log('Detail page error:', e.message);
+}
