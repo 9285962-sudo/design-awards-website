@@ -74,16 +74,22 @@
     ],
     "fee_timeline": [
       {
-        "阶段": "早鸟价 Early Bird",
-        "费用": "250 英镑/项目"
+        "period": "早鸟价 Early Bird",
+        "price": 250,
+        "currency": "GBP",
+        "date": "各赛区截止前"
       },
       {
-        "阶段": "常规价 Standard",
-        "费用": "300 英镑/项目"
+        "period": "常规价 Standard",
+        "price": 300,
+        "currency": "GBP",
+        "date": "各赛区标准截止前"
       },
       {
-        "阶段": "晚鸟价 Late",
-        "费用": "375 英镑/项目"
+        "period": "晚鸟价 Late",
+        "price": 375,
+        "currency": "GBP",
+        "date": "各赛区晚鸟截止前"
       }
     ],
     "fee_note": "费用以 AHEAD Asia 赛区为参考，其他赛区费用可能略有差异。所有类别参赛者均可享受颁奖典礼门票10%折扣。",
@@ -106,13 +112,28 @@
       }
     ],
     "judge_info": "每个区域评审团由60多位行业领军人物组成，包括著名建筑师、室内设计师、开发商、酒店业主和运营商。2026年度评委包括：Chris Godfrey (HBA全球联合CEO)、Aik Wee Ong (Design Hotels亚太区高级总监)、Aldwin Ong (CCD香港郑中设计事务所高级副总裁)、Brad Wilson (Ace Hotel Group主席)、Anwar Mekhayech (DesignAgency联合创始人)、Bibiana Huber (Huber Design Studio CEO兼创意总监) 等。全球评审团由四大区域评审团的主席共同组成，决定全球终极荣誉奖归属。",
-    "award_levels": {
-      "区域类别优胜奖": "在各区域赛的细分设计类别中获得优胜的项目",
-      "特别奖": "在某些年份增设，表彰特定领域的杰出成就",
-      "AHEAD 100": "由获得评审委员会最高票数的100个项目组成，代表当年全球酒店设计的顶尖水平",
-      "全球前十强 (Top 10)": "从AHEAD 100名单中筛选出的全球前十名项目",
-      "全球终极荣誉奖 (Ultimate Accolade)": "整个系列中最具象征意义的奖项，由全球评审团从所有区域优胜者中决出"
-    },
+    "award_levels": [
+      {
+        "level": "区域类别优胜奖 (Category Winners)",
+        "description": "在各区域赛的细分设计类别中获得优胜的项目。2026年设有14个核心参赛类别。"
+      },
+      {
+        "level": "特别奖 (Special Awards)",
+        "description": "在某些年份增设，表彰特定领域的杰出成就，如\"AHEAD Asia - Social Media Campaign Award\"等。"
+      },
+      {
+        "level": "AHEAD 100",
+        "description": "由获得评审委员会最高票数的100个项目组成，代表当年全球酒店设计的顶尖水平。"
+      },
+      {
+        "level": "全球前十强 (Top 10)",
+        "description": "从AHEAD 100名单中筛选出的全球前十名项目，代表当届最高水准。"
+      },
+      {
+        "level": "全球终极荣誉奖 (Ultimate Accolade)",
+        "description": "整个系列中最具象征意义的奖项，由全球评审团从所有区域优胜者中最终决出。"
+      }
+    ],
     "award_stats_2025": "2025年度吸引了来自全球各地的数百个顶级酒店项目参与竞逐，最终评选出 AHEAD 100 榜单及各区域类别优胜者。特别奖包括 \"AHEAD Asia - Social Media Campaign Award\" 等专项荣誉。",
     "nomination_types": [
       "区域类别优胜奖提名",
@@ -134,7 +155,40 @@
       "获得\"AHEAD Awards\"获奖徽章使用权，可用于营销材料、网站和产品包装作为权威证明",
       "跻身\"AHEAD 100\"榜单或全球前十，极大提升公司和设计师的国际影响力与声誉"
     ],
-    "website": "https://www.aheadawards.com"
+    "website": "https://www.aheadawards.com",
+    "judges": [
+      {
+        "name": "Chris Godfrey",
+        "title": "HBA 全球联合 CEO",
+        "company": "HBA Architecture"
+      },
+      {
+        "name": "Aik Wee Ong",
+        "title": "亚太区高级总监",
+        "company": "Design Hotels"
+      },
+      {
+        "name": "Aldwin Ong",
+        "title": "高级副总裁",
+        "company": "CCD 香港郑中设计事务所"
+      },
+      {
+        "name": "Brad Wilson",
+        "title": "主席",
+        "company": "Ace Hotel Group"
+      },
+      {
+        "name": "Anwar Mekhayech",
+        "title": "联合创始人",
+        "company": "DesignAgency"
+      },
+      {
+        "name": "Bibiana Huber",
+        "title": "CEO 兼创意总监",
+        "company": "Huber Design Studio"
+      }
+    ],
+    "judges_note": "每个区域评审团由60多位行业领军人物组成，包括著名建筑师、室内设计师、开发商、酒店业主和运营商等。"
   },
   {
     "award_id": "restaurant_bar_design_awards_2026",
