@@ -53,9 +53,9 @@ function AwardCard({ award }) {
 }
 
 // 按分类筛选奖项（精确匹配 category_main），并按更新时间降序排列
-function filterByCategory(category) {
+function filterByCategory(category, data = awardsData) {
   const values = categoryGroups[category] || []
-  return awardsData
+  return data
     .filter(a => values.includes(a.category_main))
     .sort((a, b) => {
       const dateA = a.update_time || '1970-01-01'
@@ -64,12 +64,21 @@ function filterByCategory(category) {
     })
 }
 
-export default function Awards() {
-  const architectureAwards = filterByCategory('architecture')
-  const interiorAwards = filterByCategory('interior')
-  const productAwards = filterByCategory('product')
-  const visualAwards = filterByCategory('visual')
-  const generalAwards = filterByCategory('general')
+export function getStaticProps() {
+  return {
+    props: {
+      awardsData: awardsData
+    }
+  }
+}
+
+export default function Awards(props) {
+  const data = props.awardsData || awardsData
+  const architectureAwards = filterByCategory('architecture', data)
+  const interiorAwards = filterByCategory('interior', data)
+  const productAwards = filterByCategory('product', data)
+  const visualAwards = filterByCategory('visual', data)
+  const generalAwards = filterByCategory('general', data)
 
   return (
     <>
