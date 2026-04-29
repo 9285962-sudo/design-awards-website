@@ -1,5 +1,34 @@
 [
   {
+    "award_id": "aia_international_region_awards_2026",
+    "award_name_cn": "AIA国际区域设计奖",
+    "award_name_en": "AIA International Region Design Awards",
+    "award_name_short": "AIA国际区域设计奖",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "建筑设计",
+      "室内建筑",
+      "未建成项目",
+      "城市设计",
+      "可持续设计",
+      "包容性设计"
+    ],
+    "country": "美国",
+    "city": "华盛顿特区",
+    "website": "https://www.aia.org",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "USD",
+    "fee_regular": 375,
+    "fee_final": 450,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-03-31",
+    "deadline_regular": "2026-04-30",
+    "deadline_final": "2026-04-30",
+    "annnouncement_date": "2026-09-01",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "ies_illumination_awards_2026",
     "award_name_cn": "IES Illumination Awards (IES照明奖)",
     "award_name_en": "IES Illumination Awards",
