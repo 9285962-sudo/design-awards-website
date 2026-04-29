@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "ahead_awards_2026",
+    "award_name_cn": "AHEAD 奖项",
+    "award_name_en": "AHEAD Awards for Hospitality Experience and Design",
+    "award_name_short": "AHEAD Awards",
+    "category_main": "室内设计",
+    "category_sub": [
+      "酒店空间",
+      "餐饮空间",
+      "休闲娱乐",
+      "景观设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.aheadawards.com",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "GBP",
+    "fee_regular": 300,
+    "fee_final": 375,
+    "submission_open": "2026-01-16",
+    "deadline_early": "2026-07-31",
+    "deadline_regular": "2026-08-14",
+    "deadline_final": null,
+    "annnouncement_date": "2026-11-26",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "restaurant_bar_design_awards_2026",
     "award_name_cn": "Restaurant & Bar Design Awards",
     "award_name_en": "Restaurant & Bar Design Awards (RBDA)",

@@ -1,5 +1,142 @@
 [
   {
+    "award_id": "ahead_awards_2026",
+    "name": "AHEAD 奖项（酒店体验与设计大奖）",
+    "name_en": "AHEAD Awards for Hospitality Experience and Design",
+    "award_intro": "AHEAD (Awards for Hospitality Experience and Design，酒店体验与设计大奖) 是全球唯一专注于酒店体验与设计的奖项计划。该奖项旨在表彰全球范围内最具创新性、最具影响力的酒店项目及其背后的杰出设计团队。\n\n由行业领先的B2B媒体公司 Sleeper Media 于2016年在英国上议院首次发起，奖项致力于通过表彰卓越的设计和商业可行性，推动全球酒店设计行业的发展。AHEAD 不仅是一项竞赛，更是一个连接全球酒店业主、开发商、运营商、建筑师和设计师的顶级平台。\n\n该奖项现已成为全球酒店设计卓越的标杆，设有四大区域奖项（亚洲、美洲、中东与非洲、欧洲），以每两年为一个周期进行全球评选，最终角逐全球终极荣誉奖（Ultimate Accolade）。",
+    "organizer": "Sleeper Media（《Sleeper》杂志）",
+    "organizer_intro": "Sleeper Media 是一家领先的B2B媒体公司，成立于1999年，专注于为全球酒店设计社群提供内容、商业解决方案和活动策划服务。《Sleeper》是行业权威的酒店设计专业出版物。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年度 AHEAD 大赛已开放报名，涵盖 Asia、Americas、MEA、Europe 四大区域赛事。各区域独立评审并举办颁奖典礼，最终角逐全球终极荣誉。2026年共设14个核心参赛类别，由60多位行业领军人物组成评审团。",
+    "established": "2016年",
+    "history": "AHEAD 奖项于 2016 年在英国上议院首次发起，由 Sleeper Media 主办。经过多年发展，AHEAD 已成为全球酒店设计领域最权威的奖项之一，每年吸引来自全球各地的顶尖酒店项目参与竞逐。该奖项的独特之处在于其区域性评选体系——先在亚洲、美洲、中东与非洲、欧洲四大区域分别评选出优胜者，再从中选出全球前十强和终极荣誉奖得主。这种层层递进的评选机制确保了获奖项目代表当届全球最高水准。",
+    "category": [
+      "酒吧、俱乐部或休息室 (Bar, Club or Lounge)",
+      "活动空间 (Event Spaces)",
+      "客房 (Guestrooms)",
+      "酒店翻新与修复 / 酒店改建 (Hotel Renovation & Restoration / Conversion)",
+      "景观与户外空间 (Landscaping & Outdoor Spaces)",
+      "酒店新建 (Hotel Newbuild)",
+      "大堂及公共空间 (Lobby & Public Spaces)",
+      "乡间小屋、木屋与帐篷营地 (Lodge, Cabin & Tent)",
+      "度假酒店 (Resort)",
+      "餐厅 (Restaurant)",
+      "水疗与健康中心 (Spa & Wellness)",
+      "套房 (Suite)",
+      "可持续性 (Sustainability)",
+      "视觉表现 (Visual Identity)"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名开启",
+        "时间": "2026年1月16日"
+      },
+      {
+        "阶段": "Asia/Americas 标准截止",
+        "时间": "2026年4月24日"
+      },
+      {
+        "阶段": "Asia/Americas 晚鸟截止",
+        "时间": "2026年5月8日"
+      },
+      {
+        "阶段": "Asia 颁奖典礼",
+        "时间": "2026年9月11日 · 新加坡"
+      },
+      {
+        "阶段": "Americas 颁奖典礼",
+        "时间": "2026年10月15日 · 纽约"
+      },
+      {
+        "阶段": "MEA 标准截止",
+        "时间": "2026年6月19日"
+      },
+      {
+        "阶段": "MEA 晚鸟截止",
+        "时间": "2026年7月3日"
+      },
+      {
+        "阶段": "MEA 颁奖典礼",
+        "时间": "2026年11月2日 · 迪拜"
+      },
+      {
+        "阶段": "Europe 标准截止",
+        "时间": "2026年7月31日"
+      },
+      {
+        "阶段": "Europe 晚鸟截止",
+        "时间": "2026年8月14日"
+      },
+      {
+        "阶段": "Europe 颁奖典礼",
+        "时间": "2026年11月26日 · 伦敦"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "阶段": "早鸟价 Early Bird",
+        "费用": "250 英镑/项目"
+      },
+      {
+        "阶段": "常规价 Standard",
+        "费用": "300 英镑/项目"
+      },
+      {
+        "阶段": "晚鸟价 Late",
+        "费用": "375 英镑/项目"
+      }
+    ],
+    "fee_note": "费用以 AHEAD Asia 赛区为参考，其他赛区费用可能略有差异。所有类别参赛者均可享受颁奖典礼门票10%折扣。",
+    "judging_criteria": [
+      {
+        "维度": "挑战 (Challenges)",
+        "说明": "项目在设计、空间布局、材料策略或预算方面解决了哪些难题"
+      },
+      {
+        "维度": "体验 (Experience)",
+        "说明": "最终设计如何提升了宾客体验和实用性"
+      },
+      {
+        "维度": "创新 (Innovation)",
+        "说明": "设计方案在概念、材料或技术上是否具备独创性"
+      },
+      {
+        "维度": "可持续性 (Sustainability)",
+        "说明": "项目对可持续设计策略的考量"
+      }
+    ],
+    "judge_info": "每个区域评审团由60多位行业领军人物组成，包括著名建筑师、室内设计师、开发商、酒店业主和运营商。2026年度评委包括：Chris Godfrey (HBA全球联合CEO)、Aik Wee Ong (Design Hotels亚太区高级总监)、Aldwin Ong (CCD香港郑中设计事务所高级副总裁)、Brad Wilson (Ace Hotel Group主席)、Anwar Mekhayech (DesignAgency联合创始人)、Bibiana Huber (Huber Design Studio CEO兼创意总监) 等。全球评审团由四大区域评审团的主席共同组成，决定全球终极荣誉奖归属。",
+    "award_levels": {
+      "区域类别优胜奖": "在各区域赛的细分设计类别中获得优胜的项目",
+      "特别奖": "在某些年份增设，表彰特定领域的杰出成就",
+      "AHEAD 100": "由获得评审委员会最高票数的100个项目组成，代表当年全球酒店设计的顶尖水平",
+      "全球前十强 (Top 10)": "从AHEAD 100名单中筛选出的全球前十名项目",
+      "全球终极荣誉奖 (Ultimate Accolade)": "整个系列中最具象征意义的奖项，由全球评审团从所有区域优胜者中决出"
+    },
+    "award_stats_2025": "2025年度吸引了来自全球各地的数百个顶级酒店项目参与竞逐，最终评选出 AHEAD 100 榜单及各区域类别优胜者。特别奖包括 \"AHEAD Asia - Social Media Campaign Award\" 等专项荣誉。",
+    "nomination_types": [
+      "区域类别优胜奖提名",
+      "特别奖提名",
+      "AHEAD 100 入围",
+      "全球 Top 10 提名",
+      "全球终极荣誉奖提名"
+    ],
+    "preliminary_check": "参赛作品需通过在线提交平台提交完整的项目信息和图片资料。组委会对提交材料的完整性和格式进行初步审查。",
+    "requirements": {
+      "参赛资格": "面向全球的建筑师、室内设计师、开发商、酒店运营商等专业人士和公司开放。参赛作品必须位于相应的地理区域（如亚洲项目只能报名AHEAD Asia）。",
+      "作品提交要求": "需通过 ahead.awardsplatform.com 在线提交。所需材料包括：项目信息（名称、地址、设计公司、开发商、开工/竣工日期等）、英文项目描述（250词以内）、空间描述（500词以内）。",
+      "文件格式": "6-10张横版项目照片（JPEG或PDF，单张不超过10MB），避免使用营销图和渲染图。可提供2-3分钟视频链接（选填）。参赛者须确保对提交的图片和设计拥有完整合法版权。",
+      "时效性": "参赛项目通常需在特定时间段内完工"
+    },
+    "benefits": [
+      "受邀参加区域颁奖典礼，与来自全球的行业精英、酒店业主和媒体面对面交流",
+      "获奖作品通过 Sleeper Media 全球网络（杂志、网站、社交媒体，覆盖超11.5万数字受众）广泛宣传",
+      "获得\"AHEAD Awards\"获奖徽章使用权，可用于营销材料、网站和产品包装作为权威证明",
+      "跻身\"AHEAD 100\"榜单或全球前十，极大提升公司和设计师的国际影响力与声誉"
+    ],
+    "website": "https://www.aheadawards.com"
+  },
+  {
     "award_id": "restaurant_bar_design_awards_2026",
     "name": "Restaurant & Bar Design Awards（餐厅与酒吧设计奖）",
     "name_en": "Restaurant & Bar Design Awards (RBDA)",
