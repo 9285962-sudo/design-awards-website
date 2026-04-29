@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "novum_design_award_2026",
+    "award_name_cn": "Novum设计奖",
+    "award_name_en": "Novum Design Award (NDA)",
+    "award_name_short": "NDA设计奖",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "景观设计",
+      "产品设计",
+      "视觉传达"
+    ],
+    "country": "法国",
+    "city": "",
+    "website": "https://www.novumdesignaward.com/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "EUR",
+    "fee_regular": 200,
+    "fee_final": 400,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-06-15",
+    "deadline_regular": "2026-09-15",
+    "deadline_final": "2026-10-01",
+    "annnouncement_date": "2026-10-15",
+    "update_time": "2026-04-29"
+  },
+  {
     "award_id": "blt_built_design_awards_2026",
     "award_name_cn": "BLT建筑设计奖",
     "award_name_en": "BLT Built Design Awards",
