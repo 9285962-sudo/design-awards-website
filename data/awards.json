@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "loop设计奖_2026",
+    "award_name_cn": "LOOP设计奖",
+    "award_name_en": "LOOP Design Awards",
+    "award_name_short": "LOOP",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "景观设计",
+      "产品设计"
+    ],
+    "country": "葡萄牙",
+    "city": "",
+    "website": "https://www.loopdesignawards.com/",
+    "prestige_level": "中",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 200,
+    "fee_final": 250,
+    "submission_open": "2025-12-30",
+    "deadline_early": "2026-02-28",
+    "deadline_regular": "2026-05-31",
+    "deadline_final": "2026-07-31",
+    "annnouncement_date": "2026-10-01",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "award_26_2026",
     "award_name_cn": "Core77设计奖",
     "award_name_en": "Core77 Design Awards",
