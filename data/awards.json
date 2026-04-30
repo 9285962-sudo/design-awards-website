@@ -1,5 +1,33 @@
 [
   {
+    "award_id": "g_mark奖_优良设计奖_日本_2026",
+    "award_name_cn": "GOOD DESIGN AWARD（优良设计奖）",
+    "award_name_en": "GOOD DESIGN AWARD",
+    "award_name_short": "G Mark",
+    "category_main": "综合设计",
+    "category_sub": [
+      "产品设计",
+      "建筑设计",
+      "室内设计",
+      "数字设计",
+      "服务设计"
+    ],
+    "country": "日本",
+    "city": "东京",
+    "website": "https://www.g-mark.org/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "JPY",
+    "fee_regular": 269500,
+    "fee_final": 269500,
+    "submission_open": "2026-04-01",
+    "deadline_early": "",
+    "deadline_regular": "2026-05-21",
+    "deadline_final": "2026-05-21",
+    "annnouncement_date": "2026-10-15",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "bali_national_landscape_awards_2026",
     "award_name_cn": "BALI国家景观奖",
     "award_name_en": "BALI National Landscape Awards",

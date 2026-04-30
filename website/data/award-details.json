@@ -1,5 +1,177 @@
 [
   {
+    "award_id": "g_mark奖_优良设计奖_日本_2026",
+    "name": "GOOD DESIGN AWARD (G Mark, 优良设计奖)",
+    "name_en": "GOOD DESIGN AWARD",
+    "award_intro": "GOOD DESIGN AWARD（优良设计奖，俗称“G Mark”）是日本唯一的综合性设计评价和推广机制，由日本设计振兴会主办。奖项始于1957年，其前身是通商产业省创立的“G Mark”制度，是全球最具历史积淀与影响力的综合性国际设计大奖之一，素有“东方设计奥斯卡奖”之称。截至2026年已累计诞生约56,000件获奖作品，在日本全国范围内认知率高达83.6%。",
+    "organizer": "日本设计振兴会（Japan Institute of Design Promotion, JDP）",
+    "organizer_intro": "JDP前身是成立于1969年的日本产业设计振兴会（JIDPO），是日本唯一的综合性设计推广机构。1998年改组为JDP。G Mark标志在日本消费者心目中与“高品质、易用性强且值得信赖”直接关联。",
+    "organizer_location": "日本东京",
+    "description": "2026年第70届报名已于4月1日开放，截止于5月21日13:00 JST。一次评审结果6月30日查询，获奖发表10月15日。全流程费用合计¥269,500/项目。",
+    "established": "1957",
+    "history": "1957年由日本通商产业省创设；1969年JIDPO接管；1998年改组为JDP。历经近70年发展，已成长为亚洲最具权威性和影响力的设计奖项之一。2025年度共有5,225件作品参评，获奖1,619件。",
+    "category": [
+      "随身物品 / Accessories and Wearable",
+      "个人护理产品 / Personal Care",
+      "文具、兴趣产品 / Stationery and Hobby",
+      "生活用品 / Household Goods",
+      "生活家电 / Home Appliances",
+      "影像、音响产品 / Audio, Video Equipment",
+      "信息产品 / ICT Equipment",
+      "产业、医疗设备 / Equipment for Manufacturing and Medical Care",
+      "住宅设备 / Housing Fixtures",
+      "家具及公共设备 / Furniture, Office and Public Space Equipment",
+      "移动工具 / Mobility",
+      "建筑（独栋住宅、小规模集合住宅）",
+      "建筑（中、大规模集合住宅）",
+      "建筑（产业、商业设施）",
+      "建筑（公共设施）、土木工程、景观",
+      "室内空间 / Interior Space",
+      "媒体、内容 / Media and Contents",
+      "系统、服务 / System and Service",
+      "地域构想、活动 / Regional Initiative",
+      "一般构想、活动 / General Public Initiative"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名受理期间",
+        "时间": "2026年4月1日—5月21日13:00 JST"
+      },
+      {
+        "阶段": "一次评审费支付截止",
+        "时间": "2026年5月31日"
+      },
+      {
+        "阶段": "一次评审结果通知",
+        "时间": "2026年6月30日"
+      },
+      {
+        "阶段": "二次评审资料登记",
+        "时间": "2026年7月上旬—8月下旬"
+      },
+      {
+        "阶段": "二次评审费支付截止",
+        "时间": "2026年7月30日"
+      },
+      {
+        "阶段": "获奖发表日",
+        "时间": "2026年10月15日"
+      },
+      {
+        "阶段": "GOOD DESIGN EXHIBITION",
+        "时间": "2026年10月中旬—次年3月"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "一次评审费",
+        "price": 16500,
+        "currency": "JPY",
+        "date": "5月31日前",
+        "note": "含税"
+      },
+      {
+        "period": "二次评审费",
+        "price": 71500,
+        "currency": "JPY",
+        "date": "7月30日前",
+        "note": "含税"
+      },
+      {
+        "period": "获奖推广费",
+        "price": 181500,
+        "currency": "JPY",
+        "date": "9月29日前",
+        "note": "含税"
+      }
+    ],
+    "fee_note": "全流程合计¥269,500/项目。非公开评审费¥110,000可选。获奖后G Mark标志使用费另行支付。规定截止日前可申请退赛。",
+    "judging_criteria": [
+      {
+        "维度": "人类视角（User Benefit）",
+        "说明": "设计是否易用、具有亲和力，能否引发用户的共鸣"
+      },
+      {
+        "维度": "产业视角（Business/Industry）",
+        "说明": "设计是否巧妙运用新技术、新材料，促进新产业和新商业模式的创造"
+      },
+      {
+        "维度": "社会视角（Social Context）",
+        "说明": "设计是否实现了新文化的创造，是否推动了可持续发展社会的构建"
+      },
+      {
+        "维度": "时间视角（Time/Process）",
+        "说明": "设计是否从中长期观点出发提出了可持续性解决方案"
+      }
+    ],
+    "judge_info": "2026年第70届采用全新评审团领导体制。评审主席：中川淳（Jun Nakagawa）。评审副主席：川上典李子、铃木元、原田祀马。评审团共约100位来自多元背景的评审委员，含国际评委。采用多阶段、众议制匿名评价。",
+    "judges": [
+      {
+        "name": "中川淳 (Jun Nakagawa)",
+        "title": "评审主席",
+        "company": "VISION to STRUCTURE"
+      },
+      {
+        "name": "川上典李子 (Noriko Kawakami)",
+        "title": "评审副主席",
+        "company": "21_21 DESIGN SIGHT"
+      },
+      {
+        "name": "铃木元 (Gen Suzuki)",
+        "title": "评审副主席",
+        "company": "GEN SUZUKI STUDIO"
+      },
+      {
+        "name": "原田祀马 (Yuma Harada)",
+        "title": "评审副主席",
+        "company": "UMA/design farm"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "优良设计大奖（GOOD DESIGN GRAND AWARD）",
+        "description": "从20件GOLD AWARD中投票选出的全场最高荣誉，仅1件"
+      },
+      {
+        "level": "优良设计金奖（GOOD DESIGN GOLD AWARD）",
+        "description": "从BEST 100中选出20件，前身为“经济产业大臣奖”"
+      },
+      {
+        "level": "优良设计百佳奖（GOOD DESIGN BEST 100）",
+        "description": "从所有获奖作品中选出评价最高的100件作品"
+      },
+      {
+        "level": "优良设计奖（GOOD DESIGN AWARD / G Mark）",
+        "description": "通过一次和二次评审后的全部获奖作品，获得G Mark标志使用权"
+      }
+    ],
+    "award_stats_2025": "2025年度共5,225件参评，获奖1,619件，获奖率级31%。累计约56,000件获奖作品。G Mark日本全国认知率83.6%。",
+    "nomination_types": [
+      "产品设计",
+      "建筑设计",
+      "数字设计",
+      "服务设计"
+    ],
+    "preliminary_check": "作品必须是设计已定型或已开始提供服务的状态。须确保在10月15日前可让公众知晓，最晚2027年3月31日前面向用户提供。同一作品只能选择一个类别。",
+    "requirements": {
+      "参赛资格": "面向全球企业、设计机构及个人开放，不限国别",
+      "作品类型": "接受有形设计（产品、建筑等）和无形设计（软件、服务、系统等）",
+      "作品时限": "必须是设计已定型或已开始提供服务的状态，最晚2027年3月31日前面向用户提供",
+      "提交材料": "通过官网在线提交。提交主视觉图（JPEG/PNG，≤4MB）、辅助资料图。可用中文/英文/日文",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权及影像版权"
+    },
+    "benefits": [
+      "获得G Mark标志使用权，日本全国认知率83.6%，是品质与信赖的象征",
+      "获奖作品受邀参加GOOD DESIGN EXHIBITION年度大型获奖展，收录于官方年鉴（纸质+数字版）全球发行",
+      "获奖作品永久收录于官网获奖作品库（Winners Gallery）",
+      "商业赋能：大百货商贸合同、OEM市场开拓、银行融资、人才招聘等实际商业价值",
+      "受邀参加东京颁奖典礼，进入G Mark获奖者社区，参加交流活动和商业匹配会议",
+      "获得官方“G Mark获奖标志”数字标识授权，用于官网、名片、商业文件等",
+      "主办方协助获奖作品在海外展览、海外商业设施销售活动中推广"
+    ],
+    "website": "https://www.g-mark.org/"
+  },
+  {
     "award_id": "new_york_design_awards_2026",
     "name": "New York Design Awards (NYDA, 纽约设计奖)",
     "name_en": "New York Design Awards",
@@ -8240,43 +8412,6 @@
     "notes": "",
     "_raw_extracted": "采集到费用信息: $245, $495, $750, $1,500, $2,500, $3,500, $4,500, $250, $67\n截止日期: Deadline; Deadline; Deadline; Deadline; deadlines, must be withdrawn by the applicant and may be re-submitted the following year only; due date to the Australian Good Design Awards Presentation Ceremony; Deadline; Deadline\n评审信息: Jury Comments; Jury panel and evaluated against three overarching criteria – each specific to its Design Discipline:; Jury wants to understand if the project incorporates any leading-edge Built Environment innovations, if it advances the profession and pushes the boundaries of new and innovative thinking in Built Env; Jury want to understand what measurable outcomes have been achieved and if the design of the space, place or environment has the potential to improve the quality of life for people and our planet; Jury wants to understand if the project has the potential to be an exemplar for good design in the Built Environment\n评审标准: Criteria and Fees before submitting your entry to the Australian Good Design Awards; criteria – each specific to its Design Discipline:; Criteria 1: Good Design; Criteria 2: Design Innovation; Criteria 3: Design Impact\n奖项等级关键词: WINNER, DIAMOND, GOLD, Best in",
     "updated_at": "2026-04-39"
-  },
-  {
-    "award_id": "g_mark奖_优良设计奖_日本_2026",
-    "name": "G-Mark奖（优良设计奖/日本）",
-    "name_en": "GOOD DESIGN AWARD",
-    "category": [],
-    "award_intro": "",
-    "website": "https://www.g-mark.org/zh-CN",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "日本",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 7000,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {},
-    "notes": "",
-    "_raw_extracted": "",
-    "updated_at": "2026-04-40"
   },
   {
     "award_id": "ida奖_国际设计奖_2026",
