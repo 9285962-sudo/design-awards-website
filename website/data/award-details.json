@@ -1,5 +1,134 @@
 [
   {
+    "award_id": "ux设计奖_2026",
+    "name": "UX Design Awards (UX设计奖)",
+    "name_en": "UX Design Awards",
+    "award_intro": "UX设计奖是由柏林国际设计中心（IDZ）主办的全球性竞赛，旨在表彰在塑造人们生活、产品及服务方面产生卓越影响力的用户体验设计。奖项源起2008年，初步为展示优秀可用性的活动，2015年正式确立奖项体系。IDZ是一家拥有超过50年历史的独立非营利机构，致力于推动设计成为商业和社会创新的驱动力。",
+    "organizer": "柏林国际设计中心（International Design Center Berlin, IDZ）",
+    "organizer_intro": "IDZ是一家拥有超80年历史的独立非营利机构，由“设计师为设计师”组建的非营利会员组织。奖项由IDZ Designpartner Berlin GmbH代表IDZ组织运营，汇集了政治、文化、科学和商业领域的多方专家。",
+    "organizer_location": "德国柏林",
+    "description": "2026年秋季赛作品征集期为3月1日—5月15日。提名评审5月21—31日，入围通知6月2日。公众投票7月7日—8月21日，获奖公布9月2日。",
+    "established": "2008",
+    "history": "UX设计奖起源于2008年，最初作为展示优秀可用性的活动，2015年正式确立奖项体系。经过多年发展，已成为全球UX领域最具影响力的奖项之一。",
+    "category": [
+      "产品类 (Product)：已上市或一年内计划发布的产品、服务和体验环境",
+      "概念类 (Concept)：初创想法、原型、探索性研究项目",
+      "新锐人才类 (New Talent)：全球在校生（本科或硕士）课程项目"
+    ],
+    "timeline": [
+      {
+        "阶段": "作品征集期",
+        "时间": "2026年3月1日—5月15日"
+      },
+      {
+        "阶段": "提名评审与入围通知",
+        "时间": "2026年5月21—31日 / 6月2日"
+      },
+      {
+        "阶段": "公关宣传与公众投票",
+        "时间": "2026年7月7日—8月21日"
+      },
+      {
+        "阶段": "获奖者公布",
+        "时间": "2026年9月2日"
+      },
+      {
+        "阶段": "获奖作品推广",
+        "时间": "2026年9月—2027年2月"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "提交费（产品/概念）",
+        "price": 320,
+        "currency": "EUR",
+        "date": "截止日前",
+        "note": "不含VAT"
+      },
+      {
+        "period": "提名包（产品/概念入围后）",
+        "price": 2250,
+        "currency": "EUR",
+        "date": "入围后",
+        "note": "含推广、奖杯、获奖标识无限使用权"
+      },
+      {
+        "period": "新锐人才",
+        "price": 70,
+        "currency": "EUR",
+        "date": "截止日前",
+        "note": "不含VAT"
+      }
+    ],
+    "fee_note": "所有费用不含增值税。NGO和小型公司可查询折扣方案。部分会员组织( 如SIDA )会员可享专属折扣。承诺无隐藏或重复性收费。",
+    "judging_criteria": [
+      {
+        "维度": "设计质量 (Design Quality)",
+        "说明": "评估设计体系、视觉元素、美学以及与品牌的一致性"
+      },
+      {
+        "维度": "文案 (UX Writing)",
+        "说明": "文本质量、语言和语调是否与整体体验相辅相成"
+      },
+      {
+        "维度": "洞察与挑战",
+        "说明": "设计是否由真实的用户洞察驱动，敏于应对根本性挑战"
+      },
+      {
+        "维度": "有意义的解决方案",
+        "说明": "设计是否为生活和工作的实际问题提出有意义的解决方案"
+      },
+      {
+        "维度": "综合表现",
+        "说明": "商业与艺术价值、创新表现及主题表达等多角度综合考量"
+      }
+    ],
+    "judge_info": "评委由来自设计、研究和商业领域的独立专家组成，背景多样确保公平评价。更多评委信息：https://ux-design-awards.com/jury",
+    "judges": [],
+    "award_levels": [
+      {
+        "level": "金奖 (UX Design Award | Gold)",
+        "description": "各类别最高荣誉，竞赛中“百里挑一”的顶尖水平"
+      },
+      {
+        "level": "获奖 (UX Design Award | Winner)",
+        "description": "产品/概念/新锐人才类别中卓越的作品"
+      },
+      {
+        "level": "特别表彰 (Special Mention)",
+        "description": "具有特定优秀品质的作品"
+      },
+      {
+        "level": "提名 (Nominated)",
+        "description": "通过初选的优秀作品"
+      },
+      {
+        "level": "公众选择奖 (Public Choice Award)",
+        "description": "全球公众线上投票产生"
+      }
+    ],
+    "award_stats_2025": "IDZ拥有80年历史。奖项年度页面浏览量超45万次，覆盖31万名专业人士，公众投票超4万参与者。",
+    "nomination_types": [
+      "产品类",
+      "概念类",
+      "新锐人才"
+    ],
+    "preliminary_check": "所有提交材料必须使用英文。项目描述≤500字符。至少1张高清图片。可选视频。",
+    "requirements": {
+      "参赛资格": "全球公司、机构、专业设计师可参加。学生通过“新锐人才”类别参赛",
+      "作品语言": "所有提交材料必须使用英文",
+      "提交材料": "项目描述≤500字符、至少1张高清图片、团队信息、可选视频",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权"
+    },
+    "benefits": [
+      "获得行业顶尖专家背书的权威认可与品牌增值",
+      "线上展览年度页面浏览量超45万次，覆盖31万名专业人士",
+      "获奖者为其量身定制的公关宣传活动，平均观看次数达3000次",
+      "获得国际公认的实体奖杯和官方证书"
+    ],
+    "website": "https://ux-design-awards.com/"
+  },
+  {
     "award_id": "loop设计奖_2026",
     "name": "LOOP Design Awards (LOOP设计奖)",
     "name_en": "LOOP Design Awards",
@@ -9324,46 +9453,6 @@
     "notes": "",
     "_raw_extracted": "奖项等级关键词: Gold",
     "updated_at": "2026-04-52"
-  },
-  {
-    "award_id": "ux设计奖_2026",
-    "name": "UX设计奖",
-    "name_en": "The UX Design Awards honor excellent user experiences",
-    "category": [],
-    "award_intro": "",
-    "website": "https://ux-design-awards.com/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "德国",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 200,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "contact@ux-design-awards.com",
-      "电话": "+49 30 61 62 321 18"
-    },
-    "notes": "",
-    "_raw_extracted": "截止日期: Deadlines; deadline; deadline\n评审信息: jury of the UX Design Awards; Jury, admission of a limited number of entries to compete for the Award titles; Jury Session: Granting of the Gold Awards, UX Design Awards, and Special Mentions by the Jury in the categories Product, Concept and New Talent; Jury Knows Great UX Design; Jury Members\n评审标准: Judging Criteria; evaluation of all submissions throughout our rigorous judging process; Judging Criteria\n奖项等级关键词: Winner, Gold, Special Mention",
-    "updated_at": "2026-04-53"
   },
   {
     "award_id": "win_awards_2026",

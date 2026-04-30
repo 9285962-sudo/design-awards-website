@@ -1,5 +1,35 @@
 [
   {
+    "award_id": "ux设计奖_2026",
+    "award_name": "UX Design Awards (UX设计奖)",
+    "award_name_cn": "UX设计奖",
+    "award_name_en": "UX Design Awards",
+    "short_name": "UX Design Awards",
+    "award_name_short": "UX Design Awards",
+    "category_main": "综合设计",
+    "category_sub": [
+      "用户体验",
+      "数字设计",
+      "产品设计"
+    ],
+    "country": "德国",
+    "city": "柏林",
+    "website": "https://ux-design-awards.com/",
+    "logo_url": "",
+    "organizer": "柏林国际设计中心（IDZ）",
+    "prestige_level": "高",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 320,
+    "fee_final": 2570,
+    "submission_open": "2026-03-01",
+    "deadline_early": "",
+    "deadline_regular": "2026-05-15",
+    "deadline_final": "2026-05-15",
+    "annnouncement_date": "2026-09-02",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "loop设计奖_2026",
     "award_name": "LOOP Design Awards (LOOP设计奖)",
     "award_name_cn": "LOOP设计奖",
@@ -2879,32 +2909,6 @@
       }
     ],
     "judges_intro": "评审团由全球顶尖的室内设计师、建筑师及行业领袖组成，具有高度的国际化与专业性。2026年度评审团主席为Ruud Belmans（比利时WeWantMore联合创始人）。"
-  },
-  {
-    "award_id": "ux设计奖_2026",
-    "award_name_cn": "UX设计奖",
-    "award_name_en": "The UX Design Awards honor excellent user experiences",
-    "award_name_short": "",
-    "award_slogan": "",
-    "organizer": "",
-    "organizer_cn": "",
-    "organizer_type": "",
-    "country": "德国",
-    "city": "",
-    "website": "https://ux-design-awards.com/",
-    "logo_url": null,
-    "category_main": "视觉传达",
-    "category_sub": [],
-    "industry_focus": [],
-    "award_type": "综合奖",
-    "award_cycle": "年度",
-    "edition_current": 2026,
-    "prestige_level": "知名",
-    "difficulty_level": "",
-    "fee_currency": "EUR",
-    "fee_regular": 200,
-    "id": "33",
-    "update_time": "2026-04-27"
   },
   {
     "award_id": "uia金奖与三年展奖_2026",

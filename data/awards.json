@@ -1,5 +1,31 @@
 [
   {
+    "award_id": "ux设计奖_2026",
+    "award_name_cn": "UX设计奖",
+    "award_name_en": "UX Design Awards",
+    "award_name_short": "UX Design Awards",
+    "category_main": "综合设计",
+    "category_sub": [
+      "用户体验",
+      "数字设计",
+      "产品设计"
+    ],
+    "country": "德国",
+    "city": "柏林",
+    "website": "https://ux-design-awards.com/",
+    "prestige_level": "高",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 320,
+    "fee_final": 2570,
+    "submission_open": "2026-03-01",
+    "deadline_early": "",
+    "deadline_regular": "2026-05-15",
+    "deadline_final": "2026-05-15",
+    "annnouncement_date": "2026-09-02",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "loop设计奖_2026",
     "award_name_cn": "LOOP设计奖",
     "award_name_en": "LOOP Design Awards",
