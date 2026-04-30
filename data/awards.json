@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "lia_awards_2026",
+    "award_name_cn": "伦敦国际奖",
+    "award_name_en": "London International Awards",
+    "award_name_short": "LIA",
+    "category_main": "视觉传达",
+    "category_sub": [
+      "广告设计",
+      "数字媒体",
+      "品牌娱乐",
+      "设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.liaawards.com/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 0,
+    "fee_final": 0,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-04-30",
+    "deadline_regular": "2026-06-30",
+    "deadline_final": "2026-08-31",
+    "annnouncement_date": "2026-10-05",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "fx国际设计奖_2026",
     "award_name_cn": "FX国际室内设计大奖",
     "award_name_en": "FX International Interior Design Awards",
