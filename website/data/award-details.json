@@ -1,5 +1,156 @@
 [
   {
+    "award_id": "new_york_design_awards_2026",
+    "name": "New York Design Awards (NYDA, 纽约设计奖)",
+    "name_en": "New York Design Awards",
+    "award_intro": "纽约设计奖（New York Design Awards）由全球设计社群BETTER FUTURE（前DRIVENxDESIGN）主办，是备受瞩目的全球九大城市设计奖之一，与伦敦设计奖、柏林设计奖、巴黎设计奖等组成全球大奖网络。奖项旨在表彰具有无限创意的优秀设计作品，涵盖空间、物品、视觉、图形、数字体验设计、最佳工作室等40多个类别上百个细分类目。",
+    "organizer": "BETTER FUTURE（前DRIVENxDESIGN）",
+    "organizer_intro": "BETTER FUTURE是一个由设计师、思想家、战略家和设计爱好者组成的全球性社群，超过95,000名成员、9,500多个品牌和1,700间工作室。在全球主要城市举办设计竞赛，包括伦敦、柏林、巴黎、墨尔本、悉尼、上海、香港等九大城市。",
+    "organizer_location": "美国纽约",
+    "description": "2026年纽约设计奖常规报名截止于6月18日，延迟截止于9月17日。10月23日评审，11月10日公布获奖名单。奖项实行分阶段阶梯报名，费用随截止日期延后逐步提高。",
+    "established": "",
+    "history": "纽约设计奖是BETTER FUTURE城市设计奖计划的组成部分，该计划在全球19个独立的奖项中每两周举办一次评选，覆盖建筑、室内、产品、数字、广告、服务等多个设计领域。",
+    "category": [
+      "建筑设计：商业、住宅、公共与机构、混合用途等",
+      "室内设计（Interior Design）",
+      "空间+（Space+）：创新建筑室内设计",
+      "产品设计（Product Design）",
+      "传播设计/视觉传达（Communication Design）",
+      "广告与营销（Advertising & Marketing）",
+      "服务与系统设计（Service & System Design）",
+      "数字创新（Digital Innovation）",
+      "网页与应用程序设计（Web & App Design）",
+      "更好的未来（Better Future）：可持续设计、生态·设计社会责任"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026年3月19日"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "2026年6月18日"
+      },
+      {
+        "阶段": "延迟报名截止",
+        "时间": "2026年9月17日"
+      },
+      {
+        "阶段": "评审日期",
+        "时间": "2026年10月23日"
+      },
+      {
+        "阶段": "获奖名单公布",
+        "时间": "2026年11月10日"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟",
+        "price": 209,
+        "currency": "USD",
+        "date": "3月19日前",
+        "note": "第一件作品"
+      },
+      {
+        "period": "常规",
+        "price": 219,
+        "currency": "USD",
+        "date": "6月18日前",
+        "note": "第一件作品"
+      },
+      {
+        "period": "延迟/最后",
+        "price": 269,
+        "currency": "USD",
+        "date": "9月17日前",
+        "note": "第一件作品"
+      }
+    ],
+    "fee_note": "年度固定管理费$30。奖杯与证书套装$335/套，国际邮寄$110/套。同批提交额外作品享较低增额。BETTER FUTURE为多提名工作室提供22.5%-30%阶梯折扣。",
+    "judging_criteria": [
+      {
+        "维度": "创意/原创性/概念",
+        "说明": "设计理念的独创性和前瞻性"
+      },
+      {
+        "维度": "内容/概要/目标/规划/执行",
+        "说明": "设计过程与最终呈现的完整度"
+      },
+      {
+        "维度": "创新/技术",
+        "说明": "在材料、技术应用上的突破性"
+      },
+      {
+        "维度": "质量/功能/可持续性",
+        "说明": "设计品质、实用性和社会责任"
+      },
+      {
+        "维度": "总体印象/惊艳（WOW）因素",
+        "说明": "作品的整体感染力"
+      }
+    ],
+    "judge_info": "评审团由来自全球设计行业的资深专业人士组成，由BETTER FUTURE每年动态组建。近年评委包括Brian Messana(Messana O’Rorke)、Davi Weber(BIG)、Matthew Stephenson(Woods Bagot)等。采用消除偏见的集体评分方式。",
+    "judges": [
+      {
+        "name": "Brian Messana",
+        "title": "合伙人",
+        "company": "Messana O’Rorke"
+      },
+      {
+        "name": "Davi Weber",
+        "title": "建筑师",
+        "company": "BIG (Bjarke Ingels Group)"
+      },
+      {
+        "name": "Matthew Stephenson",
+        "title": "建筑师",
+        "company": "Woods Bagot"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "年度设计奖（Design of the Year）",
+        "description": "各类别最高分获得，免费获得Ava小雕像和独家证书"
+      },
+      {
+        "level": "金奖（Gold）",
+        "description": "85-100分，每类别1个名额"
+      },
+      {
+        "level": "银奖（Silver）",
+        "description": "60-84分，多个名额"
+      },
+      {
+        "level": "入围（Shortlist）",
+        "description": "通过初审的作品"
+      }
+    ],
+    "award_stats_2025": "BETTER FUTURE社群超过95,000名成员。奖项覆盖建筑、室内、产品、数字等10大主类别99+细分。",
+    "nomination_types": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "视觉传达",
+      "数字创新"
+    ],
+    "preliminary_check": "作品须为近5个日历年内创建或完工。接受已完工、在建及概念类项目。通过官网在线提交，最多10张图片，350-500字英文说明。",
+    "requirements": {
+      "参赛资格": "向全球年满18岁的设计从业者、建筑师、设计师、学生等开放",
+      "作品时限": "参赛作品须为近5个日历年内创建或完工的项目",
+      "提交材料": "最多10张高清图片（建议8-10张，单张≤4MB，宽边≥1000px）。350-500字英文说明。可选视频URL(建议單看密码)和最多6页PDF",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权及影像版权"
+    },
+    "benefits": [
+      "年度设计奖免费获得Ava雕像，金/银奖可选购奖杯套装",
+      "所有获奖者获得官方证书、数字徽章和获奖标签使用权",
+      "官网获奖者画廊永久展示、合作媒体Muse.World专题报道",
+      "优胜者专访、营销推广材料包、BETTER FUTURE世界设计名录收录",
+      "向全球主要设计媒体发放获奖者新闻稿模板、获奖者人物志页面"
+    ],
+    "website": "https://nydesignawards.com/"
+  },
+  {
     "award_id": "lia_awards_2026",
     "name": "London International Awards (LIA, 伦敦国际奖)",
     "name_en": "London International Awards",

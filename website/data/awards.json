@@ -1,5 +1,37 @@
 [
   {
+    "award_id": "new_york_design_awards_2026",
+    "award_name": "New York Design Awards (NYDA, 纽约设计奖)",
+    "award_name_cn": "纽约设计奖",
+    "award_name_en": "New York Design Awards",
+    "short_name": "NYDA",
+    "award_name_short": "NYDA",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "视觉传达",
+      "数字创新"
+    ],
+    "country": "美国",
+    "city": "纽约",
+    "website": "https://nydesignawards.com/",
+    "logo_url": "",
+    "organizer": "BETTER FUTURE（前DRIVENxDESIGN）",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "USD",
+    "fee_regular": 219,
+    "fee_final": 269,
+    "submission_open": "2025-11-07",
+    "deadline_early": "2026-03-19",
+    "deadline_regular": "2026-06-18",
+    "deadline_final": "2026-09-17",
+    "annnouncement_date": "2026-11-10",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "lia_awards_2026",
     "award_name": "London International Awards (LIA, 伦敦国际奖)",
     "award_name_cn": "伦敦国际奖",
