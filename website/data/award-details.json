@@ -1,5 +1,143 @@
 [
   {
+    "award_id": "sbid国际设计奖_2026",
+    "name": "SBID International Design Awards (SBID国际设计奖)",
+    "name_en": "SBID International Design Awards",
+    "award_intro": "SBID国际设计大奖由英国室内设计协会（SBID）主办，是全球设计日历上最负盛名的室内设计奖项之一。其评选过程以严谨和多维度著称，获奖作品不仅代表了顶尖的设计水平，更意味着通过了行业最高标准的专业审核，具有极高的商业与行业认可度。该奖项是全球首个获得独立奖项标准委员会（IASC）金奖认证的室内设计奖项。奖项于2009年首次颁发，采用独树一帜的“技术评审 + 美学评审 + 公众投票”三轮评审机制，在全球设计界建立了极高的专业公信力。",
+    "organizer": "英国室内设计协会（Society of British & International Interior Design，简称SBID）",
+    "organizer_intro": "SBID是英国领先的专业认证机构和全球室内设计的代表组织，致力于支持和维护全球室内设计师、建筑师及制造商的专业和贸易标准。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年SBID国际设计大奖已进入最终报名阶段，最终截止日期为2026年6月26日。入围名单将于7月29日公布并同时开启公众投票，颁奖典礼将于2026年11月6日在伦敦举行。",
+    "established": "2009",
+    "history": "SBID国际设计大奖由英国室内设计协会于2009年首次颁发，旨在表彰、奖励和庆祝全球范围内室内设计、装修和产品设计领域的卓越成就。经过十余年的发展，已成为全球设计日历上最负盛名的室内设计奖项之一，且是全球首个获得IASC金奖认证的室内设计奖项。",
+    "category": [
+      "室内设计：面向商业和住宅领域的专业项目，涵盖酒店空间、办公环境、零售店铺、医疗设施等类别",
+      "室内装修：表彰在商业和住宅项目中，在完成度、执行力、饰面和细节处理方面表现卓越的装修工程",
+      "产品设计：面向室内产品、材料和效果进行评选，范围涵盖合同或住宅家具、照明、家居用品和配件，以及地板、卫浴和饰面材料等"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026年3月31日"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "2026年5月29日"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2026年6月26日"
+      },
+      {
+        "阶段": "类别入围名单公布 & 公众投票开启",
+        "时间": "2026年7月29日"
+      },
+      {
+        "阶段": "公众投票结束",
+        "时间": "2026年9月4日"
+      },
+      {
+        "阶段": "地区类别获奖者公布（线上）",
+        "时间": "2026年9月7日"
+      },
+      {
+        "阶段": "全球类别获奖者公布 & 颁奖典礼",
+        "时间": "2026年11月6日"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟报名",
+        "price": 250,
+        "currency": "GBP",
+        "date": "2026年3月31日前",
+        "note": "非会员价"
+      },
+      {
+        "period": "常规报名",
+        "price": 275,
+        "currency": "GBP",
+        "date": "2026年5月29日前",
+        "note": "非会员价；SBID会员可享1次免费提交"
+      },
+      {
+        "period": "最终报名",
+        "price": 325,
+        "currency": "GBP",
+        "date": "2026年6月26日前",
+        "note": "非会员价"
+      }
+    ],
+    "fee_note": "所有参赛者需缴纳50英镑一次性行政管理费（不含VAT）。SBID会员享有1次免费提交机会（价值275英镑），额外提交享受早鸟价250英镑。所有价格不含增值税。报名系统将在截止日当天下午5点（英国夏令时）准时关闭，无延期。",
+    "judging_criteria": [
+      {
+        "维度": "创新性",
+        "说明": "设计理念与方法的原创性和突破性"
+      },
+      {
+        "维度": "功能性",
+        "说明": "设计是否有效实现预期功能，是否满足使用需求"
+      },
+      {
+        "维度": "可持续性",
+        "说明": "在材料选择、能源使用和环境影响方面的表现"
+      },
+      {
+        "维度": "技术性",
+        "说明": "技术内容审查，确保符合行业标准和设计用途要求"
+      },
+      {
+        "维度": "符合简报与预算",
+        "说明": "是否满足设计简报、预算、健康与安全及用途等基本要素"
+      }
+    ],
+    "judge_info": "评审团由来自全球最具创新力公司的行业领袖和专家组成，代表了创意和相关领域的深厚专业知识。2026年评审主席为Mike Sokolowski。每位评委被分配审查其专业领域内的参赛作品。评审流程分三轮：技术评审（行业专家进行技术内容审查）、美学评审（专家组评估美学创意）、公众投票（评委打分占90%，公众投票占10%）。",
+    "judges": [
+      {
+        "name": "Mike Sokolowski",
+        "title": "评审主席",
+        "company": "SBID International Design Awards"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "全球类别获奖者（Global Winner）",
+        "description": "每个参赛类别中综合评审分数和公众投票后的全球最高荣誉"
+      },
+      {
+        "level": "地区类别获奖者（Regional Winner）",
+        "description": "各参赛类别按地区评选出的区域优胜者"
+      },
+      {
+        "level": "入围奖（Finalist）",
+        "description": "通过技术评审和美学评审，成功进入最终轮的优秀作品，同样被视为一项重要成就"
+      }
+    ],
+    "award_stats_2025": "奖项于2009年首次颁发，是全球首个获得IASC金奖认证的室内设计奖项。2026年为第18届。",
+    "nomination_types": [
+      "室内设计",
+      "室内装修",
+      "产品设计"
+    ],
+    "preliminary_check": "参赛者须确保作品在2024年1月1日至2026年6月26日之间完成。需通过在线报名系统提交，最多10张JPEG格式图片，单张不超过15MB，分辨率不低于3000x2000像素及300dpi。强烈建议提交前下载并阅读官方《参赛指南》。",
+    "requirements": {
+      "参赛资格": "面向全球设计专业人士，包括企业、室内设计师、建筑师、开发商、承包商、制造商及产品设计师等",
+      "作品时限": "参赛作品须在2024年1月1日至2026年6月26日之间完成",
+      "作品提交要求": "通过官方在线报名系统提交。最多10张图片，格式为JPEG，单张不超过15MB，分辨率不低于3000x2000像素及300dpi。强烈建议下载并阅读官方《参赛指南》",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权及影像版权"
+    },
+    "benefits": [
+      "受邀参加伦敦颁奖典礼，获颁定制水晶奖杯",
+      "拥有官方“获奖者/入围者”徽章使用权",
+      "获奖作品收录于年度《SBID全球室内设计年鉴》印刷版",
+      "通过奖项官网、行业媒体及全年广泛报道进行全球推广",
+      "免费参加颁奖典礼After Party",
+      "有机会受邀参加SBID的B2B活动“Meet the Buyer”，直接接触行业买家",
+      "SBID获奖标签是设计实力的权威证明，提升全球设计界的可信度和专业地位"
+    ],
+    "website": "https://www.sbid.org/awards/"
+  },
+  {
     "award_id": "good_design_australia_2026",
     "name": "澳大利亚优良设计奖",
     "name_en": "Australian Good Design Awards",
@@ -7457,46 +7595,6 @@
     "notes": "",
     "_raw_extracted": "采集到日期: April 15, 2026",
     "updated_at": "2026-04-49"
-  },
-  {
-    "award_id": "sbid国际设计奖_2026",
-    "name": "SBID国际设计奖",
-    "name_en": "SBID International Interior Design Awards",
-    "category": [],
-    "award_intro": "",
-    "website": "https://www.sbidawards.com/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "英国",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 250,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "awards@sbid.org",
-      "电话": "+44 (0)20 7738 9383"
-    },
-    "notes": "",
-    "_raw_extracted": "截止日期: deadline extensions; deadlines; deadline extensions\n评审信息: judging panel features esteemed industry experts from some of the world’s most innovative companies; judged by a panel of esteemed interior designers; judging panel consists of highly respected, expert industry figures from some of the world's most innovative and exciting companies; judges and voters are able to choose from a wide field, both in terms of types of project, scale, value and creative inspiration; Judges are invited to lend their expertise due to their superior standing in the creative fields; they have each achieved a high level of creativity and professionalism in their career\n奖项等级关键词: WINNER, GOLD, Finalist, merit, shortlist",
-    "updated_at": "2026-04-50"
   },
   {
     "award_id": "the_plan奖_2026",

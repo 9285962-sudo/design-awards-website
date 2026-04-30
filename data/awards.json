@@ -1,5 +1,31 @@
 [
   {
+    "award_id": "sbid国际设计奖_2026",
+    "award_name_cn": "SBID国际设计奖",
+    "award_name_en": "SBID International Design Awards",
+    "award_name_short": "SBID",
+    "category_main": "室内设计",
+    "category_sub": [
+      "室内设计",
+      "室内装修",
+      "产品设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.sbid.org/awards/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "GBP",
+    "fee_regular": 275,
+    "fee_final": 325,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-03-31",
+    "deadline_regular": "2026-05-29",
+    "deadline_final": "2026-06-26",
+    "annnouncement_date": "2026-09-07",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "award_21_2026",
     "award_name_cn": "AZ设计大奖",
     "award_name_en": "AZ Awards",
