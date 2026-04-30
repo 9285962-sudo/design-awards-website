@@ -1,5 +1,113 @@
 [
   {
+    "award_id": "asla_honors_2026",
+    "name": "ASLA Honors (ASLA荣誉奖)",
+    "name_en": "ASLA Honors",
+    "award_intro": "ASLA荣誉奖由ASLA理事会选择，授予那些在行业领导力、卓越贡献和终身成就方面最为杰出的个人与机构，代表ASLA每年颁发的最高荣誉。与年度竞赛形式的专业奖和学生奖不同，荣誉奖为提名制，非公开竞赛，由协会理事会基于长期行业影响选择。下设七个荣誉类别，覆盖终身成就、设计贡献、社区服务、教育、自然保护、机构与企业等多个维度。每年在ASLA景观建筑年会荣誉典礼上颁发。",
+    "organizer": "ASLA (American Society of Landscape Architects)",
+    "organizer_intro": "ASLA成立于1899年，是全球最具影响力的景观建筑专业组织。荣誉奖由“荣誉与奖励咨询委员会”协助审阅，委员由私营、公共、学术领域的专业人士构成。",
+    "organizer_location": "美国华盛顿",
+    "description": "ASLA 2026 Honors提名期已于2026年2月2日截止。荣誉奖下设七个分项，包括ASLA Medal、Design Medal、Community Service Award、Jot D. Carpenter Teaching Medal、LaGasse Medals、Landscape Architecture Firm Award、Outstanding Service Award。",
+    "established": "1899",
+    "history": "ASLA于1899年成立，其荣誉奖体系伴随协会发展而不断完善。荣誉奖与专业奖、学生奖共同构成景观建筑领域最权威的三大奖项体系。",
+    "category": [
+      "ASLA Medal：最高个人荣誉，表彰其终身专业成就对公共福利与环境具有持久影响",
+      "ASLA Design Medal：表彰至少十年持续产出卓越设计作品",
+      "Community Service Award：表彰无偿或公益服务回馈社区",
+      "Jot D. Carpenter Teaching Medal：表彰在景观建筑教育领域的终身贡献",
+      "LaGasse Medals：表彰在自然资源及公共景观的管理与保护方面表现杰出",
+      "Landscape Architecture Firm Award：表彰事务所在专业实践、设计品质、人才管理等方面卓越",
+      "Outstanding Service Award：表彰长期志愿者服务为协会作出重大贡献"
+    ],
+    "timeline": [
+      {
+        "阶段": "提名截止（2026年度）",
+        "时间": "2026年2月2日 6:00pm EST（已截止）"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026年景观建筑年会期间"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "提名费",
+        "price": 0,
+        "currency": "USD",
+        "date": "提名期",
+        "note": "提名制，非公开竞赛，无报名费"
+      }
+    ],
+    "fee_note": "荣誉奖为提名制，非公开竞赛，由ASLA理事会和荣誉与奖励咨询委员会筛选。无报名费用。",
+    "judging_criteria": [
+      {
+        "维度": "专业持续贡献",
+        "说明": "被提名者在景观建筑领域的长期专业贡献和领导力"
+      },
+      {
+        "维度": "行业影响力",
+        "说明": "对景观建筑行业产生的深远影响"
+      },
+      {
+        "维度": "公共福利与环境价值",
+        "说明": "对公共福利、自然环境和社区发展的贡献"
+      }
+    ],
+    "judge_info": "荣誉奖由ASLA理事会对被提名者进行选择。“荣誉与奖励咨询委员会”（Honors and Awards Advisory Committee）协助审阅，委员由私营、公共、学术领域的专业人士构成，注重专业经验、地域、性别及族裔的多元均衡。",
+    "judges": [],
+    "award_levels": [
+      {
+        "level": "ASLA Medal",
+        "description": "最高个人荣誉，表彰终身专业成就对公共福利与环境具有持久影响"
+      },
+      {
+        "level": "ASLA Design Medal",
+        "description": "表彰至少十年持续产出卓越设计作品"
+      },
+      {
+        "level": "Community Service Award",
+        "description": "表彰无偿或公益服务回馈社区"
+      },
+      {
+        "level": "Jot D. Carpenter Teaching Medal",
+        "description": "表彰在景观建筑教育领域的终身贡献"
+      },
+      {
+        "level": "LaGasse Medals",
+        "description": "表彰在自然资源及公共景观管理与保护方面表现杰出"
+      },
+      {
+        "level": "Landscape Architecture Firm Award",
+        "description": "表彰事务所在专业实践、设计品质、人才管理等方面卓越"
+      },
+      {
+        "level": "Outstanding Service Award",
+        "description": "表彰长期志愿者服务为协会作出重大贡献"
+      }
+    ],
+    "award_stats_2025": "ASLA成立于1899年，荣誉奖下设七个分项。每年在ASLA年会荣誉典礼上颁发。",
+    "nomination_types": [
+      "终身成就",
+      "设计贡献",
+      "社区服务",
+      "教育",
+      "自然保护"
+    ],
+    "preliminary_check": "提名制，非公开竞赛。由ASLA理事会基于长期行业影响选择。提名材料围绕被提名者在专业领域的持续贡献和领导力等多个维度。",
+    "requirements": {
+      "提名资格": "提名制，由同行或机构提名，不接受自提名",
+      "提名时限": "2026年度提名期已于2月2日截止",
+      "提名材料": "提名文件需逐一回应类别的关键指标，不同荣誉类别对应不同评审权重"
+    },
+    "benefits": [
+      "在ASLA景观建筑年会荣誉典礼上接受表彰",
+      "获奖信息在LAM杂志、年会宣传及合作伙伴平台上获得报道",
+      "获奖记录永久收录于ASLA官网荣誉画廊",
+      "获得ASLA官方认证的获奖者专用标识使用权"
+    ],
+    "website": "https://www.asla.org/awards-events-main-landing/honors-awards/honors"
+  },
+  {
     "award_id": "g_mark奖_优良设计奖_日本_2026",
     "name": "GOOD DESIGN AWARD (G Mark, 优良设计奖)",
     "name_en": "GOOD DESIGN AWARD",

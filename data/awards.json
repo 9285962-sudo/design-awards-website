@@ -1,5 +1,30 @@
 [
   {
+    "award_id": "asla_honors_2026",
+    "award_name_cn": "ASLA荣誉奖",
+    "award_name_en": "ASLA Honors",
+    "award_name_short": "ASLA Honors",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "景观设计",
+      "终身成就"
+    ],
+    "country": "美国",
+    "city": "华盛顿",
+    "website": "https://www.asla.org/awards-events-main-landing/honors-awards/honors",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "USD",
+    "fee_regular": 0,
+    "fee_final": 0,
+    "submission_open": "2025-01-01",
+    "deadline_early": "",
+    "deadline_regular": "",
+    "deadline_final": "2026-02-02",
+    "annnouncement_date": "2026-09-01",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "g_mark奖_优良设计奖_日本_2026",
     "award_name_cn": "GOOD DESIGN AWARD（优良设计奖）",
     "award_name_en": "GOOD DESIGN AWARD",
