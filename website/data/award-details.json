@@ -1,5 +1,175 @@
 [
   {
+    "award_id": "bali_national_landscape_awards_2026",
+    "name": "BALI国家景观奖",
+    "name_en": "BALI National Landscape Awards",
+    "award_intro": "BALI国家景观奖（BALI National Landscape Awards）由英国园林工业协会（British Association of Landscape Industries, BALI）主办，是欧洲最大的景观行业盛会，也是英国最负盛名、最具影响力的景观奖项之一。奖项始于1976年，旨在表彰在景观设计、施工和养护方面展现出最高专业水准和技术能力的BALI会员，现已发展成为与ASLA Awards、WLA Awards齐名的国际三大景观奖之一。2026年将迎来第50届里程碑盛典。参赛项目不仅涵盖室外景观，也包括室内造景及境外工程。",
+    "organizer": "British Association of Landscape Industries (BALI)",
+    "organizer_intro": "英国园林工业协会（BALI）成立于1972年，是英国领先的景观专业人士行业协会。会员超过900家，涵盖设计师、承包商、供应商等各个领域的专业人士。BALI过去15年全权管理该奖项。2026年度头条赞助商为Origin Enterprises（通过其Living Landscapes部门赞助），承诺推广气候韧性、绿色基础设施和可持续性解决方案。",
+    "organizer_location": "英国·伦敦",
+    "description": "2026年度为BALI国家景观奖设立第50届里程碑，由全新的评审领导体制推动赛事。本届赛事涵盖超过30个参赛类别（覆盖25至30+个细分赛道），包括按定价范围划分的花园建设类别、空间类型划分的社区/学校/室内/运动休闲等类别，以及国际奖赛道。采用多级逐级晋升荣誉体系：Principal Award（首席最高荣誉）→ Grand Award → Special Award → National Award → International Award。参赛者须为BALI注册会员方可报名。",
+    "established": "1976年",
+    "history": "BALI国家景观奖第一届于1976年颁发，由英国园林工业协会（BALI）主办。BALI成立于1972年是英国领先的景观专业人士行业协会，会员超过900家。历经近50年发展，BALI国家景观奖已成为欧洲最大的景观行业盛会，与ASLA Awards、WLA Awards齐名并称为国际三大景观奖之一。奖项以严格的现场核查评审机制著称——评审团亲自到访每个入围项目逐一审查，确保获奖者在景观建设的每一个环节均为最佳水平。近年来中国设计团队表现突出，2020年度国际奖全部由中国团队斩获；2024年中国淄博张店儿童公园获得Principal Award全票认可。",
+    "category": [
+      "Domestic Garden Construction – £30k以下 / £30k-£60k / £60k-£100k",
+      "Construction £100k–£250k / £250k–£500k / £500k以上",
+      "Hard/Soft Landscaping Construction（£500k以上）",
+      "Roof Garden / Podium / Balcony Landscaping（含两档造价范围）",
+      "Community & Schools Development（社区与学校教育景观）",
+      "Restoration / Regeneration Scheme（修复/再生项目）",
+      "Interior Landscape – Installation & Maintenance（室内景观—安装与养护）",
+      "Sports / Leisure（运动与休闲景观）",
+      "Design & Build（设计与建造）",
+      "Construction Only（纯施工）",
+      "Maintenance类（养护—包含室内外专项类别）",
+      "Commercial / Private Domestic Contract（商业/私人合同）",
+      "International Award（国际奖—境外项目赛道）"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名启动",
+        "时间": "2026年3月上旬"
+      },
+      {
+        "阶段": "早鸟优惠截止",
+        "时间": "2026年5月5日"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2026年6月8日"
+      },
+      {
+        "阶段": "获奖结果通知",
+        "时间": "2026年9月上旬"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026年12月4日，伦敦JW Marriott Grosvenor House"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "BALI注册会员（单项目）",
+        "price": 365,
+        "currency": "GBP",
+        "date": "早鸟截止前更优",
+        "note": "含税，每件项目"
+      },
+      {
+        "period": "额外项目费用",
+        "price": 310,
+        "currency": "GBP",
+        "date": "同次提交",
+        "note": "同一主体额外项目优惠价"
+      },
+      {
+        "period": "国际类别（BALI注册国际会员）",
+        "price": 365,
+        "currency": "GBP",
+        "date": "同上",
+        "note": "境外项目专用赛道"
+      },
+      {
+        "period": "颁奖典礼门票",
+        "price": 0,
+        "currency": "GBP",
+        "date": "另购",
+        "note": "不包含在报名费中"
+      }
+    ],
+    "fee_note": "参赛费含税，含资料提交、翻译等。不同赛道的截止时间规则以官网截止日为准。早鸟优惠截止时间约为5月5日之前。",
+    "judging_criteria": [
+      {
+        "维度": "设计（Design）",
+        "说明": "评估设计的概念、原创性、是否恰当地结合使用需求与场地条件"
+      },
+      {
+        "维度": "施工（Construction）",
+        "说明": "评估施工工艺、材料质量、细节控制、施工精度与专业表现"
+      },
+      {
+        "维度": "雇主/关联方回应度（Employer/Affiliate）",
+        "说明": "对甲方要求、委托意图及项目方要求的回应程度"
+      },
+      {
+        "维度": "项目管理（Project Management）",
+        "说明": "预算控制、进度管理、交付流程等综合管理表现"
+      }
+    ],
+    "judge_info": "评审委员由来自全行业的知名专家、考评员及顾问组成。评审委员会主席为John Melmoe。往届评审代表包括Paul Cowper、Andrew Mills、Jason Lock等，每年动态更新。评审流程亮点：现场深度访问（评审团亲自到访每个入围项目逐一审查）、评委共识机制（共同讨论每项决定并达成共识）、专业独立标准。多数评委来自英国本地，但为保持专业性和多元性由资深人士构成。",
+    "judges": [
+      {
+        "name": "John Melmoe",
+        "title": "评审委员会主席 (Head Judge)",
+        "company": "BALI"
+      },
+      {
+        "name": "Paul Cowper",
+        "title": "评审委员会委员",
+        "company": ""
+      },
+      {
+        "name": "Andrew Mills",
+        "title": "评审委员会委员",
+        "company": ""
+      },
+      {
+        "name": "Jason Lock",
+        "title": "评审委员会委员",
+        "company": ""
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "Principal Award（首席奖/最高荣誉）",
+        "description": "BALI国家景观奖的最高荣誉，该类全球唯一。要求在设计创新、技术应用、生态环境可持续性、美学价值和项目管理等多维度达到极高标准，实现完美无瑕。2025年第49届共评选出5个类别的Principal Award。"
+      },
+      {
+        "level": "Grand Award（大奖）",
+        "description": "从Principal Award得主中选拔出的最符合完美完成定义的作品，年度最受瞩目的奖项之一。2025年度Grand Award由Hawthorn House（The Outdoor Room设计）获得。"
+      },
+      {
+        "level": "Special Award（特别奖）",
+        "description": "由评审委员会投票决定的4项年度特别奖：最佳BALI新人奖、最佳首次参赛奖、设计与建造奖、年度大奖（Grand Award）。"
+      },
+      {
+        "level": "National Award（国家奖/类别优胜者）",
+        "description": "每个申报类别中评选出的优胜项目，构成Awards体系核心获奖层级。各类型覆盖造价范围从3万英镑至50万英镑以上。每年约有60-70项作品获得National Award。"
+      },
+      {
+        "level": "International Award（国际奖）",
+        "description": "面向境外项目，分为境外BALI注册国际会员和英国本土BALI会员承接境外项目两条赛道。2020年度13个获奖项目全部由中国设计团队斩获。"
+      }
+    ],
+    "award_stats_2025": "第49届共评选出5个Principal Award、约60-70项National Award。Grand Award由Hawthorn House（The Outdoor Room）获得。",
+    "nomination_types": [
+      "BALI注册会员",
+      "BALI注册国际会员",
+      "非会员需先申请入会"
+    ],
+    "preliminary_check": "多轮现场核查与集中评议相结合。评审团亲临每个入围项目实地走访并评分，评委达成共识后做出决定。Principal Award需满足：施工完美无瑕、创造性地应用可持续材料与回收利用、卓越的项目管理等额外高标准。",
+    "requirements": {
+      "参赛资格": "参赛者须为BALI注册会员（英国园林工业协会认可会员）。非会员需先注册成为BALI会员或BALI国际会员才能参与报名。",
+      "作品状态": "仅接受已建成的完整合约项目，不接受概念设计或有条件阶段性项目。",
+      "作品时限": "参赛项目须在2025年6月1日至2026年6月1日之间实际完工。",
+      "地域要求": "不限定于英国境内；境外项目可参与International Award类别。",
+      "提交数量": "无提交数量上限，同一主体可提交多件作品。",
+      "材料规范": "提交项目介绍、完工照片（须真实、高分辨率，体现施工/设计的核心细节）及其他辅助材料。",
+      "重复参赛": "过去两年内已获得BALI奖项的项目不接受重复参赛。"
+    },
+    "benefits": [
+      "被公认为欧洲最负盛名的景观奖项之一，获奖是衡量专业高度的重要标志，极具客户信任和企业可信度价值",
+      "受邀出席每年12月初于伦敦JW Marriott Grosvenor House举行的高规格颁奖午宴，与全球行业领袖面对面交流",
+      "获奖名单通过新闻通稿向全行业媒体发布，同时在奖项官网、BALI官网及社交平台全覆盖展示",
+      "拥有BALI Awards Winner标识合法使用权，为企业品牌差异化竞争中获得明显优势",
+      "获奖项目刊录于BALI Awards官方年鉴和年度获奖画册（印刷+数字版），与Horticulture Week合作为获奖企业提供独立增信报道",
+      "获颁BALI官方精制奖杯和获奖证书（视具体获奖级别而定）",
+      "增强团队自豪感和企业文化传播力，为吸引优秀人才提供有力证明",
+      "BALI会员可免费获得评审主席John Melmoe举办的奖项申报指导工作坊支持"
+    ],
+    "website": "https://www.baliawards.co.uk/"
+  },
+  {
     "award_id": "good_design_award_2026",
     "name": "优良设计奖",
     "name_en": "GOOD DESIGN AWARD (G Mark)",

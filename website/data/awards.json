@@ -1,5 +1,34 @@
 [
   {
+    "award_id": "bali_national_landscape_awards_2026",
+    "award_name": "BALI国家景观奖 (BALI National Landscape Awards)",
+    "short_name": "BALI景观奖",
+    "logo_url": "/images/logos/bali-logo.png",
+    "organizer": "British Association of Landscape Industries (BALI)",
+    "update_time": "2026-04-29",
+    "award_name_cn": "BALI国家景观奖",
+    "award_name_en": "BALI National Landscape Awards",
+    "award_name_short": "BALI景观奖",
+    "category_main": "景观设计",
+    "category_sub": [
+      "景观设计",
+      "建筑设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.baliawards.co.uk/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "GBP",
+    "fee_regular": 365,
+    "fee_final": 365,
+    "submission_open": "2026-03-01",
+    "deadline_early": "2026-05-05",
+    "deadline_regular": "2026-06-08",
+    "deadline_final": "2026-06-08",
+    "annnouncement_date": "2026-09-01"
+  },
+  {
     "award_id": "good_design_award_2026",
     "award_name": "优良设计奖 (GOOD DESIGN AWARD / G Mark)",
     "short_name": "G Mark",
