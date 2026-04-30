@@ -1,5 +1,117 @@
 [
   {
+    "award_id": "意大利建筑奖_2026",
+    "name": "Premio Architettura (意大利可持续建筑奖)",
+    "name_en": "Premio Italiano Architettura Sostenibile",
+    "award_intro": "意大利可持续建筑奖（Premio Italiano Architettura Sostenibile）是著名的“Fassa Bortolo 国际可持续建筑奖”下设的年轻学者赛道。奖项由Fassa S.r.l.与费拉拉大学建筑系于2003年共同创立，旨在奖励和推广具有环境意识和可持续性的建筑项目，最大限度地减少人为影响，提高建筑和城市对当前及未来自然事件与气候变化的适应能力。2026年第17届只接受意大利大学毕业生的毕业论文、博士论文或研究生论文。",
+    "organizer": "Fassa S.r.l. 与 费拉拉大学建筑系（Department of Architecture, University of Ferrara）",
+    "organizer_intro": "奖项由Fassa S.r.l.（Fassa Bortolo品牌持有方）与费拉拉大学建筑系联合发起和推广，科学委员会主席由Thomas Herzog教授担任。费拉拉大学建筑系提供学术支持，荣誉奖项由意大利建筑行业重要公司Fassa Bortolo赞助。",
+    "organizer_location": "意大利费拉拉（Ferrara）",
+    "description": "2026年第17届已于4月30日截止报名，结果将于2026年7月底前通知，颁奖典礼在费拉拉举行。奖项为双年制，与“Fassa Bortolo国际可持续建筑奖”交替举办。",
+    "established": "2003",
+    "history": "意大利可持续建筑奖由Fassa S.r.l.与费拉拉大学建筑系于2003年共同创立。从2014年起，该国际奖项与“Fassa Bortolo意大利可持续建筑奖”交替举办，后者面向在意大利大学完成毕业论文学位的青年作者。奖项是一个融合学术与实践的国际性评审机制，致力于发现和鼓励年轻一代在可持续设计领域的创新思路。",
+    "category": [
+      "可持续建筑设计（Sustainable Architecture）",
+      "可持续技术与构件（Technologies and components for sustainability）",
+      "可持续城市与景观设计（Sustainable Urban and Landscape Design）"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名开放",
+        "时间": "2024—2025年"
+      },
+      {
+        "阶段": "报名与缴费截止",
+        "时间": "2026年4月30日 23:00 CET（已截止）"
+      },
+      {
+        "阶段": "结果通知",
+        "时间": "2026年7月底前"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "待定，在费拉拉举行"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "注册费",
+        "price": 80,
+        "currency": "EUR",
+        "date": "报名时",
+        "note": "每个项目，无论项目组成员人数多少"
+      }
+    ],
+    "fee_note": "每个项目注册费80欧元，无论项目组成员人数。需在规定时间内通过邮件链接完成支付。",
+    "judging_criteria": [
+      {
+        "维度": "可持续性核心",
+        "说明": "作品的核心理念和解决方案必须体现对环境和可持续性的深刻关注"
+      },
+      {
+        "维度": "适应性与未来导向",
+        "说明": "特别关注展示出灵活性、适应性和可逆性设计方法的作品"
+      },
+      {
+        "维度": "创新性与方法论",
+        "说明": "对设计难题的创新性解决方案和严谨的研究方法"
+      },
+      {
+        "维度": "技术与执行",
+        "说明": "对技术解决方案和实际落地可行性的清晰描述"
+      }
+    ],
+    "judge_info": "科学委员会主席由Thomas Herzog教授担任。评审团由科学委员会筛选的国际知名建筑师组成，每两年动态调整。2025-2026年评审团主席为Marianne Burkhalter（苏黎世Burkhalter Sumi事务所负责人）。",
+    "judges": [
+      {
+        "name": "Prof. Thomas Herzog",
+        "title": "科学委员会主席",
+        "company": "费拉拉大学建筑系"
+      },
+      {
+        "name": "Marianne Burkhalter",
+        "title": "2025-2026评审团主席",
+        "company": "Burkhalter Sumi Architects（苏黎世）"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "金奖（Gold Medal）",
+        "description": "每个类别最多评选一项金奖，可共享9,000欧元奖金"
+      },
+      {
+        "level": "银奖（Silver Medal）",
+        "description": "每个类别最多评选一项银奖"
+      },
+      {
+        "level": "荣誉提名（Honourable Mentions）",
+        "description": "对虽未获得奖牌但值得表彰的杰出项目进行额外嘉奖"
+      }
+    ],
+    "award_stats_2025": "奖项始创于2003年，2026年为第17届。奖金总额9,000欧元，评审团保留不颁发任何奖项的权利。",
+    "nomination_types": [
+      "可持续建筑设计",
+      "可持续技术与构件",
+      "可持续城市与景观设计"
+    ],
+    "preliminary_check": "仅限个人或团队提交。作品必须是2023年2月及以后在意大利建筑、设计或工程学院完成的毕业论文学位。接受意大利语或英语。通过premioarchitettura@unife.it提交数字材料，总大小不得超过1GB。",
+    "requirements": {
+      "参赛资格": "仅限个人或团队提交。作品必须是2023年2月及以后在意大利的建筑、设计或工程学院等同等国家培训机构完成并已通过的毕业论文学位（本科或硕士）、博士论文、硕士论文或其他研究生和进修课程论文。此前已提交过该奖项的项目不可重复提交",
+      "作品内容": "必须属于以下领域：新建筑项目、现有建筑的改造和/或扩建、城市与景观设计作品、任何设计领域的可持续技术与组件",
+      "接受语言": "意大利语或英语",
+      "提交材料": "通过premioarchitettura@unife.it提交，总大小不得超过1GB。包括最多2张A1纵向展板（PDF和JPG格式，300dpi），一份不超过3000字符的英文技术报告。严禁在展板上出现可识别作者身份的院校或导师信息，所有图片均需匿名化处理",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权"
+    },
+    "benefits": [
+      "获得特制的金、银奖牌",
+      "有机会共享总额为9,000欧元的奖金",
+      "获奖作品在专为本届奖项制作的小册子中出版并在颁奖典礼期间分发",
+      "奖项在意大利和国际建筑界有很高的声誉，是获奖者学术和职业生涯的重要亮点",
+      "获奖及入围作品将在颁奖后公布于奖项官网和相关行业期刊"
+    ],
+    "website": "https://www.premioarchitettura.it/"
+  },
+  {
     "award_id": "国际酒店与地产设计奖_2026",
     "name": "The International Hotel & Property Awards (国际酒店及地产大奖)",
     "name_en": "The International Hotel & Property Awards",
@@ -8682,38 +8794,6 @@
     "notes": "",
     "_raw_extracted": "截止日期: Deadline; deadline: 05 March 2025, 24:00 GMT+3; Deadline:; deadline; deadline: 05 March 2026, 24:00 GMT+3\n评审信息: Jury were selected from a wide range of applications; Jury Members are internationally recognised experts, highly experienced, award-winning professionals from around the world in the field of Architecture and Interior Design; Jury Members do not know any personal information about the Designers, the blind judging process allows everyone to stand on equal terms and with equal chances; Jury Members vote on different aspects: Design, Functionality, Structures and Materials, Innovation and Sustainability, Market Value, Presentation; Jury Members give between 1 and 10 points for each aspect, which will be weighted for the final score\n奖项等级关键词: Winner, BRONZE, SILVER, GOLD",
     "updated_at": "2026-04-67"
-  },
-  {
-    "award_id": "意大利建筑奖_2026",
-    "name": "意大利建筑奖",
-    "name_en": "Home",
-    "category": [],
-    "award_intro": "",
-    "website": "https://www.premioarchitettura.it/it/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "意大利",
-    "fee_timeline": [],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "fassa@fassabortolo.it"
-    },
-    "notes": "",
-    "_raw_extracted": "奖项等级关键词: merit",
-    "updated_at": "2026-04-68"
   },
   {
     "award_id": "新加坡设计奖_2026",

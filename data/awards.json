@@ -1,5 +1,31 @@
 [
   {
+    "award_id": "意大利建筑奖_2026",
+    "award_name_cn": "意大利可持续建筑奖",
+    "award_name_en": "Premio Italiano Architettura Sostenibile",
+    "award_name_short": "Premio Architettura",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "可持续建筑",
+      "城市与景观设计",
+      "可持续技术"
+    ],
+    "country": "意大利",
+    "city": "费拉拉",
+    "website": "https://www.premioarchitettura.it/",
+    "prestige_level": "高",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 80,
+    "fee_final": 80,
+    "submission_open": "2024-01-01",
+    "deadline_early": "",
+    "deadline_regular": "",
+    "deadline_final": "2026-04-30",
+    "annnouncement_date": "2026-07-31",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "国际酒店与地产设计奖_2026",
     "award_name_cn": "国际酒店及地产大奖",
     "award_name_en": "The International Hotel & Property Awards",
