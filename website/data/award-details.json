@@ -1,5 +1,124 @@
 [
   {
+    "award_id": "fx国际设计奖_2026",
+    "name": "FX International Interior Design Awards (Fx Awards, FX国际室内设计大奖)",
+    "name_en": "FX International Interior Design Awards",
+    "award_intro": "FX国际室内设计大奖（FX International Interior Design Awards）于1999年由英国权威室内设计媒体FX杂志设立。该奖项旨在面向英国及全球设计人才征集产品类和项目类优秀作品，是当代最为著名的国际室内设计大奖赛之一。奖项汇聚了来自全球的设计翘楚，涵盖各类顶尖室内产品与项目，每年吸引超1000名建筑师、设计师及其客户参与。",
+    "organizer": "FX杂志（FX Magazine）",
+    "organizer_intro": "FX杂志创刊于1991年，是室内设计行业的先锋杂志，致力于为读者展现世界各地最优秀、最新的产品和项目，积极举行研讨会，推动业内人士之间的交流和讨论。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年第27届FX Awards早鸟截止于5月22日，最终截止于9月4日。入围名单将于10月上旬公布，获奖名单于11月公布。颁奖典礼在伦敦Grosvenor House, Park Lane举行。",
+    "established": "1999",
+    "history": "FX国际室内设计大奖于1999年由英国FX杂志设立，截至2026年已成功举办超过25届。每年邀请全球权威的建筑师、设计师、工程师和业主组成评审团，对优秀的参赛作品进行评选和表彰。",
+    "category": [
+      "项目类（Projects）：酒吧或餐厅、卫浴与厨房工程、建造出租/私人租赁住宅、教育项目、全球项目、导视系统、酒店、休闲或娱乐场所、户外空间、英国项目",
+      "产品类（Products）：照明产品、公共/休闲/办公家具、饰面材料、地板覆材",
+      "特别奖项：年度突破性人才、年度最佳产品设计师、年度最佳室内设计事务所、设计行业终生突出贡献奖"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2026年5月22日"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2026年9月4日（英国时间）"
+      },
+      {
+        "阶段": "评审时间",
+        "时间": "2026年9月"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "2026年10月上旬"
+      },
+      {
+        "阶段": "获奖名单公布",
+        "时间": "2026年11月"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟价",
+        "price": 225,
+        "currency": "GBP",
+        "date": "5月22日前",
+        "note": "+VAT（仅英国境内）"
+      },
+      {
+        "period": "标准价",
+        "price": 225,
+        "currency": "GBP",
+        "date": "截止日前",
+        "note": "+VAT（仅英国境内）"
+      }
+    ],
+    "fee_note": "每件作品≣225+VAT。VAT仅适用于英国境内参赛者。未入围者不产生额外费用。同一作品可提交多个类别，每次提交分别缴纳报名费。",
+    "judging_criteria": [
+      {
+        "维度": "创新性",
+        "说明": "在理念、技术或材料方面是否具有独创性和突破性"
+      },
+      {
+        "维度": "实用性",
+        "说明": "设计的目标完成度与使用效果"
+      },
+      {
+        "维度": "功能性",
+        "说明": "空间布局、用户体验的合理性与高效性"
+      },
+      {
+        "维度": "空间氛围",
+        "说明": "设计的整体情感传达和感染力"
+      },
+      {
+        "维度": "环境友好性及可持续性",
+        "说明": "材料选择、能源利用和环保设计等方面的考量"
+      },
+      {
+        "维度": "技术整合",
+        "说明": "在建造技术和设备应用上的水平"
+      }
+    ],
+    "judge_info": "FX Awards每年重新组建评审团，由全球权威的设计师、建筑师、工程师和业主组成。每年由超过20位专家组成，部分类别最多可指派10位独立评委。任何评委或其所在公司均不得提交参赛项目。评审分两轮：首轮独立评分选出前六名，次轮汇总讨论确定优胜者。",
+    "judges": [],
+    "award_levels": [
+      {
+        "level": "年度类别优胜奖（Category Winner）",
+        "description": "每个参赛类别各评选1名优胜者"
+      },
+      {
+        "level": "年度特别奖（公众和FX读者投票）",
+        "description": "包括年度突破性人才、年度最佳产品设计师、年度最佳室内设计事务所、设计行业终生突出贡献奖"
+      },
+      {
+        "level": "入围（Shortlist/Finalist）",
+        "description": "各参赛类别经评审团初审后筛选出的入围名单"
+      }
+    ],
+    "award_stats_2025": "FX Awards于1999年设立，截至2026年已举办超过25届。每年吸引超1000名建筑师、设计师及客户参与。Amanda Levete曾于2017年获得设计行业终生突出贡献奖。",
+    "nomination_types": [
+      "项目类",
+      "产品类",
+      "特别奖项"
+    ],
+    "preliminary_check": "作品须在近两年内完成（2023-2025年）。通过在线系统提交PDF文件（≤4MB，最多6页）。每页需标注项目类别、名称和公司名称。",
+    "requirements": {
+      "参赛资格": "面向英国本土及全球所有建筑师、设计公司、供应商和制造商征集",
+      "作品时限": "参赛作品须在2023年至2025年之间完成",
+      "提交材料": "通过在线系统提交PDF文件，包含图片和文字，≤4MB，最多6页。项目类文字应包括设计难点、解决方案、规模、预算、设计理念等",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权及影像版权"
+    },
+    "benefits": [
+      "获奖作品被FX杂志、官网和社交媒体平台广泛报道",
+      "年度受邀出席在伦敦Grosvenor House, Park Lane举办的FX Awards颁奖典礼",
+      "获奖作品被收录至FX获奖年鉴，永久记录并全球发行",
+      "获得官方FX获奖标志使用权，可用于官网、宣传品及市场材料中",
+      "类别优胜者获得FX定制奖杯和获奖证书"
+    ],
+    "website": "https://fxdesignawards.co.uk/"
+  },
+  {
     "award_id": "伦敦创意大赛_2026",
     "name": "London International Creative Competition (LICC, 伦敦国际创意大赛)",
     "name_en": "London International Creative Competition",
@@ -7978,43 +8097,6 @@
     "notes": "",
     "_raw_extracted": "评审标准: selection process and event format\n奖项等级关键词: WINNER, SILVER, shortlist",
     "updated_at": "2026-04-37"
-  },
-  {
-    "award_id": "fx国际设计奖_2026",
-    "name": "FX国际设计奖",
-    "name_en": "FX Awards 2025",
-    "category": [],
-    "award_intro": "",
-    "website": "https://fxdesignawards.co.uk/2025/en/page/home",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "英国",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 195,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {},
-    "notes": "",
-    "_raw_extracted": "奖项等级关键词: WINNER, FINALIST",
-    "updated_at": "2026-04-38"
   },
   {
     "award_id": "good_design奖_优良设计奖_2026",

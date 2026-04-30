@@ -1,5 +1,30 @@
 [
   {
+    "award_id": "fx国际设计奖_2026",
+    "award_name_cn": "FX国际室内设计大奖",
+    "award_name_en": "FX International Interior Design Awards",
+    "award_name_short": "Fx Awards",
+    "category_main": "室内设计",
+    "category_sub": [
+      "室内设计",
+      "产品设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://fxdesignawards.co.uk/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "GBP",
+    "fee_regular": 225,
+    "fee_final": 225,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-05-22",
+    "deadline_regular": "",
+    "deadline_final": "2026-09-04",
+    "annnouncement_date": "2026-10-01",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "伦敦创意大赛_2026",
     "award_name_cn": "伦敦国际创意大赛",
     "award_name_en": "London International Creative Competition",
