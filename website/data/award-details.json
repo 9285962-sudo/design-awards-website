@@ -1,5 +1,152 @@
 [
   {
+    "award_id": "leaf奖_2026",
+    "name": "LEAF Awards (欧洲杰出建筑师论坛建筑奖)",
+    "name_en": "LEAF Awards",
+    "award_intro": "LEAF Awards由欧洲杰出建筑师论坛（The Leading European Architects Forum）于2001年设立，是国际建筑设计领域最高级别的年度评选奖项之一，被誉为“建筑界的奥斯卡”。奖项旨在跨领域和国界发掘卓越的建筑，主要授予具有革新意义的设计作品，致力推动最前卫和最具创新意识的设计成为全球性范例，为下一代建筑范式订立标准。2025年与纽约现代艺术博物馆（MoMA）签署十年协议，新设“Ambasz-MoMA年度自然-建筑和解奖”（总奖金达20万美元）。",
+    "organizer": "欧洲杰出建筑师论坛（LEAF）/ Arena International",
+    "organizer_intro": "LEAF是一个联系全球建筑师、设计师、开发商、工程师及供应商的国际组织。奖项现同属于Legacy Emilio Ambasz Foundation旗下，并由Arena International负责运营管理。评审团由扎哈·哈迪德事务所、丹尼尔·里伯斯金家族及AECOM、Gensler等全球顶尖机构代表共同组成。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年度征稿预计于4月中下旬启动，早鸟截止于5月下旬，最终截止于7月中旬。入围名单将于10月下旬公布，颁奖典礼于12月上旬在伦敦举行。具体日程以官网最终公布为准。",
+    "established": "2001",
+    "history": "LEAF Awards于2001年首次颁发，由欧洲杰出建筑师论坛设立。2025年与纽约MoMA签署十年协议，新设Ambasz-MoMA年度大奖等重要文化项目。获奖及入围作品均被视为建筑设计行业的未来标杆，是反映国际建筑设计趋势的风向标。",
+    "category": [
+      "年度最佳综合体(Mixed-Use Building)",
+      "年度最佳住宅—单栋住宅(Residential – Individual House)",
+      "年度最佳住宅—高层住宅(Residential – High-rise/Housing)",
+      "年度最佳商业建筑(Commercial Building)",
+      "年度最佳室内设计(Interior Design)",
+      "年度最佳酒店建筑(Hotel Building)",
+      "年度最佳公共建筑(Public Building)",
+      "年度最佳可持续发展建筑(Sustainable Building)",
+      "年度最佳未来建筑(Future Building)",
+      "年度最佳城市设计(Urban Design)",
+      "年度最佳立面设计/工程(Façade Design/Engineering)",
+      "终身成就奖(Lifetime Achievement Award)"
+    ],
+    "timeline": [
+      {
+        "阶段": "征稿启动",
+        "时间": "2026年4月中下旬（预计）"
+      },
+      {
+        "阶段": "早鸟阶段截止",
+        "时间": "至2026年5月下旬（预计）"
+      },
+      {
+        "阶段": "常规阶段截止",
+        "时间": "至2026年6月中下旬（预计）"
+      },
+      {
+        "阶段": "最终阶段截止",
+        "时间": "至2026年7月中旬（预计）"
+      },
+      {
+        "阶段": "入围名单公布",
+        "时间": "2026年10月下旬（预计）"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026年12月上旬（预计），伦敦"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "参赛费",
+        "price": 250,
+        "currency": "EUR",
+        "date": "报名时",
+        "note": "约100-250欧元，以官网最终公布为准"
+      }
+    ],
+    "fee_note": "2026年官方完整费用尚未公布，参考往届约100-250欧元。获奖后无版权索取或额外强制付费义务。",
+    "judging_criteria": [
+      {
+        "维度": "建筑概念/方案创新性",
+        "说明": "方案构思的原创性、前瞻性与对行业现有范式的突破程度（权重:高）"
+      },
+      {
+        "维度": "技术应用与可持续性",
+        "说明": "融入绿色技术、低碳策略与长期环境友好指标的整合能力（权重:高）"
+      },
+      {
+        "维度": "空间氛围/视觉与体验",
+        "说明": "室内外空间的视觉感染力、艺术表现力与整体用户体验（权重:中—高）"
+      },
+      {
+        "维度": "结构与材料的最佳使用",
+        "说明": "建筑结构的创新性及对材料运用的创造力（权重:中）"
+      },
+      {
+        "维度": "在地文化/场所互动表现",
+        "说明": "项目如何回应其特定地理位置、社区文脉、社会价值和文化遗产影响（权重:中）"
+      },
+      {
+        "维度": "落地施工与建造精度",
+        "说明": "建成后的工程完成度、工艺精度及对初始设计的还原程度（权重:中）"
+      },
+      {
+        "维度": "建筑整体美学冲击力",
+        "说明": "设计的总体影响力和作为范本的标杆作用（权重:中—高）"
+      }
+    ],
+    "judge_info": "评审团由全球知名建筑师、艺术家等16位行业精英组成。往届评委包括彼得·库克(Sir Peter Cook)、Andrew Bromberg、David Chipperfield等国际著名建筑师。获奖结果不来自任何商业投票，由全球评委会独立评选产生。",
+    "judges": [
+      {
+        "name": "Sir Peter Cook",
+        "title": "国际著名建筑师",
+        "company": ""
+      },
+      {
+        "name": "Andrew Bromberg",
+        "title": "建筑师",
+        "company": ""
+      },
+      {
+        "name": "David Chipperfield",
+        "title": "建筑师",
+        "company": "David Chipperfield Architects"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "全场年度最佳奖(Overall Winner)",
+        "description": "评审团在所有类别优胜者中投票产生的全场最佳作品"
+      },
+      {
+        "level": "年度类别优胜奖(Category Winner)",
+        "description": "每个建筑空间专项类别评选出当届最佳项目"
+      },
+      {
+        "level": "终身成就奖(Lifetime Achievement Award)",
+        "description": "表彰在全球范围内对建筑设计行业发展产生深远和持久影响的设计师"
+      }
+    ],
+    "award_stats_2025": "奖项于2001年设立，2025年与MoMA签署十年协议设立Ambasz-MoMA年度大奖（总奖金20万美元/年）。评审团由16位全球顶尖人才组成。",
+    "nomination_types": [
+      "建筑设计",
+      "室内设计",
+      "城市设计",
+      "可持续建筑",
+      "未来建筑"
+    ],
+    "preliminary_check": "面向全球建筑师、设计师、开发商等开放。已建成项目须在提交年度之前3年内完成。提交项目图纸、实景照片、可选视频链接。",
+    "requirements": {
+      "参赛资格": "面向全球建筑师、设计师、设计公司、开发商和供应商等专业人士和机构开放，不限制国籍或公司所在地",
+      "作品时限": "实际落成项目须在提交年度之前三年内完成",
+      "提交材料": "在网上提交平台提交。包括项目图纸（楼层平面图、关键立面图或剖面图，最少1张）、高质量实景照片、未来建筑类须提交完整设计发展图纸及概念效果图。可选上传项目视频链接",
+      "知识产权": "须确保图片及内容已获得完全授权"
+    },
+    "benefits": [
+      "获得LEAF官方奖杯及获奖证书",
+      "获奖作品通过奖项官网、合作媒体与全球设计平台进行新闻发布和广泛报道",
+      "作品收录至LEAF官方年度出版刊物和LEAF Review",
+      "受邀出席高级别LEAF颁奖晚宴与典礼，与全球建筑师、开发商同行建立国际合作网络",
+      "可使用LEAF Awards官方获奖标识，获奖项目纳入LEAF官网获奖者画廊"
+    ],
+    "website": "https://www.arena-international.com/LEAF-Awards/About/"
+  },
+  {
     "award_id": "li奖_景观学会奖_2026",
     "name": "Landscape Institute Awards (LI Awards, 英国皇家风景园林学会奖)",
     "name_en": "Landscape Institute Awards",

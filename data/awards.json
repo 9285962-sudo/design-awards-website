@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "leaf奖_2026",
+    "award_name_cn": "LEAF Awards（欧洲杰出建筑师论坛建筑奖）",
+    "award_name_en": "LEAF Awards",
+    "award_name_short": "LEAF",
+    "category_main": "建筑设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "城市设计",
+      "可持续建筑"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://www.arena-international.com/LEAF-Awards/About/",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "EUR",
+    "fee_regular": 250,
+    "fee_final": 250,
+    "submission_open": "2026-04-15",
+    "deadline_early": "2026-05-31",
+    "deadline_regular": "2026-06-30",
+    "deadline_final": "2026-07-15",
+    "annnouncement_date": "2026-10-31",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "li奖_景观学会奖_2026",
     "award_name_cn": "英国皇家风景园林学会奖",
     "award_name_en": "Landscape Institute Awards",
