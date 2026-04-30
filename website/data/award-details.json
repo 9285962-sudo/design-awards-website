@@ -1,5 +1,142 @@
 [
   {
+    "award_id": "good_design_australia_2026",
+    "name": "澳大利亚优良设计奖",
+    "name_en": "Australian Good Design Awards",
+    "award_intro": "澳大利亚优良设计奖（Australian Good Design Awards）由 Good Design Australia 主办，是澳大利亚历史最悠久、最具权威性的国家级设计奖项。奖项始于 1958 年，由澳大利亚工业设计协会（IDCA）创立，旨在表彰和推动设计卓越与创新。2013年，澳大利亚工业设计协会与澳大利亚设计研究所（DIA）职能分离，同年成立了 Good Design Australia，专门负责该奖项的持续运营。2024 年，Good Design Australia 正式加入世界设计组织（WDO），反映了该奖项在全球范围内日益增长的行业认可度。\n\n澳大利亚优良设计奖是全球最负盛名的国际设计奖项之一，被誉为设计界公认的最高荣誉象征。其标志性的“Good Design Tick”优良设计标志是全球公认的最重要的设计质量认证之一，在澳大利亚的公众认知度极高。奖项面向全球企业和设计师开放，覆盖产品设计、建筑设计、室内设计、平面设计、数字设计、工程研发和服务设计等众多领域，旨在表彰和庆祝为世界带来积极设计和创新成果的企业和个人，鼓励以设计引领未来。2025年度共收到来自 31 个国家的参赛作品，2026 年的主题为“DESIGN THAT LEADS”（设计引领）。",
+    "organizer": "Good Design Australia",
+    "organizer_intro": "Good Design Australia 是一家致力于推动设计价值与创新的非营利组织，其使命是推动设计在商业、社会、文化和环境等层面的应用与发展。Good Design Australia 最初名为“澳大利亚工业设计协会”（IDCA），于 1958 年设立了“澳大利亚设计奖”。2013 年，奖项管理部门更名为 Good Design Australia，并继续沿用“Good Design Awards”的名称至今。经过六十余年的发展，它已从最初以工业设计为主的奖项，扩展到涵盖 13 个设计学科、30 多个子类别的大型国际设计奖项。该奖项是澳大利亚最高的国际设计荣誉之一，其标志性的“Good Design Tick”优良设计标志是全球公认的权威认证符号，象征着设计卓越和品质保证。Good Design Australia 是世界设计组织的正式成员。",
+    "organizer_location": "澳大利亚 悉尼",
+    "description": "2026 年度主题：“DESIGN THAT LEADS”（设计引领），面向全球企业和设计师开放，覆盖 13 个设计学科、30 多个子类别，2025 年度共收到来自 31 个国家的参赛作品。",
+    "established": "1958",
+    "history": "始于 1958 年由澳大利亚工业设计协会（IDCA）创立，2013 年管理机构独立成立 Good Design Australia，2024 年加入世界设计组织（WDO）。经过六十余年发展，从工业设计奖扩展为覆盖 13 个学科的大型国际设计奖。",
+    "category": [
+      "Built Environment（建成环境）",
+      "Communication Design（传达设计）",
+      "Concept Design（概念设计）",
+      "Design Research（设计研究）",
+      "Design Strategy（设计策略）",
+      "Digital Design（数字设计）",
+      "Engineering Design（工程设计）",
+      "Fashion Impact（时尚影响）",
+      "Next Gen（30 岁以下）",
+      "Policy Design（政策设计）",
+      "Product Design（产品设计）",
+      "Service Design（服务设计）",
+      "Social Impact（社会影响）"
+    ],
+    "timeline": [
+      {
+        "阶段": "报名开放",
+        "时间": "2026 年 3 月 3 日"
+      },
+      {
+        "阶段": "早鸟优惠截止",
+        "时间": "2026 年 3 月 20 日（10% 折扣）"
+      },
+      {
+        "阶段": "报名截止",
+        "时间": "2026 年 4 月 24 日"
+      },
+      {
+        "阶段": "评审阶段",
+        "时间": "2026 年 5 月 — 7 月"
+      },
+      {
+        "阶段": "获奖结果通知",
+        "时间": "2026 年 8 月"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026 年 10 月 9 日（悉尼 ICC）"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟价（10%折扣）",
+        "price": 445.5,
+        "currency": "AUD",
+        "date": "2026-03-20 前",
+        "note": "标准类别原价 $495 AUD"
+      },
+      {
+        "period": "常规价",
+        "price": 495,
+        "currency": "AUD",
+        "date": "2026-04-24 截止",
+        "note": "社会影响/概念设计 $245 AUD；Next Gen 免费"
+      }
+    ],
+    "fee_note": "该奖项采取报名费+获奖权益费两阶段收费模式。报名费标准：$495 AUD（标准类别）、$245 AUD（社会影响/概念设计）、免费（Next Gen 30岁以下）。获奖后另需支付获奖权益费，按公司规模阶梯定价：初创(1人) $750 / 小型(2-4人) $1,500 / 中型(5-19人) $2,500 / 大型(20-99人) $3,500 / 企业级(100+人) $4,500 AUD。所有费用不含 GST。",
+    "judging_criteria": [
+      {
+        "维度": "Good Design（优良设计）",
+        "说明": "从形态、功能、安全性、品质、商业性五个子维度综合评估。形态：设计视觉上是否协调统一；功能：是否有效实现预期功能并提升用户体验；安全性：是否纳入适当的安全因素并符合标准；品质：材料和施工技术是否与定价匹配；商业性：是否物有所值，能否提升品牌价值"
+      },
+      {
+        "维度": "Design Innovation（设计创新）",
+        "说明": "评估项目是否为创新设立了新的行业基准，是否融入前沿技术或新材料，是否真正独特新颖并提供突破性的价值主张，是否以巧妙、富有想象力的原创方式运用新系统和新技术"
+      },
+      {
+        "维度": "Design Impact（设计影响）",
+        "说明": "评估项目在客户、终端用户和环境方面产生的长期、可衡量的积极影响，是否改善人们的生活质量或促进业务绩效，能否成为优良设计的典范激发积极变革，所提供的数据和研究成果是否验证了项目影响"
+      }
+    ],
+    "judge_info": "评审团规模通常超过 80 位国际评审委员，来自全球建筑设计、产品设计、室内设计、数字设计、工程等领域的顶尖专业人士和学者。评审团成员由 Good Design Australia 根据其专业背景和行业经验严格遴选。评审分三轮：在线独立评分 → 小组评估 → 多学科终审评估。",
+    "judges": [
+      {
+        "name": "多位评审",
+        "title": "国际评审团成员",
+        "company": "Good Design Australia"
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "年度设计大奖（Australian Good Design Award of the Year）",
+        "description": "全场最高荣誉，历史上仅授予一个设计学科中最为卓越的项目；2025 年评审团评选出两个项目共同获此殊荣"
+      },
+      {
+        "level": "最佳类别奖（Best in Class）",
+        "description": "授予每个设计学科中最佳的整体项目"
+      },
+      {
+        "level": "金奖（Gold）",
+        "description": "授予每个学科类别中排名前五（约）的项目"
+      },
+      {
+        "level": "优良设计奖（Good Design Award Winner）",
+        "description": "授予所有达到卓越设计标准的获奖作品"
+      },
+      {
+        "level": "入围（Finalist）",
+        "description": "通过初审进入最终评审环节的项目"
+      }
+    ],
+    "award_stats_2025": "2025 年度共收到来自 31 个国家的参赛作品。两个项目共享年度大奖：Deadly Democracy（YLab + 澳大利亚选举委员会）和 Hullbot 船体清洁机器人（Hullbot）。可持续设计奖由 Bradfield City Centre 第一座大楼（Hassell 工作室设计）获得。",
+    "nomination_types": [
+      "企业自主申报",
+      "设计师申报",
+      "设计团队申报"
+    ],
+    "preliminary_check": "参赛作品须符合对应类别的参赛要求，由评审委员会进行初步资格审查。",
+    "requirements": {
+      "参赛资格": "全球开放，接受所有国家和地区的参赛作品。作品必须在颁奖典礼前已完成或已上市（Next Gen 和 Concept Design 类别除外）。产品参赛作品必须是完整产品，不得单独提交零部件。",
+      "作品提交要求": "通过在线 Entry Portal 提交，需按要求上传项目图纸、图片和视频等辅助材料。",
+      "文件格式": "通过官方在线系统提交，支持常见图片、PDF 和视频格式。"
+    },
+    "benefits": [
+      "Good Design Tick 注册认证商标的无限制使用（终身项目展示），全球公认设计卓越性和品质的权威背书",
+      "获奖作品收录于年度澳大利亚优良设计奖年鉴（Good Design Awards Yearbook），面向全球发行",
+      "获奖项目在 Good Design Australia 官网获奖者画廊永久收录并全球展示",
+      "受邀出席每年 10 月在悉尼 ICC 盛大举行的颁奖典礼与晚宴",
+      "通过奖项官方渠道和全球设计媒体的广泛新闻报道与社交媒体宣传",
+      "获奖组织可将 Good Design 认证用于所有营销材料（官网、产品包装、公司画册等）",
+      "获奖企业可通过 Good Design 平台连接全球客户和行业伙伴，拓展新市场",
+      "参赛者可获得评审团的专业反馈，优化当前与未来的设计"
+    ],
+    "website": "https://good-design.org"
+  },
+  {
     "award_id": "bali_national_landscape_awards_2026",
     "name": "BALI国家景观奖",
     "name_en": "BALI National Landscape Awards",

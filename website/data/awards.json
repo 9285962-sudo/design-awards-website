@@ -1,5 +1,38 @@
 [
   {
+    "award_id": "good_design_australia_2026",
+    "award_name": "澳大利亚优良设计奖 Australian Good Design Awards",
+    "award_name_cn": "澳大利亚优良设计奖",
+    "award_name_en": "Australian Good Design Awards",
+    "short_name": "Good Design Australia",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "产品设计",
+      "平面设计",
+      "数字设计",
+      "工程设计",
+      "服务设计"
+    ],
+    "country": "澳大利亚",
+    "city": "悉尼",
+    "website": "https://good-design.org",
+    "logo_url": "",
+    "organizer": "Good Design Australia",
+    "prestige_level": "顶级",
+    "difficulty_level": "高",
+    "fee_currency": "AUD",
+    "fee_regular": 495,
+    "fee_final": 495,
+    "submission_open": "2026-03-03",
+    "deadline_early": "2026-03-20",
+    "deadline_regular": "2026-04-24",
+    "deadline_final": "2026-04-24",
+    "annnouncement_date": "2026-08-15",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "bali_national_landscape_awards_2026",
     "award_name": "BALI国家景观奖 (BALI National Landscape Awards)",
     "short_name": "BALI景观奖",
