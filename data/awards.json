@@ -1,5 +1,30 @@
 [
   {
+    "award_id": "国际酒店与地产设计奖_2026",
+    "award_name_cn": "国际酒店及地产大奖",
+    "award_name_en": "The International Hotel & Property Awards",
+    "award_name_short": "IH&P Awards",
+    "category_main": "室内设计",
+    "category_sub": [
+      "酒店设计",
+      "地产设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://thedesignawards.co.uk/international-hotel-property-awards/home-2/",
+    "prestige_level": "高",
+    "difficulty_level": "高",
+    "fee_currency": "GBP",
+    "fee_regular": 375,
+    "fee_final": 375,
+    "submission_open": "2026-01-01",
+    "deadline_early": "",
+    "deadline_regular": "",
+    "deadline_final": "",
+    "annnouncement_date": "2026-09-11",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "award_18_2026",
     "award_name_cn": "Frame构架设计奖",
     "award_name_en": "Frame Awards",

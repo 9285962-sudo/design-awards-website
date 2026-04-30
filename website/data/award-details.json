@@ -1,5 +1,117 @@
 [
   {
+    "award_id": "国际酒店与地产设计奖_2026",
+    "name": "The International Hotel & Property Awards (国际酒店及地产大奖)",
+    "name_en": "The International Hotel & Property Awards",
+    "award_intro": "国际酒店及地产大奖由英国著名的室内设计杂志《dgsign et al》主办，是国际酒店及地产行业最具影响力的设计奖项之一。奖项旨在表彰全球范围内最顶尖的设计和最前沿的作品，涵盖高端酒店、奢华地产项目等多个领域，致力于为设计师创造机会并提供灵感。奖项始创于2010年，首创了独特的业界公开投票评选模式，让行业专业人士、读者和客户共同参与评定，被公认为设计界的权威风向标，常被列为“酒店设计界的五大顶尖奖项”之一。",
+    "organizer": "design et al杂志（design et al Magazine）",
+    "organizer_intro": "《dgsign et al》是英国领先的室内设计专业刊物，以推广顶尖设计、提升设计人才和激发行业灵感为核心宗旨。奖项始创于2010年，最初是国际设计与建筑奖的一个分支，后独立发展成为全球酒店及地产设计领域的权威奖项。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年为第17届国际酒店及地产大奖，奖项没有固定截止日期，采取先到先得方式：每类仅限12个作品入围，名额报满即止。颁奖典礼将于2026年9月11日在伦敦JW Marriott Grosvenor House举行。",
+    "established": "2010",
+    "history": "国际酒店及地产大奖始创于2010年，最初是国际设计与建筑奖的一个分支，后独立发展成为全球酒店及地产设计领域的权威奖项。至今已成功举办超过17年，2026年为第17届。该奖项在行业媒体渠道中常被列为“酒店设计界的五大顶尖奖项”之一。",
+    "category": [
+      "酒店类别——全球：50间客房以下、200间以下、200间以上、海滨酒店、滑雪/木屋酒店、水疗中心/酒店、酒店式住宅/套房、酒吧/俱乐部/酒廊、餐馆、酒店内餐厅、大厅/公共区域",
+      "酒店类别——亚太：50间客房以下、200间以下、200间以上、酒店套房",
+      "地产类别——全球：100万-250万英鎊、250万-500万英鎊、500万英鎊以上、1000万英鎊以上、2000万英鎊以上"
+    ],
+    "timeline": [
+      {
+        "阶段": "短名单入围会议",
+        "时间": "每周一、周三、周五 12:30（名额报满即止）"
+      },
+      {
+        "阶段": "颁奖典礼",
+        "时间": "2026年9月11日"
+      },
+      {
+        "阶段": "颁奖地点",
+        "时间": "伦敦 JW Marriott Grosvenor House"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "报名费",
+        "price": 0,
+        "currency": "GBP",
+        "date": "报名时",
+        "note": "免费报名"
+      },
+      {
+        "period": "入围管理费",
+        "price": 375,
+        "currency": "GBP",
+        "date": "进入短名单后",
+        "note": "+VAT"
+      },
+      {
+        "period": "颁奖典礼门票",
+        "price": 395,
+        "currency": "GBP",
+        "date": "入围后购买",
+        "note": "每公司至少2张，含税"
+      }
+    ],
+    "fee_note": "报名免费。进入短名单后需支付375英鎊+增值税入围管理费，并购买至少2张颁奖典礼门票（395英鎊/张）。短名单入围公司可享早鸟票价，具体定价需联系官方。",
+    "judging_criteria": [
+      {
+        "维度": "公开投票制度",
+        "说明": "不设传统评审团，获奖结果由行业专业人士、design et al读者和客户的公开投票共同决定。数千名行业专家参与投票"
+      },
+      {
+        "维度": "建筑设计",
+        "说明": "从建筑设计维度综合评估项目完成度"
+      },
+      {
+        "维度": "室内设计",
+        "说明": "从室内设计维度评估空间品质与美学"
+      },
+      {
+        "维度": "整体接待设计卓越性",
+        "说明": "综合评估项目在接待设计方面的卓越表现"
+      }
+    ],
+    "judge_info": "该奖项不设传统评审团，获奖结果由行业专业人士、design et al读者和客户的公开投票共同决定。与传统5-6位评委不同，本奖项涉及数千名行业专家参与投票和作品甄选环节。",
+    "judges": [],
+    "award_levels": [
+      {
+        "level": "全球优胜奖（Global Winner）",
+        "description": "在全球同类作品中评选的顶级荣誉"
+      },
+      {
+        "level": "地区优胜奖（Regional Winner）",
+        "description": "在各地区（亚太、欧洲、美洲、非洲和中东等）内的优胜者"
+      },
+      {
+        "level": "类别优胜者（Category Winner）",
+        "description": "各类别中获胜的作品，分全球和区域两个维度"
+      }
+    ],
+    "award_stats_2025": "奖项始创于2010年，至今已成功举办超过17年。每个类别仅限12个作品入围短名单，竞争极为激烈。",
+    "nomination_types": [
+      "酒店设计",
+      "地产设计"
+    ],
+    "preliminary_check": "申报项目需在过去3年内完成，仅接受已完工项目，不接受效果图申报。每类仅12个名额，报满即止。短名单会议每周一、三、五12:30举行，必须在当日12:00前提交。通过EMAIL联系 awards@design-et-al.com 索取申请包。",
+    "requirements": {
+      "参赛资格": "面向所有室内设计师、业主、多专业团队、产品设计师及其他行业从业者。相关机构（如公关公司）在征得客户同意后可代表客户申报",
+      "作品时限": "申报项目需在过去3年内完成，不接受效果图申报",
+      "作品限制": "每个类别仅评选12个作品进入短名单，名额报满后该类别申报立即截止",
+      "提交材料": "通过EMAIL联系 awards@design-et-al.com 索取申请包。提供5-20张项目照片，每套项目不少于8张，JPG格式，300DPI。填写每件作品的申请表（≤10分钟）",
+      "知识产权": "参赛者须确保对参赛作品拥有独立的知识产权及影像版权"
+    },
+    "benefits": [
+      "受邀参加在伦敦JW Marriott Grosvenor House举办的盛大颁奖典礼",
+      "入围作品在design et al杂志精装版特刊公开报道并全球发行",
+      "获奖信息通过新闻稿发往在线数据库的全国设计师、杂志读者和客户",
+      "入围作品永久收录于奖项在线档案中，至少展示12个月",
+      "设计师访谈在“The Design Society”发布，附有公司网站链接",
+      "优胜者获得荣誉证书与奖杯",
+      "赫身国际顶尖酒店及地产设计行列，为设计师和企业提供国际一线业务的公信力背书"
+    ],
+    "website": "https://thedesignawards.co.uk/international-hotel-property-awards/home-2/"
+  },
+  {
     "award_id": "award_18_2026",
     "name": "Frame Awards (Frame构架设计奖)",
     "name_en": "Frame Awards",
@@ -8417,39 +8529,6 @@
     "notes": "",
     "_raw_extracted": "截止日期: DEADLINES; Deadlines; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region; deadline for this region\n评审信息: JUDGE THE AWARDS; JUDGE THE AWARDS; judged annually; judged by a highly experienced team of professionals who cover the whole range of property disciplines; JUDGE THE AWARDS\n评审标准: criteria and marking process for that category, as well as detailed rules and guidelines for your entry; criteria point for that category and given a rating\n奖项等级关键词: WINNER, Gold, best in",
     "updated_at": "2026-04-62"
-  },
-  {
-    "award_id": "国际酒店与地产设计奖_2026",
-    "name": "国际酒店与地产设计奖",
-    "name_en": "design et al        Home",
-    "category": [],
-    "award_intro": "",
-    "website": "https://thedesignawards.co.uk/international-hotel-property-awards/home-2/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "英国",
-    "fee_timeline": [],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "awards@design-et-al.com",
-      "电话": "+44 (0)1244 401932"
-    },
-    "notes": "",
-    "_raw_extracted": "评审信息: JUDGE DESIGN FAIRLY YOU NEED TO PUT; judged by a panel\n奖项等级关键词: Winner, shortlist, best in",
-    "updated_at": "2026-04-63"
   },
   {
     "award_id": "地产奖_2026",
