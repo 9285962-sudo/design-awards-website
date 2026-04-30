@@ -1,5 +1,150 @@
 [
   {
+    "award_id": "巴黎设计奖_2026",
+    "name": "Grands Prix du Design Awards (GPD大奖)",
+    "name_en": "Grands Prix du Design Awards",
+    "award_intro": "Grands Prix du Design大奖（GPD）是一项由INT.design国际设计平台主办，创立于2007年加拿大蒙特利尔的国际设计竞赛。奖项旨在表彰全球范围内在建筑设计、室内设计、工业设计、景观设计、照明、品牌及产品设计等领域卓越的创意专业人士与公司。原为表彰魁北克设计师的荣誉，自2020年起面向全球开放。主办方同时拥有SIDIM蒙特利尔国际设计展和《INTÉRIEURS》设计杂志。",
+    "organizer": "INT.design国际设计平台",
+    "organizer_intro": "INT.design同时拥有超30年历史的SIDIM蒙特利尔国际设计展和《INTÉRIEURS》设计杂志，为获奖者提供了强大的行业背书与媒体推广资源。",
+    "organizer_location": "加拿大蒙特利尔",
+    "description": "第19届报名已于2026年5月1日截止。获奖名单预计于2026年10月至11月期间公布。费用支付后不可退款。",
+    "established": "2007",
+    "history": "GPD大奖于2007年在加拿大蒙特利尔创立，原为表彰魁北克设计师的荣誉，自2020年起面向全球开放，被誉为北美著名的国际设计赛事之一。",
+    "category": [
+      "建筑 (Architecture)",
+      "室内设计 (Interior Design)",
+      "景观与地域 (Landscape & Territories)",
+      "产品设计 (Product Design)",
+      "施工与房地产 (Construction & Real Estate)",
+      "传播与品牌 (Communication & Branding)",
+      "艺术与摄影 (Art & Photography)",
+      "照明设计项目 (Lighting - Projects)",
+      "公司与工作室 (Firms & Studios)",
+      "学生作品 (Student)"
+    ],
+    "timeline": [
+      {
+        "阶段": "早鸟报名截止",
+        "时间": "2025年11月15日"
+      },
+      {
+        "阶段": "常规报名截止",
+        "时间": "2026年2月15日"
+      },
+      {
+        "阶段": "最终报名截止",
+        "时间": "2026年5月1日（已截止）"
+      },
+      {
+        "阶段": "获奖公布",
+        "时间": "2026年10月—11月"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟（专业/制造商）",
+        "price": 275,
+        "currency": "USD",
+        "date": "11月15日前",
+        "note": ""
+      },
+      {
+        "period": "常规（专业/制造商）",
+        "price": 375,
+        "currency": "USD",
+        "date": "2月15日前",
+        "note": ""
+      },
+      {
+        "period": "最终（专业/制造商）",
+        "price": 425,
+        "currency": "USD",
+        "date": "5月1日前",
+        "note": "已截止"
+      },
+      {
+        "period": "学生",
+        "price": 125,
+        "currency": "USD",
+        "date": "最终截止日",
+        "note": "早鸟$75 / 常规$100"
+      }
+    ],
+    "fee_note": "缴费后不可退款。额外项目享20%折扣，同项目额外类别享50%折扣。报名费已含INT.DESIGN杂志年度订阅。特别奖$175-225。",
+    "judging_criteria": [
+      {
+        "维度": "美学 (Aesthetics)",
+        "说明": "设计的视觉感染力与艺术表现力"
+      },
+      {
+        "维度": "创新性 (Innovation)",
+        "说明": "设计理念和方法的独创性"
+      },
+      {
+        "维度": "功能性 (Functionality)",
+        "说明": "设计的实用性和用户体验"
+      },
+      {
+        "维度": "专有技术和工艺 (Technical expertise)",
+        "说明": "工艺水准和技术能力"
+      },
+      {
+        "维度": "原创性 (Originality)",
+        "说明": "设计的原创程度"
+      },
+      {
+        "维度": "社会和生态责任 (Social & Environmental)",
+        "说明": "可持续性和社会责任表现"
+      },
+      {
+        "维度": "技术性 (Technical quality)",
+        "说明": "技术方案和落地执行质量"
+      }
+    ],
+    "judge_info": "评审团由来自全球的近70位顶尖专业人士、著名学者和有影响力的行业媒体人士组成。",
+    "judges": [],
+    "award_levels": [
+      {
+        "level": "年度大奖 (Grand Prix International)",
+        "description": "全场最高荣誉，授予各学科和类别中综合评分最高的项目"
+      },
+      {
+        "level": "铂金奖 (Platinum Award)",
+        "description": "在众多获奖作品中综合表现极为突出"
+      },
+      {
+        "level": "金奖 (Gold Award)",
+        "description": "得分达到一定标准的优秀项目"
+      },
+      {
+        "level": "设计奖 (Design Award)",
+        "description": "表彰达到卓越标准的入围作品"
+      }
+    ],
+    "award_stats_2025": "奖项创立于2007年，2020年起全球开放。评审团由近70位全球专家组成。",
+    "nomination_types": [
+      "建筑",
+      "室内设计",
+      "景观",
+      "产品设计",
+      "传播品牌"
+    ],
+    "preliminary_check": "已完工建筑项目须在提交前3年内完成。城市设计/景观项目须5年内完成。概念设计无年限。最多10张JPG图片，300dpi。300-500词英文说明。",
+    "requirements": {
+      "参赛资格": "面向全球年满18周岁的专业人士和学生开放",
+      "作品时限": "已完工建筑：提交前3年内；城市设计/景观：5年内；概念设计：无年限",
+      "提交材料": "最多10张JPG图片，300dpi。英文300-500词设计说明。需上传完整项目团队、摄影师信息",
+      "知识产权": "参赛者须确保图片和设计已获客户或制造商的许可"
+    },
+    "benefits": [
+      "受邀参加盛大年度GALA颁奖典礼并上台领奖",
+      "获奖作品刊登在《INTÉRIEURS》/INT.DESIGN杂志获奖者专刊中，新闻稿分发至全球1000多家合作媒体",
+      "全获奖名单和项目在INT.DESIGN官网和社交媒体平台永久展示",
+      "获得官方认可的获奖者专属Logo，用于所有市场推广材料中"
+    ],
+    "website": "https://int.design/en/grands-prix-du-design/the-award/"
+  },
+  {
     "award_id": "asla_honors_2026",
     "name": "ASLA Honors (ASLA荣誉奖)",
     "name_en": "ASLA Honors",
@@ -9498,45 +9643,6 @@
     "notes": "",
     "_raw_extracted": "采集到费用信息: $280, $219, $140, $30, $300, $320, $350, $240, $260, $310\n采集到日期: January 1, 2022, May 15, 2026\n截止日期: DEADLINE: APR 22, 2026 • ENTER NOW; DEADLINE; DEADLINE; DEADLINE; DEADLINE; DEADLINES & FEES; DEADLINE: MAY 8 • ENTER NOW; DEADLINES & FEES; deadline; closing of the competition (e\n评审信息: JUDGES SPOTLIGHT; jury panel consists of leading property industry professionals, whose contributions and innovations to the advancement of societal infrastructure are genuinely inspirational; judges today; jury members, or be considered for future inclusions in the TITAN Awards program, do consider nominating yourself, and we’ll get back to you soon; judge at the North American Transform Awards and before her career in branding, she ran her own company, which included two retail stores in Boston, Massachusetts, specializing in fashion, art, antiqu\n评审标准: JUDGING CRITERIA; evaluation of the work; Judging criteria; criteria determined by the requirements (see Judging Criteria); selections are based entirely on the overall quality of submissions in the given category\n奖项等级关键词: Winner, finalist, silver, best in, Platinum, Gold, merit",
     "updated_at": "2026-04-64"
-  },
-  {
-    "award_id": "巴黎设计奖_2026",
-    "name": "巴黎设计奖",
-    "name_en": "GRANDS PRIX DU DESIGN Awards",
-    "category": [],
-    "award_intro": "",
-    "website": "https://int.design/en/grands-prix-du-design/the-award/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "法国",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 300,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "info@int.design"
-    },
-    "notes": "",
-    "_raw_extracted": "采集到费用信息: $425, $225, $125, $275, $175, $75, $375, $200, $100\n采集到日期: MAY 1, 2026, May 1, 2026, may 1, 2026, November 15, 2025, November 16, 2025, February 15, 2026\n截止日期: Deadline: May 1, 2026; Deadline; Deadline: May 1, 2026 — 41 days remaining; deadline; Deadline: may 1, 2026; deadline, a first evaluation determines the OFFICIAL SELECTION of the GRANDS PRIX DU DESIGN Awards; Deadline: may 1, 2026; Deadline: may 1, 2026; closing date of the call for applications), select the discipline and categories you are interested in and; Deadline: may 1, 2026\n评审信息: Jury of Experts; jury of 110+ leading experts in design, architecture, landscape, communication and the built environment — from prominent firms, academia and specialized media worldwide; jury of leading experts in architecture and design, and benefit from a distinction that immediately strengthens your professional credibility with clients and partners; Jury will conduct an online deliberation; jury’s deliberation\n评审标准: evaluation determines the OFFICIAL SELECTION of the GRANDS PRIX DU DESIGN Awards; evaluation, meet or exceed the competition’s standards of excellence; EVALUATION CRITERIA; Evaluation Process; evaluation is based on a structured framework that analyzes projects according to their intent, execution, and impact\n奖项等级关键词: Winner, Platinum, Gold, finalist, BRONZE, SILVER",
-    "updated_at": "2026-04-65"
   },
   {
     "award_id": "建筑奖_2026",

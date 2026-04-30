@@ -1,5 +1,32 @@
 [
   {
+    "award_id": "巴黎设计奖_2026",
+    "award_name_cn": "Grands Prix du Design大奖",
+    "award_name_en": "Grands Prix du Design Awards",
+    "award_name_short": "GPD Awards",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "景观设计",
+      "产品设计"
+    ],
+    "country": "加拿大",
+    "city": "蒙特利尔",
+    "website": "https://int.design/en/grands-prix-du-design/the-award/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "USD",
+    "fee_regular": 375,
+    "fee_final": 425,
+    "submission_open": "2025-11-01",
+    "deadline_early": "2025-11-15",
+    "deadline_regular": "2026-02-15",
+    "deadline_final": "2026-05-01",
+    "annnouncement_date": "2026-10-01",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "asla_honors_2026",
     "award_name_cn": "ASLA荣誉奖",
     "award_name_en": "ASLA Honors",
