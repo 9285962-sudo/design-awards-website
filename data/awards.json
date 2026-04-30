@@ -1,5 +1,35 @@
 [
   {
+    "award_id": "award_21_2026",
+    "award_name_cn": "AZ设计大奖",
+    "award_name_en": "AZ Awards",
+    "award_name_short": "AZ Awards",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "景观设计",
+      "产品设计",
+      "城市设计",
+      "概念设计",
+      "平面设计"
+    ],
+    "country": "加拿大",
+    "city": "多伦多",
+    "website": "https://awards.azuremagazine.com/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "USD",
+    "fee_regular": 275,
+    "fee_final": 275,
+    "submission_open": "2025-11-10",
+    "deadline_early": "2026-01-23",
+    "deadline_regular": "2026-02-13",
+    "deadline_final": "2026-02-13",
+    "annnouncement_date": "2026-04-17",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "good_design_australia_2026",
     "award_name_cn": "澳大利亚优良设计奖",
     "award_name_en": "Australian Good Design Awards",
