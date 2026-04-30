@@ -1,5 +1,31 @@
 [
   {
+    "award_id": "award_18_2026",
+    "award_name_cn": "Frame构架设计奖",
+    "award_name_en": "Frame Awards",
+    "award_name_short": "Frame",
+    "category_main": "综合设计",
+    "category_sub": [
+      "室内设计",
+      "空间设计",
+      "产品设计"
+    ],
+    "country": "荷兰",
+    "city": "阿姆斯特丹",
+    "website": "https://frameweb.com/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "EUR",
+    "fee_regular": 295,
+    "fee_final": 395,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-01-31",
+    "deadline_regular": "2026-04-30",
+    "deadline_final": "2026-05-31",
+    "annnouncement_date": "2026-10-22",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "sbid国际设计奖_2026",
     "award_name_cn": "SBID国际设计奖",
     "award_name_en": "SBID International Design Awards",
