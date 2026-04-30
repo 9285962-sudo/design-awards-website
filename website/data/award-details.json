@@ -1,5 +1,148 @@
 [
   {
+    "award_id": "伦敦创意大赛_2026",
+    "name": "London International Creative Competition (LICC, 伦敦国际创意大赛)",
+    "name_en": "London International Creative Competition",
+    "award_intro": "伦敦国际创意大赛（LICC）于2006年由来自Farmani Group的两位艺术家Launa Bacon和Hossein Farmani在英国伦敦创办，是艺术设计类国际知名奖项之一。LICC旨在表彰来自世界各地最具前沿眼光的创意人才，共设有六大创意类别，涵盖视觉艺术、室内设计、摄影、建筑等多个领域。LICC不是寻找循规蹈矩的作品，而是在寻找既直观又有意义的创意作品。Farmani Group自1985年以来一直是全球领先的组织，同时也是IDA、AMP等知名奖项的主办方。",
+    "organizer": "Farmani Group",
+    "organizer_intro": "Farmani Group自1985年以来一直是全球领先的摄影、设计和建筑策划与推广组织，是全球最知名的设计奖项主办机构之一。创始人Hossein Farmani也是The Lucie Awards、Focus on AIDS、《VUE》杂志、国际摄影奖、Px3等的创始人。LICC于2006年创办，截至2026年已成功举办20届，每年收到来自全球超过90个国家的数千件参赛作品。",
+    "organizer_location": "英国伦敦",
+    "description": "2026年第20届LICC已正式启动。早鸟优惠截止于7月21日，建筑/室内设计专业组截止于10月20日，艺术/插图/拍摄/产品专业组及学生组截止于12月2日。",
+    "established": "2006",
+    "history": "LICC于2006年由Launa Bacon和Hossein Farmani在伦敦创办。每年举办一届，截至2026年已成功举办20届。每年收到来自全球超过90个国家的数千件参赛作品。Farmani Group同时也是IDA、AMP等知名奖项的主办方。",
+    "category": [
+      "BUILD — 建筑设计：商业与零售建筑、教育建筑、酒店与度假村、机构与博物馆、景观建筑、住宅建筑、可持续绿色建筑、概念设计等",
+      "DECORATE — 室内设计：商业与零售空间、酒店与度假村、餐饮空间、室内照明设计、概念设计等",
+      "CREATE — 艺术设计：抽象艺术、拼贴艺术、数字艺术、装置艺术、绘画、雕塑等",
+      "ILLUSTRATE — 平面设计：动画设计、品牌与标志设计、包装设计、网站设计等",
+      "SHOOT — 摄影与视频：广告、AI生成图像、建筑摄影、短片、音乐视频等",
+      "USE — 产品设计：家居家具、照明设计、电子产品、医疗用品、可持续生活产品等"
+    ],
+    "timeline": [
+      {
+        "阶段": "提前折扣（5%早鸟优惠）截止",
+        "时间": "2026年7月21日"
+      },
+      {
+        "阶段": "建筑/室内设计专业组截止",
+        "时间": "2026年10月20日"
+      },
+      {
+        "阶段": "艺术/插图/拍摄/产品专业组截止",
+        "时间": "2026年12月2日"
+      },
+      {
+        "阶段": "学生组截止",
+        "时间": "2026年12月2日"
+      }
+    ],
+    "fee_timeline": [
+      {
+        "period": "早鸟价（专业组）",
+        "price": 66.5,
+        "currency": "USD",
+        "date": "7月21日前",
+        "note": "5%优惠"
+      },
+      {
+        "period": "标准价（专业组）",
+        "price": 70,
+        "currency": "USD",
+        "date": "截止日前",
+        "note": ""
+      },
+      {
+        "period": "早鸟价（学生组）",
+        "price": 33.25,
+        "currency": "USD",
+        "date": "7月21日前",
+        "note": "5%优惠"
+      },
+      {
+        "period": "标准价（学生组）",
+        "price": 35,
+        "currency": "USD",
+        "date": "截止日前",
+        "note": ""
+      }
+    ],
+    "fee_note": "所有费用为净价，汇率费用差由申报方承担。超过截止日期可能产生Late Fee。",
+    "judging_criteria": [
+      {
+        "维度": "创新性",
+        "说明": "评估设计的原创性和前瞻性，是否提出了新的解决方案"
+      },
+      {
+        "维度": "美学性",
+        "说明": "评估整体美学、视觉冲击力和艺术感染力"
+      },
+      {
+        "维度": "功能性",
+        "说明": "设计的实用性和用户体验"
+      },
+      {
+        "维度": "可持续性",
+        "说明": "考量对环境、社会和生态的影响"
+      }
+    ],
+    "judge_info": "评审团由来自全球创意行业的国际知名专家和专业人士组成，包括设计师、艺术家、策展人、画廊主等。每年动态更新。评审代表：Christian Baun，在设计行业拥有30年以上经验，是多届LICC的资深评委。评选流程：编辑筛选→第二轮投票→每主类别最多20名决赛入围→选出最佳大奖。",
+    "judges": [
+      {
+        "name": "Christian Baun",
+        "title": "资深评委（30+年设计行业经验）",
+        "company": ""
+      }
+    ],
+    "award_levels": [
+      {
+        "level": "类别最佳大奖（Best in Category）",
+        "description": "专业组获得€1,500现金+奖杯、非专业组获得€1,000现金+奖杯，每主类别1件，共计12件"
+      },
+      {
+        "level": "决赛入围奖（Finalist）",
+        "description": "每个主类别的最终入围名单，最多20件"
+      },
+      {
+        "level": "入选作品奖（Design Selection）",
+        "description": "每个子类别中得分较高的入围者"
+      },
+      {
+        "level": "入围作品奖（Shortlist）",
+        "description": "入围官方候选名单的作品"
+      },
+      {
+        "level": "荣誉提名奖（Honorable Mention）",
+        "description": "经评审认可的作品"
+      }
+    ],
+    "award_stats_2025": "LICC于2006年创办，截至2026年已举办20届。每年收到来自超过90个国家的数千件参赛作品。",
+    "nomination_types": [
+      "BUILD建筑设计",
+      "DECORATE室内设计",
+      "CREATE艺术设计",
+      "ILLUSTRATE平面设计",
+      "SHOOT摄影与视频",
+      "USE产品设计"
+    ],
+    "preliminary_check": "作品须自提交之日5年内完成。接受已完工、在建及概念类项目。学生作品与专业组分开评审。通过licc.uk在线提交。",
+    "requirements": {
+      "参赛资格": "向世界各地创意人士、设计师、摄影师、建筑师和艺术家开放，不限国籍",
+      "作品时限": "项目必须自提交之日起5年内完成",
+      "作品条件": "接受已完工、在建以及概念类项目。学生作品与专业组分开评审",
+      "提交材料": "最多10张图片（JPG/PNG，最长边≥1000px且≤4MB）。项目描述需采用英文。可提供视频URL链接（YouTube/Vimeo，建议不超5分钟）",
+      "知识产权": "参赛者须确保对参赛作品拥有独立知识产权及影像版权"
+    },
+    "benefits": [
+      "专业组最佳大奖获得€1,500现金+奖杯，非专业组获得€1,000现金+奖杯",
+      "所有获奖者获得官方证书和获奖者徽章",
+      "获奖作品永久收录在LICC官网在线画廊中",
+      "通过LICC官网、新闻稿和社交媒体向全球展示，向超过100,000订阅者发布电子通讯",
+      "获奖作品收录于LICC官方年鉴，全球发行",
+      "官方“LICC Winner”标识合法使用权，可用于网站、宣传册、社交媒体及邮件签名"
+    ],
+    "website": "https://licc.uk/"
+  },
+  {
     "award_id": "leaf奖_2026",
     "name": "LEAF Awards (欧洲杰出建筑师论坛建筑奖)",
     "name_en": "LEAF Awards",
@@ -8721,52 +8864,6 @@
     "notes": "2026年举办地为美国佛罗里达州劳德代尔堡，主题「Water（水）」",
     "_raw_extracted": "",
     "updated_at": "2026-12-31"
-  },
-  {
-    "award_id": "伦敦创意大赛_2026",
-    "name": "伦敦创意大赛",
-    "name_en": "London International Creative Competition",
-    "category": [],
-    "award_intro": "",
-    "website": "https://licc.uk/",
-    "organizer": "",
-    "organizer_intro": "",
-    "organizer_location": "英国",
-    "fee_timeline": [
-      {
-        "period": "常规价",
-        "date": "",
-        "price": 90,
-        "note": ""
-      },
-      {
-        "period": "学生价",
-        "date": "",
-        "price": 50,
-        "note": ""
-      }
-    ],
-    "fee_note": "",
-    "timeline": [],
-    "award_levels": [],
-    "level_note": "",
-    "judging_criteria": [],
-    "judging_note": "",
-    "requirements": {},
-    "requirements_note": "",
-    "submission_requirements": {},
-    "benefits": [],
-    "judges": [],
-    "judges_note": "",
-    "faq": [],
-    "chinese_winners": [],
-    "contact": {
-      "邮箱": "support@licc.uk",
-      "电话": "+1 (800) 456 37 11"
-    },
-    "notes": "",
-    "_raw_extracted": "采集到费用信息: €1,500, €1,000, €10,000\n截止日期: Deadlines and discounts; Deadline; Deadline; Deadline\n评审信息: judging panel has chosen the Best In Category winners of the 2025 Edition of the London International Creative Competition; jury members, making the selection process more challenging than ever; jury panel shortlist 100 of their favorites design and projects, then chose 15 finalists for their breath-taking creativity; jury is made up of of internationally esteemed creatives, curators, gallery owners, writers and other artistic arbiters; jury members click on their profile picture\n评审标准: selection process more challenging than ever; Selection” is made and put through for a second and final round of Jury voting; selection process; Selection of Previous Winners\n奖项等级关键词: WINNER, Best in, shortlist, finalist, Platinum, Gold",
-    "updated_at": "2026-04-57"
   },
   {
     "award_id": "全球卓越奖_2026",

@@ -1,5 +1,34 @@
 [
   {
+    "award_id": "伦敦创意大赛_2026",
+    "award_name_cn": "伦敦国际创意大赛",
+    "award_name_en": "London International Creative Competition",
+    "award_name_short": "LICC",
+    "category_main": "综合设计",
+    "category_sub": [
+      "建筑设计",
+      "室内设计",
+      "艺术设计",
+      "平面设计",
+      "摄影与视频",
+      "产品设计"
+    ],
+    "country": "英国",
+    "city": "伦敦",
+    "website": "https://licc.uk/",
+    "prestige_level": "高",
+    "difficulty_level": "中",
+    "fee_currency": "USD",
+    "fee_regular": 70,
+    "fee_final": 70,
+    "submission_open": "2026-01-01",
+    "deadline_early": "2026-07-21",
+    "deadline_regular": "2026-10-20",
+    "deadline_final": "2026-12-02",
+    "annnouncement_date": "",
+    "update_time": "2026-04-30"
+  },
+  {
     "award_id": "leaf奖_2026",
     "award_name_cn": "LEAF Awards（欧洲杰出建筑师论坛建筑奖）",
     "award_name_en": "LEAF Awards",
